@@ -154,8 +154,8 @@
       "keyIdea": "Long short-term memory (LSTM) networks are a state-of-the-art technique for sequence learning.",
       "strengths": "high citation signal (2,415); influential citation signal (137); open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 2,
-      "rank": 29,
+      "yearRank": 1,
+      "rank": 23,
       "githubUrl": ""
     },
     {
@@ -222,8 +222,8 @@
       "keyIdea": "The application of deep learning approaches to finance has received a great deal of attention from both investors and researchers.",
       "strengths": "high citation signal (1,004); influential citation signal (46); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 4,
-      "rank": 137,
+      "yearRank": 2,
+      "rank": 94,
       "githubUrl": ""
     },
     {
@@ -290,8 +290,8 @@
       "keyIdea": "Positions Stock price prediction using LSTM, RNN and CNN-sliding window model within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (855); influential citation signal (25)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 6,
-      "rank": 187,
+      "yearRank": 3,
+      "rank": 136,
       "githubUrl": ""
     },
     {
@@ -324,8 +324,8 @@
       "keyIdea": "Using a recently developed measure of political and regulatory uncertainty, we document that policy uncertainty is strongly negatively associated with merger and acquisition activity at the macro and firm levels.",
       "strengths": "high citation signal (831); influential citation signal (37); recognized finance/AI venue",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 7,
-      "rank": 199,
+      "yearRank": 4,
+      "rank": 147,
       "githubUrl": ""
     },
     {
@@ -358,8 +358,8 @@
       "keyIdea": "Positions Financial Distress Prediction in an International Context: A Review and Empirical Analysis of Altman's Z‐Score Model within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (821); influential citation signal (81)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 8,
-      "rank": 203,
+      "yearRank": 5,
+      "rank": 151,
       "githubUrl": ""
     },
     {
@@ -392,8 +392,8 @@
       "keyIdea": "Positions Stock market's price movement prediction with LSTM neural networks within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (806); influential citation signal (43)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 9,
-      "rank": 211,
+      "yearRank": 6,
+      "rank": 158,
       "githubUrl": ""
     },
     {
@@ -426,8 +426,8 @@
       "keyIdea": "Positions Deep Direct Reinforcement Learning for Financial Signal Representation and Trading within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (784); influential citation signal (38); recognized finance/AI venue",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 10,
-      "rank": 224,
+      "yearRank": 7,
+      "rank": 168,
       "githubUrl": ""
     },
     {
@@ -460,8 +460,8 @@
       "keyIdea": "escriptive statistics and the application of multivariate data analysis techniques such as regression analysis and factor analysis belong to the core set of statistical instruments, and their use has generated findings that have significantly shaped the way we see the world today.",
       "strengths": "high citation signal (768); influential citation signal (28); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 11,
-      "rank": 233,
+      "yearRank": 8,
+      "rank": 176,
       "githubUrl": ""
     },
     {
@@ -494,8 +494,8 @@
       "keyIdea": "We investigate whether stock markets efficiently price risks brought on or exacerbated by climate change.",
       "strengths": "high citation signal (701); influential citation signal (14); open-access PDF metadata",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
-      "yearRank": 12,
-      "rank": 263,
+      "yearRank": 9,
+      "rank": 200,
       "githubUrl": ""
     },
     {
@@ -528,8 +528,8 @@
       "keyIdea": "Positions The Flash Crash: High-Frequency Trading in an Electronic Market within Market Microstructure and High-Frequency Trading.",
       "strengths": "high citation signal (700); influential citation signal (40); open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
-      "yearRank": 13,
-      "rank": 264,
+      "yearRank": 10,
+      "rank": 201,
       "githubUrl": ""
     },
     {
@@ -562,8 +562,8 @@
       "keyIdea": "Positions Deep neural networks, gradient-boosted trees, random forests: Statistical arbitrage on the S&P 500 within Machine Learning for Stock Prediction.",
       "strengths": "high citation signal (656); influential citation signal (34)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
-      "yearRank": 14,
-      "rank": 284,
+      "yearRank": 11,
+      "rank": 216,
       "githubUrl": ""
     },
     {
@@ -664,8 +664,8 @@
       "keyIdea": "textabstractForecasting financial time series using past observations has been a significant topic of interest.",
       "strengths": "high citation signal (588); influential citation signal (39)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 17,
-      "rank": 339,
+      "yearRank": 9,
+      "rank": 259,
       "githubUrl": ""
     },
     {
@@ -698,8 +698,8 @@
       "keyIdea": "Positions Intermediary Asset Pricing: New Evidence from Many Asset Classes within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (550); influential citation signal (61); open-access PDF metadata",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 18,
-      "rank": 374,
+      "yearRank": 12,
+      "rank": 281,
       "githubUrl": ""
     },
     {
@@ -732,8 +732,8 @@
       "keyIdea": "Positions The Economic Consequences Associated with Integrated Report Quality: Capital Market and Real Effects within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (537); influential citation signal (40)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 19,
-      "rank": 395,
+      "yearRank": 13,
+      "rank": 295,
       "githubUrl": ""
     },
     {
@@ -766,8 +766,8 @@
       "keyIdea": "Positions Stock Price Prediction via Discovering Multi-Frequency Trading Patterns within Machine Learning for Stock Prediction.",
       "strengths": "high citation signal (496); influential citation signal (37)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
-      "yearRank": 20,
-      "rank": 446,
+      "yearRank": 14,
+      "rank": 335,
       "githubUrl": ""
     },
     {
@@ -800,8 +800,8 @@
       "keyIdea": "Positions The Characteristics that Provide Independent Information about Average U.S. Monthly Stock Returns within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (472); influential citation signal (44)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 21,
-      "rank": 472,
+      "yearRank": 15,
+      "rank": 356,
       "githubUrl": ""
     },
     {
@@ -834,8 +834,8 @@
       "keyIdea": "Financial portfolio management is the process of constant redistribution of a fund into different financial products.",
       "strengths": "high citation signal (457); influential citation signal (70)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 22,
-      "rank": 495,
+      "yearRank": 16,
+      "rank": 370,
       "githubUrl": ""
     },
     {
@@ -868,8 +868,8 @@
       "keyIdea": "Positions Wavelet-based test of co-movement and causality between oil and renewable energy stock prices within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (439); influential citation signal (10)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 23,
-      "rank": 537,
+      "yearRank": 17,
+      "rank": 399,
       "githubUrl": ""
     },
     {
@@ -902,8 +902,8 @@
       "keyIdea": "Positions Volatility‐Managed Portfolios within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (397); influential citation signal (42); open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 24,
-      "rank": 612,
+      "yearRank": 18,
+      "rank": 453,
       "githubUrl": ""
     },
     {
@@ -936,8 +936,8 @@
       "keyIdea": "Positions Natural language based financial forecasting: a survey within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (383)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 25,
-      "rank": 647,
+      "yearRank": 19,
+      "rank": 479,
       "githubUrl": ""
     },
     {
@@ -1004,8 +1004,8 @@
       "keyIdea": "Positions Intraday online investor sentiment and return patterns in the U.S. stock market within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (370); influential citation signal (19)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 27,
-      "rank": 674,
+      "yearRank": 20,
+      "rank": 499,
       "githubUrl": ""
     },
     {
@@ -1038,8 +1038,8 @@
       "keyIdea": "High-dimensional partial differential equations (PDEs) appear in a number of models from the financial industry, such as in derivative pricing models, credit valuation adjustment models, or portfolio optimization models.",
       "strengths": "high citation signal (360); influential citation signal (13); open-access PDF metadata",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
-      "yearRank": 28,
-      "rank": 701,
+      "yearRank": 21,
+      "rank": 518,
       "githubUrl": ""
     },
     {
@@ -1072,8 +1072,8 @@
       "keyIdea": "Positions Forecasting daily stock market return using dimensionality reduction within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (359); influential citation signal (17); recognized finance/AI venue",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 29,
-      "rank": 703,
+      "yearRank": 22,
+      "rank": 520,
       "githubUrl": ""
     },
     {
@@ -1106,8 +1106,8 @@
       "keyIdea": "Positions Oil shocks and stock markets revisited: Measuring connectedness from a global perspective within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (359); influential citation signal (10)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 30,
-      "rank": 705,
+      "yearRank": 23,
+      "rank": 522,
       "githubUrl": ""
     },
     {
@@ -1174,8 +1174,8 @@
       "keyIdea": "Stock trend prediction plays a critical role in seeking maximized profit from the stock investment.",
       "strengths": "high citation signal (343); influential citation signal (38)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 32,
-      "rank": 757,
+      "yearRank": 24,
+      "rank": 556,
       "githubUrl": ""
     },
     {
@@ -1208,8 +1208,8 @@
       "keyIdea": "Banks are optimally opaque institutions. They produce debt for use as a transaction medium (bank money), which requires that information about the backing assets - loans - not be revealed, so that bank money does not fluctuate in value, reducing the efficiency of trade.",
       "strengths": "high citation signal (336); influential citation signal (20); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 33,
-      "rank": 775,
+      "yearRank": 25,
+      "rank": 572,
       "githubUrl": ""
     },
     {
@@ -1242,8 +1242,8 @@
       "keyIdea": "Abstract The authors examine the relation between price returns and volatility changes in the Bitcoin market using a daily database denominated in US dollar.",
       "strengths": "high citation signal (335); influential citation signal (18); open-access PDF metadata",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
-      "yearRank": 34,
-      "rank": 779,
+      "yearRank": 26,
+      "rank": 575,
       "githubUrl": ""
     },
     {
@@ -1276,8 +1276,8 @@
       "keyIdea": "Positions A feature weighted support vector machine and K-nearest neighbor algorithm for stock market indices prediction within Machine Learning for Stock Prediction.",
       "strengths": "high citation signal (332); influential citation signal (13); recognized finance/AI venue",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
-      "yearRank": 35,
-      "rank": 788,
+      "yearRank": 27,
+      "rank": 583,
       "githubUrl": ""
     },
     {
@@ -1310,8 +1310,8 @@
       "keyIdea": "Positions Is economic uncertainty priced in the cross-section of stock returns? within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (331); influential citation signal (19)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 36,
-      "rank": 791,
+      "yearRank": 28,
+      "rank": 585,
       "githubUrl": ""
     },
     {
@@ -1344,8 +1344,8 @@
       "keyIdea": "Positions Forecasting Stock Prices from the Limit Order Book Using Convolutional Neural Networks within Market Microstructure and High-Frequency Trading.",
       "strengths": "high citation signal (322); influential citation signal (18)",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
-      "yearRank": 37,
-      "rank": 836,
+      "yearRank": 29,
+      "rank": 616,
       "githubUrl": ""
     },
     {
@@ -1378,8 +1378,8 @@
       "keyIdea": "Positions Nonlinear Shrinkage of the Covariance Matrix for Portfolio Selection: Markowitz Meets Goldilocks within Portfolio Optimization and Asset Allocation.",
       "strengths": "high citation signal (321); influential citation signal (33); open-access PDF metadata",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
-      "yearRank": 38,
-      "rank": 837,
+      "yearRank": 30,
+      "rank": 617,
       "githubUrl": ""
     },
     {
@@ -1412,8 +1412,8 @@
       "keyIdea": "Equity crowdfunding is a new form of entrepreneurial finance, in which investors do not receive perks or engage in pre-purchase of the product, but rather participate in the future cash flows of a firm.",
       "strengths": "high citation signal (321); influential citation signal (27); open-access PDF metadata",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 39,
-      "rank": 838,
+      "yearRank": 31,
+      "rank": 618,
       "githubUrl": ""
     },
     {
@@ -1446,8 +1446,8 @@
       "keyIdea": "Inference, prediction, and control of complex dynamical systems from time series is important in many areas, including financial markets, power grid management, climate and weather modeling, or molecular dynamics.",
       "strengths": "high citation signal (319); influential citation signal (31)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 40,
-      "rank": 850,
+      "yearRank": 30,
+      "rank": 655,
       "githubUrl": ""
     },
     {
@@ -1480,8 +1480,8 @@
       "keyIdea": "Positions Capital Asset Pricing Model within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (313); influential citation signal (31)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 41,
-      "rank": 874,
+      "yearRank": 32,
+      "rank": 645,
       "githubUrl": ""
     },
     {
@@ -1548,8 +1548,8 @@
       "keyIdea": "Positions Oil price shocks, economic policy uncertainty and industry stock returns in China: Asymmetric effects with quantile regression within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (287)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 43,
-      "rank": 974,
+      "yearRank": 33,
+      "rank": 720,
       "githubUrl": ""
     },
     {
@@ -1684,8 +1684,8 @@
       "keyIdea": "Positions Oil price uncertainty and clean energy stock returns: New evidence from crude oil volatility index within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (265)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 47,
-      "rank": 1108,
+      "yearRank": 34,
+      "rank": 817,
       "githubUrl": ""
     },
     {
@@ -1718,8 +1718,8 @@
       "keyIdea": "We explore the evolution of daily returns of four major US stock market indices during the technology crash of 2000, and the financial crisis of 2007-2009.",
       "strengths": "high citation signal (264); influential citation signal (21); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 48,
-      "rank": 1111,
+      "yearRank": 35,
+      "rank": 819,
       "githubUrl": ""
     },
     {
@@ -1786,8 +1786,8 @@
       "keyIdea": ": The art of forecasting the stock prices has been a difficult task for many of the researchers and analysts.",
       "strengths": "high citation signal (258); influential citation signal (10); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
-      "yearRank": 50,
-      "rank": 1156,
+      "yearRank": 36,
+      "rank": 850,
       "githubUrl": ""
     },
     {
@@ -1820,8 +1820,8 @@
       "keyIdea": "We study the effect of investor horizons on a comprehensive set of corporate decisions.",
       "strengths": "high citation signal (258); influential citation signal (10)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 51,
-      "rank": 1159,
+      "yearRank": 37,
+      "rank": 851,
       "githubUrl": ""
     },
     {
@@ -1854,8 +1854,8 @@
       "keyIdea": "Positions Oil price shocks, policy uncertainty, and stock returns of oil and gas corporations within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (258)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 52,
-      "rank": 1161,
+      "yearRank": 38,
+      "rank": 853,
       "githubUrl": ""
     },
     {
@@ -1888,8 +1888,8 @@
       "keyIdea": "Using a sample of 97 stock return anomalies documented in published studies, we find that anomaly returns are 7 times higher on earnings announcement days and 2 times higher on corporate news days.",
       "strengths": "high citation signal (248); influential citation signal (16); recognized finance/AI venue",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 53,
-      "rank": 1214,
+      "yearRank": 39,
+      "rank": 891,
       "githubUrl": ""
     },
     {
@@ -1956,8 +1956,8 @@
       "keyIdea": "Positions Economic policy uncertainty and stock market returns in PacificRim countries: Evidence based on a Bayesian panel VAR model within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (242)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 55,
-      "rank": 1257,
+      "yearRank": 40,
+      "rank": 920,
       "githubUrl": ""
     },
     {
@@ -1990,8 +1990,8 @@
       "keyIdea": "Positions Economic Policy Uncertainty in China and Stock Market Expected Returns within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (228); influential citation signal (11)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 56,
-      "rank": 1352,
+      "yearRank": 41,
+      "rank": 993,
       "githubUrl": ""
     },
     {
@@ -2024,8 +2024,8 @@
       "keyIdea": "Positions Attitudinal factors, financial literacy, and stock market participation within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (226); influential citation signal (17)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 57,
-      "rank": 1362,
+      "yearRank": 42,
+      "rank": 1005,
       "githubUrl": ""
     },
     {
@@ -2058,8 +2058,8 @@
       "keyIdea": "This paper shows that real decisions depend not only on the total amount of information in prices, but the source of this information—a manager learns from prices when they contain information not possessed by him.",
       "strengths": "high citation signal (224); influential citation signal (11); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 58,
-      "rank": 1375,
+      "yearRank": 41,
+      "rank": 1077,
       "githubUrl": ""
     },
     {
@@ -2092,8 +2092,8 @@
       "keyIdea": "Financial time-series forecasting has long been a challenging problem because of the inherently noisy and stochastic nature of the market.",
       "strengths": "high citation signal (224); recognized finance/AI venue; open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
-      "yearRank": 59,
-      "rank": 1378,
+      "yearRank": 42,
+      "rank": 1026,
       "githubUrl": ""
     },
     {
@@ -2126,8 +2126,8 @@
       "keyIdea": "Positions Accruals, Cash Flows, and Operating Profitability in the Cross Section of Stock Returns within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (223); influential citation signal (36)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 60,
-      "rank": 1383,
+      "yearRank": 43,
+      "rank": 1023,
       "githubUrl": ""
     },
     {
@@ -2160,8 +2160,8 @@
       "keyIdea": "Positions Earnings Smoothing: Does It Exacerbate or Constrain Stock Price Crash Risk? within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (223); influential citation signal (18)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 61,
-      "rank": 1386,
+      "yearRank": 44,
+      "rank": 1027,
       "githubUrl": ""
     },
     {
@@ -2194,8 +2194,8 @@
       "keyIdea": "Positions An adaptive portfolio trading system: A risk-return portfolio optimization using recurrent reinforcement learning with expected maximum drawdown within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (223); recognized finance/AI venue",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 62,
-      "rank": 1388,
+      "yearRank": 45,
+      "rank": 1030,
       "githubUrl": ""
     },
     {
@@ -2262,8 +2262,8 @@
       "keyIdea": "Positions Trading on Twitter: Using Social Media Sentiment to Predict Stock Returns within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (220); influential citation signal (14); open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 64,
-      "rank": 1411,
+      "yearRank": 46,
+      "rank": 1047,
       "githubUrl": ""
     },
     {
@@ -2296,8 +2296,8 @@
       "keyIdea": "Positions Deep learning for stock market prediction from financial news articles within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (217); influential citation signal (19)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 65,
-      "rank": 1436,
+      "yearRank": 47,
+      "rank": 1061,
       "githubUrl": ""
     },
     {
@@ -2364,8 +2364,8 @@
       "keyIdea": "We provide a model of investment into new ventures that demonstrates why some places, times and industries should be associated with a greater degree of experimentation by investors.",
       "strengths": "high citation signal (212); recognized finance/AI venue; open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 67,
-      "rank": 1490,
+      "yearRank": 48,
+      "rank": 1102,
       "githubUrl": ""
     },
     {
@@ -2432,8 +2432,8 @@
       "keyIdea": "Positions The source of global stock market risk: A viewpoint of economic policy uncertainty within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (206)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 69,
-      "rank": 1554,
+      "yearRank": 49,
+      "rank": 1153,
       "githubUrl": ""
     },
     {
@@ -2466,8 +2466,8 @@
       "keyIdea": "BackgroundThis study aims to clarify the role of FinTech digital banking start-ups in the financial industry.",
       "strengths": "high citation signal (206); open-access PDF metadata",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 70,
-      "rank": 1555,
+      "yearRank": 50,
+      "rank": 1154,
       "githubUrl": ""
     },
     {
@@ -2500,8 +2500,8 @@
       "keyIdea": "Positions Capital market effects of media synthesis and dissemination: evidence from robo-journalism within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (204); influential citation signal (14)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 71,
-      "rank": 1569,
+      "yearRank": 51,
+      "rank": 1166,
       "githubUrl": ""
     },
     {
@@ -2534,8 +2534,8 @@
       "keyIdea": "Positions Stock market one-day ahead movement prediction using disparate data sources within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (201); recognized finance/AI venue",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 72,
-      "rank": 1596,
+      "yearRank": 52,
+      "rank": 1187,
       "githubUrl": ""
     },
     {
@@ -2602,8 +2602,8 @@
       "keyIdea": "Positions Does Algorithmic Trading Reduce Information Acquisition? within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (194); influential citation signal (28)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 74,
-      "rank": 1661,
+      "yearRank": 53,
+      "rank": 1250,
       "githubUrl": ""
     },
     {
@@ -2636,8 +2636,8 @@
       "keyIdea": "Positions Dynamic risk spillovers between gold, oil prices and conventional, sustainability and Islamic equity aggregates and sectors with portfolio implications within Portfolio Optimization and Asset Allocation.",
       "strengths": "high citation signal (194)",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
-      "yearRank": 75,
-      "rank": 1667,
+      "yearRank": 54,
+      "rank": 1255,
       "githubUrl": ""
     },
     {
@@ -2670,8 +2670,8 @@
       "keyIdea": "Positions Risk transmission between Islamic and conventional stock markets: A return and volatility spillover analysis within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (194); open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 76,
-      "rank": 1668,
+      "yearRank": 55,
+      "rank": 1257,
       "githubUrl": ""
     },
     {
@@ -2704,8 +2704,8 @@
       "keyIdea": "Traditional stock market prediction approaches commonly utilize the historical price-related data of the stocks to forecast their future trends.",
       "strengths": "high citation signal (191); influential citation signal (11); recognized finance/AI venue; open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 77,
-      "rank": 1701,
+      "yearRank": 56,
+      "rank": 1283,
       "githubUrl": ""
     },
     {
@@ -2738,8 +2738,8 @@
       "keyIdea": "Policy impact studies often suffer from endogeneity problems.",
       "strengths": "high citation signal (188); influential citation signal (10); open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
-      "yearRank": 78,
-      "rank": 1727,
+      "yearRank": 57,
+      "rank": 1312,
       "githubUrl": ""
     },
     {
@@ -2772,8 +2772,8 @@
       "keyIdea": "Positions A Century of Evidence on Trend-Following Investing within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (187); influential citation signal (25)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 79,
-      "rank": 1735,
+      "yearRank": 58,
+      "rank": 1409,
       "githubUrl": ""
     },
     {
@@ -2806,8 +2806,8 @@
       "keyIdea": "The young science of complexity, which studies systems as diverse as the human body, the earth and the universe, offers novel insights on the question raised in the title.",
       "strengths": "high citation signal (187); influential citation signal (13)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 80,
-      "rank": 1737,
+      "yearRank": 58,
+      "rank": 1324,
       "githubUrl": ""
     },
     {
@@ -2840,8 +2840,8 @@
       "keyIdea": "Positions A literature review of technical analysis on stock markets within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (187)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 81,
-      "rank": 1746,
+      "yearRank": 59,
+      "rank": 1334,
       "githubUrl": ""
     },
     {
@@ -2874,8 +2874,8 @@
       "keyIdea": "Positions Emission trading and carbon market performance in Shenzhen, China within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (185); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 82,
-      "rank": 1770,
+      "yearRank": 61,
+      "rank": 1442,
       "githubUrl": ""
     },
     {
@@ -2908,8 +2908,8 @@
       "keyIdea": "Positions A wavelet analysis of mean and volatility spillovers between oil and BRICS stock markets within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (184); influential citation signal (12)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 83,
-      "rank": 1774,
+      "yearRank": 60,
+      "rank": 1363,
       "githubUrl": ""
     },
     {
@@ -2942,8 +2942,8 @@
       "keyIdea": "Positions Oil shocks and stock markets: dynamic connectedness under the prism of recent geopolitical and economic unrest within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (183); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 84,
-      "rank": 1787,
+      "yearRank": 61,
+      "rank": 1377,
       "githubUrl": ""
     },
     {
@@ -2976,8 +2976,8 @@
       "keyIdea": "Positions The importance of fear: investor sentiment and stock market returns within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (182); influential citation signal (12)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 85,
-      "rank": 1792,
+      "yearRank": 62,
+      "rank": 1384,
       "githubUrl": ""
     },
     {
@@ -3010,8 +3010,8 @@
       "keyIdea": "Positions Forecasting financial time series volatility using Particle Swarm Optimization trained Quantile Regression Neural Network within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (180); recognized finance/AI venue",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
-      "yearRank": 86,
-      "rank": 1814,
+      "yearRank": 63,
+      "rank": 1406,
       "githubUrl": ""
     },
     {
@@ -3044,8 +3044,8 @@
       "keyIdea": "Positions Environmental, Social, and Governance (ESG) Profiles, Stock Returns, and Financial Policy: Australian Evidence within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "high citation signal (180)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 87,
-      "rank": 1817,
+      "yearRank": 64,
+      "rank": 1408,
       "githubUrl": ""
     },
     {
@@ -3112,8 +3112,8 @@
       "keyIdea": "Positions Fundamental Analysis and the Cross-Section of Stock Returns: A Data-Mining Approach within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (175); influential citation signal (11)",
       "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
-      "yearRank": 89,
-      "rank": 1868,
+      "yearRank": 65,
+      "rank": 1448,
       "githubUrl": ""
     },
     {
@@ -3146,8 +3146,8 @@
       "keyIdea": "Positions Investor Sentiment and Economic Forces within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (175)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
-      "yearRank": 90,
-      "rank": 1874,
+      "yearRank": 66,
+      "rank": 1455,
       "githubUrl": ""
     },
     {
@@ -3214,8 +3214,8 @@
       "keyIdea": "Positions Survey of stock market prediction using machine learning approach within Machine Learning for Stock Prediction.",
       "strengths": "high citation signal (169)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
-      "yearRank": 92,
-      "rank": 1942,
+      "yearRank": 67,
+      "rank": 1506,
       "githubUrl": ""
     },
     {
@@ -3282,8 +3282,8 @@
       "keyIdea": "Positions A Stackelberg game approach for multiple energies trading in integrated energy systems within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (168)",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 94,
-      "rank": 1951,
+      "yearRank": 70,
+      "rank": 1595,
       "githubUrl": ""
     },
     {
@@ -3350,8 +3350,8 @@
       "keyIdea": "The creation of a predictive system that correctly forecasts future changes of a stock price is crucial for investment management and algorithmic trading.",
       "strengths": "high citation signal (166); recognized finance/AI venue; open-access PDF metadata",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 96,
-      "rank": 1973,
+      "yearRank": 68,
+      "rank": 1535,
       "githubUrl": ""
     },
     {
@@ -3418,8 +3418,8 @@
       "keyIdea": "We show that individuals’ macroeconomic expectations are influenced by their socioeconomic status (SES).",
       "strengths": "high citation signal (164); recognized finance/AI venue; open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 98,
-      "rank": 1995,
+      "yearRank": 69,
+      "rank": 1554,
       "githubUrl": ""
     },
     {
@@ -3452,8 +3452,8 @@
       "keyIdea": "Positions Investing in low-carbon transitions: energy finance as an adaptive market within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (163); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
-      "yearRank": 99,
-      "rank": 2009,
+      "yearRank": 73,
+      "rank": 1652,
       "githubUrl": ""
     },
     {
@@ -3486,8 +3486,8 @@
       "keyIdea": "Abstract This paper employs the quantile regression techniques to examine the dependence structure between economic policy uncertainty (EPU) and stock market returns in G7 and BRIC.",
       "strengths": "high citation signal (162)",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
-      "yearRank": 100,
-      "rank": 2022,
+      "yearRank": 70,
+      "rank": 1577,
       "githubUrl": ""
     },
     {
@@ -3519,7 +3519,10 @@
       "keywordTags": "stock-prediction; machine-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Stock market prediction has become an attractive investigation topic due to its important role in economy and beneficial offers.",
       "strengths": "high citation signal (161); open-access PDF metadata",
-      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
+      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
+      "yearRank": 71,
+      "rank": 1584,
+      "githubUrl": ""
     },
     {
       "paperId": "caf494e0b8ea1874b23790e9e4a870a9220494f1",
@@ -3550,7 +3553,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "In this paper, the problem of energy trading between smart grid prosumers, who can simultaneously consume and produce energy, and a grid power company is studied.",
       "strengths": "high citation signal (159); recognized finance/AI venue; open-access PDF metadata",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 76,
+      "rank": 1705,
+      "githubUrl": ""
     },
     {
       "paperId": "7c69b93e8b1b7d50b8db1b2a491853d0c8f73f7b",
@@ -3581,7 +3587,10 @@
       "keywordTags": "risk-volatility",
       "keyIdea": "Positions Analyzing time–frequency co-movements across gold and oil prices with BRICS stock markets: A VaR based on wavelet approach within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (157)",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 72,
+      "rank": 1633,
+      "githubUrl": ""
     },
     {
       "paperId": "b2dcc1df22f72dfa4fd838ea6d40fc9d558f0160",
@@ -3643,7 +3652,10 @@
       "keywordTags": "risk-volatility",
       "keyIdea": "Positions Oil price uncertainty and Chinese stock returns: New evidence from the oil volatility index within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (153)",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 73,
+      "rank": 1679,
+      "githubUrl": ""
     },
     {
       "paperId": "7c8c6614800bdf957fb5c937a1741884982c377e",
@@ -3674,7 +3686,10 @@
       "keywordTags": "reinforcement-trading; risk-volatility; asset-pricing",
       "keyIdea": "We consider a basic model of multi-period trading, which can be used to evaluate the performance of a trading strategy.",
       "strengths": "high citation signal (152); influential citation signal (25); open-access PDF metadata",
-      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
+      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
+      "yearRank": 74,
+      "rank": 1681,
+      "githubUrl": ""
     },
     {
       "paperId": "e8f61a0b0ed94ce838580a119c1845f58245955e",
@@ -3705,7 +3720,10 @@
       "keywordTags": "risk-volatility; asset-pricing",
       "keyIdea": "We show that a model featuring an average commodity factor, a carry factor, and a momentum factor is capable of describing the cross-sectional variation of commodity returns.",
       "strengths": "high citation signal (149); recognized finance/AI venue",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 75,
+      "rank": 1720,
+      "githubUrl": ""
     },
     {
       "paperId": "fc72b2839f78a414bdd8dfc90c1dd40e3b50199e",
@@ -3736,7 +3754,10 @@
       "keywordTags": "portfolio; risk-volatility",
       "keyIdea": "Positions Tail Risk in Hedge Funds: A Unique View from Portfolio Holdings within Portfolio Optimization and Asset Allocation.",
       "strengths": "high citation signal (148); influential citation signal (11); open-access PDF metadata",
-      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
+      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
+      "yearRank": 76,
+      "rank": 1738,
+      "githubUrl": ""
     },
     {
       "paperId": "f89ef71d247877af18c3d61f180e91987f542592",
@@ -3767,7 +3788,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "The sectoral composition of global saving changed dramatically during the last three decades.",
       "strengths": "high citation signal (147); influential citation signal (17); open-access PDF metadata",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 80,
+      "rank": 1828,
+      "githubUrl": ""
     },
     {
       "paperId": "a1334a01c613709881133370641e5cb8cbf94d5f",
@@ -3798,7 +3822,10 @@
       "keywordTags": "risk-volatility; asset-pricing",
       "keyIdea": "Despite the new momentum in cross-border mergers and acquisitions (MA this effect is more significant in the mainland Chinese stock markets (Shanghai and Shenzhen) than that in the Hong Kong market.",
       "strengths": "high citation signal (145); open-access PDF metadata",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 81,
+      "rank": 1855,
+      "githubUrl": ""
     },
     {
       "paperId": "9738ca1917b2d21a91dca9f87b15a150cd7cb10b",
@@ -3829,7 +3856,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions The Development of China's Stock Market and Stakes for the Global Economy within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (144); open-access PDF metadata",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 77,
+      "rank": 1777,
+      "githubUrl": ""
     },
     {
       "paperId": "7db0007c2bc31223711a2abdf8ffdd86dd2da291",
@@ -3860,7 +3890,10 @@
       "keywordTags": "risk-volatility",
       "keyIdea": "Positions Does Geopolitical Risks Predict Stock Returns and Volatility of Leading Defense Companies? Evidence from a Nonparametric Approach within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (144); open-access PDF metadata",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 78,
+      "rank": 1781,
+      "githubUrl": ""
     },
     {
       "paperId": "8a36eb02c398c6225e8afe122619ac3c0bc251bf",
@@ -3891,7 +3924,10 @@
       "keywordTags": "deep-learning",
       "keyIdea": "Positions Using deep learning to detect price change indications in financial markets within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (143); open-access PDF metadata",
-      "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
+      "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
+      "yearRank": 79,
+      "rank": 1791,
+      "githubUrl": ""
     },
     {
       "paperId": "887c1a248a3a55e9803ee27d094188f4d29461fd",
@@ -3922,7 +3958,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions The day-of-the-Week effects of stock markets in different countries within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (143)",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 80,
+      "rank": 1796,
+      "githubUrl": ""
     },
     {
       "paperId": "f413566883c4be4f8e55e275e3f70b2aebf9e8fc",
@@ -3953,7 +3992,10 @@
       "keywordTags": "asset-pricing",
       "keyIdea": "Positions Financial Decisions and Markets: A Course in Asset Pricing within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (142); influential citation signal (19)",
-      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate."
+      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
+      "yearRank": 81,
+      "rank": 1801,
+      "githubUrl": ""
     },
     {
       "paperId": "762f57f16e7146432aa31597a4fa9bd2e6ec4340",
@@ -3984,7 +4026,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions Does gold hedge stock market, inflation and exchange rate risks? An econometric investigation within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (142)",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 82,
+      "rank": 1810,
+      "githubUrl": ""
     },
     {
       "paperId": "05f625f6cbecebcf3cee1b9384b2c013c0e79bdb",
@@ -4015,7 +4060,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions Is There a Dark Side to Exchange Traded Funds? An Information Perspective within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (141); influential citation signal (15)",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 83,
+      "rank": 1817,
+      "githubUrl": ""
     },
     {
       "paperId": "afd9cb85f4fb279a58fe80f9caa955cea0a94c28",
@@ -4046,7 +4094,10 @@
       "keywordTags": "sentiment-altdata",
       "keyIdea": "Positions News vs. Sentiment: Predicting Stock Returns from News Stories within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (141)",
-      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
+      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
+      "yearRank": 84,
+      "rank": 1820,
+      "githubUrl": ""
     },
     {
       "paperId": "6f1dad70b25e04dc7f662cf8885a95f6b6f66d1c",
@@ -4077,7 +4128,10 @@
       "keywordTags": "stock-prediction; reinforcement-trading",
       "keyIdea": "We study the importance of production networks for the transmission of monetary policy using the stock market reaction as laboratory.",
       "strengths": "high citation signal (140); open-access PDF metadata",
-      "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation."
+      "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
+      "yearRank": 85,
+      "rank": 1832,
+      "githubUrl": ""
     },
     {
       "paperId": "86871f78da8a0010ad94ae8889a7254e14c345e2",
@@ -4108,7 +4162,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions Do extreme returns matter in emerging markets? Evidence from the Chinese stock market within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (139); influential citation signal (10)",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 86,
+      "rank": 1852,
+      "githubUrl": ""
     },
     {
       "paperId": "3680a6104e84ba7dfbc0f3d36769eb2eaa0856c7",
@@ -4139,7 +4196,10 @@
       "keywordTags": "stock-prediction; asset-pricing",
       "keyIdea": "Positions The five-factor asset pricing model tests for the Chinese stock market within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (138); influential citation signal (13)",
-      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate."
+      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
+      "yearRank": 87,
+      "rank": 1858,
+      "githubUrl": ""
     },
     {
       "paperId": "1460b2073fc915c496021cc40613a87d9b46fa51",
@@ -4170,7 +4230,10 @@
       "keywordTags": "reinforcement-trading",
       "keyIdea": "In practice, the parameters of control policies are often tuned manually.",
       "strengths": "high citation signal (138); open-access PDF metadata",
-      "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation."
+      "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
+      "yearRank": 93,
+      "rank": 1962,
+      "githubUrl": ""
     },
     {
       "paperId": "1ddc72def499cfd3f69f804f7d6c9c1127d23eaf",
@@ -4201,7 +4264,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions Why Does Return Predictability Concentrate in Bad Times within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (137)",
-      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate."
+      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
+      "yearRank": 88,
+      "rank": 1880,
+      "githubUrl": ""
     },
     {
       "paperId": "86527367c8e6cb8346e31aa1478e75252e1541dc",
@@ -4232,7 +4298,10 @@
       "keywordTags": "portfolio",
       "keyIdea": "Positions Portfolio Concentration and Performance of Institutional Investors Worldwide within Portfolio Optimization and Asset Allocation.",
       "strengths": "high citation signal (137)",
-      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
+      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
+      "yearRank": 89,
+      "rank": 1882,
+      "githubUrl": ""
     },
     {
       "paperId": "3d96070accf20db30427802da94e51164b931afd",
@@ -4263,7 +4332,10 @@
       "keywordTags": "stock-prediction; machine-learning; ai-based-trade; high-frequency",
       "keyIdea": "Managing the prediction of metrics in high-frequency financial markets is a challenging task.",
       "strengths": "high citation signal (136); influential citation signal (17); recognized finance/AI venue; open-access PDF metadata",
-      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
+      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
+      "yearRank": 90,
+      "rank": 1889,
+      "githubUrl": ""
     },
     {
       "paperId": "5fa71d455445d5047c13070e8bbcb0fce2edded3",
@@ -4294,7 +4366,10 @@
       "keywordTags": "portfolio; risk-volatility",
       "keyIdea": "Portfolio optimization involves the optimal assignment of limited capital to different available financial assets to achieve a reasonable trade-off between profit and risk.",
       "strengths": "high citation signal (136); open-access PDF metadata",
-      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
+      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
+      "yearRank": 91,
+      "rank": 1896,
+      "githubUrl": ""
     },
     {
       "paperId": "7e94953aa0d9866ba30e2715910cd5235208262d",
@@ -4356,7 +4431,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions An extension of fuzzy TOPSIS for a group decision making with an application to tehran stock exchange within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (133); recognized finance/AI venue",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 92,
+      "rank": 1943,
+      "githubUrl": ""
     },
     {
       "paperId": "8c30b871c395db9178ba93113ebdac6dc03c86b3",
@@ -4542,7 +4620,10 @@
       "keywordTags": "risk-volatility",
       "keyIdea": "Positions Time-varying causality between crude oil and stock markets: What can we learn from a multiscale perspective? within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (128); open-access PDF metadata",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 93,
+      "rank": 2011,
+      "githubUrl": ""
     },
     {
       "paperId": "b61df44a22a8dee47dcc4960209ad2eeea06a071",
@@ -4573,7 +4654,10 @@
       "keywordTags": "high-frequency",
       "keyIdea": "Positions A model for unpacking big data analytics in high-frequency trading within Market Microstructure and High-Frequency Trading.",
       "strengths": "high citation signal (126)",
-      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
+      "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered.",
+      "yearRank": 94,
+      "rank": 2039,
+      "githubUrl": ""
     },
     {
       "paperId": "3f43adb010953434208397280157d0e122958e1d",
@@ -4604,7 +4688,10 @@
       "keywordTags": "stock-prediction; risk-volatility",
       "keyIdea": "Positions Institutional Investors and Stock Market Volatility within Risk, Volatility, and Forecast Evaluation.",
       "strengths": "high citation signal (125); open-access PDF metadata",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 95,
+      "rank": 2056,
+      "githubUrl": ""
     },
     {
       "paperId": "da836ad81d60d86d23f0b229b42fcebb6bc8ac31",
@@ -4635,7 +4722,10 @@
       "keywordTags": "sentiment-altdata",
       "keyIdea": "Positions Does Financial News Predict Stock Returns? New Evidence from Islamic and Non-Islamic Stocks within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (125)",
-      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
+      "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
+      "yearRank": 96,
+      "rank": 2062,
+      "githubUrl": ""
     },
     {
       "paperId": "ed1201656b7a68876c39186c2f97c731d2200498",
@@ -4666,7 +4756,10 @@
       "keywordTags": "asset-pricing",
       "keyIdea": "Positions Factor Investing in the Corporate Bond Market within Asset Pricing and Return Predictability.",
       "strengths": "high citation signal (125)",
-      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate."
+      "limitations": "Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.; Citation impact can favor well-known anomalies even when live performance later weakens.; Metadata cannot verify whether data-snooping controls were adequate.",
+      "yearRank": 97,
+      "rank": 2064,
+      "githubUrl": ""
     },
     {
       "paperId": "18a8d9937fcf8772d040efd93d646ce6e49a6d84",
@@ -4697,7 +4790,10 @@
       "keywordTags": "stock-prediction; risk-volatility",
       "keyIdea": "The global financial system is highly complex, with cross-border interconnections and interdependencies.",
       "strengths": "high citation signal (125); open-access PDF metadata",
-      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
+      "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
+      "yearRank": 98,
+      "rank": 2065,
+      "githubUrl": ""
     },
     {
       "paperId": "b68018defcbbaf29d0258768c73ab450ca28be83",
@@ -4728,7 +4824,10 @@
       "keywordTags": "portfolio",
       "keyIdea": "The Feed-in Tariff (FIT) has been successfully used to promote the development of renewable energy; nevertheless, it may cause financial burden on the governments at the same time.",
       "strengths": "high citation signal (124); open-access PDF metadata",
-      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
+      "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.",
+      "yearRank": 99,
+      "rank": 2076,
+      "githubUrl": ""
     },
     {
       "paperId": "5729295d2b38a6fed431316dc4047474997bf37a",
@@ -4759,7 +4858,10 @@
       "keywordTags": "stock-prediction",
       "keyIdea": "Positions The sectoral effects of Brexit on the British economy: early evidence from the reaction of the stock market within General Finance, Surveys, and Trading Systems.",
       "strengths": "high citation signal (123)",
-      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests."
+      "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
+      "yearRank": 100,
+      "rank": 2081,
+      "githubUrl": ""
     },
     {
       "paperId": "fffa2cec0b796707c975067654851e878a00a469",

@@ -6,20 +6,20 @@
   "candidate_records": 27000,
   "fields": {
     "url": {
-      "valid_url_syntax": 2699,
-      "invalid_url_syntax": 1
+      "valid_url_syntax": 2698,
+      "invalid_url_syntax": 2
     },
     "semanticScholarUrl": {
       "valid_url_syntax": 2700
     },
     "openAccessPdf": {
-      "valid_url_syntax": 1143,
-      "missing": 1554,
+      "missing": 1597,
+      "valid_url_syntax": 1100,
       "invalid_url_syntax": 3
     },
     "githubUrl": {
-      "missing": 2667,
-      "valid_url_syntax": 33
+      "missing": 2690,
+      "valid_url_syntax": 10
     }
   }
 }

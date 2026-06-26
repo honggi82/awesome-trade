@@ -659,7 +659,8 @@ def relevance_counts(paper):
     abstract = paper.get("abstract") or ""
     venue = venue_name(paper)
     text = f"{title} {abstract} {venue}"
-    title_hits = sum(1 for pattern in AI_RELEVANCE_PATTERNS if re.search(pattern, title, re.I))
+    title_patterns = globals().get("TITLE_RELEVANCE_PATTERNS", AI_RELEVANCE_PATTERNS)
+    title_hits = sum(1 for pattern in title_patterns if re.search(pattern, title, re.I))
     text_hits = sum(1 for pattern in AI_RELEVANCE_PATTERNS if re.search(pattern, text, re.I))
     return title_hits, text_hits
 
@@ -972,7 +973,7 @@ def select_papers_by_year(candidates_by_year):
     selected = []
     for year in YEARS:
         rows = sorted(
-            candidates_by_year.get(year, []),
+            [paper for paper in candidates_by_year.get(year, []) if is_relevant(paper)],
             key=lambda p: int(p.get("candidateRank") or 999999),
         )[:TARGET_PER_YEAR]
         for year_rank, paper in enumerate(rows, 1):
@@ -2937,8 +2938,12 @@ AI_RELEVANCE_PATTERNS = [
     r"\bstock prices",
     r"\bstock return",
     r"\bstock returns",
+    r"\bcommon stock\b",
+    r"\bstock investment\b",
     r"\bequity market",
     r"\bequity markets",
+    r"\bequity return",
+    r"\bequity returns",
     r"\bequities\b",
     r"\bshare price",
     r"\bfinancial market",
@@ -2948,17 +2953,21 @@ AI_RELEVANCE_PATTERNS = [
     r"\bsecurities market",
     r"\bsecurities trading",
     r"\bstock exchange",
+    r"\bbehavioral finance\b",
     r"\binvestment management\b",
-    r"\binvesting\b",
     r"\basset pricing\b",
     r"\breturn predictability\b",
     r"\brisk premium\b",
+    r"\basset price\b",
+    r"\basset prices\b",
     r"\bfactor investing\b",
     r"\bfactor model",
     r"\bequity factor",
     r"\bmarket anomal",
     r"\bmarket efficiency\b",
     r"\bprice discovery\b",
+    r"\bmarket liquidity\b",
+    r"\bliquidity risk\b",
     r"\bportfolio",
     r"\basset allocation\b",
     r"\bmutual fund",
@@ -2966,16 +2975,29 @@ AI_RELEVANCE_PATTERNS = [
     r"\bfund performance\b",
     r"\bETF\b",
     r"\bexchange[- ]traded\b",
-    r"\btrading\b",
+    r"\btrading volume\b",
+    r"\btrading activity\b",
+    r"\btrading simulation\b",
+    r"\bequity trading\b",
+    r"\bstock trading\b",
+    r"\bfinancial trading\b",
+    r"\binformed trading\b",
     r"\btrading strateg",
     r"\balgorithmic trading\b",
     r"\bquantitative trading\b",
     r"\bhigh[- ]frequency trading\b",
     r"\bmarket microstructure\b",
+    r"\blimit order book\b",
+    r"\border flow\b",
+    r"\btransaction costs?\b",
     r"\btechnical analysis\b",
     r"\bfundamental analysis\b",
     r"\bvolatility forecasting\b",
-    r"\brisk management\b",
+    r"\brealized volatility\b",
+    r"\breturn volatility\b",
+    r"\bgarch\b",
+    r"\bvalue at risk\b",
+    r"\bfinancial risk\b",
     r"\bfinancial time series\b",
     r"\bfinancial economics\b",
     r"\bearnings announcement",
@@ -2985,21 +3007,90 @@ AI_RELEVANCE_PATTERNS = [
     r"\binvestor sentiment\b",
     r"\bnews sentiment\b",
     r"\balternative data\b",
-    r"\bmachine learning\b",
-    r"\bdeep learning\b",
-    r"\bneural network",
-    r"\bLSTM\b",
-    r"\btransformer",
-    r"\blanguage model",
-    r"\blarge language model",
-    r"\bLLM\b",
-    r"\breinforcement learning\b",
-    r"\bsupport vector",
-    r"\bSVM\b",
-    r"\brandom forest\b",
-    r"\bXGBoost\b",
-    r"\bforecasting\b",
-    r"\bprediction\b",
+    r"\bfinancial forecasting\b",
+    r"\bfinancial prediction",
+    r"\bfinancial econom",
+    r"\bfinancial signal",
+    r"\bfinancial distress\b",
+    r"\bequity price",
+    r"\bequity prices",
+    r"\bmarket timing\b",
+    r"\binvestment performance\b",
+    r"\bactive investing\b",
+    r"\blow[- ]latency trading\b",
+    r"\bnon[- ]synchronous trading\b",
+    r"\boptimal execution\b",
+    r"\bbank equity\b",
+    r"\breturn on equity\b",
+    r"\bWall Street\b",
+    r"\bstock investing\b",
+    r"\bequity investing\b",
+    r"\bS&P\s*500\b",
+    r"\bNASDAQ\b",
+    r"\bNYSE\b",
+    r"\bDJIA\b",
+    r"\bBlack Monday\b",
+]
+
+TITLE_RELEVANCE_PATTERNS = AI_RELEVANCE_PATTERNS + [
+    r"\bstock\b",
+    r"\bstocks\b",
+    r"\bportfolios?\b",
+]
+
+CORE_MARKET_TITLE_PATTERNS = [
+    r"\bstock\b",
+    r"\bstocks\b",
+    r"\bstock market\b",
+    r"\bstock price",
+    r"\bstock return",
+    r"\bequity market",
+    r"\bequity return",
+    r"\bfinancial market",
+    r"\bcapital market",
+    r"\bfinancial time[- ]series\b",
+    r"\bS&P\s*500\b",
+    r"\bNASDAQ\b",
+    r"\bNYSE\b",
+    r"\bDJIA\b",
+]
+
+OFF_TOPIC_TITLE_PATTERNS = [
+    r"\bhealth equity\b",
+    r"\bdigital health\b",
+    r"\bhealthcare\b",
+    r"\bclinical\b",
+    r"\bmedical\b",
+    r"\bbiomedical\b",
+    r"\bbiohacking\b",
+    r"\bbioinnovation\b",
+    r"\bpharmaceutical\b",
+    r"\benergy trading\b",
+    r"\bcarbon trading\b",
+    r"\bsmart grid\b",
+    r"\boil\s*&\s*gas\b",
+    r"\bfood insecurity\b",
+]
+
+FINANCE_FIELD_PATTERNS = [
+    r"\beconomics\b",
+    r"\bbusiness\b",
+    r"\bfinance\b",
+]
+
+FINANCE_VENUE_PATTERNS = [
+    r"\bjournal of finance\b",
+    r"\bjournal of financial economics\b",
+    r"\breview of financial studies\b",
+    r"\bjournal of financial and quantitative analysis\b",
+    r"\bjournal of banking\b",
+    r"\bjournal of portfolio management\b",
+    r"\bfinancial analysts journal\b",
+    r"\bjournal of empirical finance\b",
+    r"\bquantitative finance\b",
+    r"\bfinancial\b",
+    r"\bfinance\b",
+    r"\beconomics\b",
 ]
 
 BAD_TITLE_PATTERNS = [
@@ -3012,7 +3103,63 @@ BAD_TITLE_PATTERNS = [
     r"^call for papers\b",
     r"^erratum\b",
     r"^corrigendum\b",
+    r"^press releases?$",
 ]
+
+
+def publication_type_values(paper):
+    value = paper.get("publicationTypes") or []
+    if isinstance(value, str):
+        return [part.strip().lower() for part in re.split(r"[;,]", value) if part.strip()]
+    return [str(item).lower() for item in value]
+
+
+def fields_of_study_text(paper):
+    values = []
+    fields = paper.get("s2FieldsOfStudy") or []
+    if isinstance(fields, str):
+        values.append(fields)
+    else:
+        for item in fields:
+            if isinstance(item, dict) and item.get("category"):
+                values.append(str(item.get("category")))
+            elif item:
+                values.append(str(item))
+    if paper.get("fieldsOfStudy"):
+        values.append(str(paper.get("fieldsOfStudy")))
+    return " ".join(values).lower()
+
+
+def finance_field_match(paper):
+    fields = fields_of_study_text(paper)
+    return any(re.search(pattern, fields, re.I) for pattern in FINANCE_FIELD_PATTERNS)
+
+
+def finance_venue_match(paper):
+    venue = venue_name(paper)
+    return any(re.search(pattern, venue, re.I) for pattern in FINANCE_VENUE_PATTERNS)
+
+
+def core_market_title_match(paper):
+    title = norm_text(paper.get("title"))
+    return any(re.search(pattern, title, re.I) for pattern in CORE_MARKET_TITLE_PATTERNS)
+
+
+def title_relevance_match(paper):
+    title = norm_text(paper.get("title"))
+    return any(re.search(pattern, title, re.I) for pattern in TITLE_RELEVANCE_PATTERNS)
+
+
+def off_topic_match(paper):
+    title = norm_text(paper.get("title"))
+    if any(re.search(pattern, title, re.I) for pattern in OFF_TOPIC_TITLE_PATTERNS):
+        return not core_market_title_match(paper)
+    fields = fields_of_study_text(paper)
+    if "medicine" in fields and not title_relevance_match(paper) and not finance_venue_match(paper):
+        return True
+    if "agricultural and food sciences" in fields and not title_relevance_match(paper) and not finance_venue_match(paper):
+        return True
+    return False
 
 IMPORTANT_VENUES = [
     "journal of finance",
@@ -3371,24 +3518,19 @@ def is_relevant(paper):
     title = norm_text(paper.get("title"))
     if not title or title_is_bad(title):
         return False
-    publication_types = [str(x).lower() for x in (paper.get("publicationTypes") or [])]
+    if off_topic_match(paper):
+        return False
+    publication_types = publication_type_values(paper)
     if any(kind in publication_types for kind in ("editorial", "news", "lettersandcomments")):
         return False
     title_hits, text_hits = relevance_counts(paper)
-    fields = " ".join(
-        norm_text(item.get("category"))
-        for item in (paper.get("s2FieldsOfStudy") or [])
-        if item.get("category")
-    ).lower()
-    finance_or_computing = any(
-        field in fields
-        for field in ("economics", "business", "computer science", "mathematics", "engineering")
-    )
     if title_hits:
         return True
-    if text_hits >= 2:
+    if finance_venue_match(paper) and text_hits >= 1:
         return True
-    return text_hits >= 1 and finance_or_computing
+    if finance_field_match(paper) and text_hits >= 2:
+        return True
+    return False
 
 
 def importance_score(paper):
