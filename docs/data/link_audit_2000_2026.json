@@ -1,0 +1,25 @@
+{
+  "generated": "2026-06-26",
+  "scope": "selected papers",
+  "audit_type": "URL syntax and metadata-presence audit; live HTTP status checks were not run to avoid unnecessary load on scholarly hosts",
+  "selected_papers": 2700,
+  "candidate_records": 27000,
+  "fields": {
+    "url": {
+      "valid_url_syntax": 2699,
+      "invalid_url_syntax": 1
+    },
+    "semanticScholarUrl": {
+      "valid_url_syntax": 2700
+    },
+    "openAccessPdf": {
+      "valid_url_syntax": 1143,
+      "missing": 1554,
+      "invalid_url_syntax": 3
+    },
+    "githubUrl": {
+      "missing": 2667,
+      "valid_url_syntax": 33
+    }
+  }
+}

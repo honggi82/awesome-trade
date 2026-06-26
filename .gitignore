@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.tools/
+data/cache/
+.playwright-cli/
+output/playwright/
+build.log
+build.err.log

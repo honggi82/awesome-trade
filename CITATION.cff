@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "Awesome Trade: A Metadata-Driven Citation Map of Stock Investment and AI Trading Research, 2000-2026"
+message: "If you use this curated dataset or review draft, please cite this repository."
+type: dataset
+authors:
+  - name: "Honggi"
+repository-code: "https://github.com/honggi82/awesome-trade"
+date-released: "2026-06-26"
+license: "CC-BY-4.0"
+keywords:
+  - "stock investment"
+  - "AI trading"
+  - "stock prediction"
+  - "portfolio optimization"
+  - "bibliometrics"

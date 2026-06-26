@@ -1,0 +1,948 @@
+{
+  "generated": "2026-06-26",
+  "method": "official-looking GitHub URLs extracted only when paper abstract metadata mentions code, repository, software, model, or data context",
+  "links": {
+    "retiring adult new datasets for fair machine learning": {
+      "githubUrl": "https://github.com/zykls/folktables",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "smoothllm defending large language models against jailbreaking attacks": {
+      "githubUrl": "https://github.com/arobey1/smooth-llm}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "universally slimmable networks and improved training techniques": {
+      "githubUrl": "https://github.com/JiahuiYu/slimmable_networks}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fingpt open source financial large language models": {
+      "githubUrl": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "analyzing leakage of personally identifiable information in language models": {
+      "githubUrl": "https://github.com/microsoft/analysing_pii_leakage",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "grad match gradient matching based data subset selection for efficient deep model training": {
+      "githubUrl": "https://github.com/decile-team/cords}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "break the sequential dependency of llm inference using lookahead decoding": {
+      "githubUrl": "https://github.com/hao-ai-lab/LookaheadDecoding",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "anytime stereo image depth estimation on mobile devices": {
+      "githubUrl": "https://github.com/mileyan/AnyNet",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "ldconv linear deformable convolution for improving convolutional neural networks": {
+      "githubUrl": "https://github.com/CV-ZhangXin/LDConv",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "finben a holistic financial benchmark for large language models": {
+      "githubUrl": "https://github.com/The-FinAI/PIXIU",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "tradingagents multi agents llm financial trading framework": {
+      "githubUrl": "https://github.com/TauricResearch/TradingAgents",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "vitcod vision transformer acceleration via dedicated algorithm and accelerator co design": {
+      "githubUrl": "https://github.com/GATECH-EIC/ViTCoD",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "spotserve serving generative large language models on preemptible instances": {
+      "githubUrl": "https://github.com/Hsword/SpotServe",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "joint token pruning and squeezing towards more aggressive compression of vision transformers": {
+      "githubUrl": "https://github.com/megvii-research/TPS-CVPR2023",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "finrl meta market environments and benchmarks for data driven financial reinforcement learning": {
+      "githubUrl": "https://github.com/AI4Finance-Foundation/FinRL-Meta",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "spatial spectral transformer for hyperspectral image denoising": {
+      "githubUrl": "https://github.com/MyuLi/SST",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "a semantic invariant robust watermark for large language models": {
+      "githubUrl": "https://github.com/THU-BPM/Robust_Watermark}{https://github.com/THU-BPM/Robust\\_Watermark}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "llm post training a deep dive into reasoning large language models": {
+      "githubUrl": "https://github.com/mbzuai-oryx/Awesome-LLM-Post-training",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "constrained decision transformer for offline safe reinforcement learning": {
+      "githubUrl": "https://github.com/liuzuxin/OSRL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "diffusion llms can do faster than ar inference via discrete diffusion forcing": {
+      "githubUrl": "https://github.com/zhijie-group/Discrete-Diffusion-Forcing",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "independent component alignment for multi task learning": {
+      "githubUrl": "https://github.com/SamsungLabs/MTL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "reinforcement learning for reasoning in small llms what works and what doesn t": {
+      "githubUrl": "https://github.com/knoveleng/open-rs",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fedshe privacy preserving and efficient federated learning with adaptive segmented ckks homomorphic encryption": {
+      "githubUrl": "https://github.com/yooopan/FedSHE",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "learning to generate explainable stock predictions using self reflective large language models": {
+      "githubUrl": "https://github.com/koa-fin/sep",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "learning when to think shaping adaptive reasoning in r1 style models via multi stage rl": {
+      "githubUrl": "https://github.com/ScienceOne-AI/AutoThink",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "visual autoregressive modeling for image super resolution": {
+      "githubUrl": "https://github.com/qyp2000/VARSR",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "gradient based multi objective deep learning algorithms theories applications and beyond": {
+      "githubUrl": "https://github.com/Baijiong-Lin/Awesome-Multi-Objective-Deep-Learning",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "a survey of direct preference optimization": {
+      "githubUrl": "https://github.com/liushunyu/awesome-direct-preference-optimization",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hierarchy of groups policy optimization for long horizon agentic tasks": {
+      "githubUrl": "https://github.com/langfengQ/verl-agent/tree/master/recipe/hgpo",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "genagent scaling text to image generation via agentic multimodal reasoning": {
+      "githubUrl": "https://github.com/deep-kaixun/GenAgent}{this",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "vespo variational sequence level soft policy optimization for stable off policy llm training": {
+      "githubUrl": "https://github.com/FloyedShen/VESPO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "eexapp gnn based reinforcement learning for radio unit energy optimization in 5g o ran": {
+      "githubUrl": "https://github.com/EExApp/EExApp",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "polybench benchmarking llm forecasting and trading capabilities on live prediction market data": {
+      "githubUrl": "https://github.com/PolyBench/PolyBench}{https://github.com/PolyBench/PolyBench}}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hercules a profile hmm based hybrid error correction algorithm for long reads": {
+      "githubUrl": "https://github.com/BilkentCompGen/Hercules",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "kmer ssr a fast and exhaustive ssr search algorithm": {
+      "githubUrl": "https://github.com/ridgelab/Kmer‐SSR",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "algorithmic trading in a microstructural limit order book model": {
+      "githubUrl": "https://github.com/comeh",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "etoxpred a machine learning based approach to estimate the toxicity of drug candidates": {
+      "githubUrl": "https://github.com/pulimeng/etoxpred",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "logical natural language generation from open domain tables": {
+      "githubUrl": "https://github.com/wenhuchen/LogicNLG",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "de novo drug design of targeted chemical libraries based on artificial intelligence and pair based multiobjective optimization": {
+      "githubUrl": "https://github.com/alberdom88/moo-denovo",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "disco dynamic and invariant sensitive channel obfuscation for deep neural networks": {
+      "githubUrl": "https://github.com/splitlearning/InferenceBenchmark",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "quick and robust feature selection the strength of energy efficient sparse training for autoencoders": {
+      "githubUrl": "https://github.com/zahraatashgahi/QuickSelection",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "glit neural architecture search for global and local image transformer": {
+      "githubUrl": "https://github.com/bychen515/GLiT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "learning multiple stock trading patterns with temporal routing adaptor and optimal transport": {
+      "githubUrl": "https://github.com/microsoft/qlib",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "adafocus v2 end to end training of spatial dynamic networks for video recognition": {
+      "githubUrl": "https://github.com/LeapLabTHU/AdaFocusV2",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "compressing neural networks towards determining the optimal layer wise decomposition": {
+      "githubUrl": "https://github.com/lucaslie/torchprune",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "adversarial robustness with semi infinite constrained learning": {
+      "githubUrl": "https://github.com/arobey1/advbench",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fpga acceleration of zstd compression algorithm": {
+      "githubUrl": "https://github.com/ChenJianyunp/Hardware-Zstd-Compression-Unit",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "universal and flexible optical aberration correction using deep prior based deconvolution": {
+      "githubUrl": "https://github.com/leehsiu/UABC",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hebbian deep learning without feedback": {
+      "githubUrl": "https://github.com/NeuromorphicComputing/SoftHebb",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "efficient integration of multi order dynamics and internal dynamics in stock movement prediction": {
+      "githubUrl": "https://github.com/thanhtrunghuynh93/estimate",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "repeated augmented rehearsal a simple but strong baseline for online continual learning": {
+      "githubUrl": "https://github.com/YaqianZhang/RepeatedAugmentedRehearsal",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "attention based cnn lstm and xgboost hybrid model for stock prediction": {
+      "githubUrl": "https://github.com/zshicode/Attention-CLX-stock-prediction",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "asset price and direction prediction via deep 2d transformer and convolutional neural networks": {
+      "githubUrl": "https://github.com/seferlab/SPDPvCNN",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "disco comprehensive and explainable disinformation detection": {
+      "githubUrl": "https://github.com/DongqiFu/DISCO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "h2h heterogeneous model to heterogeneous system mapping with computation and communication awareness": {
+      "githubUrl": "https://github.com/xyzxinyizhang/H2H",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "rplhr ct dataset and transformer baseline for volumetric super resolution from ct scans": {
+      "githubUrl": "https://github.com/smilenaxx/RPLHR-CT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "astock a new dataset and automated stock trading based on stock specific news analyzing model": {
+      "githubUrl": "https://github.com/JinanZou/Astock",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hypergraph based reinforcement learning for stock portfolio selection": {
+      "githubUrl": "https://github.com/lixiaojieff/stock-portfolio",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "appgnn approximation aware functional reverse engineering using graph neural networks": {
+      "githubUrl": "https://github.com/ML-CAD/AppGNN",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hyperspectral image super resolution via dual domain network based on hybrid convolution": {
+      "githubUrl": "https://github.com/LTTdouble/SRDNet",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "stable target field for reduced variance score estimation in diffusion models": {
+      "githubUrl": "https://github.com/Newbeeer/stf",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "buildingsbench a large scale dataset of 900k buildings and benchmark for short term load forecasting": {
+      "githubUrl": "https://github.com/NREL/BuildingsBench",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "detecting as labeling rethinking lidar camera fusion in 3d object detection": {
+      "githubUrl": "https://github.com/HuangJunJie2017/BEVDet",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "dynamic datasets and market environments for financial reinforcement learning": {
+      "githubUrl": "https://github.com/AI4Finance-Foundation/FinRL-Meta",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "three way trade off in multi objective learning optimization generalization and conflict avoidance": {
+      "githubUrl": "https://github.com/heshandevaka/Trade-Off-MOL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "diffusion variational autoencoder for tackling stochasticity in multi step regression stock price prediction": {
+      "githubUrl": "https://github.com/koa-fin/dva",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "harnessing mixed offline reinforcement learning datasets via trajectory weighting": {
+      "githubUrl": "https://github.com/Improbable-AI/harness-offline-rl",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fedsoup improving generalization and personalization in federated learning via selective model interpolation": {
+      "githubUrl": "https://github.com/ubc-tea/FedSoup",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "chasing fairness under distribution shift a model weight perturbation approach": {
+      "githubUrl": "https://github.com/zhimengj0326/RFR_NeurIPS23}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "arrhythmia classifier based on ultra lightweight binary neural network": {
+      "githubUrl": "https://github.com/xpww/ECG_BNN_Net",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "slimmerf slimmable radiance fields": {
+      "githubUrl": "https://github.com/Shiran-Yuan/SlimmeRF",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "deep transformer based asset price and direction prediction": {
+      "githubUrl": "https://github.com/seferlab/price_transformer",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "stockmixer a simple yet strong mlp based architecture for stock price forecasting": {
+      "githubUrl": "https://github.com/SJTU-Quant/StockMixer",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "timebridge non stationarity matters for long term time series forecasting": {
+      "githubUrl": "https://github.com/Hank0626/TimeBridge",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "cryptotrade a reflective llm based agent to guide zero shot cryptocurrency trading": {
+      "githubUrl": "https://github.com/Xtra-Computing/CryptoTrade",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "postmark a robust blackbox watermark for large language models": {
+      "githubUrl": "https://github.com/lilakk/PostMark",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "when ai meets finance stockagent large language model based stock trading in simulated real world environments": {
+      "githubUrl": "https://github.com/MingyuJ666/Stockagent",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "vadiffusion compressed domain information guided conditional diffusion for video anomaly detection": {
+      "githubUrl": "https://github.com/LHaoooo/VADiffusion",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "enhancing stock market prediction a robust lstm dnn model analysis on 26 real life datasets": {
+      "githubUrl": "https://github.com/codewithkhurshed/SMP-IUB",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "tinyvim frequency decoupling for tiny hybrid vision mamba": {
+      "githubUrl": "https://github.com/xwmaxwma/TinyViM",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "mambastock selective state space model for stock prediction": {
+      "githubUrl": "https://github.com/zshicode/MambaStock",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "siamese graph convolutional split attention network with nlp based social sentimental data for enhanced stock price predictions": {
+      "githubUrl": "https://github.com/jramans2/Siamese-GCN-SplitAttention-Stock-Prediction.git",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "lpvit low power semi structured pruning for vision transformers": {
+      "githubUrl": "https://github.com/Akimoto-Cris/LPViT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "lsr igru stock trend prediction based on long short term relationships and improved gru": {
+      "githubUrl": "https://github.com/ZP1481616577/Baselines\\_LSR-IGRU",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "deep homography estimation for visual place recognition": {
+      "githubUrl": "https://github.com/Lu-Feng/DHE-VPR",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fp6 llm efficiently serving large language models through fp6 centric algorithm system co design": {
+      "githubUrl": "https://github.com/usyd-fsalab/fp6_llm",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "finreport explainable stock earnings forecasting via news factor analyzing model": {
+      "githubUrl": "https://github.com/frinkleko/FinReport",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "inference optimal vlms need fewer visual tokens and more parameters": {
+      "githubUrl": "https://github.com/locuslab/llava-token-compression",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "cebench a benchmarking toolkit for the cost effectiveness of llm pipelines": {
+      "githubUrl": "https://github.com/amademicnoboday12/CEBench",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "lgct local global collaborative transformer for fusion of hyperspectral and multispectral images": {
+      "githubUrl": "https://github.com/Hewq77/LGCT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "differentially private knowledge distillation via synthetic text generation": {
+      "githubUrl": "https://github.com/james-flemings/dp_compress",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "theoretically grounded framework for llm watermarking a distribution adaptive approach": {
+      "githubUrl": "https://github.com/yepengliu/DAWA",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "magis memory optimization via coordinated graph transformation and scheduling for dnn": {
+      "githubUrl": "https://github.com/pku-liang/MAGIS",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "faith frequency domain attention in two horizons for time series forecasting": {
+      "githubUrl": "https://github.com/LRQ577/FAITH",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "na segformer a multi level transformer model based on neighborhood attention for colonoscopic polyp segmentation": {
+      "githubUrl": "https://github.com/promisedong/NAFormer",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "f po generalizing preference optimization with f divergence minimization": {
+      "githubUrl": "https://github.com/MinkaiXu/fPO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "boosting adversarial training via fisher rao norm based regularization": {
+      "githubUrl": "https://github.com/TrustAI/LOAT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "robust deep reinforcement learning with adaptive adversarial perturbations in action space": {
+      "githubUrl": "https://github.com/Lqm00/A2P-SAC",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "ir2 implicit rendezvous for robotic exploration teams under sparse intermittent connectivity": {
+      "githubUrl": "https://github.com/marmotlab/IR2",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hyperparameters in continual learning a reality check": {
+      "githubUrl": "https://github.com/csm9493/GTEP",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "optimizing time series forecasting a comparative study of adam and nesterov accelerated gradient on lstm and gru networks using stock market data": {
+      "githubUrl": "https://github.com/AhmadMak/Time-Series-Optimization-Research",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "r d agent quant a multi agent framework for data centric factors and model joint optimization": {
+      "githubUrl": "https://github.com/microsoft/RD-Agent",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "fintsb a comprehensive and practical benchmark for financial time series forecasting": {
+      "githubUrl": "https://github.com/TongjiFinLab/FinTSB",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "unlocking exploration in rlvr uncertainty aware advantage shaping for deeper reasoning": {
+      "githubUrl": "https://github.com/xvolcano02/UCAS",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "diffusiondrivev2 reinforcement learning constrained truncated diffusion modeling in end to end autonomous driving": {
+      "githubUrl": "https://github.com/hustvl/DiffusionDriveV2",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "quartet native fp4 training can be optimal for large language models": {
+      "githubUrl": "https://github.com/IST-DASLab/Quartet",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "finrl deepseek llm infused risk sensitive reinforcement learning for trading agents": {
+      "githubUrl": "https://github.com/benstaf/FinRL_DeepSeek",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "curiosity driven reinforcement learning from human feedback": {
+      "githubUrl": "https://github.com/ernie-research/CD-RLHF",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "blur a bi level optimization approach for llm unlearning": {
+      "githubUrl": "https://github.com/OptimAI-Lab/BLURLLMUnlearning",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "visual generation without guidance": {
+      "githubUrl": "https://github.com/thu-ml/GFT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "learning conformal abstention policies for adaptive risk management in large language and vision language models": {
+      "githubUrl": "https://github.com/sinatayebati/vlm-uncertainty}",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "trading r1 financial trading with llm reasoning via reinforcement learning": {
+      "githubUrl": "https://github.com/TauricResearch/Trading-R1",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "conciserl conciseness guided reinforcement learning for efficient reasoning models": {
+      "githubUrl": "https://github.com/RazvanDu/ConciseRL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "benchmarking differentially private tabular data synthesis experiments analysis": {
+      "githubUrl": "https://github.com/KaiChen9909/tab_bench",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "time travel is cheating going live with deepfund for real time fund investment benchmarking": {
+      "githubUrl": "https://github.com/HKUSTDial/DeepFund",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "ai trader benchmarking autonomous agents in real time financial markets": {
+      "githubUrl": "https://github.com/HKUDS/AI-Trader",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "semantic space exploration and exploitation in rlvr for llm reasoning": {
+      "githubUrl": "https://github.com/hf618/VERL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "ubimoe a ubiquitous mixture of experts vision transformer accelerator with hybrid computation pattern on fpga": {
+      "githubUrl": "https://github.com/DJ000011/UbiMoE",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "decisionflow advancing large language model as principled decision maker": {
+      "githubUrl": "https://github.com/xiusic/DecisionFlow",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "finmamba market aware graph enhanced multi level mamba for stock movement prediction": {
+      "githubUrl": "https://github.com/TROUBADOUR000/FinMamba",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "multi period learning for financial time series forecasting": {
+      "githubUrl": "https://github.com/Meteor-Stars/MLF",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "micromix efficient mixed precision quantization with microscaling formats for large language models": {
+      "githubUrl": "https://github.com/lwy2020/MicroMix",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "mass multi agent simulation scaling for portfolio construction": {
+      "githubUrl": "https://github.com/gta0804/MASS/",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "pre training time series models with stock data customization": {
+      "githubUrl": "https://github.com/astudentuser/Pre-training-Time-Series-Models-with-Stock-Data-Customization",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "online continual learning a systematic literature review of approaches challenges and benchmarks": {
+      "githubUrl": "https://github.com/kiyan-rezaee/",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "tlob a novel transformer model with dual attention for stock price trend prediction with limit order book data": {
+      "githubUrl": "https://github.com/LeonardoBerti00/TLOB",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "kmol an open source machine and federated learning library for drug discovery": {
+      "githubUrl": "https://github.com/elix-tech/kmol",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "benchmarking post training quantization in llms comprehensive taxonomy unified evaluation and comparative analysis": {
+      "githubUrl": "https://github.com/zjq0455/PTQ_Benchmark",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "a tutorial on mri reconstruction from modern methods to clinical implications": {
+      "githubUrl": "https://github.com/tutorial-MRI-recon/tutorial",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "tinytroupe an llm powered multiagent persona simulation toolkit": {
+      "githubUrl": "https://github.com/microsoft/tinytroupe",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "top h decoding adapting the creativity and coherence with bounded entropy in text generation": {
+      "githubUrl": "https://github.com/ErfanBaghaei/Top-H-Decoding",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "rethinking exploration exploitation trade off in reinforcement learning via cognitive consistency": {
+      "githubUrl": "https://github.com/DkING-lv6/CoCo",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "large language models versus static code analysis tools a systematic benchmark for vulnerability detection": {
+      "githubUrl": "https://github.com/Damian0401/MasterThesis",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "xiaomi mimo vl miloco technical report": {
+      "githubUrl": "https://github.com/XiaoMi/xiaomi-mimo-vl-miloco",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "on generalization across environments in multi objective reinforcement learning": {
+      "githubUrl": "https://github.com/JaydenTeoh/MORL-Generalization",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "dultra ultra fast diffusion language models via reinforcement learning": {
+      "githubUrl": "https://github.com/chinsengi/dUltra-os",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "lightningrl breaking the accuracy parallelism trade off of block wise dllms via reinforcement learning": {
+      "githubUrl": "https://github.com/SJTU-DENG-Lab/LightningRL",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "efficient inference for large vision language models bottlenecks techniques and prospects": {
+      "githubUrl": "https://github.com/SuDIS-ZJU/Efficient-LVLMs-Inference",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "eventmemagent hierarchical event centric memory for online video understanding with adaptive tool use": {
+      "githubUrl": "https://github.com/lingcco/EventMemAgent",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "on policy supervised fine tuning for efficient reasoning": {
+      "githubUrl": "https://github.com/EIT-NLP/On-Policy-SFT",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "prism efficient test time scaling via hierarchical search and self verification for discrete diffusion language models": {
+      "githubUrl": "https://github.com/viiika/Prism",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "imagine then plan agent learning from adaptive lookahead with world models": {
+      "githubUrl": "https://github.com/loyiv/ITP",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "dexposure fm a time series graph foundation model for credit exposures and stability on decentralized financial networks": {
+      "githubUrl": "https://github.com/EVIEHub/DeXposure-FM",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "breaking the factorization barrier in diffusion language models": {
+      "githubUrl": "https://github.com/liuanji/CoDD",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "hage harnessing agentic memory via rl driven weighted graph evolution": {
+      "githubUrl": "https://github.com/FredJiang0324/HAGE_MVPReview",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "mechanistic origins of catastrophic forgetting why rl preserves circuits better than sft": {
+      "githubUrl": "https://github.com/rl-sft-circuit-research/differential-circuit-vulnerability",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "meme modeling the evolutionary modes of financial markets": {
+      "githubUrl": "https://github.com/gta0804/MEME",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "advancing protein design via multi agent reinforcement learning with pareto based collaborative optimization": {
+      "githubUrl": "https://github.com/biomed-AI/MAProt",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "beyond affinity a benchmark of 1d 2d and 3d methods reveals critical trade offs in structure based drug design": {
+      "githubUrl": "https://github.com/zkysfls/2025-sbdd-benchmark",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "graphallocbench a flexible benchmark for preference conditioned multi objective policy learning": {
+      "githubUrl": "https://github.com/jzh001/GraphAllocBench",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "distribution centric policy optimization dominates exploration exploitation trade off": {
+      "githubUrl": "https://github.com/597358816/DCPO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "not all layers are created equal adaptive lora ranks for personalized image generation": {
+      "githubUrl": "https://github.com/donaldssh/NotAllLayersAreCreatedEqual",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "mappingevolve llm driven code evolution for technology mapping": {
+      "githubUrl": "https://github.com/Flians/MappingEvolve",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "gipo gaussian importance sampling policy optimization": {
+      "githubUrl": "https://github.com/distanceLu/GIPO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "randomization boosts kv caching learning balances query load a joint perspective": {
+      "githubUrl": "https://github.com/fzwark/KVRouting",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "samponlp a self referential toolkit for morphological analysis of subword tokenizers": {
+      "githubUrl": "https://github.com/AragonerUA/SampoNLP",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    },
+    "attention sparsity is input stable training free sparse attention for video generation via offline sparsity profiling and online qk co clustering": {
+      "githubUrl": "https://github.com/Mutual-Luo/SVOO",
+      "githubOfficial": true,
+      "mentionedInPaper": true,
+      "source": "abstract metadata context"
+    }
+  }
+}
