@@ -1515,9 +1515,9 @@ def build_period_analysis(selected):
 
 def write_period_analysis(selected):
     payload = build_period_analysis(selected)
-    for target in (DATA_DIR / PERIOD_ANALYSIS_JSON, DOCS_DIR / "data" / PERIOD_ANALYSIS_JSON):
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    target = DATA_DIR / PERIOD_ANALYSIS_JSON
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
 
 def write_taxonomy_dataset(selected):
@@ -2033,6 +2033,8 @@ def write_site(selected):
     research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
     overall_research_templates_payload = json.dumps(overall_research_templates(), ensure_ascii=False)
     static_site_copy_payload = json.dumps(site_static_copy(), ensure_ascii=False)
+    period_analysis_url = f"https://raw.githubusercontent.com/{PROJECT_OWNER}/{PROJECT_REPO}/main/data/{PERIOD_ANALYSIS_JSON}"
+    candidate_pool_url = f"https://raw.githubusercontent.com/{PROJECT_OWNER}/{PROJECT_REPO}/main/data/{CANDIDATES_CSV}"
     year_script = f"""
   <script>
     (() => {{
@@ -2362,7 +2364,7 @@ def write_site(selected):
       setFromUrl();
       applyYearFilter(false);
       Promise.allSettled([
-        fetch("data/{PERIOD_ANALYSIS_JSON}").then(response => response.json()),
+        fetch("{period_analysis_url}").then(response => response.json()),
         fetch("data/{PAPER_LOCALIZATIONS_JSON}").then(response => response.json())
       ]).then(results => {{
         if (results[0].status === "fulfilled") precomputed = results[0].value;
@@ -2491,9 +2493,9 @@ def write_site(selected):
       <a href="https://github.com/honggi82/awesome-test" data-i18n="navReadme">README</a>
       <a href="data/{PAPERS_CSV}" data-i18n="navDataset">CSV Dataset</a>
       <a href="data/{TAXONOMY_CSV}" data-i18n="navTaxonomyCsv">Taxonomy CSV</a>
-      <a href="data/{PERIOD_ANALYSIS_JSON}" data-i18n="navPeriodJson">Period Analysis JSON</a>
+      <a href="{period_analysis_url}" data-i18n="navPeriodJson">Period Analysis JSON</a>
       <a href="#keywords-convention" data-i18n="navKeywords">Keywords Convention</a>
-      <a href="data/{CANDIDATES_CSV}" data-i18n="navCandidatePool">Candidate Pool</a>
+      <a href="{candidate_pool_url}" data-i18n="navCandidatePool">Candidate Pool</a>
       <a href="paper/review_en.html" data-i18n="navReview">Review Paper</a>
       <a href="paper/review_ko.html" data-i18n="navKoreanReview">Korean Review</a>
     </nav>
@@ -2814,7 +2816,9 @@ Taxonomy, key ideas, strengths, limitations, method tags, and keyword convention
 
 
 def copy_public_assets():
-    for filename in (PAPERS_CSV, TAXONOMY_CSV, CANDIDATES_CSV, PERIOD_ANALYSIS_JSON, PAPER_LOCALIZATIONS_JSON):
+    for filename in (CANDIDATES_CSV, PERIOD_ANALYSIS_JSON):
+        (DOCS_DIR / "data" / filename).unlink(missing_ok=True)
+    for filename in (PAPERS_CSV, TAXONOMY_CSV, PAPER_LOCALIZATIONS_JSON):
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
