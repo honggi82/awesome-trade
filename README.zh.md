@@ -1,7 +1,7 @@
-# Awesome Trade
+# 很棒的贸易
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of stock investment and AI-driven trading research from 2000 through 2026.
+2000 年至 2026 年股票投资和人工智能驱动的交易研究的分类优先、引文排名地图。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-trade/">
@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
@@ -18,69 +18,69 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
-  <a href="README.zh.md">中文</a>
+  <a href="README.zh.md"><strong>中文</strong></a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
+由免费公共语义学者元数据于 2026 年 6 月 27 日生成。该版本在 2000-2026 年每个出版年调查多达 1,000 篇股票投资和人工智能交易候选论文，保留了 27,000 条记录的经过审核的候选论文库，按引用次数从每年中选择前 100 篇论文（选择了 2,700 篇论文），并通过研究分类对它们进行重新组织。
 
-## Project Links
+## 项目链接
 
-- Open Interactive Website: https://honggi82.github.io/awesome-trade/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- 打开互动网站：https://honggi82.github.io/awesome-trade/
+- 选定的数据集：`data/papers_2000_2026.csv`
+- 具有论文级想法、优点和局限性的分类数据集：`data/papers_taxonomy_2000_2026.csv`
+- 预计算周期分析：`data/period_analysis_2000_2026.json`
+- 候选池：`data/candidates_top1000_2000_2026.csv`
+- 英文审稿稿：`paper/review_en.html`、`paper/review_en.docx`
+- 韩国审稿：`paper/review_ko.html`
 
-## Keywords Convention
+## 关键词约定
 
-These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.
+这些徽章定义了用于阅读和扩展此集合的股票投资和人工智能交易关键字标签。
 
-- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: Stock price, return, direction, trend, or market-index prediction and forecasting.
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.
-- ![deep-learning](https://img.shields.io/badge/keyword-deep--learning-2563eb) **deep-learning**: Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.
-- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.
-- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.
-- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.
-- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.
-- ![high-frequency](https://img.shields.io/badge/keyword-high--frequency-0891b2) **high-frequency**: Market microstructure, limit order books, order flow, liquidity, and high-frequency trading.
-- ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.
-- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.
-- ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**：股票价格、回报、方向、趋势或市场指数预测和预测。
+- ![机器学习](https://img.shields.io/badge/keyword-machine--learning-475569) **机器学习**：SVM、树、Boosting、随机森林、内核、数据挖掘和经典的市场机器学习。
+- ![深度学习](https://img.shields.io/badge/keyword-deep--learning-2563eb) **深度学习**：神经网络、LSTM/GRU/CNN、注意力、变压器和金融时间序列的表示学习。
+- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**：AI/ML 驱动的股票交易和投资信号，包括预测模型、NLP/LLM 和自动化策略。
+- ![投资组合](https://img.shields.io/badge/keyword-portfolio-7c2d12) **投资组合**：投资组合优化、资产配置、投资组合选择、风险平价和再平衡。
+- ![强化交易](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **强化交易**：强化学习、算法交易、执行、做市和回测交易策略。
+- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**：新闻、社交媒体、NLP、LLM、财报电话会议和股票投资的替代数据。
+- ![高频](https://img.shields.io/badge/keyword-high--frequency-0891b2) **高频**：市场微观结构、限价订单簿、订单流、流动性和高频交易。
+- ![风险波动率](https://img.shields.io/badge/keyword-risk--volatility-be123c) **风险波动率**：波动率预测、风险价值、回撤、尾部风险、压力测试和预测评估。
+- ![资产定价](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **资产定价**：资产定价、股权因素、异常、回报可预测性和横截面股票回报。
+- ![行为金融](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **行为金融**：投资者情绪、注意力、行为偏差、市场效率和决策。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**：在元数据审计中识别出具有官方 GitHub 或代码存储库链接的论文。
 
-## Taxonomy Overview
+## 分类概述
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 982,704
-- **General Finance, Surveys, and Trading Systems**: 776 papers
-- **Risk, Volatility, and Forecast Evaluation**: 364 papers
-- **Asset Pricing and Return Predictability**: 272 papers
-- **Reinforcement Learning and Algorithmic Trading**: 265 papers
-- **Sentiment, News, and Alternative Data**: 263 papers
-- **Deep Learning and Financial Time Series**: 256 papers
-- **Portfolio Optimization and Asset Allocation**: 187 papers
-- **Machine Learning for Stock Prediction**: 166 papers
-- **Market Microstructure and High-Frequency Trading**: 128 papers
-- **Behavioral Finance and Investor Decision-Making**: 23 papers
+- **所选论文总数**：2,700 篇论文
+- **已审核的候选库**：27,000篇论文（2000年：1,000篇、2001年：1,000篇、2002年：1,000篇、2003年：1,000篇、2004年：1,000篇、2005年：1,000篇、2006年：1,000篇、2007年： 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000，2026 年：1,000)
+- **所选集中的引用计数**：982,704
+- **一般金融、调查和交易系统**：776 篇论文
+- **风险、波动性和预测评估**：364 篇论文
+- **资产定价和回报可预测性**：272 篇论文
+- **强化学习和算法交易**：265 篇论文
+- **情绪、新闻和另类数据**：263 篇论文
+- **深度学习和金融时间序列**：256 篇论文
+- **投资组合优化和资产配置**：187 篇论文
+- **用于股票预测的机器学习**：166 篇论文
+- **市场微观结构和高频交易**：128 篇论文
+- **行为金融学和投资者决策**：23 篇论文
 
-## Taxonomy Collections
+## 分类学集合
 
-### General Finance, Surveys, and Trading Systems
+### 一般财务、调查和交易系统
 
-- Papers selected: **776**
-- Years covered: **2000-2026**
-- Citation count in selected set: **280,139**
-- Category Overview:
-  - General papers include surveys, frameworks, benchmark discussions, and systems that organize stock-investment research.
-  - This category helps readers connect finance theory, empirical design, and AI-based trading practice.
-  - Metadata-driven ranking is useful as a map of influence but does not replace full-paper expert review.
-- Limitations:
-  - Surveys and systems can dominate citations while empirical evidence remains mixed across markets.
-  - Broad claims need careful mapping to data, costs, and investment horizons.
-  - Metadata-driven ranking cannot replace expert reading of full papers and backtests.
+- 所选论文：**776**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**280,139**
+- 类别概述：
+  - 一般论文包括调查、框架、基准讨论和组织股票投资研究的系统。
+  - 该类别帮助读者将金融理论、实证设计和基于人工智能的交易实践联系起来。
+  - 元数据驱动的排名作为影响力地图很有用，但不能取代全文专家评审。
+- 限制：
+  - 调查和系统可以主导引用，而各个市场的经验证据仍然参差不齐。
+  - 广泛的主张需要仔细映射数据、成本和投资期限。
+  - 元数据驱动的排名不能取代专家阅读全文和回测。
 
 <details>
 <summary><strong>Show representative papers for General Finance, Surveys, and Trading Systems</strong></summary>
@@ -193,19 +193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Risk, Volatility, and Forecast Evaluation
+### 风险、波动性和预测评估
 
-- Papers selected: **364**
-- Years covered: **2000-2026**
-- Citation count in selected set: **123,369**
-- Category Overview:
-  - Risk and volatility papers estimate uncertainty, tails, drawdowns, and forecast reliability for stock investment.
-  - The area links econometrics, machine learning, and practical portfolio risk controls.
-  - Evaluation quality depends on out-of-sample tests, regime sensitivity, and transparent loss functions.
-- Limitations:
-  - Risk forecasts can fail under regime breaks and extreme events.
-  - Choice of loss function strongly affects model rankings.
-  - Citation counts do not prove suitability for a specific mandate or risk budget.
+- 所选论文：**364**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**123,369**
+- 类别概述：
+  - 风险和波动性论文估计股票投资的不确定性、尾部、回撤和预测可靠性。
+  - 该领域将计量经济学、机器学习和实际的投资组合风险控制联系起来。
+  - 评估质量取决于样本外测试、制度敏感性和透明损失函数。
+- 限制：
+  - 在政权崩溃和极端事件的情况下，风险预测可能会失败。
+  - 损失函数的选择强烈影响模型排名。
+  - 引用计数并不能证明适合特定任务或风险预算。
 
 <details>
 <summary><strong>Show representative papers for Risk, Volatility, and Forecast Evaluation</strong></summary>
@@ -318,19 +318,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Asset Pricing and Return Predictability
+### 资产定价和回报可预测性
 
-- Papers selected: **272**
-- Years covered: **2000-2026**
-- Citation count in selected set: **127,533**
-- Category Overview:
-  - Asset-pricing work connects stock returns to factors, anomalies, valuation signals, and changing market efficiency.
-  - Citation-ranked papers often define reusable signals or empirical designs that later trading and portfolio papers inherit.
-  - The central question is whether return predictability survives costs, multiple testing, and out-of-sample evaluation.
-- Limitations:
-  - Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.
-  - Citation impact can favor well-known anomalies even when live performance later weakens.
-  - Metadata cannot verify whether data-snooping controls were adequate.
+- 所选论文： **272**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**127,533**
+- 类别概述：
+  - 资产定价工作将股票回报与因素、异常、估值信号和不断变化的市场效率联系起来。
+  - 引文排名论文通常定义后来的交易和投资组合论文继承的可重复使用的信号或经验设计。
+  - 核心问题是回报的可预测性是否能够承受成本、多重测试和样本外评估。
+- 限制：
+  - 在交易成本、拥挤和多重测试修正之后，回报的可预测性可能会消失。
+  - 即使现场表演后来减弱，引文影响也可能有利于众所周知的异常现象。
+  - 元数据无法验证数据窥探控制是否足够。
 
 <details>
 <summary><strong>Show representative papers for Asset Pricing and Return Predictability</strong></summary>
@@ -443,19 +443,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Reinforcement Learning and Algorithmic Trading
+### 强化学习和算法交易
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **68,807**
-- Category Overview:
-  - Reinforcement-learning and algorithmic-trading papers frame trading as sequential decision-making under costs and risk.
-  - The area connects policy learning, execution, market making, and portfolio rebalancing.
-  - Robust evaluation needs realistic costs, liquidity constraints, and stress tests beyond benchmark backtests.
-- Limitations:
-  - Simulated rewards can diverge from executable trading under slippage, latency, and market impact.
-  - Policies can be brittle during regime shifts or stress periods.
-  - Backtest-only evidence needs live or paper-trading validation.
+- 所选论文： **265**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**68,807**
+- 类别概述：
+  - 强化学习和算法交易论文将交易视为成本和风险下的顺序决策。
+  - 该领域将政策学习、执行、做市和投资组合再平衡联系起来。
+  - 稳健的评估需要现实的成本、流动性约束以及基准回测之外的压力测试。
+- 限制：
+  - 由于滑点、延迟和市场影响，模拟奖励可能与可执行交易有所不同。
+  - 在政权更迭或压力时期，政策可能很脆弱。
+  - 仅回测证据需要实时或纸面交易验证。
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Algorithmic Trading</strong></summary>
@@ -568,19 +568,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Sentiment, News, and Alternative Data
+### 情绪、新闻和另类数据
 
-- Papers selected: **263**
-- Years covered: **2000-2026**
-- Citation count in selected set: **83,678**
-- Category Overview:
-  - Text and alternative-data research studies whether news, social media, filings, and language models improve stock decisions.
-  - The field has shifted from dictionary sentiment to NLP, representation learning, and LLM-assisted financial text analysis.
-  - Strong papers align timestamped information with tradable horizons to avoid look-ahead bias.
-- Limitations:
-  - Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.
-  - Sentiment signals can decay quickly as information becomes crowded.
-  - Data licensing and coverage bias can limit reproducibility.
+- 所选论文：**263**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**83,678**
+- 类别概述：
+  - 文本和另类数据研究研究新闻、社交媒体、文件和语言模型是否可以改善股票决策。
+  - 该领域已从字典情感转向 NLP、表征学习和法学硕士辅助的金融文本分析。
+  - 强大的论文将带时间戳的信息与可交易的范围对齐，以避免前瞻偏差。
+- 限制：
+  - 时间戳对齐和前瞻偏差对于文本和替代数据研究至关重要。
+  - 随着信息变得拥挤，情绪信号可能会迅速衰减。
+  - 数据许可和覆盖范围偏差会限制再现性。
 
 <details>
 <summary><strong>Show representative papers for Sentiment, News, and Alternative Data</strong></summary>
@@ -693,19 +693,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Deep Learning and Financial Time Series
+### 深度学习和金融时间序列
 
-- Papers selected: **256**
-- Years covered: **2000-2026**
-- Citation count in selected set: **116,496**
-- Category Overview:
-  - Deep-learning work uses recurrent, convolutional, attention, and transformer models to represent nonlinear market dynamics.
-  - Recent papers increasingly combine price series with text, order-book, macro, or cross-asset signals.
-  - The key methodological issue is controlling overfitting in nonstationary, low-signal financial data.
-- Limitations:
-  - Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.
-  - Compute-heavy models may be hard to reproduce without code and data access.
-  - Reported gains need robustness checks across regimes and markets.
+- 所选论文：**256**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**116,496**
+- 类别概述：
+  - 深度学习工作使用循环模型、卷积模型、注意力模型和变压器模型来表示非线性市场动态。
+  - 最近的论文越来越多地将价格序列与文本、订单簿、宏观或跨资产信号结合起来。
+  - 关键的方法问题是控制非平稳、低信号金融数据的过度拟合。
+- 限制：
+  - 深度模型可能会过度拟合噪声、非平稳和低信噪比的市场数据。
+  - 如果没有代码和数据访问，计算量大的模型可能很难重现。
+  - 报告的收益需要跨制度和市场进行稳健性检查。
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Financial Time Series</strong></summary>
@@ -818,19 +818,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Portfolio Optimization and Asset Allocation
+### 投资组合优化和资产配置
 
-- Papers selected: **187**
-- Years covered: **2000-2026**
-- Citation count in selected set: **66,070**
-- Category Overview:
-  - Portfolio research turns return forecasts into allocation decisions under uncertainty, constraints, and risk budgets.
-  - The literature moves from mean-variance foundations toward robust, Bayesian, machine-learning, and risk-aware allocation.
-  - High-impact work is valuable when it clarifies how estimation error changes realized portfolio performance.
-- Limitations:
-  - Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.
-  - Backtests may hide capacity and liquidity limits.
-  - Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.
+- 所选论文：**187**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**66,070**
+- 类别概述：
+  - 投资组合研究将回报预测转化为不确定性、约束和风险预算下的分配决策。
+  - 文献从均值方差基础转向稳健、贝叶斯、机器学习和风险意识分配。
+  - 当高影响力的工作能够阐明估计误差变化如何实现投资组合绩效时，它就很有价值。
+- 限制：
+  - 配置收益可能受估计误差、周转率、卖空限制和基准选择的影响。
+  - 回测可能隐藏容量和流动性限制。
+  - 元数据无法确认成本、杠杆或再平衡规则等实施细节。
 
 <details>
 <summary><strong>Show representative papers for Portfolio Optimization and Asset Allocation</strong></summary>
@@ -943,19 +943,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Machine Learning for Stock Prediction
+### 用于股票预测的机器学习
 
-- Papers selected: **166**
-- Years covered: **2000-2026**
-- Citation count in selected set: **60,402**
-- Category Overview:
-  - Classical machine-learning papers apply kernels, trees, boosting, ensembles, and data-mining methods to stock prediction.
-  - The main trend is a shift from single-indicator technical models toward richer feature sets and stricter validation.
-  - Useful results separate predictive accuracy from economically meaningful profitability after costs.
-- Limitations:
-  - Predictive accuracy may not translate into risk-adjusted returns after costs.
-  - Feature leakage, survivorship bias, and nonstationarity are persistent concerns.
-  - Metadata-driven screening cannot audit the exact train/test split.
+- 所选论文： **166**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**60,402**
+- 类别概述：
+  - 经典的机器学习论文将核、树、Boosting、集成和数据挖掘方法应用于股票预测。
+  - 主要趋势是从单一指标技术模型转向更丰富的功能集和更严格的验证。
+  - 有用的结果将预测准确性与扣除成本后具有经济意义的盈利能力区分开来。
+- 限制：
+  - 预测准确性可能无法转化为扣除成本后的风险调整回报。
+  - 特征泄漏、生存偏差和非平稳性是持续存在的问题。
+  - 元数据驱动的筛选无法审核确切的训练/测试划分。
 
 <details>
 <summary><strong>Show representative papers for Machine Learning for Stock Prediction</strong></summary>
@@ -1068,19 +1068,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Market Microstructure and High-Frequency Trading
+### 市场微观结构与高频交易
 
-- Papers selected: **128**
-- Years covered: **2000-2026**
-- Citation count in selected set: **48,251**
-- Category Overview:
-  - Microstructure and high-frequency work studies liquidity, order flow, price impact, and short-horizon prediction.
-  - The literature is shaped by transaction costs, latency, execution risk, and limit-order-book dynamics.
-  - The most useful results make trading constraints explicit rather than treating prices as frictionless signals.
-- Limitations:
-  - High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.
-  - Public metadata rarely reveals execution assumptions.
-  - Short-horizon predictability can vanish when capacity and competition are considered.
+- 所选论文： **128**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**48,251**
+- 类别概述：
+  - 微观结构和高频工作研究流动性、订单流、价格影响和短期预测。
+  - 文献是由交易成本、延迟、执行风险和限价订单簿动态决定的。
+  - 最有用的结果使交易约束变得明确，而不是将价格视为无摩擦信号。
+- 限制：
+  - 高频结果在很大程度上取决于市场准入、延迟、费用和订单簿重建质量。
+  - 公共元数据很少揭示执行假设。
+  - 当考虑容量和竞争时，短期可预测性可能会消失。
 
 <details>
 <summary><strong>Show representative papers for Market Microstructure and High-Frequency Trading</strong></summary>
@@ -1193,19 +1193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Behavioral Finance and Investor Decision-Making
+### 行为金融学和投资者决策
 
-- Papers selected: **23**
-- Years covered: **2000-2024**
-- Citation count in selected set: **7,959**
-- Category Overview:
-  - Behavioral-finance research explains stock-market anomalies through investor attention, sentiment, bias, and limits to arbitrage.
-  - Citation-ranked work often supplies mechanisms that complement purely statistical prediction models.
-  - The strongest papers connect behavioral signals to implementable investment constraints.
-- Limitations:
-  - Behavioral mechanisms can be market-specific and time-varying.
-  - Sentiment proxies may capture several confounded channels.
-  - Trading implementation requires constraints beyond the behavioral explanation.
+- 所选论文：**23**
+- 涵盖年份： **2000-2024**
+- 所选集中的引用计数：**7,959**
+- 类别概述：
+  - 行为金融研究通过投资者的注意力、情绪、偏见和套利限制来解释股票市场的异常现象。
+  - 引文排名的工作通常提供补充纯统计预测模型的机制。
+  - 最有力的论文将行为信号与可实施的投资约束联系起来。
+- 限制：
+  - 行为机制可能因市场而异且随时间变化。
+  - 情绪代理可能会捕获几个混杂的通道。
+  - 交易实施需要行为解释之外的约束。
 
 <details>
 <summary><strong>Show representative papers for Behavioral Finance and Investor Decision-Making</strong></summary>
@@ -1318,7 +1318,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-## Yearly Selection Summary
+## 年度评选总结
 
 | Year | Candidate records | Selected papers | Selected citations | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1350,24 +1350,24 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 | 2025 | 1,000 | 100 | 5,571 | [The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models](https://doi.org/10.48550/arXiv.2505.22617) |
 | 2026 | 1,000 | 100 | 713 | [Mamba-3: Improved Sequence Modeling using State Space Principles](https://doi.org/10.48550/arXiv.2603.15569) |
 
-## Curation Method
+## 策展方法
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover stock prediction, equity returns, asset pricing, portfolio optimization, financial time series, algorithmic trading, reinforcement learning, sentiment/news/alternative data, market microstructure, high-frequency trading, volatility, and risk themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit stock-investment and AI-trading relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+该集合使用语义学者学术图批量搜索。查询涵盖股票预测、股票回报、资产定价、投资组合优化、金融时间序列、算法交易、强化学习、情绪/新闻/另类数据、市场微观结构、高频交易、波动性和风险主题。从 2000 年到 2026 年，每年的结果都会被筛选到出版年份，在标题/摘要/地点元数据中使用明确的股票投资和 AI 交易相关表达式进行筛选，通过 DOI、arXiv、PubMed、CorpusId、paperId 和标题进行重复数据删除，并根据引用计数减少到最多 1,000 个候选者。最终的精彩榜单根据引用次数选出每个出版年度内排名前 100 的论文；有影响力的引用计数和确定性元数据重要性分数被保留作为决胜局和审核信号。
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+分类法、关键思想、优点、局限性、方法标签和关键字标签是根据公共元数据和基于规则的域约定确定性生成的。未使用付费 API、付费法学硕士、付费翻译或付费计算。
 
-## Limitations
+## 局限性
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation count is an influence signal, not investment advice or proof of live trading profitability.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-27.
-- Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.
+- 这是一个元数据驱动的引文图，而不是对每个 PDF 的完整系统回顾。
+- 引用计数是一种影响力信号，而不是投资建议或实时交易盈利能力的证明。
+- Semantic Sc​​holar 元数据可以省略某些记录的地点、摘要、PDF 或有影响力的引用计数。
+- 2026 年以来的论文在结构上处于被引劣势，因为截至 2026-06-27，年份不完整，引文积累仍不成熟。
+- 股票投资研究对交易成本、生存偏差、前瞻偏差、市场影响和政权更迭特别敏感；这些需要全文和数据级别的审查。
 
-## Acknowledgements
+## 致谢
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+这个存储库和交互式网站是出于对 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) 的赞赏而创建的。其论文管理工作流程和存储库组织为此处使用的分类优先、引文排名的研究地图提供了方法。
 
-## License
+## 执照
 
-CC-BY-4.0 for text and metadata curation. Upstream paper metadata belongs to the original sources.
+CC-BY-4.0 用于文本和元数据管理。上游论文元数据属于原始来源。

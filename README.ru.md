@@ -1,7 +1,7 @@
-# Awesome Trade
+# Потрясающая торговля
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of stock investment and AI-driven trading research from 2000 through 2026.
+Карта инвестиций в акции и торговых исследований на основе искусственного интеллекта с 2000 по 2026 год, основанная на таксономии и рейтинге цитирования.
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-trade/">
@@ -10,77 +10,77 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
   <a href="README.ja.md">日本語</a> |
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
-  <a href="README.ru.md">Русский</a> |
+  <a href="README.ru.md"><strong>Русский</strong></a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
+Сгенерировано 27 июня 2026 г. на основе бесплатных общедоступных метаданных Semantic Scholar. В этом издании исследуется до 1000 статей-кандидатов в области инвестирования в акции и торговли искусственным интеллектом за год публикации в 2000–2026 годах, хранится проверенный пул кандидатов из 27 000 записей, отбираются 100 лучших статей каждого года по количеству цитирований (выбрано 2700 статей) и реорганизуются их по исследовательской таксономии.
 
-## Project Links
+## Ссылки на проекты
 
-- Open Interactive Website: https://honggi82.github.io/awesome-trade/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- Открыть интерактивный сайт: https://honggi82.github.io/awesome-trade/
+- Выбранный набор данных: `data/papers_2000_2026.csv`.
+- Набор таксономических данных с идеями, сильными сторонами и ограничениями на уровне бумаги: `data/papers_taxonomy_2000_2026.csv`.
+- Предварительно рассчитанный анализ периода: `data/period_analysis_2000_2026.json`.
+- Пул кандидатов: `data/candidates_top1000_2000_2026.csv`
+- Черновик обзора на английском языке: `paper/review_en.html`, `paper/review_en.docx`.
+- Черновик обзора корейского языка: `paper/review_ko.html`
 
-## Keywords Convention
+## Ключевые слова Конвенция
 
-These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.
+Эти значки определяют теги ключевых слов «инвестиции в акции» и «ИИ-торговля», используемые для чтения и расширения этой коллекции.
 
-- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: Stock price, return, direction, trend, or market-index prediction and forecasting.
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.
-- ![deep-learning](https://img.shields.io/badge/keyword-deep--learning-2563eb) **deep-learning**: Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.
-- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.
-- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.
-- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.
-- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.
-- ![high-frequency](https://img.shields.io/badge/keyword-high--frequency-0891b2) **high-frequency**: Market microstructure, limit order books, order flow, liquidity, and high-frequency trading.
-- ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.
-- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.
-- ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: прогноз и прогноз цены акции, доходности, направления, тренда или рыночного индекса.
+- ![машинное обучение](https://img.shields.io/badge/keyword-machine--learning-475569) **машинное обучение**: SVM, деревья, повышение, случайные леса, ядра, интеллектуальный анализ данных и классическое машинное обучение для рынков.
+- ![глубокое обучение](https://img.shields.io/badge/keyword-deep--learning-2563eb) **глубокое обучение**: нейронные сети, LSTM/GRU/CNN, внимание, преобразователи и обучение представлению финансовых временных рядов.
+- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: торговля акциями и инвестиционные сигналы на основе искусственного интеллекта и машинного обучения, включая прогнозные модели, NLP/LLM и автоматизированные стратегии.
+- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: оптимизация портфеля, распределение активов, выбор портфеля, паритет рисков и ребалансировка.
+- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: обучение с подкреплением, алгоритмическая торговля, исполнение, создание рынка и проверенные на истории торговые стратегии.
+- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: новости, социальные сети, НЛП, LLM, звонки о доходах и альтернативные данные для инвестиций в акции.
+- ![высокочастотный](https://img.shields.io/badge/keyword-high--frequency-0891b2) **высокочастотный**: микроструктура рынка, книги лимитных ордеров, поток ордеров, ликвидность и высокочастотная торговля.
+- ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: прогнозирование волатильности, стоимость под риском, просадки, хвостовой риск, стресс-тестирование и оценка прогноза.
+- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: цены на активы, коэффициенты собственного капитала, аномалии, предсказуемость доходности и перекрестная доходность акций.
+- ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: настроения инвесторов, внимание, поведенческая предвзятость, эффективность рынка и принятие решений.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: документы с официальной ссылкой на GitHub или репозиторий кода, выявленной в ходе аудита метаданных.
 
-## Taxonomy Overview
+## Обзор таксономии
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 982,704
-- **General Finance, Surveys, and Trading Systems**: 776 papers
-- **Risk, Volatility, and Forecast Evaluation**: 364 papers
-- **Asset Pricing and Return Predictability**: 272 papers
-- **Reinforcement Learning and Algorithmic Trading**: 265 papers
-- **Sentiment, News, and Alternative Data**: 263 papers
-- **Deep Learning and Financial Time Series**: 256 papers
-- **Portfolio Optimization and Asset Allocation**: 187 papers
-- **Machine Learning for Stock Prediction**: 166 papers
-- **Market Microstructure and High-Frequency Trading**: 128 papers
-- **Behavioral Finance and Investor Decision-Making**: 23 papers
+- **Всего выбранных статей**: 2700 статей.
+- **Проверено пул кандидатов**: 27 000 статей (2000 г.: 1 000, 2001 г.: 1 000, 2002 г.: 1 000, 2003 г.: 1 000, 2004 г.: 1 000, 2005 г.: 1 000, 2006 г.: 1 000, 2007 г.: 1000, 2008: 1000, 2009: 1000, 2010: 1000, 2011: 1000, 2012: 1000, 2013: 1000, 2014: 1000, 2015: 1000, 2016: 1000, 2017: 1000, 2018: 1000, 2019: 1000, 2020: 1000, 2021: 1000, 2022: 1000, 2023: 1000, 2024: 1000, 2025: 1000, 2026: 1000)
+- **Количество цитирований в выбранном наборе**: 982 704.
+- **Общие финансы, исследования и торговые системы**: 776 статей.
+- **Оценка рисков, волатильности и прогнозов**: 364 статьи.
+- **Ценообразование активов и прогнозируемость доходности**: 272 статьи.
+- **Обучение с подкреплением и алгоритмическая торговля**: 265 статей.
+- **Настроения, новости и альтернативные данные**: 263 статьи.
+- **Глубокое обучение и финансовые временные ряды**: 256 статей.
+- **Оптимизация портфеля и распределение активов**: 187 статей.
+- **Машинное обучение для прогнозирования акций**: 166 статей.
+- **Микроструктура рынка и высокочастотная торговля**: 128 статей.
+- **Поведенческие финансы и принятие решений инвесторами**: 23 статьи
 
-## Taxonomy Collections
+## Коллекции таксономии
 
-### General Finance, Surveys, and Trading Systems
+### Общие финансы, исследования и торговые системы
 
-- Papers selected: **776**
-- Years covered: **2000-2026**
-- Citation count in selected set: **280,139**
-- Category Overview:
-  - General papers include surveys, frameworks, benchmark discussions, and systems that organize stock-investment research.
-  - This category helps readers connect finance theory, empirical design, and AI-based trading practice.
-  - Metadata-driven ranking is useful as a map of influence but does not replace full-paper expert review.
-- Limitations:
-  - Surveys and systems can dominate citations while empirical evidence remains mixed across markets.
-  - Broad claims need careful mapping to data, costs, and investment horizons.
-  - Metadata-driven ranking cannot replace expert reading of full papers and backtests.
+- Выбрано статей: **776**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **280 139**
+- Обзор категории:
+  - Общие документы включают опросы, модели, обсуждения эталонных показателей и системы, которые организуют исследования инвестиций в акции.
+  - Эта категория помогает читателям связать теорию финансов, эмпирический дизайн и торговую практику на основе искусственного интеллекта.
+  - Ранжирование на основе метаданных полезно в качестве карты влияния, но не заменяет полноценную экспертную оценку.
+- Ограничения:
+  - Опросы и системы могут доминировать в цитировании, в то время как эмпирические данные остаются неоднозначными на разных рынках.
+  - Широкие претензии требуют тщательного сопоставления с данными, затратами и инвестиционными горизонтами.
+  - Ранжирование на основе метаданных не может заменить экспертное чтение полных статей и бэктесты.
 
 <details>
 <summary><strong>Show representative papers for General Finance, Surveys, and Trading Systems</strong></summary>
@@ -193,19 +193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Risk, Volatility, and Forecast Evaluation
+### Риск, волатильность и прогнозная оценка
 
-- Papers selected: **364**
-- Years covered: **2000-2026**
-- Citation count in selected set: **123,369**
-- Category Overview:
-  - Risk and volatility papers estimate uncertainty, tails, drawdowns, and forecast reliability for stock investment.
-  - The area links econometrics, machine learning, and practical portfolio risk controls.
-  - Evaluation quality depends on out-of-sample tests, regime sensitivity, and transparent loss functions.
-- Limitations:
-  - Risk forecasts can fail under regime breaks and extreme events.
-  - Choice of loss function strongly affects model rankings.
-  - Citation counts do not prove suitability for a specific mandate or risk budget.
+- Выбрано статей: **364**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **123 369**
+- Обзор категории:
+  - В документах о рисках и волатильности оцениваются неопределенность, хвосты, просадки и прогнозируется надежность инвестиций в акции.
+  - Эта область объединяет эконометрику, машинное обучение и практический контроль портфельных рисков.
+  - Качество оценки зависит от тестов вне выборки, чувствительности режима и прозрачных функций потерь.
+- Ограничения:
+  - Прогнозы рисков могут оказаться ошибочными в случае смены режимов и экстремальных событий.
+  - Выбор функции потерь сильно влияет на рейтинг модели.
+  - Количество цитирований не доказывает пригодность для конкретного мандата или бюджета рисков.
 
 <details>
 <summary><strong>Show representative papers for Risk, Volatility, and Forecast Evaluation</strong></summary>
@@ -318,19 +318,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Asset Pricing and Return Predictability
+### Ценообразование активов и предсказуемость доходности
 
-- Papers selected: **272**
-- Years covered: **2000-2026**
-- Citation count in selected set: **127,533**
-- Category Overview:
-  - Asset-pricing work connects stock returns to factors, anomalies, valuation signals, and changing market efficiency.
-  - Citation-ranked papers often define reusable signals or empirical designs that later trading and portfolio papers inherit.
-  - The central question is whether return predictability survives costs, multiple testing, and out-of-sample evaluation.
-- Limitations:
-  - Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.
-  - Citation impact can favor well-known anomalies even when live performance later weakens.
-  - Metadata cannot verify whether data-snooping controls were adequate.
+- Выбрано статей: **272**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **127 533**
+- Обзор категории:
+  - Работа по ценообразованию активов связывает доходность акций с факторами, аномалиями, сигналами оценки и изменением эффективности рынка.
+  - Статьи с рейтингом цитируемости часто определяют повторно используемые сигналы или эмпирические модели, которые впоследствии наследуются торговыми и портфельными статьями.
+  - Главный вопрос заключается в том, выдержит ли предсказуемость прибыли затраты, многократное тестирование и оценку вне выборки.
+- Ограничения:
+  - Предсказуемость прибыли может исчезнуть из-за транзакционных издержек, скученности и исправлений при многократном тестировании.
+  - Влияние цитируемости может благоприятствовать известным аномалиям, даже если живое исполнение впоследствии ослабевает.
+  - Метаданные не могут подтвердить адекватность контроля за отслеживанием данных.
 
 <details>
 <summary><strong>Show representative papers for Asset Pricing and Return Predictability</strong></summary>
@@ -443,19 +443,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Reinforcement Learning and Algorithmic Trading
+### Обучение с подкреплением и алгоритмическая торговля
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **68,807**
-- Category Overview:
-  - Reinforcement-learning and algorithmic-trading papers frame trading as sequential decision-making under costs and risk.
-  - The area connects policy learning, execution, market making, and portfolio rebalancing.
-  - Robust evaluation needs realistic costs, liquidity constraints, and stress tests beyond benchmark backtests.
-- Limitations:
-  - Simulated rewards can diverge from executable trading under slippage, latency, and market impact.
-  - Policies can be brittle during regime shifts or stress periods.
-  - Backtest-only evidence needs live or paper-trading validation.
+- Выбрано статей: **265**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **68 807**
+- Обзор категории:
+  - В документах по обучению с подкреплением и алгоритмической торговле торговля рассматривается как последовательное принятие решений с учетом затрат и рисков.
+  - Эта область объединяет изучение политики, ее исполнение, создание рынка и ребалансировку портфеля.
+  - Для надежной оценки необходимы реалистичные затраты, ограничения ликвидности и стресс-тесты, выходящие за рамки контрольных тестов.
+- Ограничения:
+  - Имитация вознаграждения может отличаться от реальной торговли из-за проскальзывания, задержки и влияния рынка.
+  - Политика может оказаться хрупкой во время смены режима или в периоды стресса.
+  - Доказательства, полученные только при бэктестировании, нуждаются в реальной или бумажной проверке.
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Algorithmic Trading</strong></summary>
@@ -568,19 +568,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Sentiment, News, and Alternative Data
+### Настроения, новости и альтернативные данные
 
-- Papers selected: **263**
-- Years covered: **2000-2026**
-- Citation count in selected set: **83,678**
-- Category Overview:
-  - Text and alternative-data research studies whether news, social media, filings, and language models improve stock decisions.
-  - The field has shifted from dictionary sentiment to NLP, representation learning, and LLM-assisted financial text analysis.
-  - Strong papers align timestamped information with tradable horizons to avoid look-ahead bias.
-- Limitations:
-  - Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.
-  - Sentiment signals can decay quickly as information becomes crowded.
-  - Data licensing and coverage bias can limit reproducibility.
+- Выбрано статей: **263**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **83 678**
+- Обзор категории:
+  - Исследования текстовых и альтернативных данных изучают, влияют ли новости, социальные сети, документы и языковые модели на принятие решений по акциям.
+  - Эта область перешла от словарного настроения к НЛП, обучению представлениям и анализу финансовых текстов с помощью LLM.
+  - Сильные газеты сопоставляют информацию с метками времени с торговыми горизонтами, чтобы избежать предвзятости прогноза.
+- Ограничения:
+  - Выравнивание временных меток и смещение прогноза имеют решающее значение для исследований текста и альтернативных данных.
+  - Сигналы настроений могут быстро ослабевать по мере того, как информации становится много.
+  - Лицензирование данных и систематическая ошибка в охвате могут ограничивать воспроизводимость.
 
 <details>
 <summary><strong>Show representative papers for Sentiment, News, and Alternative Data</strong></summary>
@@ -693,19 +693,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Deep Learning and Financial Time Series
+### Глубокое обучение и финансовые временные ряды
 
-- Papers selected: **256**
-- Years covered: **2000-2026**
-- Citation count in selected set: **116,496**
-- Category Overview:
-  - Deep-learning work uses recurrent, convolutional, attention, and transformer models to represent nonlinear market dynamics.
-  - Recent papers increasingly combine price series with text, order-book, macro, or cross-asset signals.
-  - The key methodological issue is controlling overfitting in nonstationary, low-signal financial data.
-- Limitations:
-  - Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.
-  - Compute-heavy models may be hard to reproduce without code and data access.
-  - Reported gains need robustness checks across regimes and markets.
+- Выбрано статей: **256**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **116 496**
+- Обзор категории:
+  - В работе глубокого обучения используются рекуррентные, сверточные модели, модели внимания и преобразователи для представления нелинейной динамики рынка.
+  - В последних публикациях ценовые ряды все чаще сочетаются с текстовыми, биржевыми, макро- или перекрестными сигналами активов.
+  - Ключевой методологической проблемой является контроль переобучения в нестационарных финансовых данных с низким уровнем сигнала.
+- Ограничения:
+  - Глубокие модели могут переопределять зашумленные, нестационарные рыночные данные с низким соотношением сигнал/шум.
+  - Модели с большим объемом вычислений может быть трудно воспроизвести без доступа к коду и данным.
+  - Заявленные достижения нуждаются в проверке устойчивости различных режимов и рынков.
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Financial Time Series</strong></summary>
@@ -818,19 +818,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Portfolio Optimization and Asset Allocation
+### Оптимизация портфеля и распределение активов
 
-- Papers selected: **187**
-- Years covered: **2000-2026**
-- Citation count in selected set: **66,070**
-- Category Overview:
-  - Portfolio research turns return forecasts into allocation decisions under uncertainty, constraints, and risk budgets.
-  - The literature moves from mean-variance foundations toward robust, Bayesian, machine-learning, and risk-aware allocation.
-  - High-impact work is valuable when it clarifies how estimation error changes realized portfolio performance.
-- Limitations:
-  - Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.
-  - Backtests may hide capacity and liquidity limits.
-  - Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.
+- Выбрано статей: **187**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **66 070**
+- Обзор категории:
+  - Портфельные исследования превращают прогнозы доходности в решения о распределении средств в условиях неопределенности, ограничений и бюджетов рисков.
+  - Литература движется от основ средней дисперсии к надежному, байесовскому, машинному обучению и распределению с учетом рисков.
+  - Высокоэффективная работа ценна, когда она проясняет, как ошибка оценки влияет на эффективность портфеля.
+- Ограничения:
+  - Прибыль от распределения может зависеть от ошибки оценки, оборота, ограничений коротких продаж и выбора контрольного показателя.
+  - Бэктесты могут скрыть ограничения мощности и ликвидности.
+  - Метаданные не могут подтвердить детали реализации, такие как затраты, кредитное плечо или правила ребалансировки.
 
 <details>
 <summary><strong>Show representative papers for Portfolio Optimization and Asset Allocation</strong></summary>
@@ -943,19 +943,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Machine Learning for Stock Prediction
+### Машинное обучение для прогнозирования акций
 
-- Papers selected: **166**
-- Years covered: **2000-2026**
-- Citation count in selected set: **60,402**
-- Category Overview:
-  - Classical machine-learning papers apply kernels, trees, boosting, ensembles, and data-mining methods to stock prediction.
-  - The main trend is a shift from single-indicator technical models toward richer feature sets and stricter validation.
-  - Useful results separate predictive accuracy from economically meaningful profitability after costs.
-- Limitations:
-  - Predictive accuracy may not translate into risk-adjusted returns after costs.
-  - Feature leakage, survivorship bias, and nonstationarity are persistent concerns.
-  - Metadata-driven screening cannot audit the exact train/test split.
+- Выбрано статей: **166**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **60 402**
+- Обзор категории:
+  - Классические статьи по машинному обучению применяют ядра, деревья, повышение, ансамбли и методы интеллектуального анализа данных для прогнозирования запасов.
+  - Основной тенденцией является переход от технических моделей с одним индикатором к более богатому набору функций и более строгой проверке.
+  - Полезные результаты отделяют точность прогнозирования от экономически значимой рентабельности после затрат.
+- Ограничения:
+  - Точность прогнозирования может не привести к доходности с поправкой на риск после затрат.
+  - Утечка функций, систематическая ошибка выживаемости и нестационарность являются постоянными проблемами.
+  - Скрининг на основе метаданных не может проверить точное разделение поездов и тестов.
 
 <details>
 <summary><strong>Show representative papers for Machine Learning for Stock Prediction</strong></summary>
@@ -1068,19 +1068,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Market Microstructure and High-Frequency Trading
+### Микроструктура рынка и высокочастотная торговля
 
-- Papers selected: **128**
-- Years covered: **2000-2026**
-- Citation count in selected set: **48,251**
-- Category Overview:
-  - Microstructure and high-frequency work studies liquidity, order flow, price impact, and short-horizon prediction.
-  - The literature is shaped by transaction costs, latency, execution risk, and limit-order-book dynamics.
-  - The most useful results make trading constraints explicit rather than treating prices as frictionless signals.
-- Limitations:
-  - High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.
-  - Public metadata rarely reveals execution assumptions.
-  - Short-horizon predictability can vanish when capacity and competition are considered.
+- Выбрано статей: **128**
+- Охваченные годы: **2000–2026**
+- Количество цитирований в выбранном наборе: **48 251**
+- Обзор категории:
+  - Микроструктура и высокочастотные исследования изучают ликвидность, поток заказов, влияние на цену и краткосрочное прогнозирование.
+  - Литература формируется с учетом транзакционных издержек, задержек, риска исполнения и динамики лимитной книги ордеров.
+  - Наиболее полезные результаты делают торговые ограничения явными, а не рассматривают цены как безупречные сигналы.
+- Ограничения:
+  - Высокочастотные результаты во многом зависят от доступа к рынку, задержки, комиссий и качества реконструкции книги заказов.
+  - Публичные метаданные редко раскрывают предположения о выполнении.
+  - Краткосрочная предсказуемость может исчезнуть, если принять во внимание мощности и конкуренцию.
 
 <details>
 <summary><strong>Show representative papers for Market Microstructure and High-Frequency Trading</strong></summary>
@@ -1193,19 +1193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Behavioral Finance and Investor Decision-Making
+### Поведенческие финансы и принятие решений инвесторами
 
-- Papers selected: **23**
-- Years covered: **2000-2024**
-- Citation count in selected set: **7,959**
-- Category Overview:
-  - Behavioral-finance research explains stock-market anomalies through investor attention, sentiment, bias, and limits to arbitrage.
-  - Citation-ranked work often supplies mechanisms that complement purely statistical prediction models.
-  - The strongest papers connect behavioral signals to implementable investment constraints.
-- Limitations:
-  - Behavioral mechanisms can be market-specific and time-varying.
-  - Sentiment proxies may capture several confounded channels.
-  - Trading implementation requires constraints beyond the behavioral explanation.
+- Выбрано статей: **23**
+- Охваченные годы: **2000–2024**
+- Количество цитирований в выбранном наборе: **7959**
+- Обзор категории:
+  - Исследования в области поведенческих финансов объясняют аномалии фондового рынка через внимание инвесторов, настроения, предвзятость и ограничения на арбитраж.
+  - Работа с рейтингом цитируемости часто предоставляет механизмы, дополняющие чисто статистические модели прогнозирования.
+  - Самые сильные исследования связывают поведенческие сигналы с реализуемыми инвестиционными ограничениями.
+- Ограничения:
+  - Поведенческие механизмы могут быть специфичными для рынка и меняться во времени.
+  - Прокси-серверы настроений могут захватывать несколько запутанных каналов.
+  - Реализация торговли требует ограничений, выходящих за рамки поведенческого объяснения.
 
 <details>
 <summary><strong>Show representative papers for Behavioral Finance and Investor Decision-Making</strong></summary>
@@ -1318,7 +1318,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-## Yearly Selection Summary
+## Обзор ежегодного отбора
 
 | Year | Candidate records | Selected papers | Selected citations | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1350,24 +1350,24 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 | 2025 | 1,000 | 100 | 5,571 | [The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models](https://doi.org/10.48550/arXiv.2505.22617) |
 | 2026 | 1,000 | 100 | 713 | [Mamba-3: Improved Sequence Modeling using State Space Principles](https://doi.org/10.48550/arXiv.2603.15569) |
 
-## Curation Method
+## Метод курирования
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover stock prediction, equity returns, asset pricing, portfolio optimization, financial time series, algorithmic trading, reinforcement learning, sentiment/news/alternative data, market microstructure, high-frequency trading, volatility, and risk themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit stock-investment and AI-trading relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+В коллекции используется массовый поиск Semantic Scholar Academic Graph. Запросы охватывают прогнозирование акций, доходность акций, оценку активов, оптимизацию портфеля, финансовые временные ряды, алгоритмическую торговлю, обучение с подкреплением, настроения/новости/альтернативные данные, микроструктуру рынка, высокочастотную торговлю, волатильность и темы рисков. Для каждого года с 2000 по 2026 год результаты фильтруются по году публикации, проверяются с помощью явных выражений релевантности инвестиций в акции и торговли искусственным интеллектом в метаданных заголовка/аннотации/места проведения, дедуплицируются по DOI, arXiv, PubMed, CorpusId, paperId, затем по названию и сокращаются до максимум 1000 кандидатов по количеству цитирований. В окончательный потрясающий список выбираются 100 лучших статей каждого года публикации по количеству цитирований; влиятельное количество цитирований и детерминированная оценка важности метаданных сохраняются в качестве решающих факторов и сигналов аудита.
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+Таксономия, ключевые идеи, сильные стороны, ограничения, теги методов и теги ключевых слов генерируются детерминированным образом на основе общедоступных метаданных и соглашений предметной области, основанных на правилах. Платный API, платный LLM, платный перевод или платные вычисления не использовались.
 
-## Limitations
+## Ограничения
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation count is an influence signal, not investment advice or proof of live trading profitability.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-27.
-- Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.
+- Это карта цитирования на основе метаданных, а не полный систематический обзор каждого PDF-файла.
+- Количество цитирований — это сигнал влияния, а не инвестиционный совет или доказательство прибыльности реальной торговли.
+- Метаданные Semantic Scholar могут не включать места проведения, рефераты, PDF-файлы или количество влиятельных цитирований для некоторых записей.
+- Статьи 2026 года структурно неблагополучны по цитируемости, поскольку год является неполным, а накопление цитирования по состоянию на 27 июня 2026 года все еще незрело.
+- Исследования в области инвестиций в акции особенно чувствительны к транзакционным издержкам, предвзятости выживаемости, предвзятости прогнозирования, влиянию на рынок и смене режима; они требуют полного анализа документов и данных.
 
-## Acknowledgements
+## Благодарности
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+Этот репозиторий и интерактивный сайт были созданы с признательностью [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Его рабочий процесс обработки документов и организация репозитория легли в основу подхода, использованного здесь для составления исследовательской карты с приоритетом таксономии и рейтингом цитирования.
 
-## License
+## Лицензия
 
-CC-BY-4.0 for text and metadata curation. Upstream paper metadata belongs to the original sources.
+CC-BY-4.0 для курирования текста и метаданных. Метаданные исходного документа принадлежат первоисточникам.

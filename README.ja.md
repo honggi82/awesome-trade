@@ -1,7 +1,7 @@
-# Awesome Trade
+# 素晴らしい貿易
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of stock investment and AI-driven trading research from 2000 through 2026.
+2000 年から 2026 年までの株式投資と AI 主導の取引研究に関する分類法優先の引用ランク付けマップ。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-trade/">
@@ -10,77 +10,77 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
-  <a href="README.ja.md">日本語</a> |
+  <a href="README.ja.md"><strong>日本語</strong></a> |
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
+無料の公開 Semantic Sc​​holar メタデータから 2026 年 6 月 27 日に生成されました。この版では、2000 年から 2026 年までの出版年ごとに最大 1,000 件の株式投資および AI トレーディングの候補論文を調査し、監査済みの候補者プール 27,000 件のレコードを保持し、各年の上位 100 件の論文を被引用数によって選択し (2,700 件の論文が選択)、研究分類法によって再編成しています。
 
-## Project Links
+## プロジェクトリンク
 
-- Open Interactive Website: https://honggi82.github.io/awesome-trade/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- インタラクティブなウェブサイトを開く: https://honggi82.github.io/awesome-trade/
+- 選択したデータセット: `data/papers_2000_2026.csv`
+- 論文レベルのアイデア、長所、制限を含む分類データセット: `data/papers_taxonomy_2000_2026.csv`
+- 事前計算された期間分析: `data/period_analysis_2000_2026.json`
+- 候補者プール: `data/candidates_top1000_2000_2026.csv`
+- 英語レビュードラフト: `paper/review_en.html`、`paper/review_en.docx`
+- 韓国語レビュー草案: `paper/review_ko.html`
 
-## Keywords Convention
+## キーワードの規則
 
-These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.
+これらのバッジは、このコレクションの読み取りと拡張に使用される株式投資と AI 取引のキーワード タグを定義します。
 
-- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: Stock price, return, direction, trend, or market-index prediction and forecasting.
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.
-- ![deep-learning](https://img.shields.io/badge/keyword-deep--learning-2563eb) **deep-learning**: Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.
-- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.
-- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.
-- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.
-- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.
-- ![high-frequency](https://img.shields.io/badge/keyword-high--frequency-0891b2) **high-frequency**: Market microstructure, limit order books, order flow, liquidity, and high-frequency trading.
-- ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.
-- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.
-- ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: 株価、リターン、方向性、トレンド、または市場指数の予測と予測。
+- ![機械学習](https://img.shields.io/badge/keyword-machine--learning-475569) **機械学習**: SVM、ツリー、ブースティング、ランダム フォレスト、カーネル、データ マイニング、市場向けの古典的な ML。
+- ![ディープラーニング](https://img.shields.io/badge/keyword-deep--learning-2563eb) **ディープラーニング**: ニューラル ネットワーク、LSTM/GRU/CNN、アテンション、トランスフォーマー、金融時系列の表現学習。
+- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: 予測モデル、NLP/LLM、自動戦略を含む、AI/ML 主導の株式取引および投資シグナル。
+- ![ポートフォリオ](https://img.shields.io/badge/keyword-portfolio-7c2d12) **ポートフォリオ**: ポートフォリオの最適化、資産配分、ポートフォリオの選択、リスク パリティ、およびリバランス。
+- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: 強化学習、アルゴリズム取引、約定、マーケットメイク、およびバックテストされた取引戦略。
+- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: ニュース、ソーシャル メディア、NLP、LLM、決算報告、株式投資の代替データ。
+- ![高頻度](https://img.shields.io/badge/keyword-high--frequency-0891b2) **高頻度**: 市場の微細構造、指値注文帳、注文フロー、流動性、および高頻度取引。
+- ![リスク-ボラティリティ](https://img.shields.io/badge/keyword-risk--volatility-be123c) **リスク-ボラティリティ**: ボラティリティ予測、バリュー・アット・リスク、ドローダウン、テール・リスク、ストレス・テスト、および予測評価。
+- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: 資産価格設定、自己資本要因、異常値、リターンの予測可能性、および横断的な株式リターン。
+- ![行動ファイナンス](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **行動ファイナンス**: 投資家のセンチメント、注目、行動の偏り、市場の効率性、意思決定。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: メタデータ監査で特定された公式 GitHub またはコード リポジトリ リンクを含む論文。
 
-## Taxonomy Overview
+## 分類学の概要
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 982,704
-- **General Finance, Surveys, and Trading Systems**: 776 papers
-- **Risk, Volatility, and Forecast Evaluation**: 364 papers
-- **Asset Pricing and Return Predictability**: 272 papers
-- **Reinforcement Learning and Algorithmic Trading**: 265 papers
-- **Sentiment, News, and Alternative Data**: 263 papers
-- **Deep Learning and Financial Time Series**: 256 papers
-- **Portfolio Optimization and Asset Allocation**: 187 papers
-- **Machine Learning for Stock Prediction**: 166 papers
-- **Market Microstructure and High-Frequency Trading**: 128 papers
-- **Behavioral Finance and Investor Decision-Making**: 23 papers
+- **選択された論文の合計**: 2,700 論文
+- **監査された候補者プール**: 27,000 件の論文 (2000: 1,000、2001: 1,000、2002: 1,000、2003: 1,000、2004: 1,000、2005: 1,000、2006: 1,000、2007: 1,000、2008年：1,000、2009年：1,000、2010年：1,000、2011年：1,000、2012年：1,000、2013年：1,000、2014年：1,000、2015年：1,000、2016年： 1,000、2017年：1,000、2018年：1,000、2019年：1,000、2020年：1,000、2021年：1,000、2022年：1,000、2023年：1,000、2024年：1,000、2025年： 1,000、2026年: 1,000)
+- **選択したセット内の引用数**: 982,704
+- **一般的な金融、調査、および取引システム**: 776 件の論文
+- **リスク、ボラティリティ、予測評価**: 364 件の論文
+- **資産価格とリターンの予測可能性**: 論文 272 本
+- **強化学習とアルゴリズム取引**: 265 件の論文
+- **センチメント、ニュース、代替データ**: 263 件の論文
+- **ディープラーニングと金融時系列**: 256 件の論文
+- **ポートフォリオの最適化と資産配分**: 187 件の論文
+- **株価予測のための機械学習**: 166 件の論文
+- **市場の微細構造と高頻度取引**: 128 件の論文
+- **行動ファイナンスと投資家の意思決定**: 23 件の論文
 
-## Taxonomy Collections
+## 分類コレクション
 
-### General Finance, Surveys, and Trading Systems
+### 一般的な財務、調査、取引システム
 
-- Papers selected: **776**
-- Years covered: **2000-2026**
-- Citation count in selected set: **280,139**
-- Category Overview:
-  - General papers include surveys, frameworks, benchmark discussions, and systems that organize stock-investment research.
-  - This category helps readers connect finance theory, empirical design, and AI-based trading practice.
-  - Metadata-driven ranking is useful as a map of influence but does not replace full-paper expert review.
-- Limitations:
-  - Surveys and systems can dominate citations while empirical evidence remains mixed across markets.
-  - Broad claims need careful mapping to data, costs, and investment horizons.
-  - Metadata-driven ranking cannot replace expert reading of full papers and backtests.
+- 選択された論文: **776**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **280,139**
+- カテゴリの概要:
+  - 一般論文には、調査、フレームワーク、ベンチマークに関する議論、株式投資調査を組織するシステムなどが含まれます。
+  - このカテゴリは、読者が金融理論、実証的設計、AI ベースの取引実践を結びつけるのに役立ちます。
+  - メタデータ主導のランキングは影響力マップとしては便利ですが、フルペーパーの専門家によるレビューに代わるものではありません。
+- 制限事項:
+  - 市場全体では実証的証拠が混在したままである一方で、調査やシステムが引用の大半を占める可能性があります。
+  - 広範な請求には、データ、コスト、投資期間を注意深くマッピングする必要があります。
+  - メタデータ主導のランキングは、専門家による論文全文やバックテストの読解に代わるものではありません。
 
 <details>
 <summary><strong>Show representative papers for General Finance, Surveys, and Trading Systems</strong></summary>
@@ -193,19 +193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Risk, Volatility, and Forecast Evaluation
+### リスク、ボラティリティ、予測の評価
 
-- Papers selected: **364**
-- Years covered: **2000-2026**
-- Citation count in selected set: **123,369**
-- Category Overview:
-  - Risk and volatility papers estimate uncertainty, tails, drawdowns, and forecast reliability for stock investment.
-  - The area links econometrics, machine learning, and practical portfolio risk controls.
-  - Evaluation quality depends on out-of-sample tests, regime sensitivity, and transparent loss functions.
-- Limitations:
-  - Risk forecasts can fail under regime breaks and extreme events.
-  - Choice of loss function strongly affects model rankings.
-  - Citation counts do not prove suitability for a specific mandate or risk budget.
+- 選択された論文: **364**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **123,369**
+- カテゴリの概要:
+  - リスクとボラティリティの論文では、株式投資の不確実性、テール、ドローダウン、予測の信頼性が推定されます。
+  - この分野は、計量経済学、機械学習、および実践的なポートフォリオのリスク管理を結び付けます。
+  - 評価の品質は、アウトオブサンプルテスト、レジーム感度、および透明な損失関数に依存します。
+- 制限事項:
+  - 体制崩壊や極端な現象が発生した場合には、リスク予測が失敗する可能性があります。
+  - 損失関数の選択は、モデルのランキングに大きく影響します。
+  - 引用数は、特定の任務やリスク予算への適合性を証明するものではありません。
 
 <details>
 <summary><strong>Show representative papers for Risk, Volatility, and Forecast Evaluation</strong></summary>
@@ -318,19 +318,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Asset Pricing and Return Predictability
+### 資産の価格設定と収益の予測可能性
 
-- Papers selected: **272**
-- Years covered: **2000-2026**
-- Citation count in selected set: **127,533**
-- Category Overview:
-  - Asset-pricing work connects stock returns to factors, anomalies, valuation signals, and changing market efficiency.
-  - Citation-ranked papers often define reusable signals or empirical designs that later trading and portfolio papers inherit.
-  - The central question is whether return predictability survives costs, multiple testing, and out-of-sample evaluation.
-- Limitations:
-  - Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.
-  - Citation impact can favor well-known anomalies even when live performance later weakens.
-  - Metadata cannot verify whether data-snooping controls were adequate.
+- 選択された論文: **272**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **127,533**
+- カテゴリの概要:
+  - 資産価格設定の作業では、株式リターンを要因、異常、評価シグナル、および市場効率の変化と結び付けます。
+  - 引用ランキングの論文は、多くの場合、後のトレーディング論文やポートフォリオ論文に継承される再利用可能なシグナルや経験的なデザインを定義します。
+  - 中心的な問題は、コスト、複数のテスト、サンプル外の評価を経て、リターンの予測可能性が維持できるかどうかです。
+- 制限事項:
+  - 取引コスト、クラウディング、複数のテストの修正後には、リターンの予測可能性が失われる可能性があります。
+  - 引用の影響は、後でライブパフォーマンスが低下した場合でも、既知の異常に有利に働く可能性があります。
+  - メタデータは、データ スヌーピング制御が適切であったかどうかを検証できません。
 
 <details>
 <summary><strong>Show representative papers for Asset Pricing and Return Predictability</strong></summary>
@@ -443,19 +443,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Reinforcement Learning and Algorithmic Trading
+### 強化学習とアルゴリズム取引
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **68,807**
-- Category Overview:
-  - Reinforcement-learning and algorithmic-trading papers frame trading as sequential decision-making under costs and risk.
-  - The area connects policy learning, execution, market making, and portfolio rebalancing.
-  - Robust evaluation needs realistic costs, liquidity constraints, and stress tests beyond benchmark backtests.
-- Limitations:
-  - Simulated rewards can diverge from executable trading under slippage, latency, and market impact.
-  - Policies can be brittle during regime shifts or stress periods.
-  - Backtest-only evidence needs live or paper-trading validation.
+- 選択された論文: **265**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **68,807**
+- カテゴリの概要:
+  - 強化学習とアルゴリズムトレーディングの論文は、コストとリスクの下での逐次的な意思決定としてトレーディングを組み立てています。
+  - この領域は、政策の学習、実行、マーケットメイク、ポートフォリオのリバランスを結び付けます。
+  - 堅牢な評価には、現実的なコスト、流動性の制約、ベンチマークのバックテストを超えるストレステストが必要です。
+- 制限事項:
+  - シミュレートされた報酬は、スリッページ、レイテンシー、市場への影響により、実行可能な取引から乖離する可能性があります。
+  - 政策は、政権交代やストレスの時期には脆弱になる可能性があります。
+  - バックテストのみの証拠には、ライブまたは紙の取引検証が必要です。
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Algorithmic Trading</strong></summary>
@@ -568,19 +568,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Sentiment, News, and Alternative Data
+### 感情、ニュース、代替データ
 
-- Papers selected: **263**
-- Years covered: **2000-2026**
-- Citation count in selected set: **83,678**
-- Category Overview:
-  - Text and alternative-data research studies whether news, social media, filings, and language models improve stock decisions.
-  - The field has shifted from dictionary sentiment to NLP, representation learning, and LLM-assisted financial text analysis.
-  - Strong papers align timestamped information with tradable horizons to avoid look-ahead bias.
-- Limitations:
-  - Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.
-  - Sentiment signals can decay quickly as information becomes crowded.
-  - Data licensing and coverage bias can limit reproducibility.
+- 選択された論文: **263**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **83,678**
+- カテゴリの概要:
+  - テキストおよび代替データの調査は、ニュース、ソーシャルメディア、申請書類、および言語モデルが株式の意思決定を改善するかどうかを研究します。
+  - この分野は、辞書センチメントから NLP、表現学習、LLM 支援の財務テキスト分析に移行しました。
+  - 強力な論文は、先読みバイアスを回避するために、タイムスタンプ付きの情報を取引可能な期間と一致させます。
+- 制限事項:
+  - タイムスタンプの調整と先読みバイアスは、テキストと代替データの研究にとって重要です。
+  - 情報が混雑すると、センチメントシグナルは急速に減衰する可能性があります。
+  - データのライセンスと適用範囲の偏りにより、再現性が制限される可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Sentiment, News, and Alternative Data</strong></summary>
@@ -693,19 +693,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Deep Learning and Financial Time Series
+### ディープラーニングと金融時系列
 
-- Papers selected: **256**
-- Years covered: **2000-2026**
-- Citation count in selected set: **116,496**
-- Category Overview:
-  - Deep-learning work uses recurrent, convolutional, attention, and transformer models to represent nonlinear market dynamics.
-  - Recent papers increasingly combine price series with text, order-book, macro, or cross-asset signals.
-  - The key methodological issue is controlling overfitting in nonstationary, low-signal financial data.
-- Limitations:
-  - Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.
-  - Compute-heavy models may be hard to reproduce without code and data access.
-  - Reported gains need robustness checks across regimes and markets.
+- 選択された論文: **256**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **116,496**
+- カテゴリの概要:
+  - 深層学習の作業では、リカレント、畳み込み、アテンション、トランスフォーマー モデルを使用して、非線形の市場ダイナミクスを表現します。
+  - 最近の論文では、価格シリーズとテキスト、オーダーブック、マクロ、またはクロスアセットシグナルを組み合わせたものが増えています。
+  - 方法論上の重要な問題は、非定常で低信号の金融データにおける過剰適合を制御することです。
+- 制限事項:
+  - ディープ モデルは、ノイズが多く、非定常で、信号対雑音が低い市場データをオーバーフィットする可能性があります。
+  - 計算量の多いモデルは、コードとデータにアクセスしないと再現するのが難しい場合があります。
+  - 報告された利益については、体制や市場全体での堅牢性のチェックが必要です。
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Financial Time Series</strong></summary>
@@ -818,19 +818,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Portfolio Optimization and Asset Allocation
+### ポートフォリオの最適化と資産配分
 
-- Papers selected: **187**
-- Years covered: **2000-2026**
-- Citation count in selected set: **66,070**
-- Category Overview:
-  - Portfolio research turns return forecasts into allocation decisions under uncertainty, constraints, and risk budgets.
-  - The literature moves from mean-variance foundations toward robust, Bayesian, machine-learning, and risk-aware allocation.
-  - High-impact work is valuable when it clarifies how estimation error changes realized portfolio performance.
-- Limitations:
-  - Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.
-  - Backtests may hide capacity and liquidity limits.
-  - Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.
+- 選択された論文: **187**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **66,070**
+- カテゴリの概要:
+  - ポートフォリオ調査は、不確実性、制約、リスク予算の下で、リターン予測を配分決定に変えます。
+  - 文献は、平均分散の基礎から、堅牢なベイジアン、機械学習、およびリスクを意識した配分へと移行しています。
+  - 影響力の高い研究は、推定誤差の変化がポートフォリオのパフォーマンスをどのように実現したかを明らかにする場合に価値があります。
+- 制限事項:
+  - 配分利益は、推定誤差、売上高、空売りの制約、ベンチマークの選択によって左右される可能性があります。
+  - バックテストにより、キャパシティと流動性の制限が隠蔽される可能性があります。
+  - メタデータでは、コスト、レバレッジ、リバランス ルールなどの実装の詳細を確認できません。
 
 <details>
 <summary><strong>Show representative papers for Portfolio Optimization and Asset Allocation</strong></summary>
@@ -943,19 +943,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Machine Learning for Stock Prediction
+### 株価予測のための機械学習
 
-- Papers selected: **166**
-- Years covered: **2000-2026**
-- Citation count in selected set: **60,402**
-- Category Overview:
-  - Classical machine-learning papers apply kernels, trees, boosting, ensembles, and data-mining methods to stock prediction.
-  - The main trend is a shift from single-indicator technical models toward richer feature sets and stricter validation.
-  - Useful results separate predictive accuracy from economically meaningful profitability after costs.
-- Limitations:
-  - Predictive accuracy may not translate into risk-adjusted returns after costs.
-  - Feature leakage, survivorship bias, and nonstationarity are persistent concerns.
-  - Metadata-driven screening cannot audit the exact train/test split.
+- 選択された論文: **166**
+- 対象年: **2000-2026**
+- 選択したセット内の引用数: **60,402**
+- カテゴリの概要:
+  - 古典的な機械学習の論文では、カーネル、ツリー、ブースティング、アンサンブル、データマイニング手法を株価予測に適用しています。
+  - 主な傾向は、単一指標のテクニカル モデルから、より豊富な機能セットとより厳格な検証への移行です。
+  - 有用な結果は、予測精度と、コストを引いた経済的に意味のある収益性を区別します。
+- 制限事項:
+  - 予測精度は、コストを引いた後のリスク調整後の収益に反映されない可能性があります。
+  - 特徴漏洩、生存者バイアス、非定常性は根強い懸念事項です。
+  - メタデータ主導のスクリーニングでは、トレーニングとテストの正確な分割を監査できません。
 
 <details>
 <summary><strong>Show representative papers for Machine Learning for Stock Prediction</strong></summary>
@@ -1068,19 +1068,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Market Microstructure and High-Frequency Trading
+### 市場の微細構造と高頻度取引
 
-- Papers selected: **128**
-- Years covered: **2000-2026**
-- Citation count in selected set: **48,251**
-- Category Overview:
-  - Microstructure and high-frequency work studies liquidity, order flow, price impact, and short-horizon prediction.
-  - The literature is shaped by transaction costs, latency, execution risk, and limit-order-book dynamics.
-  - The most useful results make trading constraints explicit rather than treating prices as frictionless signals.
-- Limitations:
-  - High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.
-  - Public metadata rarely reveals execution assumptions.
-  - Short-horizon predictability can vanish when capacity and competition are considered.
+- 選択された論文: **128**
+- 対象年: **2000-2026**
+- 選択したセットの引用数: **48,251**
+- カテゴリの概要:
+  - 微細構造と高頻度作業により、流動性、注文フロー、価格への影響、短期予測が研究されます。
+  - 文献は、取引コスト、待ち時間、約定リスク、および指値注文のダイナミクスによって形成されます。
+  - 最も有益な結果は、価格を摩擦のないシグナルとして扱うのではなく、取引の制約を明確にします。
+- 制限事項:
+  - 高頻度の結果は、市場アクセス、レイテンシー、手数料、注文帳再構築の品質に大きく依存します。
+  - 公開メタデータが実行の前提を明らかにすることはほとんどありません。
+  - キャパシティと競争を考慮すると、短期的な予測可能性が失われる可能性があります。
 
 <details>
 <summary><strong>Show representative papers for Market Microstructure and High-Frequency Trading</strong></summary>
@@ -1193,19 +1193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Behavioral Finance and Investor Decision-Making
+### 行動ファイナンスと投資家の意思決定
 
-- Papers selected: **23**
-- Years covered: **2000-2024**
-- Citation count in selected set: **7,959**
-- Category Overview:
-  - Behavioral-finance research explains stock-market anomalies through investor attention, sentiment, bias, and limits to arbitrage.
-  - Citation-ranked work often supplies mechanisms that complement purely statistical prediction models.
-  - The strongest papers connect behavioral signals to implementable investment constraints.
-- Limitations:
-  - Behavioral mechanisms can be market-specific and time-varying.
-  - Sentiment proxies may capture several confounded channels.
-  - Trading implementation requires constraints beyond the behavioral explanation.
+- 選択された論文: **23**
+- 対象年: **2000-2024**
+- 選択したセットの引用数: **7,959**
+- カテゴリの概要:
+  - 行動金融研究は、投資家の注意、感情、偏見、裁定取引の制限を通じて株式市場の異常性を説明します。
+  - 引用ランク付けされた研究は、多くの場合、純粋に統計的な予測モデルを補完するメカニズムを提供します。
+  - 最も強力な論文は、行動シグナルを実装可能な投資制約に結び付けます。
+- 制限事項:
+  - 行動メカニズムは市場固有であり、時間とともに変化する場合があります。
+  - センチメントプロキシは、いくつかの混乱したチャネルをキャプチャする可能性があります。
+  - 取引の実装には、動作の説明を超えた制約が必要です。
 
 <details>
 <summary><strong>Show representative papers for Behavioral Finance and Investor Decision-Making</strong></summary>
@@ -1318,7 +1318,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-## Yearly Selection Summary
+## 年間セレクションの概要
 
 | Year | Candidate records | Selected papers | Selected citations | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1350,24 +1350,24 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 | 2025 | 1,000 | 100 | 5,571 | [The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models](https://doi.org/10.48550/arXiv.2505.22617) |
 | 2026 | 1,000 | 100 | 713 | [Mamba-3: Improved Sequence Modeling using State Space Principles](https://doi.org/10.48550/arXiv.2603.15569) |
 
-## Curation Method
+## キュレーション方法
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover stock prediction, equity returns, asset pricing, portfolio optimization, financial time series, algorithmic trading, reinforcement learning, sentiment/news/alternative data, market microstructure, high-frequency trading, volatility, and risk themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit stock-investment and AI-trading relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+このコレクションでは、Semantic Scholar Academic Graph の一括検索を使用します。クエリは、株価予測、株式リターン、資産価格設定、ポートフォリオの最適化、金融時系列、アルゴリズム取引、強化学習、感情/ニュース/代替データ、市場の微細構造、高頻度取引、ボラティリティ、リスクのテーマをカバーします。 2000 年から 2026 年までの各年について、結果は出版年にフィルタリングされ、タイトル/要約/会場のメタデータ内の明示的な株式投資と AI 取引の関連性表現でスクリーニングされ、DOI、arXiv、PubMed、CorpusId、paperId、次にタイトルによって重複が排除され、引用数に基づいて最大 1,000 件の候補に絞り込まれます。最後の素晴らしいリストでは、各出版年の中で引用数に基づいて上位 100 件の論文が選択されます。影響力のある引用数と決定論的なメタデータ重要度スコアは、タイブレーカーおよび監査シグナルとして保持されます。
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+分類法、主要なアイデア、長所、制限、メソッド タグ、およびキーワード タグは、パブリック メタデータとルールベースのドメイン規則から決定論的に生成されます。有料 API、有料 LLM、有料翻訳、有料コンピューティングは使用されませんでした。
 
-## Limitations
+## 制限事項
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation count is an influence signal, not investment advice or proof of live trading profitability.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-27.
-- Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.
+- これはメタデータ主導の引用マップであり、すべての PDF を完全に体系的にレビューしたものではありません。
+- 引用数は影響力のシグナルであり、投資アドバイスや実際の取引の収益性の証明ではありません。
+- Semantic Scholar のメタデータでは、一部のレコードについて、会場、抄録、PDF、または影響力のある引用数が省略される場合があります。
+- 2026 年の論文は、2026 年が部分的であり、2026 年 6 月 27 日の時点で引用の蓄積がまだ未熟であるため、構造的に引用が不利です。
+- 株式投資の調査は、取引コスト、生存者バイアス、先読みバイアス、市場への影響、体制変化に特に敏感です。これらは論文全体とデータレベルのレビューが必要です。
 
-## Acknowledgements
+## 謝辞
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+このリポジトリとインタラクティブ サイトは、[jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) に感謝して作成されました。その論文キュレーションのワークフローとリポジトリの構成は、ここで分類法優先の引用ランク付けされた研究マップに使用されるアプローチに影響を与えました。
 
-## License
+## ライセンス
 
-CC-BY-4.0 for text and metadata curation. Upstream paper metadata belongs to the original sources.
+テキストとメタデータのキュレーションには CC-BY-4.0。上流の論文メタデータは元のソースに属します。

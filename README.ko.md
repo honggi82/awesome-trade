@@ -1,7 +1,7 @@
-# Awesome Trade
+# 멋진 거래
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of stock investment and AI-driven trading research from 2000 through 2026.
+2000년부터 2026년까지 주식 투자 및 AI 기반 거래 연구에 대한 분류 우선, 인용 순위 지도입니다.
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-trade/">
@@ -10,77 +10,77 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
   <a href="README.ja.md">日本語</a> |
-  <a href="README.ko.md">한국어</a> |
+  <a href="README.ko.md"><strong>한국어</strong></a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
   <a href="README.zh.md">中文</a>
 </div>
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
+무료 공개 Semantic Scholar 메타데이터에서 2026년 6월 27일에 생성되었습니다. 이번 판은 2000년부터 2026년까지 출판 연도당 최대 1,000개의 주식 투자 및 AI 거래 후보 논문을 조사하고, 27,000개의 기록으로 구성된 감사 후보 풀을 유지하며, 인용 횟수 기준으로 매년 상위 100개 논문(선택된 2,700개 논문)을 선정하고, 연구 분류별로 재구성합니다.
 
-## Project Links
+## 프로젝트 링크
 
-- Open Interactive Website: https://honggi82.github.io/awesome-trade/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period analysis: `data/period_analysis_2000_2026.json`
-- Candidate Pool: `data/candidates_top1000_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
+- 개방형 대화형 웹사이트: https://honggi82.github.io/awesome-trade/
+- 선택한 데이터세트: `data/papers_2000_2026.csv`
+- 종이 수준의 아이디어, 강점 및 한계가 포함된 분류 데이터세트: `data/papers_taxonomy_2000_2026.csv`
+- 미리 계산된 기간 분석: `data/period_analysis_2000_2026.json`
+- 후보자 풀: `data/candidates_top1000_2000_2026.csv`
+- 영문 리뷰 초안: `paper/review_en.html`, `paper/review_en.docx`
+- 한국어 검토 초안: `paper/review_ko.html`
 
-## Keywords Convention
+## 키워드 규칙
 
-These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.
+이러한 배지는 이 컬렉션을 읽고 확장하는 데 사용되는 주식 투자 및 AI 거래 키워드 태그를 정의합니다.
 
-- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: Stock price, return, direction, trend, or market-index prediction and forecasting.
-- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.
-- ![deep-learning](https://img.shields.io/badge/keyword-deep--learning-2563eb) **deep-learning**: Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.
-- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.
-- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.
-- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.
-- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.
-- ![high-frequency](https://img.shields.io/badge/keyword-high--frequency-0891b2) **high-frequency**: Market microstructure, limit order books, order flow, liquidity, and high-frequency trading.
-- ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.
-- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.
-- ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: 주가, 수익률, 방향, 추세 또는 시장 지수 예측 및 예측입니다.
+- ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: 시장을 위한 SVM, 트리, 부스팅, 랜덤 포레스트, 커널, 데이터 마이닝 및 클래식 ML.
+- ![딥 러닝](https://img.shields.io/badge/keyword-deep--learning-2563eb) **딥 러닝**: 신경망, LSTM/GRU/CNN, Attention, 변환기 및 금융 시계열에 대한 표현 학습.
+- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: 예측 모델, NLP/LLM 및 자동화된 전략을 포함한 AI/ML 기반 주식 거래 및 투자 신호입니다.
+- ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **포트폴리오**: 포트폴리오 최적화, 자산 배분, 포트폴리오 선택, 위험 패리티 및 재조정.
+- ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: 강화 학습, 알고리즘 거래, 실행, 시장 조성 및 백테스트된 거래 전략.
+- ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: 뉴스, 소셜 미디어, NLP, LLM, 실적 발표 및 주식 투자를 위한 대체 데이터입니다.
+- ![고빈도](https://img.shields.io/badge/keyword-high--frequency-0891b2) **고빈도**: 시장 미세 구조, 주문 제한, 주문 흐름, 유동성 및 고주파 거래.
+- ![위험-변동성](https://img.shields.io/badge/keyword-risk--volatility-be123c) **위험-변동성**: 변동성 예측, 위험 가치, 하락, 꼬리 위험, 스트레스 테스트 및 예측 평가.
+- ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: 자산 가격 책정, 주식 요인, 이상치, 수익률 예측 가능성 및 단면적 주식 수익률.
+- ![행동 금융](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **행동 금융**: 투자 심리, 관심, 행동 편향, 시장 효율성 및 의사 결정.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: 메타데이터 감사에서 확인된 공식 GitHub 또는 코드 저장소 링크가 있는 논문.
 
-## Taxonomy Overview
+## 분류 개요
 
-- **Total selected papers**: 2,700 papers
-- **Candidate pool audited**: 27,000 papers (2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
-- **Citation count in selected set**: 982,704
-- **General Finance, Surveys, and Trading Systems**: 776 papers
-- **Risk, Volatility, and Forecast Evaluation**: 364 papers
-- **Asset Pricing and Return Predictability**: 272 papers
-- **Reinforcement Learning and Algorithmic Trading**: 265 papers
-- **Sentiment, News, and Alternative Data**: 263 papers
-- **Deep Learning and Financial Time Series**: 256 papers
-- **Portfolio Optimization and Asset Allocation**: 187 papers
-- **Machine Learning for Stock Prediction**: 166 papers
-- **Market Microstructure and High-Frequency Trading**: 128 papers
-- **Behavioral Finance and Investor Decision-Making**: 23 papers
+- **총 선정 논문**: 2,700편
+- **감사된 후보자 풀**: 27,000편의 논문(2000: 1,000, 2001: 1,000, 2002: 1,000, 2003: 1,000, 2004: 1,000, 2005: 1,000, 2006: 1,000, 2007: 1,000, 2008: 1,000, 2009: 1,000, 2010: 1,000, 2011: 1,000, 2012: 1,000, 2013: 1,000, 2014: 1,000, 2015: 1,000, 2016: 1,000, 2017: 1,000, 2018: 1,000, 2019: 1,000, 2020: 1,000, 2021: 1,000, 2022: 1,000, 2023: 1,000, 2024: 1,000, 2025: 1,000, 2026: 1,000)
+- **선택한 세트의 인용 횟수**: 982,704
+- **일반 재무, 조사 및 무역 시스템**: 776편의 논문
+- **위험, 변동성 및 예측 평가**: 364개 논문
+- **자산 가격 책정 및 수익률 예측성**: 272편의 논문
+- **강화 학습 및 알고리즘 거래**: 논문 265개
+- **감정, 뉴스 및 대체 데이터**: 263편의 논문
+- **딥 러닝 및 금융 시계열**: 논문 256편
+- **포트폴리오 최적화 및 자산 배분**: 187편
+- **주가 예측을 위한 기계 학습**: 166편의 논문
+- **시장 미세구조 및 고주파 거래**: 128편의 논문
+- **행동재무 및 투자자 의사결정**: 논문 23편
 
-## Taxonomy Collections
+## 분류 컬렉션
 
-### General Finance, Surveys, and Trading Systems
+### 일반 금융, 조사 및 무역 시스템
 
-- Papers selected: **776**
-- Years covered: **2000-2026**
-- Citation count in selected set: **280,139**
-- Category Overview:
-  - General papers include surveys, frameworks, benchmark discussions, and systems that organize stock-investment research.
-  - This category helps readers connect finance theory, empirical design, and AI-based trading practice.
-  - Metadata-driven ranking is useful as a map of influence but does not replace full-paper expert review.
-- Limitations:
-  - Surveys and systems can dominate citations while empirical evidence remains mixed across markets.
-  - Broad claims need careful mapping to data, costs, and investment horizons.
-  - Metadata-driven ranking cannot replace expert reading of full papers and backtests.
+- 선택된 논문: **776**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **280,139**
+- 카테고리 개요:
+  - 일반 논문에는 설문조사, 프레임워크, 벤치마크 토론, 주식 투자 조사를 구성하는 시스템이 포함됩니다.
+  - 이 카테고리는 독자가 금융 이론, 실증 설계 및 AI 기반 거래 실무를 연결하는 데 도움이 됩니다.
+  - 메타데이터 기반 순위는 영향력 지도로 유용하지만 전체 논문 전문가 리뷰를 대체하지는 않습니다.
+- 제한사항:
+  - 시장 전반에 걸쳐 실증적 증거가 혼합되어 있는 반면 설문조사와 시스템은 인용을 지배할 수 있습니다.
+  - 광범위한 주장에는 데이터, 비용 및 투자 기간에 대한 신중한 매핑이 필요합니다.
+  - 메타데이터 기반 순위는 전문가의 전체 논문 읽기 및 백테스트를 대체할 수 없습니다.
 
 <details>
 <summary><strong>Show representative papers for General Finance, Surveys, and Trading Systems</strong></summary>
@@ -193,19 +193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Risk, Volatility, and Forecast Evaluation
+### 위험, 변동성 및 예측 평가
 
-- Papers selected: **364**
-- Years covered: **2000-2026**
-- Citation count in selected set: **123,369**
-- Category Overview:
-  - Risk and volatility papers estimate uncertainty, tails, drawdowns, and forecast reliability for stock investment.
-  - The area links econometrics, machine learning, and practical portfolio risk controls.
-  - Evaluation quality depends on out-of-sample tests, regime sensitivity, and transparent loss functions.
-- Limitations:
-  - Risk forecasts can fail under regime breaks and extreme events.
-  - Choice of loss function strongly affects model rankings.
-  - Citation counts do not prove suitability for a specific mandate or risk budget.
+- 선택된 논문: **364**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **123,369**
+- 카테고리 개요:
+  - 위험 및 변동성 보고서는 주식 투자에 대한 불확실성, 꼬리, 하락 및 예측 신뢰성을 추정합니다.
+  - 이 영역은 계량경제학, 기계 학습 및 실용적인 포트폴리오 위험 제어를 연결합니다.
+  - 평가 품질은 샘플 외 테스트, 체제 민감도 및 투명 손실 함수에 따라 달라집니다.
+- 제한사항:
+  - 정권 붕괴와 극단적인 상황에서는 위험 예측이 실패할 수 있습니다.
+  - 손실 함수의 선택은 모델 순위에 큰 영향을 미칩니다.
+  - 인용 횟수는 특정 임무 또는 위험 예산에 대한 적합성을 입증하지 않습니다.
 
 <details>
 <summary><strong>Show representative papers for Risk, Volatility, and Forecast Evaluation</strong></summary>
@@ -318,19 +318,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Asset Pricing and Return Predictability
+### 자산 가격 책정 및 수익 예측 가능성
 
-- Papers selected: **272**
-- Years covered: **2000-2026**
-- Citation count in selected set: **127,533**
-- Category Overview:
-  - Asset-pricing work connects stock returns to factors, anomalies, valuation signals, and changing market efficiency.
-  - Citation-ranked papers often define reusable signals or empirical designs that later trading and portfolio papers inherit.
-  - The central question is whether return predictability survives costs, multiple testing, and out-of-sample evaluation.
-- Limitations:
-  - Return predictability can disappear after transaction costs, crowding, and multiple-testing correction.
-  - Citation impact can favor well-known anomalies even when live performance later weakens.
-  - Metadata cannot verify whether data-snooping controls were adequate.
+- 선택된 논문: **272**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **127,533**
+- 카테고리 개요:
+  - 자산 가격 책정 작업은 주식 수익률을 요인, 이상 현상, 평가 신호 및 변화하는 시장 효율성과 연결합니다.
+  - 인용 순위 논문은 종종 나중에 거래 및 포트폴리오 논문이 상속하는 재사용 가능한 신호 또는 경험적 디자인을 정의합니다.
+  - 핵심 질문은 수익 예측 가능성이 비용, 다중 테스트 및 표본 외 평가를 견딜 수 있는지 여부입니다.
+- 제한사항:
+  - 거래 비용, 크라우딩, 다중 테스트 수정 후에 반품 예측 가능성이 사라질 수 있습니다.
+  - 나중에 라이브 공연이 약해지더라도 인용 영향은 잘 알려진 변칙을 선호할 수 있습니다.
+  - 메타데이터는 데이터 스누핑 제어가 적절한지 여부를 확인할 수 없습니다.
 
 <details>
 <summary><strong>Show representative papers for Asset Pricing and Return Predictability</strong></summary>
@@ -443,19 +443,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Reinforcement Learning and Algorithmic Trading
+### 강화 학습 및 알고리즘 거래
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **68,807**
-- Category Overview:
-  - Reinforcement-learning and algorithmic-trading papers frame trading as sequential decision-making under costs and risk.
-  - The area connects policy learning, execution, market making, and portfolio rebalancing.
-  - Robust evaluation needs realistic costs, liquidity constraints, and stress tests beyond benchmark backtests.
-- Limitations:
-  - Simulated rewards can diverge from executable trading under slippage, latency, and market impact.
-  - Policies can be brittle during regime shifts or stress periods.
-  - Backtest-only evidence needs live or paper-trading validation.
+- 선택된 논문: **265**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **68,807**
+- 카테고리 개요:
+  - 강화 학습 및 알고리즘 거래 논문은 거래를 비용과 위험에 따른 순차적인 의사 결정으로 구성합니다.
+  - 이 영역은 정책 학습, 실행, 시장 조성 및 포트폴리오 재조정을 연결합니다.
+  - 강력한 평가에는 현실적인 비용, 유동성 제약, 벤치마크 백테스트 이상의 스트레스 테스트가 필요합니다.
+- 제한사항:
+  - 시뮬레이션된 보상은 슬리피지, 대기 시간 및 시장 영향으로 인해 실행 가능한 거래와 다를 수 있습니다.
+  - 정권교체나 스트레스 기간에는 정책이 불안정해질 수 있습니다.
+  - 백테스트 전용 증거에는 실시간 또는 서면 거래 검증이 필요합니다.
 
 <details>
 <summary><strong>Show representative papers for Reinforcement Learning and Algorithmic Trading</strong></summary>
@@ -568,19 +568,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Sentiment, News, and Alternative Data
+### 감성, 뉴스, 대체 데이터
 
-- Papers selected: **263**
-- Years covered: **2000-2026**
-- Citation count in selected set: **83,678**
-- Category Overview:
-  - Text and alternative-data research studies whether news, social media, filings, and language models improve stock decisions.
-  - The field has shifted from dictionary sentiment to NLP, representation learning, and LLM-assisted financial text analysis.
-  - Strong papers align timestamped information with tradable horizons to avoid look-ahead bias.
-- Limitations:
-  - Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.
-  - Sentiment signals can decay quickly as information becomes crowded.
-  - Data licensing and coverage bias can limit reproducibility.
+- 선택된 논문: **263**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **83,678**
+- 카테고리 개요:
+  - 텍스트 및 대체 데이터 연구는 뉴스, 소셜 미디어, 서류 정리, 언어 모델이 주식 결정을 향상시키는지 여부를 연구합니다.
+  - 이 분야는 사전적 정서에서 NLP, 표현 학습, LLM 지원 재무 텍스트 분석으로 전환되었습니다.
+  - 강력한 서류는 타임스탬프가 있는 정보를 거래 가능한 범위와 정렬하여 예측 편향을 방지합니다.
+- 제한사항:
+  - 타임스탬프 정렬과 예측 편향은 텍스트 및 대체 데이터 연구에 매우 중요합니다.
+  - 정보가 많아지면 감정 신호가 빠르게 약화될 수 있습니다.
+  - 데이터 라이센스 및 적용 범위 편향은 재현성을 제한할 수 있습니다.
 
 <details>
 <summary><strong>Show representative papers for Sentiment, News, and Alternative Data</strong></summary>
@@ -693,19 +693,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Deep Learning and Financial Time Series
+### 딥 러닝 및 금융 시계열
 
-- Papers selected: **256**
-- Years covered: **2000-2026**
-- Citation count in selected set: **116,496**
-- Category Overview:
-  - Deep-learning work uses recurrent, convolutional, attention, and transformer models to represent nonlinear market dynamics.
-  - Recent papers increasingly combine price series with text, order-book, macro, or cross-asset signals.
-  - The key methodological issue is controlling overfitting in nonstationary, low-signal financial data.
-- Limitations:
-  - Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.
-  - Compute-heavy models may be hard to reproduce without code and data access.
-  - Reported gains need robustness checks across regimes and markets.
+- 선택된 논문: **256**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **116,496**
+- 카테고리 개요:
+  - 딥 러닝 작업은 반복, 컨벌루션, 주의 및 변환기 모델을 사용하여 비선형 시장 역학을 나타냅니다.
+  - 최근 논문에서는 가격 시리즈를 텍스트, 주문장, 매크로 또는 자산 간 신호와 결합하는 경우가 점점 늘어나고 있습니다.
+  - 주요 방법론적 문제는 비정상적이고 신호가 낮은 재무 데이터의 과적합을 제어하는 것입니다.
+- 제한사항:
+  - 심층 모델은 잡음이 많고 비정상적이며 신호 대 잡음비가 낮은 시장 데이터에 과대적합할 수 있습니다.
+  - 계산량이 많은 모델은 코드 및 데이터 액세스 없이는 재현하기 어려울 수 있습니다.
+  - 보고된 이익은 체제와 시장 전반에 걸쳐 견고성 점검이 필요합니다.
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Financial Time Series</strong></summary>
@@ -818,19 +818,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Portfolio Optimization and Asset Allocation
+### 포트폴리오 최적화 및 자산 배분
 
-- Papers selected: **187**
-- Years covered: **2000-2026**
-- Citation count in selected set: **66,070**
-- Category Overview:
-  - Portfolio research turns return forecasts into allocation decisions under uncertainty, constraints, and risk budgets.
-  - The literature moves from mean-variance foundations toward robust, Bayesian, machine-learning, and risk-aware allocation.
-  - High-impact work is valuable when it clarifies how estimation error changes realized portfolio performance.
-- Limitations:
-  - Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.
-  - Backtests may hide capacity and liquidity limits.
-  - Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules.
+- 선택된 논문: **187**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **66,070**
+- 카테고리 개요:
+  - 포트폴리오 연구는 불확실성, 제약 및 위험 예산 하에서 수익 예측을 할당 결정으로 바꿉니다.
+  - 문헌은 평균 분산 기반에서 강력한 베이지안, 기계 학습 및 위험 인식 할당으로 이동합니다.
+  - 추정 오류가 실현된 포트폴리오 성과를 어떻게 변화시키는지 명확히 할 때 영향력이 큰 작업은 가치가 있습니다.
+- 제한사항:
+  - 할당 이익은 추정 오류, 회전율, 공매도 제약 및 벤치마크 선택에 의해 좌우될 수 있습니다.
+  - 백테스트는 용량 및 유동성 제한을 숨길 수 있습니다.
+  - 메타데이터는 비용, 활용 또는 재조정 규칙과 같은 구현 세부 사항을 확인할 수 없습니다.
 
 <details>
 <summary><strong>Show representative papers for Portfolio Optimization and Asset Allocation</strong></summary>
@@ -943,19 +943,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Machine Learning for Stock Prediction
+### 주식 예측을 위한 머신러닝
 
-- Papers selected: **166**
-- Years covered: **2000-2026**
-- Citation count in selected set: **60,402**
-- Category Overview:
-  - Classical machine-learning papers apply kernels, trees, boosting, ensembles, and data-mining methods to stock prediction.
-  - The main trend is a shift from single-indicator technical models toward richer feature sets and stricter validation.
-  - Useful results separate predictive accuracy from economically meaningful profitability after costs.
-- Limitations:
-  - Predictive accuracy may not translate into risk-adjusted returns after costs.
-  - Feature leakage, survivorship bias, and nonstationarity are persistent concerns.
-  - Metadata-driven screening cannot audit the exact train/test split.
+- 선택된 논문: **166**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **60,402**
+- 카테고리 개요:
+  - 고전적인 기계 학습 논문은 커널, 트리, 부스팅, 앙상블 및 데이터 마이닝 방법을 주식 예측에 적용합니다.
+  - 주요 추세는 단일 지표 기술 모델에서 더 풍부한 기능 세트와 더 엄격한 검증으로 전환하는 것입니다.
+  - 유용한 결과는 예측 정확도와 비용을 고려한 경제적으로 의미 있는 수익성을 분리합니다.
+- 제한사항:
+  - 예측 정확성은 비용 이후 위험 조정 수익으로 변환되지 않을 수 있습니다.
+  - 기능 누출, 생존 편향, 비정상성은 지속적인 문제입니다.
+  - 메타데이터 기반 스크리닝은 정확한 열차/테스트 분할을 감사할 수 없습니다.
 
 <details>
 <summary><strong>Show representative papers for Machine Learning for Stock Prediction</strong></summary>
@@ -1068,19 +1068,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Market Microstructure and High-Frequency Trading
+### 시장 미세구조 및 초단타 거래
 
-- Papers selected: **128**
-- Years covered: **2000-2026**
-- Citation count in selected set: **48,251**
-- Category Overview:
-  - Microstructure and high-frequency work studies liquidity, order flow, price impact, and short-horizon prediction.
-  - The literature is shaped by transaction costs, latency, execution risk, and limit-order-book dynamics.
-  - The most useful results make trading constraints explicit rather than treating prices as frictionless signals.
-- Limitations:
-  - High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.
-  - Public metadata rarely reveals execution assumptions.
-  - Short-horizon predictability can vanish when capacity and competition are considered.
+- 선택된 논문: **128**
+- 적용 연도: **2000-2026**
+- 선택한 세트의 인용 횟수: **48,251**
+- 카테고리 개요:
+  - 미세 구조 및 고주파 작업은 유동성, 주문 흐름, 가격 영향 및 단기 예측을 연구합니다.
+  - 문헌은 거래 비용, 대기 시간, 실행 위험 및 주문장 제한 역학에 따라 형성됩니다.
+  - 가장 유용한 결과는 가격을 마찰 없는 신호로 취급하는 대신 거래 제약을 명시적으로 만듭니다.
+- 제한사항:
+  - 빈도가 높은 결과는 시장 접근, 대기 시간, 수수료 및 주문장 재구성 품질에 크게 좌우됩니다.
+  - 공개 메타데이터는 실행 가정을 거의 드러내지 않습니다.
+  - 역량과 경쟁을 고려하면 단기 예측 가능성이 사라질 수 있습니다.
 
 <details>
 <summary><strong>Show representative papers for Market Microstructure and High-Frequency Trading</strong></summary>
@@ -1193,19 +1193,19 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-### Behavioral Finance and Investor Decision-Making
+### 행동재무와 투자자 의사결정
 
-- Papers selected: **23**
-- Years covered: **2000-2024**
-- Citation count in selected set: **7,959**
-- Category Overview:
-  - Behavioral-finance research explains stock-market anomalies through investor attention, sentiment, bias, and limits to arbitrage.
-  - Citation-ranked work often supplies mechanisms that complement purely statistical prediction models.
-  - The strongest papers connect behavioral signals to implementable investment constraints.
-- Limitations:
-  - Behavioral mechanisms can be market-specific and time-varying.
-  - Sentiment proxies may capture several confounded channels.
-  - Trading implementation requires constraints beyond the behavioral explanation.
+- 선택된 논문: **23**
+- 적용 연도: **2000-2024**
+- 선택한 세트의 인용 횟수: **7,959**
+- 카테고리 개요:
+  - 행동 금융 연구는 투자자의 관심, 정서, 편견, 차익 거래 제한을 통해 주식 시장의 이상 현상을 설명합니다.
+  - 인용 순위 작업은 순전히 통계적 예측 모델을 보완하는 메커니즘을 제공하는 경우가 많습니다.
+  - 가장 강력한 논문은 행동 신호를 실행 가능한 투자 제약과 연결합니다.
+- 제한사항:
+  - 행동 메커니즘은 시장에 따라 다르며 시간에 따라 달라질 수 있습니다.
+  - 감정 프록시는 여러 가지 혼란스러운 채널을 포착할 수 있습니다.
+  - 거래 구현에는 행동 설명 이상의 제약이 필요합니다.
 
 <details>
 <summary><strong>Show representative papers for Behavioral Finance and Investor Decision-Making</strong></summary>
@@ -1318,7 +1318,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 
 </details>
 
-## Yearly Selection Summary
+## 연간 선택 요약
 
 | Year | Candidate records | Selected papers | Selected citations | Top selected paper |
 |---:|---:|---:|---:|---|
@@ -1350,24 +1350,24 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 | 2025 | 1,000 | 100 | 5,571 | [The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models](https://doi.org/10.48550/arXiv.2505.22617) |
 | 2026 | 1,000 | 100 | 713 | [Mamba-3: Improved Sequence Modeling using State Space Principles](https://doi.org/10.48550/arXiv.2603.15569) |
 
-## Curation Method
+## 큐레이션 방법
 
-The collection uses Semantic Scholar Academic Graph bulk search. Queries cover stock prediction, equity returns, asset pricing, portfolio optimization, financial time series, algorithmic trading, reinforcement learning, sentiment/news/alternative data, market microstructure, high-frequency trading, volatility, and risk themes. For each year from 2000 through 2026, results are filtered to the publication year, screened with explicit stock-investment and AI-trading relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most 1,000 candidates by citation count. The final awesome list selects the top 100 papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals.
+컬렉션은 Semantic Scholar Academic Graph 대량 검색을 사용합니다. 쿼리는 주식 예측, 주식 수익률, 자산 가격 책정, 포트폴리오 최적화, 금융 시계열, 알고리즘 거래, 강화 학습, 정서/뉴스/대체 데이터, 시장 미세 구조, 고주파 거래, 변동성 및 위험 주제를 다룹니다. 2000년부터 2026년까지 매년 결과는 출판 연도로 필터링되고, 제목/초록/장소 메타데이터의 명시적인 주식 투자 및 AI 거래 관련성 표현으로 선별되고, DOI, arXiv, PubMed, CorpusId, paperId, 제목별로 중복 제거되고 인용 횟수에 따라 최대 1,000개의 후보자로 줄어듭니다. 최종 멋진 목록은 인용 횟수를 기준으로 각 출판 연도의 상위 100개 논문을 선택합니다. 영향력 있는 인용 횟수와 결정론적 메타데이터 중요도 점수는 순위 결정 및 감사 신호로 유지됩니다.
 
-The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.
+분류, 핵심 아이디어, 강점, 제한 사항, 방법 태그 및 키워드 태그는 공개 메타데이터 및 규칙 기반 도메인 규칙을 통해 결정적으로 생성됩니다. 유료 API, 유료 LLM, 유료 번역 또는 유료 컴퓨팅이 사용되지 않았습니다.
 
-## Limitations
+## 제한 사항
 
-- This is a metadata-driven citation map, not a full systematic review of every PDF.
-- Citation count is an influence signal, not investment advice or proof of live trading profitability.
-- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-27.
-- Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.
+- 이는 모든 PDF에 대한 전체 체계적 검토가 아닌 메타데이터 기반 인용 지도입니다.
+- 인용 횟수는 투자 조언이나 실시간 거래 수익성 증명이 아닌 영향력 신호입니다.
+- Semantic Scholar 메타데이터는 일부 기록에 대한 장소, 초록, PDF 또는 영향력 있는 인용 횟수를 생략할 수 있습니다.
+- 2026년 논문은 2026년 6월 27일 기준으로 해당 연도가 부분적이고 인용 누적이 아직 미성숙하여 구조적으로 인용 불리한 입장에 있습니다.
+- 주식 투자 조사는 특히 거래 비용, 생존 편향, 예측 편향, 시장 영향 및 체제 변화에 민감합니다. 전체 논문 및 데이터 수준 검토가 필요합니다.
 
-## Acknowledgements
+## 감사의 말
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+이 저장소와 인터랙티브 사이트는 [jeyunlee/paper-curation](https://github.com/jehyunlee/paper-curation)에 대한 감사의 마음으로 만들어졌습니다. 논문 큐레이션 워크플로우와 저장소 조직은 분류 우선, 인용 순위 연구 맵에 사용된 접근 방식을 알려 주었습니다.
 
-## License
+## 라이센스
 
-CC-BY-4.0 for text and metadata curation. Upstream paper metadata belongs to the original sources.
+텍스트 및 메타데이터 큐레이션을 위한 CC-BY-4.0. 업스트림 종이 메타데이터는 원본 소스에 속합니다.
