@@ -3280,6 +3280,19 @@ CATEGORY_COLORS = {
     "General Finance, Surveys, and Trading Systems": ("#0f766e", "#99f6e4"),
 }
 
+KOREAN_CATEGORY_NAMES = {
+    "Asset Pricing and Return Predictability": "자산가격결정과 수익률 예측",
+    "Portfolio Optimization and Asset Allocation": "포트폴리오 최적화와 자산배분",
+    "Machine Learning for Stock Prediction": "머신러닝 기반 주식 예측",
+    "Deep Learning and Financial Time Series": "딥러닝과 금융 시계열",
+    "Reinforcement Learning and Algorithmic Trading": "강화학습과 알고리즘 트레이딩",
+    "Sentiment, News, and Alternative Data": "감성, 뉴스, 대체데이터",
+    "Market Microstructure and High-Frequency Trading": "시장 미시구조와 고빈도 거래",
+    "Risk, Volatility, and Forecast Evaluation": "위험, 변동성, 예측 평가",
+    "Behavioral Finance and Investor Decision-Making": "행동재무와 투자자 의사결정",
+    "General Finance, Surveys, and Trading Systems": "일반 금융, 서베이, 거래 시스템",
+}
+
 
 def is_relevant(paper):
     title = norm_text(paper.get("title"))
@@ -3896,6 +3909,83 @@ def review_sections(selected, korean=False):
     }
 
 
+def review_sections(selected, korean=False):
+    stats = year_stats(selected)
+    cats = category_stats(selected)
+    total_cites = sum(p["citationCount"] for p in selected)
+    top_cited = sorted(selected, key=lambda p: p["citationCount"], reverse=True)[:12]
+    top_scored = sorted(selected, key=lambda p: p["importanceScore"], reverse=True)[:12]
+    peak_year = max(stats, key=lambda y: stats[y]["citations"])
+    leading_cat, leading_count = cats.most_common(1)[0]
+    if korean:
+        title = f"{YEAR_RANGE_TEXT} 주식 투자 및 AI 트레이딩 연구 동향: 공개 메타데이터 기반 citation-ranked 리뷰"
+        abstract = (
+            f"이 리뷰 초안은 {START_YEAR}년부터 {END_YEAR}년까지 주식 투자, 주가 및 수익률 예측, 포트폴리오 최적화, "
+            f"알고리즘 트레이딩, AI 기반 투자 연구를 연도별 최대 {CANDIDATES_PER_YEAR:,}편의 후보 논문으로 조사하고, "
+            f"각 연도에서 인용수가 높은 상위 {TARGET_PER_YEAR:,}편을 선정해 taxonomy-first 방식으로 정리한다."
+        )
+        methods = (
+            "Semantic Scholar 공개 메타데이터에 stock prediction, asset pricing, portfolio optimization, "
+            "machine learning, deep learning, reinforcement learning trading, sentiment/news, high-frequency trading, "
+            "volatility/risk 관련 질의를 적용했다. 기록은 출판연도별로 필터링하고 명시적 관련성 조건과 중복 제거를 거친 뒤 인용수 기준으로 정렬했다."
+        )
+        findings = [
+            f"선정 논문 {len(selected):,}편은 총 {total_cites:,}회의 인용을 포함하며, 선정 세트의 citation mass가 가장 큰 연도는 {peak_year}년이다.",
+            f"가장 큰 분류는 {KOREAN_CATEGORY_NAMES.get(leading_cat, leading_cat)}({leading_count:,}편)이다.",
+            "AI 기반 주식 투자 연구는 신호 공간을 넓히지만, 실제 경제적 가치는 거래비용, turnover, market impact, capacity, regime shift 검증에 크게 좌우된다.",
+            f"{END_YEAR}년 논문은 아직 인용 축적 기간이 짧으므로 최신성은 별도 전문가 검토로 보완해야 한다.",
+        ]
+        caveat = (
+            "이 문서는 PDF 전문 기반 systematic review가 아니라 공개 메타데이터 기반 citation map이다. "
+            "인용수는 영향력 신호일 뿐 투자 조언이나 실거래 수익성을 보장하지 않는다."
+        )
+        conclusion = (
+            "주식 투자 연구는 전통적 자산가격결정과 포트폴리오 이론 위에 머신러닝, 딥러닝, 텍스트 및 대체데이터, "
+            "강화학습 기반 순차 의사결정을 결합하는 방향으로 확장되고 있다."
+        )
+    else:
+        title = f"Stock Investment and AI Trading Research from {START_YEAR} to {END_YEAR}: A Metadata-Driven Citation Map"
+        abstract = (
+            f"This draft review maps stock investment and AI-driven trading research from {START_YEAR} through {END_YEAR}, "
+            f"investigating up to {CANDIDATES_PER_YEAR:,} candidate papers per year from free public Semantic Scholar metadata "
+            f"and selecting the top {TARGET_PER_YEAR:,} papers from each year by citation count ({len(selected):,} papers selected)."
+        )
+        methods = (
+            "Queries covered stock prediction, asset pricing, portfolio optimization, financial time series, machine learning, "
+            "deep learning, reinforcement learning trading, sentiment/news, market microstructure, high-frequency trading, volatility, and risk. "
+            "Records were filtered by publication year, screened for explicit stock-investment or AI-trading relevance, deduplicated, and ranked by citation count."
+        )
+        findings = [
+            f"The {len(selected):,} selected papers account for {total_cites:,} citations in the selected set, with the largest citation mass in {peak_year}.",
+            f"The largest category is {leading_cat} ({leading_count:,} papers).",
+            "AI-based stock-investment work broadens the signal surface, but economic value still depends on costs, turnover, capacity, and risk.",
+            f"Papers from {END_YEAR} are structurally citation-disadvantaged because citation accumulation is still immature.",
+        ]
+        caveat = "This is a metadata-driven citation map rather than a full systematic review of every PDF. Citation count is an influence signal, not investment advice or evidence of live trading profitability."
+        conclusion = "Stock-investment research increasingly combines asset-pricing and portfolio foundations with machine learning, deep learning, alternative data, and sequential trading decisions."
+    category_lines = [
+        f"{KOREAN_CATEGORY_NAMES.get(cat, cat) if korean else cat}: {count}"
+        for cat, count in cats.most_common()
+    ]
+    year_lines = [
+        f"{year}: {stats[year]['count']} selected papers, {stats[year]['citations']:,} citations, top selected paper: {stats[year]['top']['title']}"
+        for year in YEARS
+        if year in stats
+    ]
+    return {
+        "title": title,
+        "abstract": abstract,
+        "methods": methods,
+        "findings": findings,
+        "category_lines": category_lines,
+        "year_lines": year_lines,
+        "top_cited": top_cited,
+        "top_scored": top_scored,
+        "caveat": caveat,
+        "conclusion": conclusion,
+    }
+
+
 def write_project_files(selected, candidates):
     citation = f"""cff-version: 1.2.0
 title: "Awesome Trade: A Metadata-Driven Citation Map of Stock Investment and AI Trading Research, {YEAR_RANGE_TEXT}"
@@ -3915,7 +4005,7 @@ keywords:
 """
     (ROOT / "CITATION.cff").write_text(citation, encoding="utf-8")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")
-    (ROOT / ".gitignore").write_text("__pycache__/\n*.pyc\n.tools/\ndata/cache/\n.playwright-cli/\noutput/playwright/\n", encoding="utf-8")
+    (ROOT / ".gitignore").write_text("__pycache__/\n*.pyc\n.tools/\ndata/cache/\n.playwright-cli/\noutput/playwright/\nbuild.log\nbuild.err.log\n", encoding="utf-8")
     publish = f"""@echo off
 setlocal
 cd /d "%~dp0"
