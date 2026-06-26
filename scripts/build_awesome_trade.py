@@ -33,6 +33,7 @@ CANDIDATES_JSON = f"candidates_top1000_{YEAR_FILE_STEM}.json"
 CANDIDATES_CSV = f"candidates_top1000_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
+PAPER_LOCALIZATIONS_JSON = f"paper_localizations_{YEAR_FILE_STEM}.json"
 GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 LINK_AUDIT_JSON = f"link_audit_{YEAR_FILE_STEM}.json"
 
@@ -1179,6 +1180,7 @@ def write_data(selected, selected_by_year, candidates_by_year):
     candidate_fields = [field for field in fields if field not in ("rank", "yearRank")]
     write_csv(DATA_DIR / PAPERS_CSV, selected, fields)
     write_csv(DATA_DIR / CANDIDATES_CSV, flat_candidates, candidate_fields)
+    write_paper_localizations(DATA_DIR / PAPER_LOCALIZATIONS_JSON, selected)
     for year, rows in candidates_by_year.items():
         stem = f"candidates_top1000_{year}"
         (DATA_DIR / f"{stem}.json").write_text(
@@ -1864,19 +1866,35 @@ def write_taxonomy_icons(selected):
 
 def html_attrs(paper):
     attrs = {
+        "data-paper-id": paper["rank"],
         "data-year": paper["year"],
         "data-citations": paper["citationCount"],
         "data-keywords": " ".join(paper["keywordTags"].split("; ")),
         "data-title": paper["title"],
         "data-venue": paper["venue"],
     }
-    for language in LANGUAGES:
-        fields = localized_paper_fields(paper, language)
-        suffix = language
-        attrs[f"data-key-idea-{suffix}"] = fields["keyIdea"]
-        attrs[f"data-strengths-{suffix}"] = fields["strengths"]
-        attrs[f"data-paper-limitations-{suffix}"] = fields["limitations"]
     return " ".join(f'{key}="{html.escape(str(value), quote=True)}"' for key, value in attrs.items())
+
+
+def paper_localization_payload(rows):
+    return {
+        "generated": date.today().isoformat(),
+        "languages": LANGUAGES,
+        "papers": {
+            str(paper["rank"]): {
+                language: localized_paper_fields(paper, language)
+                for language in LANGUAGES
+            }
+            for paper in rows
+        },
+    }
+
+
+def write_paper_localizations(target, rows):
+    target.write_text(
+        json.dumps(paper_localization_payload(rows), ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
 
 
 def keyword_chips_html(keyword_string):
@@ -2049,6 +2067,7 @@ def write_site(selected):
       const allTaxonomiesList = allTaxonomiesSection?.querySelector(".all-taxonomy-list");
       let allTaxonomiesCards = [];
       let precomputed = null;
+      let paperLocalizations = null;
 
       function formatNumber(value) {{ return Number(value).toLocaleString("en-US"); }}
       function rangeKey(start, end) {{ return `${{start}}-${{end}}`; }}
@@ -2194,8 +2213,10 @@ def write_site(selected):
         if (citationChartCaption) citationChartCaption.textContent = `${{copy.citationChart}} (${{label}})`;
       }}
       function localizedCardText(card, field, language) {{
-        const suffix = language.charAt(0).toUpperCase() + language.slice(1);
-        return card.dataset[`${{field}}${{suffix}}`] || card.dataset[`${{field}}En`] || "";
+        const paper = paperLocalizations?.papers?.[card.dataset.paperId];
+        const selected = paper?.[language] || paper?.en;
+        const jsonField = field === "paperLimitations" ? "limitations" : field;
+        return selected?.[jsonField] || "";
       }}
       function applyPaperLocalization(card, copy) {{
         const language = languageSelect.value;
@@ -2206,8 +2227,9 @@ def write_site(selected):
         ].forEach(([field, labelSelector, textSelector, label]) => {{
           const labelNode = card.querySelector(labelSelector);
           const textNode = card.querySelector(textSelector);
+          const localized = localizedCardText(card, field, language);
           if (labelNode) labelNode.textContent = `${{label}}:`;
-          if (textNode) textNode.textContent = localizedCardText(card, field, language);
+          if (textNode && localized) textNode.textContent = localized;
         }});
       }}
       function applyPrecomputedAnalysis(section, start, end) {{
@@ -2339,10 +2361,15 @@ def write_site(selected):
       }}
       setFromUrl();
       applyYearFilter(false);
-      fetch("data/{PERIOD_ANALYSIS_JSON}")
-        .then(response => response.json())
-        .then(data => {{ precomputed = data; applyYearFilter(false); }})
-        .catch(() => {{ rangeStatus.textContent = "Precomputed analysis could not be loaded."; }});
+      Promise.allSettled([
+        fetch("data/{PERIOD_ANALYSIS_JSON}").then(response => response.json()),
+        fetch("data/{PAPER_LOCALIZATIONS_JSON}").then(response => response.json())
+      ]).then(results => {{
+        if (results[0].status === "fulfilled") precomputed = results[0].value;
+        if (results[1].status === "fulfilled") paperLocalizations = results[1].value;
+        applyYearFilter(false);
+        if (results[0].status === "rejected") rangeStatus.textContent = "Precomputed analysis could not be loaded.";
+      }});
       periodSelect.addEventListener("change", () => {{
         const option = periodSelect.selectedOptions[0];
         if (option && option.dataset.from && option.dataset.to) {{ startSelect.value = option.dataset.from; endSelect.value = option.dataset.to; }}
@@ -2787,7 +2814,7 @@ Taxonomy, key ideas, strengths, limitations, method tags, and keyword convention
 
 
 def copy_public_assets():
-    for filename in (PAPERS_CSV, TAXONOMY_CSV, CANDIDATES_CSV, PERIOD_ANALYSIS_JSON):
+    for filename in (PAPERS_CSV, TAXONOMY_CSV, CANDIDATES_CSV, PERIOD_ANALYSIS_JSON, PAPER_LOCALIZATIONS_JSON):
         shutil.copyfile(DATA_DIR / filename, DOCS_DIR / "data" / filename)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
