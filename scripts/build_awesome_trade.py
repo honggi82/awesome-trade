@@ -3153,6 +3153,7 @@ KEYWORD_CONVENTION = [
     ("stock-prediction", "Stock price, return, direction, trend, or market-index prediction and forecasting.", "0f766e"),
     ("machine-learning", "SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.", "475569"),
     ("deep-learning", "Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.", "2563eb"),
+    ("ai-based-trade", "AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.", "16a34a"),
     ("portfolio", "Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.", "7c2d12"),
     ("reinforcement-trading", "Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.", "dc2626"),
     ("sentiment-altdata", "News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.", "f59e0b"),
@@ -3431,6 +3432,7 @@ def method_tags(paper):
 
 def keyword_tags(paper, category=None):
     text = text_for(paper)
+    raw_text = f"{paper.get('title', '')} {paper.get('abstract', '')} {paper.get('venue', '')}".lower()
     tags = set()
     if re.search(r"\b(stock price|stock return|stock market|equity market|forecast|prediction|predictability)\b", text, re.I):
         tags.add("stock-prediction")
@@ -3452,6 +3454,18 @@ def keyword_tags(paper, category=None):
         tags.add("asset-pricing")
     if re.search(r"\b(behavioral|investor sentiment|attention|herding|overreaction|underreaction|market efficiency)\b", text, re.I):
         tags.add("behavioral-finance")
+    ai_signal = re.search(
+        r"\b(artificial intelligence|ai|machine learning|deep learning|neural network|lstm|gru|cnn|rnn|transformer|support vector|svm|random forest|xgboost|boosting|kernel|data mining|reinforcement|q-learning|policy gradient|actor critic|natural language processing|nlp|language model|large language model|llm|text mining)\b",
+        raw_text,
+        re.I,
+    )
+    trade_signal = re.search(
+        r"\b(stock|equity|portfolio|asset allocation|investment|securities|financial market|capital market|stock market|asset pricing|return predictability|stock return|market return|stock price|price prediction|financial forecast|market forecast|stock forecast|financial time series|algorithmic trading|trading strategy|trading strategies|trading simulation|market making|execution|backtest|order book|high[- ]frequency|microstructure)\b",
+        raw_text,
+        re.I,
+    )
+    if ai_signal and trade_signal:
+        tags.add("ai-based-trade")
     category = category or category_for(paper)
     defaults = {
         "Asset Pricing and Return Predictability": "asset-pricing",
@@ -4283,6 +4297,7 @@ KEYWORD_DESCRIPTION_LANG = {
         "stock-prediction": "주가, 수익률, 방향성, 추세, 시장지수 예측과 forecasting.",
         "machine-learning": "SVM, 트리, 부스팅, 랜덤 포레스트, 커널, 데이터마이닝 등 전통적 ML 기반 시장 분석.",
         "deep-learning": "LSTM/GRU/CNN, attention, transformer, 표현학습 기반 금융 시계열 모델.",
+        "ai-based-trade": "AI/ML 예측 모델, NLP/LLM, 자동화 전략을 활용한 주식 거래와 투자 신호.",
         "portfolio": "포트폴리오 최적화, 자산배분, 포트폴리오 선택, 리스크 패리티, 리밸런싱.",
         "reinforcement-trading": "강화학습, 알고리즘 트레이딩, 실행, market making, 백테스트된 거래 전략.",
         "sentiment-altdata": "뉴스, 소셜미디어, NLP, LLM, 실적발표, 대체데이터 기반 투자 신호.",
@@ -4295,6 +4310,7 @@ KEYWORD_DESCRIPTION_LANG = {
         "stock-prediction": "股票价格、收益、方向、趋势或市场指数预测。",
         "machine-learning": "SVM、树模型、提升方法、随机森林、核方法和数据挖掘在市场中的应用。",
         "deep-learning": "神经网络、LSTM/GRU/CNN、注意力、Transformer 与金融时间序列表征学习。",
+        "ai-based-trade": "使用 AI/ML 预测模型、NLP/LLM 和自动化策略形成股票交易与投资信号。",
         "portfolio": "投资组合优化、资产配置、组合选择、风险平价与再平衡。",
         "reinforcement-trading": "强化学习、算法交易、执行、做市与回测交易策略。",
         "sentiment-altdata": "新闻、社交媒体、NLP、LLM、财报电话会与另类数据投资信号。",
@@ -4307,6 +4323,7 @@ KEYWORD_DESCRIPTION_LANG = {
         "stock-prediction": "株価、リターン、方向、トレンド、市場指数の予測。",
         "machine-learning": "SVM、木モデル、ブースティング、ランダムフォレスト、カーネル、データマイニングの市場応用。",
         "deep-learning": "ニューラルネット、LSTM/GRU/CNN、attention、Transformer、金融時系列の表現学習。",
+        "ai-based-trade": "AI/ML 予測モデル、NLP/LLM、自動化戦略を用いた株式取引と投資シグナル。",
         "portfolio": "ポートフォリオ最適化、資産配分、ポートフォリオ選択、リスクパリティ、リバランス。",
         "reinforcement-trading": "強化学習、アルゴリズム取引、執行、マーケットメイク、バックテスト済み取引戦略。",
         "sentiment-altdata": "ニュース、SNS、NLP、LLM、決算説明会、代替データによる投資シグナル。",

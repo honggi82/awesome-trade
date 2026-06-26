@@ -286,7 +286,7 @@
       "importanceReasons": "citations=493; influential=46; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning; deep-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; ai-based-trade",
       "keyIdea": "Machine learning models are frequently used to solve complex security problems, as well as to make decisions in sensitive situations like guiding autonomous vehicles or predicting financial market behaviors.",
       "strengths": "high citation signal (493); influential citation signal (46); open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
@@ -422,7 +422,7 @@
       "importanceReasons": "citations=412; influential=17; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=5; query hits=4",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "forecasting; machine-learning; deep-learning; sentiment/text",
-      "keywordTags": "stock-prediction; machine-learning; deep-learning; sentiment-altdata; behavioral-finance",
+      "keywordTags": "stock-prediction; machine-learning; deep-learning; ai-based-trade; sentiment-altdata; behavioral-finance",
       "keyIdea": "Predicting stock market movements is a well-known problem of interest.",
       "strengths": "high citation signal (412); influential citation signal (17); open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.",
@@ -592,7 +592,7 @@
       "importanceReasons": "citations=346; influential=17; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Deep learning for stock prediction using numerical and textual information within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (346); influential citation signal (17)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -830,7 +830,7 @@
       "importanceReasons": "citations=296; influential=12; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=7",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Stock prediction using deep learning within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (296); influential citation signal (12)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -898,7 +898,7 @@
       "importanceReasons": "citations=275; influential=3; survey/benchmark signal; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=7; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "In this study the ability of artificial neural network (ANN) in forecasting the daily NASDAQ stock exchange rate was investigated.",
       "strengths": "high citation signal (275); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -966,7 +966,7 @@
       "importanceReasons": "citations=270; influential=13; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=6; query hits=5",
       "category": "Risk, Volatility, and Forecast Evaluation",
       "methodTags": "forecasting; machine-learning; risk/volatility",
-      "keywordTags": "stock-prediction; machine-learning; risk-volatility",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; risk-volatility",
       "keyIdea": "Predicting trends in stock market prices has been an area of interest for researchers for many years due to its complex and dynamic nature.",
       "strengths": "high citation signal (270); influential citation signal (13)",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.",
@@ -1068,7 +1068,7 @@
       "importanceReasons": "citations=262; influential=12; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=4; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "In the business sector, it has always been a difficult task to predict the exact daily price of the stock market index; hence, there is a great deal of research being conducted regarding the prediction of the direction of stock price index movement.",
       "strengths": "high citation signal (262); influential citation signal (12); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -1272,7 +1272,7 @@
       "importanceReasons": "citations=236; influential=21; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=6",
       "category": "Reinforcement Learning and Algorithmic Trading",
       "methodTags": "portfolio; deep-learning; reinforcement-learning",
-      "keywordTags": "deep-learning; portfolio; reinforcement-trading",
+      "keywordTags": "deep-learning; ai-based-trade; portfolio; reinforcement-trading",
       "keyIdea": "Portfolio management is the decision-making process of allocating an amount of fund into different financial investment products.",
       "strengths": "high citation signal (236); influential citation signal (21); open-access PDF metadata",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",
@@ -1782,7 +1782,7 @@
       "importanceReasons": "citations=210; influential=3; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=5",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Application of artificial neural network for the prediction of stock market returns: The case of the Japanese stock market within Deep Learning and Financial Time Series.",
       "strengths": "high citation signal (210)",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -1952,7 +1952,7 @@
       "importanceReasons": "citations=198; influential=9; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=7",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; machine-learning; deep-learning",
-      "keywordTags": "stock-prediction; machine-learning; deep-learning",
+      "keywordTags": "stock-prediction; machine-learning; deep-learning; ai-based-trade",
       "keyIdea": "Abstract In this paper, a novel decision support system using a computational efficient functional link artificial neural network (CEFLANN) and a set of rules is proposed to generate the trading decisions more effectively.",
       "strengths": "high citation signal (198); open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.",
@@ -2394,7 +2394,7 @@
       "importanceReasons": "citations=178; influential=4; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Stock market prediction using machine learning techniques within Machine Learning for Stock Prediction.",
       "strengths": "high citation signal (178)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
@@ -3414,7 +3414,7 @@
       "importanceReasons": "citations=140; influential=2; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=3; query hits=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Abstract Stock market price data is generated in huge volume and it changes every second.",
       "strengths": "high citation signal (140); open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
@@ -3857,7 +3857,7 @@
       "importanceReasons": "citations=126; influential=2; open PDF metadata; title trade matches=2; trade term matches=4; query hits=3",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "forecasting; machine-learning; sentiment/text",
-      "keywordTags": "stock-prediction; machine-learning; sentiment-altdata",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Efficient Market Hypothesis is the popular theory about stock prediction.",
       "strengths": "high citation signal (126); open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -4136,7 +4136,7 @@
       "importanceReasons": "citations=119; influential=2; open PDF metadata; title trade matches=2; trade term matches=2; query hits=5",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "forecasting; sentiment/text",
-      "keywordTags": "stock-prediction; sentiment-altdata",
+      "keywordTags": "stock-prediction; ai-based-trade; sentiment-altdata",
       "keyIdea": "Positions Trade the tweet: Social media text mining and sparse matrix factorization for stock market prediction within Sentiment, News, and Alternative Data.",
       "strengths": "high citation signal (119)",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -4911,7 +4911,7 @@
       "importanceReasons": "citations=99; influential=5; recognized finance/AI venue; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=8",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Stock trend prediction based on a new status box method and AdaBoost probabilistic support vector machine within Machine Learning for Stock Prediction.",
       "strengths": "recognized finance/AI venue",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -5004,7 +5004,7 @@
       "importanceReasons": "citations=99; influential=1; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=6; query hits=5",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "In recent years, financial market dynamics forecasting has been a focus of economic research.",
       "strengths": "open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -5469,7 +5469,7 @@
       "importanceReasons": "citations=92; influential=5; survey/benchmark signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=4",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "deep-learning; sentiment/text",
-      "keywordTags": "deep-learning; sentiment-altdata",
+      "keywordTags": "deep-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "This paper uses a dataset of more than 900,000 news stories to test whether news can predict stock returns.",
       "strengths": "open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -5655,7 +5655,7 @@
       "importanceReasons": "citations=90; influential=1; recognized finance/AI venue; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Improved v -Support vector regression model based on variable selection and brain storm optimization for stock price forecasting within Machine Learning for Stock Prediction.",
       "strengths": "recognized finance/AI venue",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -6306,7 +6306,7 @@
       "importanceReasons": "citations=81; influential=0; recognized finance/AI venue; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=9; query hits=5",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "reinforcement-learning; sentiment/text; risk/volatility",
-      "keywordTags": "stock-prediction; reinforcement-trading; sentiment-altdata; risk-volatility",
+      "keywordTags": "stock-prediction; ai-based-trade; reinforcement-trading; sentiment-altdata; risk-volatility",
       "keyIdea": "The marvel of markets lies in the fact that dispersed information is instantaneously processed and used to adjust the price of goods, services and assets.",
       "strengths": "recognized finance/AI venue; open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -6399,7 +6399,7 @@
       "importanceReasons": "citations=80; influential=4; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=4",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; machine-learning; deep-learning",
-      "keywordTags": "stock-prediction; machine-learning; deep-learning",
+      "keywordTags": "stock-prediction; machine-learning; deep-learning; ai-based-trade",
       "keyIdea": "This study investigated the use of Artificial Neural Network (ANN) and Genetic Algorithm (GA) for prediction of Thailand's SET50 index trend.",
       "strengths": "open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -6709,7 +6709,7 @@
       "importanceReasons": "citations=77; influential=3; recognized finance/AI venue; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=5",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; ai-based-trade",
       "keyIdea": "Positions A Takagi-Sugeno fuzzy model combined with a support vector regression for stock trading forecasting within Machine Learning for Stock Prediction.",
       "strengths": "recognized finance/AI venue",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -7701,7 +7701,7 @@
       "importanceReasons": "citations=67; influential=3; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=4",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Stock market prediction using an improved training algorithm of neural network within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -8290,7 +8290,7 @@
       "importanceReasons": "citations=63; influential=4; open PDF metadata; title trade matches=2; trade term matches=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "The effectiveness of long short term memory networks trained by backpropagation through time for stock price prediction is explored in this paper.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -8569,7 +8569,7 @@
       "importanceReasons": "citations=61; influential=2; open PDF metadata; title trade matches=1; trade term matches=1; query hits=6",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Exploring mutual information-based sentimental analysis with kernel-based extreme learning machine for stock prediction within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -8693,7 +8693,7 @@
       "importanceReasons": "citations=60; influential=3; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=4",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "The introduction of convolutional layers greatly advanced the performance of neural networks on image tasks due to innately capturing a way of encoding and learning translation-invariant operations, matching one of the underlying symmetries of the image domain.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -9034,7 +9034,7 @@
       "importanceReasons": "citations=58; influential=3; open PDF metadata; title trade matches=1; trade term matches=3; query hits=2",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Abstract Stock market prices keep on varying day by day.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -9499,7 +9499,7 @@
       "importanceReasons": "citations=55; influential=3; open PDF metadata; title trade matches=3; trade term matches=3; query hits=5",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions The Impact of Data Normalization on Stock Market Prediction: Using SVM and Technical Indicators within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -10739,7 +10739,7 @@
       "importanceReasons": "citations=49; influential=1; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=7; query hits=5",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Background/Objectives: Accurate prediction of stock market is highly challenging.",
       "strengths": "open-access PDF metadata",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -13095,7 +13095,7 @@
       "importanceReasons": "citations=41; influential=1; AI/ML method signal; open PDF metadata; title trade matches=4; trade term matches=4; query hits=2",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning; deep-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; ai-based-trade",
       "keyIdea": "Positions Forecasting stock returns based on information transmission across global markets using support vector machines within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -13901,7 +13901,7 @@
       "importanceReasons": "citations=39; influential=0; open PDF metadata; title trade matches=2; trade term matches=2; query hits=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Prediction of Stock Market using Data Mining and Artificial Intelligence within Machine Learning for Stock Prediction.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -14056,7 +14056,7 @@
       "importanceReasons": "citations=38; influential=3; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=7",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Decision support system for investing in stock market by using OAA-Neural Network within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -14490,7 +14490,7 @@
       "importanceReasons": "citations=37; influential=2; AI/ML method signal; open PDF metadata; title trade matches=4; trade term matches=4; query hits=4",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions A Stock Market Prediction Method Based on Support Vector Machines (SVM) and Independent Component Analysis (ICA) within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -14800,7 +14800,7 @@
       "importanceReasons": "citations=36; influential=8; investment validation signal; open PDF metadata; title trade matches=1; trade term matches=3; query hits=2",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "forecasting; sentiment/text; risk/volatility",
-      "keywordTags": "stock-prediction; sentiment-altdata; risk-volatility",
+      "keywordTags": "stock-prediction; ai-based-trade; sentiment-altdata; risk-volatility",
       "keyIdea": "The growing amount of public financial data makes it increasingly important to learn how to discover valuable information for financial decision making.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -14831,7 +14831,7 @@
       "importanceReasons": "citations=36; influential=3; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Stock market forecasting using recurrent neural network within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -15823,7 +15823,7 @@
       "importanceReasons": "citations=34; influential=1; recognized finance/AI venue; investment validation signal; AI/ML method signal; open PDF metadata; trade term matches=3",
       "category": "Risk, Volatility, and Forecast Evaluation",
       "methodTags": "forecasting; deep-learning; risk/volatility",
-      "keywordTags": "stock-prediction; deep-learning; risk-volatility",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade; risk-volatility",
       "keyIdea": "Abstract The rough set-based pseudo outer-product fuzzy neural network (RSPOP FNN) is a member of the pseudo outer-product (POP) FNN family known for high accuracy and interpretability.",
       "strengths": "recognized finance/AI venue",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
@@ -17404,7 +17404,7 @@
       "importanceReasons": "citations=30; influential=3; open PDF metadata; trade term matches=1",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; ai-based-trade",
       "keyIdea": "FDI is considered as an important source of capital investment for small island economies and is considered as a crucial tool for attaining economic growth and development.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -17559,7 +17559,7 @@
       "importanceReasons": "citations=30; influential=1; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=4; query hits=2",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Forecasting the movement of stock market is a long-time attractive topic.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -18489,7 +18489,7 @@
       "importanceReasons": "citations=28; influential=5; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2",
       "category": "Reinforcement Learning and Algorithmic Trading",
       "methodTags": "portfolio; reinforcement-learning",
-      "keywordTags": "portfolio; reinforcement-trading",
+      "keywordTags": "ai-based-trade; portfolio; reinforcement-trading",
       "keyIdea": "Positions Portfolio Management using Reinforcement Learning within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation."
@@ -18551,7 +18551,7 @@
       "importanceReasons": "citations=28; influential=3; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=4; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Successful prediction of stock indices could yield significant profit and hence require an efficient prediction system.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -18644,7 +18644,7 @@
       "importanceReasons": "citations=28; influential=1; open PDF metadata; title trade matches=3; trade term matches=3; query hits=2",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Stock market trend prediction using AHP and weighted kernel LS-SVM within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -18768,7 +18768,7 @@
       "importanceReasons": "citations=28; influential=0; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=4; trade term matches=7; query hits=3",
       "category": "Market Microstructure and High-Frequency Trading",
       "methodTags": "forecasting; machine-learning; microstructure",
-      "keywordTags": "stock-prediction; machine-learning; reinforcement-trading; high-frequency; asset-pricing",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; reinforcement-trading; high-frequency; asset-pricing",
       "keyIdea": "This paper investigates the value of designing a new kernel of support vector regression for the application of forecasting high-frequency stock returns.",
       "strengths": "open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
@@ -18985,7 +18985,7 @@
       "importanceReasons": "citations=27; influential=1; survey/benchmark signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=5; query hits=4",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "survey/review; forecasting; machine-learning; sentiment/text",
-      "keywordTags": "stock-prediction; machine-learning; sentiment-altdata",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Forecasting share performance becomes more challenging issue due to the enormous amount of valuable trading data stored in the stock database.",
       "strengths": "open-access PDF metadata",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -19016,7 +19016,7 @@
       "importanceReasons": "citations=27; influential=1; investment validation signal; open PDF metadata; title trade matches=1; trade term matches=1",
       "category": "Portfolio Optimization and Asset Allocation",
       "methodTags": "portfolio",
-      "keywordTags": "portfolio",
+      "keywordTags": "ai-based-trade; portfolio",
       "keyIdea": "Positions Portfolio Blending via Thompson Sampling within Portfolio Optimization and Asset Allocation.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
@@ -19481,7 +19481,7 @@
       "importanceReasons": "citations=26; influential=7; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3",
       "category": "Reinforcement Learning and Algorithmic Trading",
       "methodTags": "reinforcement-learning",
-      "keywordTags": "reinforcement-trading",
+      "keywordTags": "ai-based-trade; reinforcement-trading",
       "keyIdea": "Positions Pairs trading strategy optimization using the reinforcement learning method: a cointegration approach within Reinforcement Learning and Algorithmic Trading.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation."
@@ -19667,7 +19667,7 @@
       "importanceReasons": "citations=26; influential=2; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=3; query hits=2",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "forecasting; deep-learning; sentiment/text",
-      "keywordTags": "stock-prediction; deep-learning; sentiment-altdata",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Positions Stock market prediction exploiting microblog sentiment analysis within Sentiment, News, and Alternative Data.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -19698,7 +19698,7 @@
       "importanceReasons": "citations=26; influential=2; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Application of the Artifical Neural Network in Predicting the Direction of Stock Market Index within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -20194,7 +20194,7 @@
       "importanceReasons": "citations=25; influential=3; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=4",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; ai-based-trade",
       "keyIdea": "Positions Machine learning techniques for short term stock movements classification for Moroccan stock exchange within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -21620,7 +21620,7 @@
       "importanceReasons": "citations=24; influential=0; open PDF metadata; title trade matches=3; trade term matches=3; query hits=6",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Stock Price Prediction Based on Financial Statements Using SVM within Machine Learning for Stock Prediction.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -22054,7 +22054,7 @@
       "importanceReasons": "citations=23; influential=2; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=5",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Deep learning with stock indicators and two-dimensional principal component analysis for closing price prediction system within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."
@@ -23263,7 +23263,7 @@
       "importanceReasons": "citations=22; influential=0; AI/ML method signal; open PDF metadata; trade term matches=3",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "machine-learning; sentiment/text",
-      "keywordTags": "machine-learning; sentiment-altdata",
+      "keywordTags": "machine-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Breaking news on economic events such as stock splits or mergers and acquisitions has been shown to have a substantial impact on the financial markets.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -23759,7 +23759,7 @@
       "importanceReasons": "citations=21; influential=1; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=7",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Stock market prediction using evolutionary support vector machines: an application to the ASE20 index within Machine Learning for Stock Prediction.",
       "strengths": "open-access PDF metadata",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -25619,7 +25619,7 @@
       "importanceReasons": "citations=19; influential=1; survey/benchmark signal; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=6; query hits=2",
       "category": "Portfolio Optimization and Asset Allocation",
       "methodTags": "portfolio; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning; portfolio",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; portfolio",
       "keyIdea": "In this paper we propose a novel application of Gaussian processes (GPs) to financial asset allocation.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Allocation gains can be dominated by estimation error, turnover, short-sale constraints, and benchmark choice.; Backtests may hide capacity and liquidity limits.; Metadata cannot confirm implementation details such as costs, leverage, or rebalancing rules."
@@ -28223,7 +28223,7 @@
       "importanceReasons": "citations=17; influential=1; survey/benchmark signal; investment validation signal; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=5; query hits=4",
       "category": "Market Microstructure and High-Frequency Trading",
       "methodTags": "forecasting; machine-learning; deep-learning",
-      "keywordTags": "stock-prediction; machine-learning; deep-learning",
+      "keywordTags": "stock-prediction; machine-learning; deep-learning; ai-based-trade",
       "keyIdea": "Market impact cost is the most significant portion of implicit transaction costs that can reduce the overall transaction cost, although it cannot be measured directly.",
       "strengths": "open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
@@ -28750,7 +28750,7 @@
       "importanceReasons": "citations=17; influential=0; investment validation signal; open PDF metadata; title trade matches=3; trade term matches=4; query hits=4",
       "category": "Risk, Volatility, and Forecast Evaluation",
       "methodTags": "forecasting; machine-learning; risk/volatility",
-      "keywordTags": "stock-prediction; machine-learning; risk-volatility",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; risk-volatility",
       "keyIdea": "Recent empirical approaches in forecasting equity returns or premiums found that dynamic interactions among the stock and bond are relevant for long term pension products.",
       "strengths": "open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
@@ -28843,7 +28843,7 @@
       "importanceReasons": "citations=17; influential=0; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=5; query hits=5",
       "category": "Market Microstructure and High-Frequency Trading",
       "methodTags": "forecasting; machine-learning; reinforcement-learning; microstructure",
-      "keywordTags": "stock-prediction; machine-learning; reinforcement-trading; high-frequency",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; reinforcement-trading; high-frequency",
       "keyIdea": "Since the CSI 300 index futures officially began trading on April 15, 2010, analysis and predictions of the price fluctuations of Chinese stock index futures prices have become a popular area of active research.",
       "strengths": "open-access PDF metadata",
       "limitations": "High-frequency results depend heavily on market access, latency, fees, and order-book reconstruction quality.; Public metadata rarely reveals execution assumptions.; Short-horizon predictability can vanish when capacity and competition are considered."
@@ -28874,7 +28874,7 @@
       "importanceReasons": "citations=17; influential=0; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3",
       "category": "Sentiment, News, and Alternative Data",
       "methodTags": "deep-learning; sentiment/text",
-      "keywordTags": "stock-prediction; deep-learning; sentiment-altdata",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade; sentiment-altdata",
       "keyIdea": "Positions Predicting Stock Price Movements with News Sentiment: An Artificial Neural Network Approach within Sentiment, News, and Alternative Data.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility."
@@ -28905,7 +28905,7 @@
       "importanceReasons": "citations=17; influential=0; investment validation signal; open PDF metadata; title trade matches=1; trade term matches=1; query hits=2",
       "category": "Risk, Volatility, and Forecast Evaluation",
       "methodTags": "machine-learning; risk/volatility",
-      "keywordTags": "stock-prediction; machine-learning; risk-volatility",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade; risk-volatility",
       "keyIdea": "In this paper we use Clustering Method to understand whether stock market volatility can be predicted at all, and if so, when it can be predicted.",
       "strengths": "open-access PDF metadata",
       "limitations": "Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget."
@@ -29277,7 +29277,7 @@
       "importanceReasons": "citations=17; influential=0; open PDF metadata; title trade matches=1; trade term matches=1; query hits=3",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Association rule mining using enhanced apriori with modified GA for stock prediction within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -30238,7 +30238,7 @@
       "importanceReasons": "citations=16; influential=0; AI/ML method signal; open PDF metadata; title trade matches=3; trade term matches=3; query hits=6",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "forecasting; machine-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; ai-based-trade",
       "keyIdea": "Positions Optimizing stock market price prediction using a hybrid approach based on HP filter and support vector regression within Machine Learning for Stock Prediction.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split."
@@ -31292,7 +31292,7 @@
       "importanceReasons": "citations=15; influential=1; AI/ML method signal; open PDF metadata; title trade matches=2; trade term matches=2; query hits=3",
       "category": "Deep Learning and Financial Time Series",
       "methodTags": "forecasting; deep-learning",
-      "keywordTags": "stock-prediction; deep-learning",
+      "keywordTags": "stock-prediction; deep-learning; ai-based-trade",
       "keyIdea": "Positions Optimized Radial Basis Functional neural network for stock index prediction within Deep Learning and Financial Time Series.",
       "strengths": "selected by citation count from the audited stock-investment candidate pool",
       "limitations": "Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets."

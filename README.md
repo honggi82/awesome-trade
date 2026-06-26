@@ -29,6 +29,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 - ![stock-prediction](https://img.shields.io/badge/keyword-stock--prediction-0f766e) **stock-prediction**: Stock price, return, direction, trend, or market-index prediction and forecasting.
 - ![machine-learning](https://img.shields.io/badge/keyword-machine--learning-475569) **machine-learning**: SVMs, trees, boosting, random forests, kernels, data mining, and classical ML for markets.
 - ![deep-learning](https://img.shields.io/badge/keyword-deep--learning-2563eb) **deep-learning**: Neural networks, LSTM/GRU/CNN, attention, transformers, and representation learning for financial time series.
+- ![ai-based-trade](https://img.shields.io/badge/keyword-ai--based--trade-16a34a) **ai-based-trade**: AI/ML-driven stock trading and investment signals, including predictive models, NLP/LLMs, and automated strategies.
 - ![portfolio](https://img.shields.io/badge/keyword-portfolio-7c2d12) **portfolio**: Portfolio optimization, asset allocation, portfolio selection, risk parity, and rebalancing.
 - ![reinforcement-trading](https://img.shields.io/badge/keyword-reinforcement--trading-dc2626) **reinforcement-trading**: Reinforcement learning, algorithmic trading, execution, market making, and backtested trading strategies.
 - ![sentiment-altdata](https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b) **sentiment-altdata**: News, social media, NLP, LLMs, earnings calls, and alternative data for stock investment.
@@ -241,7 +242,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 <td align="right">29</td>
 <td>[Deep learning with long short-term memory networks for financial market predictions](https://doi.org/10.1016/j.ejor.2017.11.054)<br><sub>Thomas G. Fischer, C. Krauss</sub></td>
 <td>2017<br>European Journal of Operational Research<br>2,415 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"> <img alt="risk-volatility" src="https://img.shields.io/badge/keyword-risk--volatility-be123c"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"> <img alt="ai-based-trade" src="https://img.shields.io/badge/keyword-ai--based--trade-16a34a"> <img alt="risk-volatility" src="https://img.shields.io/badge/keyword-risk--volatility-be123c"></td>
 <td>Long short-term memory (LSTM) networks are a state-of-the-art technique for sequence learning.</td>
 <td>high citation signal (2,415); influential citation signal (137); open-access PDF metadata</td>
 <td>Risk forecasts can fail under regime breaks and extreme events.; Choice of loss function strongly affects model rankings.; Citation counts do not prove suitability for a specific mandate or risk budget.</td>
@@ -589,7 +590,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 <td align="right">6</td>
 <td>[Twitter mood predicts the stock market](https://doi.org/10.1016/j.jocs.2010.12.007)<br><sub>J. Bollen, Huina Mao, Xiao-Jun Zeng</sub></td>
 <td>2010<br>Journal of Computer Science<br>5,405 citations</td>
-<td><img alt="stock-prediction" src="https://img.shields.io/badge/keyword-stock--prediction-0f766e"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"> <img alt="sentiment-altdata" src="https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b"> <img alt="behavioral-finance" src="https://img.shields.io/badge/keyword-behavioral--finance-a855f7"></td>
+<td><img alt="stock-prediction" src="https://img.shields.io/badge/keyword-stock--prediction-0f766e"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"> <img alt="ai-based-trade" src="https://img.shields.io/badge/keyword-ai--based--trade-16a34a"> <img alt="sentiment-altdata" src="https://img.shields.io/badge/keyword-sentiment--altdata-f59e0b"> <img alt="behavioral-finance" src="https://img.shields.io/badge/keyword-behavioral--finance-a855f7"></td>
 <td>Behavioral economics tells us that emotions can profoundly affect individual behavior and decision-making.</td>
 <td>high citation signal (5,405); influential citation signal (350); open-access PDF metadata</td>
 <td>Timestamp alignment and look-ahead bias are critical for text and alternative-data studies.; Sentiment signals can decay quickly as information becomes crowded.; Data licensing and coverage bias can limit reproducibility.</td>
@@ -795,7 +796,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 <td align="right">83</td>
 <td>[Financial Time Series Forecasting with Deep Learning : A Systematic Literature Review: 2005-2019](https://doi.org/10.1016/j.asoc.2020.106181)<br><sub>O. Sezer, M. U. Gudelek, A. Ozbayoglu</sub></td>
 <td>2019<br>Applied Soft Computing<br>1,380 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="deep-learning" src="https://img.shields.io/badge/keyword-deep--learning-2563eb"> <img alt="ai-based-trade" src="https://img.shields.io/badge/keyword-ai--based--trade-16a34a"></td>
 <td>Financial time series forecasting is, without a doubt, the top choice of computational intelligence for finance researchers from both academia and financial industry due to its broad implementation areas and substantial impact.</td>
 <td>high citation signal (1,380); influential citation signal (33); recognized finance/AI venue; open-access PDF metadata</td>
 <td>Deep models can overfit noisy, nonstationary, and low signal-to-noise market data.; Compute-heavy models may be hard to reproduce without code and data access.; Reported gains need robustness checks across regimes and markets.</td>
@@ -1009,7 +1010,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 <td align="right">54</td>
 <td>[Financial time series forecasting using support vector machines](https://doi.org/10.1016/S0925-2312(03)00372-2)<br><sub>Kyoung-jae Kim</sub></td>
 <td>2003<br>Neurocomputing<br>1,738 citations</td>
-<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td><img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai-based-trade" src="https://img.shields.io/badge/keyword-ai--based--trade-16a34a"></td>
 <td>Positions Financial time series forecasting using support vector machines within Machine Learning for Stock Prediction.</td>
 <td>high citation signal (1,738); influential citation signal (85); recognized finance/AI venue</td>
 <td>Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.</td>
@@ -1027,7 +1028,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 <td align="right">107</td>
 <td>[Forecasting stock market movement direction with support vector machine](https://doi.org/10.1016/j.cor.2004.03.016)<br><sub>Wei Huang, Y. Nakamori, Shouyang Wang</sub></td>
 <td>2005<br>Computers &amp; Operations Research<br>1,127 citations</td>
-<td><img alt="stock-prediction" src="https://img.shields.io/badge/keyword-stock--prediction-0f766e"> <img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"></td>
+<td><img alt="stock-prediction" src="https://img.shields.io/badge/keyword-stock--prediction-0f766e"> <img alt="machine-learning" src="https://img.shields.io/badge/keyword-machine--learning-475569"> <img alt="ai-based-trade" src="https://img.shields.io/badge/keyword-ai--based--trade-16a34a"></td>
 <td>Positions Forecasting stock market movement direction with support vector machine within Machine Learning for Stock Prediction.</td>
 <td>high citation signal (1,127); influential citation signal (35)</td>
 <td>Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.</td>
