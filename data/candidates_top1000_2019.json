@@ -2,7 +2,7 @@
   "metadata": {
     "topic": "stock investment and AI-driven trading research",
     "source": "Semantic Scholar Academic Graph bulk search",
-    "generated": "2026-06-26",
+    "generated": "2026-06-27",
     "years": [
       2000,
       2001,
@@ -1136,7 +1136,7 @@
       "importanceReasons": "citations=453; influential=85; AI/ML method signal; open PDF metadata; trade term matches=2",
       "category": "Reinforcement Learning and Algorithmic Trading",
       "methodTags": "deep-learning; reinforcement-learning",
-      "keywordTags": "reinforcement-trading",
+      "keywordTags": "reinforcement-trading; github",
       "keyIdea": "Slimmable networks are a family of neural networks that can instantly adjust the runtime width.",
       "strengths": "high citation signal (453); influential citation signal (85); open-access PDF metadata",
       "limitations": "Simulated rewards can diverge from executable trading under slippage, latency, and market impact.; Policies can be brittle during regime shifts or stress periods.; Backtest-only evidence needs live or paper-trading validation.",

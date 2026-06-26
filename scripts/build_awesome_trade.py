@@ -1043,6 +1043,14 @@ def load_github_links():
     return links
 
 
+def sync_github_keyword_tag(row):
+    raw = str(row.get("keywordTags") or "")
+    tags = [tag.strip() for tag in raw.split(";") if tag.strip() and tag.strip() != "github"]
+    if row.get("githubUrl"):
+        tags.append("github")
+    row["keywordTags"] = "; ".join(tags)
+
+
 def apply_github_links(rows):
     links = load_github_links()
     for row in rows:
@@ -1051,6 +1059,7 @@ def apply_github_links(rows):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
         else:
             row["githubUrl"] = ""
+        sync_github_keyword_tag(row)
     return rows
 
 
@@ -3192,6 +3201,7 @@ KEYWORD_CONVENTION = [
     ("risk-volatility", "Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.", "be123c"),
     ("asset-pricing", "Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.", "4f46e5"),
     ("behavioral-finance", "Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.", "a855f7"),
+    ("github", "Papers with an official GitHub or code repository link identified in the metadata audit.", "24292f"),
 ]
 KEYWORD_COLORS = {keyword: color for keyword, _, color in KEYWORD_CONVENTION}
 

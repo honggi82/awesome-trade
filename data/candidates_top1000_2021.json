@@ -2,7 +2,7 @@
   "metadata": {
     "topic": "stock investment and AI-driven trading research",
     "source": "Semantic Scholar Academic Graph bulk search",
-    "generated": "2026-06-26",
+    "generated": "2026-06-27",
     "years": [
       2000,
       2001,
@@ -252,7 +252,7 @@
       "importanceReasons": "citations=621; influential=115; survey/benchmark signal; AI/ML method signal; open PDF metadata; title trade matches=1; trade term matches=2",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "survey/review; forecasting; machine-learning; deep-learning",
-      "keywordTags": "stock-prediction; machine-learning",
+      "keywordTags": "stock-prediction; machine-learning; github",
       "keyIdea": "Although the fairness community has recognized the importance of data, researchers in the area primarily rely on UCI Adult when it comes to tabular data.",
       "strengths": "high citation signal (621); influential citation signal (115)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",
@@ -932,7 +932,7 @@
       "importanceReasons": "citations=325; influential=43; AI/ML method signal; open PDF metadata; trade term matches=1",
       "category": "Machine Learning for Stock Prediction",
       "methodTags": "machine-learning",
-      "keywordTags": "machine-learning",
+      "keywordTags": "machine-learning; github",
       "keyIdea": "The great success of modern machine learning models on large datasets is contingent on extensive computational resources with high financial and environmental costs.",
       "strengths": "high citation signal (325); influential citation signal (43)",
       "limitations": "Predictive accuracy may not translate into risk-adjusted returns after costs.; Feature leakage, survivorship bias, and nonstationarity are persistent concerns.; Metadata-driven screening cannot audit the exact train/test split.",

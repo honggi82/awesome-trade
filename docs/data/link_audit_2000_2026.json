@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26",
+  "generated": "2026-06-27",
   "scope": "selected papers",
   "audit_type": "URL syntax and metadata-presence audit; live HTTP status checks were not run to avoid unnecessary load on scholarly hosts",
   "selected_papers": 2700,

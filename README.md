@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
   </a>
 </p>
 
-Generated on 2026-06-26 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
+Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
 
 ## Project Links
 
@@ -37,6 +37,7 @@ These badges define the stock-investment and AI-trading keyword tags used to rea
 - ![risk-volatility](https://img.shields.io/badge/keyword-risk--volatility-be123c) **risk-volatility**: Volatility forecasting, Value at Risk, drawdowns, tail risk, stress testing, and forecast evaluation.
 - ![asset-pricing](https://img.shields.io/badge/keyword-asset--pricing-4f46e5) **asset-pricing**: Asset pricing, equity factors, anomalies, return predictability, and cross-sectional stock returns.
 - ![behavioral-finance](https://img.shields.io/badge/keyword-behavioral--finance-a855f7) **behavioral-finance**: Investor sentiment, attention, behavioral bias, market efficiency, and decision-making.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
 
 ## Taxonomy Overview
 
@@ -1349,7 +1350,7 @@ The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags a
 - This is a metadata-driven citation map, not a full systematic review of every PDF.
 - Citation count is an influence signal, not investment advice or proof of live trading profitability.
 - Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.
-- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-26.
+- Papers from 2026 are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of 2026-06-27.
 - Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.
 
 ## Acknowledgements

@@ -2,7 +2,7 @@
   "metadata": {
     "topic": "stock investment and AI-driven trading research",
     "source": "Semantic Scholar Academic Graph bulk search",
-    "generated": "2026-06-26",
+    "generated": "2026-06-27",
     "years": [
       2000,
       2001,
@@ -2530,7 +2530,7 @@
       "importanceReasons": "citations=217; influential=39; open PDF metadata; trade term matches=1",
       "category": "General Finance, Surveys, and Trading Systems",
       "methodTags": "forecasting",
-      "keywordTags": "stock-prediction",
+      "keywordTags": "stock-prediction; github",
       "keyIdea": "Many applications of stereo depth estimation in robotics require the generation of accurate disparity maps in real time under significant computational constraints.",
       "strengths": "high citation signal (217); influential citation signal (39); open-access PDF metadata",
       "limitations": "Surveys and systems can dominate citations while empirical evidence remains mixed across markets.; Broad claims need careful mapping to data, costs, and investment horizons.; Metadata-driven ranking cannot replace expert reading of full papers and backtests.",
