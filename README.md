@@ -10,6 +10,19 @@ A taxonomy-first, citation-ranked map of stock investment and AI-driven trading 
   </a>
 </p>
 
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://github.com/honggi82/awesome-trade">English</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=de">Deutsch</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=es">Español</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=fr">français</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=ja">日本語</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=ko">한국어</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=pt">Português</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=ru">Русский</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-trade?lang=zh">中文</a>
+</div>
+
 Generated on 2026-06-27 from free public Semantic Scholar metadata. This edition investigates up to 1,000 stock-investment and AI-trading candidate papers per publication year for 2000-2026, keeps an audited candidate pool of 27,000 records, selects the top 100 papers from each year by citation count (2,700 papers selected), and reorganizes them by research taxonomy.
 
 ## Project Links

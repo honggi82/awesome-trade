@@ -3821,6 +3821,25 @@ def write_markdown_html(markdown_path, title=None):
     markdown_path.with_suffix(".html").write_text(html_doc, encoding="utf-8")
 
 
+def readme_language_selector_lines(owner, repo):
+    base = f"https://www.readme-i18n.com/{owner}/{repo}"
+    return [
+        '<div align="center">',
+        "  <!-- Keep these links. Translations will automatically update with the README. -->",
+        f'  <a href="https://github.com/{owner}/{repo}">English</a> |',
+        f'  <a href="{base}?lang=de">Deutsch</a> |',
+        f'  <a href="{base}?lang=es">Español</a> |',
+        f'  <a href="{base}?lang=fr">français</a> |',
+        f'  <a href="{base}?lang=ja">日本語</a> |',
+        f'  <a href="{base}?lang=ko">한국어</a> |',
+        f'  <a href="{base}?lang=pt">Português</a> |',
+        f'  <a href="{base}?lang=ru">Русский</a> |',
+        f'  <a href="{base}?lang=zh">中文</a>',
+        "</div>",
+        "",
+    ]
+
+
 def write_readme(selected, candidates):
     total_cites = sum(p["citationCount"] for p in selected)
     candidate_counts = Counter(p["year"] for p in candidates)
@@ -3838,6 +3857,7 @@ def write_readme(selected, candidates):
         "  </a>",
         "</p>",
         "",
+        *readme_language_selector_lines(PROJECT_OWNER, PROJECT_REPO),
         f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. This edition investigates up to {CANDIDATES_PER_YEAR:,} stock-investment and AI-trading candidate papers per publication year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool of {len(candidates):,} records, selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({len(selected):,} papers selected), and reorganizes them by research taxonomy.",
         "",
         "## Project Links",
