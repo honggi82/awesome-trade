@@ -3905,7 +3905,7 @@ def overall_research_templates():
     }
 
 
-def write_markdown_html(markdown_path, title=None):
+def write_markdown_html(markdown_path, title=None, lang="en"):
     text = markdown_path.read_text(encoding="utf-8")
     title = title or markdown_path.stem
     body = [f"<h1>{html.escape(title)}</h1>"]
@@ -3950,7 +3950,7 @@ def write_markdown_html(markdown_path, title=None):
     if in_list:
         body.append("</ul>")
     html_doc = f"""<!doctype html>
-<html lang="en">
+<html lang="{html.escape(lang, quote=True)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -3963,21 +3963,503 @@ def write_markdown_html(markdown_path, title=None):
     markdown_path.with_suffix(".html").write_text(html_doc, encoding="utf-8")
 
 
-def readme_language_selector_lines(owner, repo):
+README_LANGUAGE_FILES = {
+    "en": "README.md",
+    "de": "README.de.md",
+    "es": "README.es.md",
+    "fr": "README.fr.md",
+    "ja": "README.ja.md",
+    "ko": "README.ko.md",
+    "pt": "README.pt.md",
+    "ru": "README.ru.md",
+    "zh": "README.zh.md",
+}
+
+README_LANGUAGE_LABELS = {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "français",
+    "ja": "日本語",
+    "ko": "한국어",
+    "pt": "Português",
+    "ru": "Русский",
+    "zh": "中文",
+}
+
+README_LOCALIZED_COPY = {
+    "de": {
+        "description": "Eine taxonomieorientierte, nach Zitierungen gerankte Karte der Forschung zu Aktienanlagen und KI-gestütztem Trading von 2000 bis 2026.",
+        "note": "Hinweis: Diese lokalisierte README wird aus dem aktuellen Datensatz der ausgewählten Arbeiten neu erzeugt. Paper-Titel, Autorennamen, URLs, Badges, Dateipfade und Identifikatoren bleiben aus Gründen der Reproduzierbarkeit unverändert.",
+        "generated": "Erzeugt am {generated_date} aus frei zugänglichen Semantic-Scholar-Metadaten. Diese Ausgabe untersucht für {year_range} je Publikationsjahr bis zu {candidates_per_year} Kandidatenarbeiten zu Aktienanlagen und KI-Trading, hält einen geprüften Kandidatenpool von {candidate_count} Datensätzen, wählt pro Jahr die {target_per_year} meistzitierten Arbeiten aus ({selected_count} ausgewählte Arbeiten) und ordnet sie nach Forschungstaxonomie neu.",
+        "curation": "Die Sammlung nutzt die Bulk-Suche des Semantic Scholar Academic Graph. Die Abfragen decken Aktienprognosen, Aktienrenditen, Asset Pricing, Portfoliooptimierung, finanzielle Zeitreihen, algorithmisches Trading, Reinforcement Learning, Sentiment/Nachrichten/alternative Daten, Markt-Mikrostruktur, Hochfrequenzhandel, Volatilität und Risikothemen ab. Für jedes Jahr von {start_year} bis {end_year} werden Ergebnisse auf das Publikationsjahr gefiltert, mit expliziten Relevanzausdrücken zu Aktienanlagen und KI-Trading in Titel-, Abstract- und Venue-Metadaten geprüft, nach DOI, arXiv, PubMed, CorpusId, paperId und anschließend Titel dedupliziert und auf höchstens {candidates_per_year} Kandidaten nach Zitierzahl reduziert. Die finale Awesome-Liste wählt innerhalb jedes Publikationsjahres die {target_per_year} meistzitierten Arbeiten aus; einflussreiche Zitierungen und ein deterministischer Metadaten-Score bleiben als Tie-Breaker und Audit-Signale erhalten.",
+        "no_paid": "Taxonomie, Kernideen, Stärken, Einschränkungen, Methodentags und Keyword-Tags werden deterministisch aus öffentlichen Metadaten und regelbasierten Domänenkonventionen erzeugt. Es wurden keine bezahlten APIs, bezahlten LLMs, bezahlten Übersetzungen oder bezahlten Compute-Dienste verwendet.",
+        "show": "Repräsentative Arbeiten anzeigen: ",
+        "paper_word": "Arbeiten",
+    },
+    "es": {
+        "description": "Un mapa de investigación sobre inversión en acciones y trading impulsado por IA, organizado por taxonomía y ordenado por citas, de 2000 a 2026.",
+        "note": "Nota: este README localizado se regenera desde el conjunto actual de artículos seleccionados. Los títulos de los artículos, autores, URL, insignias, rutas de archivo e identificadores se conservan para mantener la reproducibilidad.",
+        "generated": "Generado el {generated_date} a partir de metadatos públicos y gratuitos de Semantic Scholar. Esta edición investiga hasta {candidates_per_year} artículos candidatos sobre inversión en acciones y trading con IA por año de publicación para {year_range}, mantiene un conjunto auditado de {candidate_count} registros, selecciona los {target_per_year} artículos más citados de cada año ({selected_count} artículos seleccionados) y los reorganiza por taxonomía de investigación.",
+        "curation": "La colección utiliza la búsqueda masiva de Semantic Scholar Academic Graph. Las consultas cubren predicción bursátil, rentabilidades de acciones, valoración de activos, optimización de carteras, series temporales financieras, trading algorítmico, aprendizaje por refuerzo, sentimiento/noticias/datos alternativos, microestructura de mercado, trading de alta frecuencia, volatilidad y riesgo. Para cada año desde {start_year} hasta {end_year}, los resultados se filtran por año de publicación, se revisan con expresiones explícitas de relevancia para inversión en acciones y trading con IA en metadatos de título, resumen y venue, se deduplican por DOI, arXiv, PubMed, CorpusId, paperId y luego título, y se reducen a un máximo de {candidates_per_year} candidatos por número de citas. La lista awesome final selecciona los {target_per_year} artículos más citados dentro de cada año; las citas influyentes y una puntuación determinística de importancia de metadatos se conservan como desempates y señales de auditoría.",
+        "no_paid": "La taxonomía, ideas clave, fortalezas, limitaciones, etiquetas de método y etiquetas de palabra clave se generan de forma determinística a partir de metadatos públicos y convenciones de dominio basadas en reglas. No se usaron APIs de pago, LLMs de pago, traducción de pago ni cómputo de pago.",
+        "show": "Mostrar artículos representativos de ",
+        "paper_word": "artículos",
+    },
+    "fr": {
+        "description": "Une carte de recherche sur l'investissement actions et le trading piloté par l'IA, structurée par taxonomie et classée par citations, de 2000 à 2026.",
+        "note": "Note : ce README localisé est régénéré à partir du jeu actuel d'articles sélectionnés. Les titres d'articles, noms d'auteurs, URL, badges, chemins de fichiers et identifiants sont conservés pour la reproductibilité.",
+        "generated": "Généré le {generated_date} à partir de métadonnées publiques gratuites de Semantic Scholar. Cette édition examine jusqu'à {candidates_per_year} articles candidats sur l'investissement actions et le trading par IA par année de publication pour {year_range}, conserve un vivier audité de {candidate_count} enregistrements, sélectionne les {target_per_year} articles les plus cités de chaque année ({selected_count} articles sélectionnés) et les réorganise par taxonomie de recherche.",
+        "curation": "La collection utilise la recherche en masse du Semantic Scholar Academic Graph. Les requêtes couvrent la prédiction boursière, les rendements actions, l'asset pricing, l'optimisation de portefeuille, les séries temporelles financières, le trading algorithmique, l'apprentissage par renforcement, le sentiment/les nouvelles/les données alternatives, la microstructure de marché, le trading haute fréquence, la volatilité et les thèmes de risque. Pour chaque année de {start_year} à {end_year}, les résultats sont filtrés par année de publication, examinés avec des expressions explicites de pertinence pour l'investissement actions et le trading IA dans les métadonnées de titre, résumé et venue, dédupliqués par DOI, arXiv, PubMed, CorpusId, paperId puis titre, et réduits à au plus {candidates_per_year} candidats par nombre de citations. La liste awesome finale sélectionne les {target_per_year} articles les plus cités dans chaque année; les citations influentes et un score déterministe d'importance des métadonnées sont conservés comme signaux de départage et d'audit.",
+        "no_paid": "La taxonomie, les idées clés, les forces, les limites, les tags de méthode et les tags de mots-clés sont générés de manière déterministe à partir de métadonnées publiques et de conventions de domaine fondées sur des règles. Aucune API payante, aucun LLM payant, aucune traduction payante ni aucun calcul payant n'a été utilisé.",
+        "show": "Afficher les articles représentatifs pour ",
+        "paper_word": "articles",
+    },
+    "ja": {
+        "description": "2000年から2026年までの株式投資およびAI主導トレーディング研究を、分類体系を軸に引用数順で整理したマップです。",
+        "note": "注: このローカライズ版 README は、現在の選定論文データセットから再生成されています。論文タイトル、著者名、URL、バッジ、ファイルパス、識別子は再現性のため原文のまま保持しています。",
+        "generated": "無料で公開されている Semantic Scholar メタデータに基づき {generated_date} に生成しました。この版では、{year_range} の各出版年について株式投資およびAIトレーディング関連の候補論文を最大 {candidates_per_year} 件調査し、監査済み候補プール {candidate_count} 件を保持し、各年の引用数上位 {target_per_year} 件（選定論文 {selected_count} 件）を選び、研究分類体系に沿って再編成しています。",
+        "curation": "このコレクションは Semantic Scholar Academic Graph の bulk search を使用しています。検索クエリは、株価予測、株式リターン、資産価格評価、ポートフォリオ最適化、金融時系列、アルゴリズム取引、強化学習、センチメント/ニュース/代替データ、市場ミクロ構造、高頻度取引、ボラティリティ、リスクを対象にしています。{start_year} 年から {end_year} 年までの各年について、結果を出版年で絞り込み、タイトル・要旨・venue メタデータに含まれる株式投資およびAIトレーディング関連表現でスクリーニングし、DOI、arXiv、PubMed、CorpusId、paperId、最後にタイトルで重複排除し、引用数順で最大 {candidates_per_year} 件に絞ります。最終的な awesome リストでは、各出版年内で引用数上位 {target_per_year} 件を選定し、影響力引用数と決定的なメタデータ重要度スコアをタイブレークおよび監査シグナルとして保持します。",
+        "no_paid": "分類体系、主要アイデア、強み、限界、手法タグ、キーワードタグは、公開メタデータとルールベースのドメイン規約から決定的に生成しています。有料API、有料LLM、有料翻訳、有料計算資源は使用していません。",
+        "show": "代表論文を表示: ",
+        "paper_word": "本",
+    },
+    "ko": {
+        "description": "2000년부터 2026년까지의 주식 투자 및 AI 기반 트레이딩 연구를 분류 우선 방식으로 정리하고 인용수 기준으로 순위화한 지도입니다.",
+        "note": "참고: 이 현지화 README는 현재 선정 논문 데이터셋에서 재생성되었습니다. 논문 제목, 저자명, URL, 배지, 파일 경로, 식별자는 재현성을 위해 원문 그대로 유지했습니다.",
+        "generated": "무료 공개 Semantic Scholar 메타데이터를 기준으로 {generated_date}에 생성했습니다. 이 판은 {year_range} 기간의 각 출판연도마다 주식 투자 및 AI 트레이딩 후보 논문을 최대 {candidates_per_year}편 조사하고, 감사된 후보 풀 {candidate_count}건을 유지하며, 매년 인용수 상위 {target_per_year}편({selected_count}편 선정)을 골라 연구 분류 체계별로 재구성합니다.",
+        "curation": "이 컬렉션은 Semantic Scholar Academic Graph bulk search를 사용합니다. 쿼리는 주가 예측, 주식 수익률, 자산가격결정, 포트폴리오 최적화, 금융 시계열, 알고리즘 트레이딩, 강화학습, 감성/뉴스/대체데이터, 시장 미시구조, 고빈도 거래, 변동성, 리스크 주제를 포괄합니다. {start_year}년부터 {end_year}년까지 각 연도 결과를 출판연도로 필터링하고, 제목/초록/venue 메타데이터에서 주식 투자 및 AI 트레이딩 관련 명시적 표현으로 선별한 뒤, DOI, arXiv, PubMed, CorpusId, paperId, 제목 순으로 중복을 제거하고 인용수 기준 최대 {candidates_per_year}편의 후보로 축소합니다. 최종 awesome 목록은 각 출판연도 안에서 인용수 상위 {target_per_year}편을 선정하며, 영향력 인용수와 결정적 메타데이터 중요도 점수는 동률 처리 및 감사 신호로 보존합니다.",
+        "no_paid": "분류 체계, 핵심 아이디어, 강점, 한계, 방법 태그, 키워드 태그는 공개 메타데이터와 규칙 기반 도메인 규약에서 결정적으로 생성됩니다. 유료 API, 유료 LLM, 유료 번역, 유료 컴퓨팅은 사용하지 않았습니다.",
+        "show": "대표 논문 보기: ",
+        "paper_word": "편",
+    },
+    "pt": {
+        "description": "Um mapa de pesquisa sobre investimento em ações e trading orientado por IA, organizado por taxonomia e classificado por citações, de 2000 a 2026.",
+        "note": "Nota: este README localizado é regenerado a partir do conjunto atual de artigos selecionados. Títulos dos artigos, autores, URLs, badges, caminhos de arquivo e identificadores são preservados para reprodutibilidade.",
+        "generated": "Gerado em {generated_date} a partir de metadados públicos gratuitos do Semantic Scholar. Esta edição investiga até {candidates_per_year} artigos candidatos de investimento em ações e trading com IA por ano de publicação para {year_range}, mantém um conjunto auditado de {candidate_count} registros, seleciona os {target_per_year} artigos mais citados de cada ano ({selected_count} artigos selecionados) e os reorganiza por taxonomia de pesquisa.",
+        "curation": "A coleção usa a busca em massa do Semantic Scholar Academic Graph. As consultas cobrem previsão de ações, retornos de ações, precificação de ativos, otimização de portfólio, séries temporais financeiras, trading algorítmico, aprendizado por reforço, sentimento/notícias/dados alternativos, microestrutura de mercado, trading de alta frequência, volatilidade e risco. Para cada ano de {start_year} a {end_year}, os resultados são filtrados pelo ano de publicação, triados com expressões explícitas de relevância para investimento em ações e trading com IA nos metadados de título, resumo e venue, deduplicados por DOI, arXiv, PubMed, CorpusId, paperId e depois título, e reduzidos a no máximo {candidates_per_year} candidatos por número de citações. A lista awesome final seleciona os {target_per_year} artigos mais citados dentro de cada ano; citações influentes e uma pontuação determinística de importância de metadados são mantidas como desempates e sinais de auditoria.",
+        "no_paid": "A taxonomia, ideias-chave, pontos fortes, limitações, tags de método e tags de palavra-chave são gerados deterministicamente a partir de metadados públicos e convenções de domínio baseadas em regras. Nenhuma API paga, LLM pago, tradução paga ou computação paga foi usada.",
+        "show": "Mostrar artigos representativos de ",
+        "paper_word": "artigos",
+    },
+    "ru": {
+        "description": "Таксономическая и ранжированная по цитируемости карта исследований по инвестициям в акции и AI-трейдингу за 2000-2026 годы.",
+        "note": "Примечание: этот локализованный README заново создается из текущего набора выбранных работ. Названия статей, авторы, URL, бейджи, пути к файлам и идентификаторы сохранены для воспроизводимости.",
+        "generated": "Сгенерировано {generated_date} на основе бесплатных публичных метаданных Semantic Scholar. Эта версия проверяет до {candidates_per_year} кандидатных работ по инвестициям в акции и AI-трейдингу на каждый год публикации за {year_range}, хранит аудированный пул из {candidate_count} записей, выбирает {target_per_year} наиболее цитируемых работ за каждый год ({selected_count} выбранных работ) и реорганизует их по исследовательской таксономии.",
+        "curation": "Коллекция использует bulk search Semantic Scholar Academic Graph. Запросы охватывают прогнозирование акций, доходности акций, asset pricing, оптимизацию портфеля, финансовые временные ряды, алгоритмический трейдинг, обучение с подкреплением, sentiment/новости/альтернативные данные, микроструктуру рынка, высокочастотную торговлю, волатильность и риск. Для каждого года с {start_year} по {end_year} результаты фильтруются по году публикации, проверяются явными выражениями релевантности к инвестициям в акции и AI-трейдингу в метаданных title/abstract/venue, дедуплицируются по DOI, arXiv, PubMed, CorpusId, paperId, затем названию, и сокращаются максимум до {candidates_per_year} кандидатов по числу цитирований. Финальный awesome-список выбирает {target_per_year} наиболее цитируемых работ в каждом году; влиятельные цитирования и детерминированный metadata-importance score сохраняются как сигналы для тай-брейков и аудита.",
+        "no_paid": "Таксономия, ключевые идеи, сильные стороны, ограничения, method tags и keyword tags генерируются детерминированно из публичных метаданных и правил предметной области. Платные API, платные LLM, платный перевод и платные вычисления не использовались.",
+        "show": "Показать репрезентативные работы: ",
+        "paper_word": "работ",
+    },
+    "zh": {
+        "description": "这是一个按研究分类组织、按引用数排序的股票投资与 AI 驱动交易研究地图，覆盖 2000 年至 2026 年。",
+        "note": "注：本地化 README 已从当前入选论文数据集重新生成。论文题名、作者、URL、徽章、文件路径和标识符为保持可复现性而保留原文。",
+        "generated": "基于免费的公开 Semantic Scholar 元数据，于 {generated_date} 生成。本版针对 {year_range} 的每个发表年份，调查最多 {candidates_per_year} 篇股票投资与 AI 交易候选论文，保留 {candidate_count} 条已审计候选记录，按引用数选出每年排名前 {target_per_year} 的论文（共 {selected_count} 篇入选），并按研究分类重新组织。",
+        "curation": "本集合使用 Semantic Scholar Academic Graph 批量搜索。查询覆盖股票预测、股票收益、资产定价、投资组合优化、金融时间序列、算法交易、强化学习、情绪/新闻/另类数据、市场微观结构、高频交易、波动率和风险主题。对于 {start_year} 至 {end_year} 的每一年，结果按发表年份过滤，并使用标题、摘要和 venue 元数据中的股票投资与 AI 交易相关表达进行筛选，再按 DOI、arXiv、PubMed、CorpusId、paperId 和标题去重，最后按引用数保留最多 {candidates_per_year} 篇候选论文。最终 awesome 列表在每个发表年份内选出引用数最高的 {target_per_year} 篇论文；影响力引用数和确定性的元数据重要性分数会保留为平局处理和审计信号。",
+        "no_paid": "分类体系、关键思想、优势、局限、方法标签和关键词标签均由公开元数据和基于规则的领域约定确定性生成。未使用付费 API、付费 LLM、付费翻译或付费计算。",
+        "show": "显示代表性论文：",
+        "paper_word": "篇",
+    },
+}
+
+README_STATIC_REPLACEMENTS = {
+    "de": [
+        ("## Project Links", "## Projektlinks"),
+        ("- Open Interactive Website:", "- Interaktive Website:"),
+        ("- Selected dataset:", "- Ausgewählter Datensatz:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- Taxonomiedatensatz mit Ideen, Stärken und Einschränkungen auf Paper-Ebene:"),
+        ("- Precomputed period analysis:", "- Vorberechnete Periodenanalyse:"),
+        ("- Candidate Pool:", "- Kandidatenpool:"),
+        ("- English review draft:", "- Englischer Review-Entwurf:"),
+        ("- Korean review draft:", "- Koreanischer Review-Entwurf:"),
+        ("## Keywords Convention", "## Keyword-Konvention"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "Diese Badges definieren die Keyword-Tags für Aktienanlage und KI-Trading, mit denen diese Sammlung gelesen und erweitert wird."),
+        ("## Taxonomy Overview", "## Taxonomieüberblick"),
+        ("**Total selected papers**", "**Insgesamt ausgewählte Arbeiten**"),
+        ("**Candidate pool audited**", "**Geprüfter Kandidatenpool**"),
+        ("**Citation count in selected set**", "**Zitierungen im ausgewählten Set**"),
+        ("## Taxonomy Collections", "## Taxonomiesammlungen"),
+        ("- Papers selected:", "- Ausgewählte Arbeiten:"),
+        ("- Years covered:", "- Abgedeckte Jahre:"),
+        ("- Citation count in selected set:", "- Zitierungen im ausgewählten Set:"),
+        ("- Category Overview:", "- Kategorieüberblick:"),
+        ("- Limitations:", "- Einschränkungen:"),
+        ("## Yearly Selection Summary", "## Jährliche Auswahlübersicht"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| Jahr | Kandidatenrecords | Ausgewählte Arbeiten | Zitierungen der Auswahl | Top-Paper der Auswahl |"),
+        ("## Curation Method", "## Kurationsmethode"),
+        ("## Limitations", "## Einschränkungen"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- Dies ist eine metadatengetriebene Zitierkarte, keine vollständige systematische Durchsicht jedes PDFs."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- Zitierzahl ist ein Einflussindikator, keine Anlageberatung und kein Nachweis realer Trading-Profitabilität."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Semantic-Scholar-Metadaten können bei einzelnen Records Venues, Abstracts, PDFs oder einflussreiche Zitierungen auslassen."),
+        ("## Acknowledgements", "## Danksagung"),
+        ("## License", "## Lizenz"),
+    ],
+    "es": [
+        ("## Project Links", "## Enlaces del proyecto"),
+        ("- Open Interactive Website:", "- Sitio web interactivo:"),
+        ("- Selected dataset:", "- Conjunto seleccionado:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- Conjunto de taxonomía con ideas, fortalezas y limitaciones por artículo:"),
+        ("- Precomputed period analysis:", "- Análisis de periodos precalculado:"),
+        ("- Candidate Pool:", "- Conjunto de candidatos:"),
+        ("- English review draft:", "- Borrador de revisión en inglés:"),
+        ("- Korean review draft:", "- Borrador de revisión en coreano:"),
+        ("## Keywords Convention", "## Convención de palabras clave"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "Estas insignias definen las etiquetas de palabras clave de inversión en acciones y trading con IA usadas para leer y ampliar esta colección."),
+        ("## Taxonomy Overview", "## Resumen de taxonomía"),
+        ("**Total selected papers**", "**Total de artículos seleccionados**"),
+        ("**Candidate pool audited**", "**Conjunto de candidatos auditado**"),
+        ("**Citation count in selected set**", "**Citas en el conjunto seleccionado**"),
+        ("## Taxonomy Collections", "## Colecciones por taxonomía"),
+        ("- Papers selected:", "- Artículos seleccionados:"),
+        ("- Years covered:", "- Años cubiertos:"),
+        ("- Citation count in selected set:", "- Citas en el conjunto seleccionado:"),
+        ("- Category Overview:", "- Resumen de categoría:"),
+        ("- Limitations:", "- Limitaciones:"),
+        ("## Yearly Selection Summary", "## Resumen anual de selección"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| Año | Registros candidatos | Artículos seleccionados | Citas seleccionadas | Artículo principal |"),
+        ("## Curation Method", "## Método de curación"),
+        ("## Limitations", "## Limitaciones"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- Este es un mapa de citas basado en metadatos, no una revisión sistemática completa de cada PDF."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- El número de citas es una señal de influencia, no asesoría de inversión ni prueba de rentabilidad real."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Los metadatos de Semantic Scholar pueden omitir venues, resúmenes, PDFs o citas influyentes en algunos registros."),
+        ("## Acknowledgements", "## Agradecimientos"),
+        ("## License", "## Licencia"),
+    ],
+    "fr": [
+        ("## Project Links", "## Liens du projet"),
+        ("- Open Interactive Website:", "- Site web interactif :"),
+        ("- Selected dataset:", "- Jeu de données sélectionné :"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- Jeu de taxonomie avec idées, forces et limites au niveau des articles :"),
+        ("- Precomputed period analysis:", "- Analyse de période précalculée :"),
+        ("- Candidate Pool:", "- Vivier de candidats :"),
+        ("- English review draft:", "- Brouillon de revue en anglais :"),
+        ("- Korean review draft:", "- Brouillon de revue en coréen :"),
+        ("## Keywords Convention", "## Convention des mots-clés"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "Ces badges définissent les tags de mots-clés liés à l'investissement actions et au trading IA utilisés pour lire et étendre cette collection."),
+        ("## Taxonomy Overview", "## Aperçu de la taxonomie"),
+        ("**Total selected papers**", "**Total d'articles sélectionnés**"),
+        ("**Candidate pool audited**", "**Vivier de candidats audité**"),
+        ("**Citation count in selected set**", "**Citations dans l'ensemble sélectionné**"),
+        ("## Taxonomy Collections", "## Collections taxonomiques"),
+        ("- Papers selected:", "- Articles sélectionnés :"),
+        ("- Years covered:", "- Années couvertes :"),
+        ("- Citation count in selected set:", "- Citations dans l'ensemble sélectionné :"),
+        ("- Category Overview:", "- Aperçu de la catégorie :"),
+        ("- Limitations:", "- Limites :"),
+        ("## Yearly Selection Summary", "## Résumé annuel de sélection"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| Année | Candidats | Articles sélectionnés | Citations sélectionnées | Article principal |"),
+        ("## Curation Method", "## Méthode de curation"),
+        ("## Limitations", "## Limites"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- Il s'agit d'une carte de citations pilotée par les métadonnées, et non d'une revue systématique complète de chaque PDF."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- Le nombre de citations est un signal d'influence, pas un conseil d'investissement ni une preuve de rentabilité en trading réel."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Les métadonnées Semantic Scholar peuvent omettre venues, résumés, PDFs ou citations influentes pour certains enregistrements."),
+        ("## Acknowledgements", "## Remerciements"),
+        ("## License", "## Licence"),
+    ],
+    "ja": [
+        ("## Project Links", "## プロジェクトリンク"),
+        ("- Open Interactive Website:", "- インタラクティブサイト:"),
+        ("- Selected dataset:", "- 選定データセット:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- 論文単位のアイデア・強み・限界を含む分類データセット:"),
+        ("- Precomputed period analysis:", "- 事前計算済み期間分析:"),
+        ("- Candidate Pool:", "- 候補プール:"),
+        ("- English review draft:", "- 英語レビュー草稿:"),
+        ("- Korean review draft:", "- 韓国語レビュー草稿:"),
+        ("## Keywords Convention", "## キーワード規約"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "これらのバッジは、このコレクションを読む・拡張するための株式投資およびAIトレーディング関連キーワードタグを定義します。"),
+        ("## Taxonomy Overview", "## 分類体系の概要"),
+        ("**Total selected papers**", "**選定論文総数**"),
+        ("**Candidate pool audited**", "**監査済み候補プール**"),
+        ("**Citation count in selected set**", "**選定セット内の引用数**"),
+        ("## Taxonomy Collections", "## 分類別コレクション"),
+        ("- Papers selected:", "- 選定論文:"),
+        ("- Years covered:", "- 対象年:"),
+        ("- Citation count in selected set:", "- 選定セット内の引用数:"),
+        ("- Category Overview:", "- カテゴリ概要:"),
+        ("- Limitations:", "- 限界:"),
+        ("## Yearly Selection Summary", "## 年別選定サマリー"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| 年 | 候補レコード | 選定論文 | 選定論文の引用数 | 最上位論文 |"),
+        ("## Curation Method", "## キュレーション方法"),
+        ("## Limitations", "## 限界"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- これはメタデータ駆動の引用マップであり、すべてのPDFを精査した完全な系統的レビューではありません。"),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- 引用数は影響度のシグナルであり、投資助言や実運用収益性の証明ではありません。"),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Semantic Scholar メタデータでは、一部のレコードで venue、要旨、PDF、影響力引用数が欠落する場合があります。"),
+        ("## Acknowledgements", "## 謝辞"),
+        ("## License", "## ライセンス"),
+    ],
+    "ko": [
+        ("## Project Links", "## 프로젝트 링크"),
+        ("- Open Interactive Website:", "- 인터랙티브 웹사이트:"),
+        ("- Selected dataset:", "- 선정 데이터셋:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- 논문별 아이디어, 강점, 한계가 포함된 분류 데이터셋:"),
+        ("- Precomputed period analysis:", "- 사전 계산된 기간 분석:"),
+        ("- Candidate Pool:", "- 후보 풀:"),
+        ("- English review draft:", "- 영어 리뷰 초안:"),
+        ("- Korean review draft:", "- 한국어 리뷰 초안:"),
+        ("## Keywords Convention", "## 키워드 규칙"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "이 배지는 컬렉션을 읽고 확장할 때 사용하는 주식 투자 및 AI 트레이딩 키워드 태그를 정의합니다."),
+        ("## Taxonomy Overview", "## 분류 체계 개요"),
+        ("**Total selected papers**", "**전체 선정 논문**"),
+        ("**Candidate pool audited**", "**감사된 후보 풀**"),
+        ("**Citation count in selected set**", "**선정 세트의 총 인용수**"),
+        ("## Taxonomy Collections", "## 분류별 컬렉션"),
+        ("- Papers selected:", "- 선정 논문:"),
+        ("- Years covered:", "- 포함 연도:"),
+        ("- Citation count in selected set:", "- 선정 세트의 인용수:"),
+        ("- Category Overview:", "- 분류 개요:"),
+        ("- Limitations:", "- 한계:"),
+        ("## Yearly Selection Summary", "## 연도별 선정 요약"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| 연도 | 후보 기록 | 선정 논문 | 선정 논문 인용수 | 최상위 선정 논문 |"),
+        ("## Curation Method", "## 큐레이션 방법"),
+        ("## Limitations", "## 한계"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- 이 자료는 메타데이터 기반 인용 지도이며, 모든 PDF를 읽은 완전한 체계적 문헌고찰은 아닙니다."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- 인용수는 영향력 신호일 뿐이며 투자 조언이나 실제 거래 수익성의 증거가 아닙니다."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Semantic Scholar 메타데이터에는 일부 레코드의 venue, 초록, PDF, 영향력 인용수가 누락될 수 있습니다."),
+        ("## Acknowledgements", "## 감사의 말"),
+        ("## License", "## 라이선스"),
+    ],
+    "pt": [
+        ("## Project Links", "## Links do projeto"),
+        ("- Open Interactive Website:", "- Site interativo:"),
+        ("- Selected dataset:", "- Conjunto selecionado:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- Conjunto de taxonomia com ideias, pontos fortes e limitações por artigo:"),
+        ("- Precomputed period analysis:", "- Análise de períodos pré-computada:"),
+        ("- Candidate Pool:", "- Conjunto de candidatos:"),
+        ("- English review draft:", "- Rascunho de revisão em inglês:"),
+        ("- Korean review draft:", "- Rascunho de revisão em coreano:"),
+        ("## Keywords Convention", "## Convenção de palavras-chave"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "Estes badges definem as tags de palavras-chave de investimento em ações e trading com IA usadas para ler e ampliar esta coleção."),
+        ("## Taxonomy Overview", "## Visão geral da taxonomia"),
+        ("**Total selected papers**", "**Total de artigos selecionados**"),
+        ("**Candidate pool audited**", "**Conjunto de candidatos auditado**"),
+        ("**Citation count in selected set**", "**Citações no conjunto selecionado**"),
+        ("## Taxonomy Collections", "## Coleções por taxonomia"),
+        ("- Papers selected:", "- Artigos selecionados:"),
+        ("- Years covered:", "- Anos cobertos:"),
+        ("- Citation count in selected set:", "- Citações no conjunto selecionado:"),
+        ("- Category Overview:", "- Visão geral da categoria:"),
+        ("- Limitations:", "- Limitações:"),
+        ("## Yearly Selection Summary", "## Resumo anual de seleção"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| Ano | Registros candidatos | Artigos selecionados | Citações selecionadas | Artigo principal |"),
+        ("## Curation Method", "## Método de curadoria"),
+        ("## Limitations", "## Limitações"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- Este é um mapa de citações orientado por metadados, não uma revisão sistemática completa de cada PDF."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- O número de citações é um sinal de influência, não aconselhamento de investimento nem prova de lucratividade real."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Os metadados do Semantic Scholar podem omitir venues, resumos, PDFs ou citações influentes em alguns registros."),
+        ("## Acknowledgements", "## Agradecimentos"),
+        ("## License", "## Licença"),
+    ],
+    "ru": [
+        ("## Project Links", "## Ссылки проекта"),
+        ("- Open Interactive Website:", "- Интерактивный сайт:"),
+        ("- Selected dataset:", "- Выбранный набор данных:"),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- Таксономический набор с идеями, сильными сторонами и ограничениями по каждой работе:"),
+        ("- Precomputed period analysis:", "- Предварительно рассчитанный анализ периодов:"),
+        ("- Candidate Pool:", "- Пул кандидатов:"),
+        ("- English review draft:", "- Черновик обзора на английском:"),
+        ("- Korean review draft:", "- Черновик обзора на корейском:"),
+        ("## Keywords Convention", "## Соглашение по ключевым словам"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "Эти бейджи задают keyword tags для инвестиций в акции и AI-трейдинга, используемые для чтения и расширения коллекции."),
+        ("## Taxonomy Overview", "## Обзор таксономии"),
+        ("**Total selected papers**", "**Всего выбранных работ**"),
+        ("**Candidate pool audited**", "**Аудированный пул кандидатов**"),
+        ("**Citation count in selected set**", "**Цитирования в выбранном наборе**"),
+        ("## Taxonomy Collections", "## Коллекции по таксономии"),
+        ("- Papers selected:", "- Выбранные работы:"),
+        ("- Years covered:", "- Охваченные годы:"),
+        ("- Citation count in selected set:", "- Цитирования в выбранном наборе:"),
+        ("- Category Overview:", "- Обзор категории:"),
+        ("- Limitations:", "- Ограничения:"),
+        ("## Yearly Selection Summary", "## Годовая сводка выбора"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| Год | Записи-кандидаты | Выбранные работы | Цитирования выбранных | Лидирующая работа |"),
+        ("## Curation Method", "## Метод курирования"),
+        ("## Limitations", "## Ограничения"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- Это карта цитирований на основе метаданных, а не полный систематический обзор каждого PDF."),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- Число цитирований является сигналом влияния, а не инвестиционным советом или доказательством прибыльности реальной торговли."),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Метаданные Semantic Scholar могут не содержать venue, abstract, PDF или influential citations для некоторых записей."),
+        ("## Acknowledgements", "## Благодарности"),
+        ("## License", "## Лицензия"),
+    ],
+    "zh": [
+        ("## Project Links", "## 项目链接"),
+        ("- Open Interactive Website:", "- 交互式网站："),
+        ("- Selected dataset:", "- 入选数据集："),
+        ("- Taxonomy dataset with paper-level ideas, strengths, and limitations:", "- 包含论文级思想、优势和局限的分类数据集："),
+        ("- Precomputed period analysis:", "- 预计算期间分析："),
+        ("- Candidate Pool:", "- 候选池："),
+        ("- English review draft:", "- 英文综述草稿："),
+        ("- Korean review draft:", "- 韩文综述草稿："),
+        ("## Keywords Convention", "## 关键词约定"),
+        ("These badges define the stock-investment and AI-trading keyword tags used to read and extend this collection.", "这些徽章定义了阅读和扩展本集合时使用的股票投资与 AI 交易关键词标签。"),
+        ("## Taxonomy Overview", "## 分类概览"),
+        ("**Total selected papers**", "**入选论文总数**"),
+        ("**Candidate pool audited**", "**已审计候选池**"),
+        ("**Citation count in selected set**", "**入选集合引用数**"),
+        ("## Taxonomy Collections", "## 分类集合"),
+        ("- Papers selected:", "- 入选论文："),
+        ("- Years covered:", "- 覆盖年份："),
+        ("- Citation count in selected set:", "- 入选集合引用数："),
+        ("- Category Overview:", "- 分类概览："),
+        ("- Limitations:", "- 局限："),
+        ("## Yearly Selection Summary", "## 年度选择摘要"),
+        ("| Year | Candidate records | Selected papers | Selected citations | Top selected paper |", "| 年份 | 候选记录 | 入选论文 | 入选论文引用数 | 最高引用入选论文 |"),
+        ("## Curation Method", "## 策展方法"),
+        ("## Limitations", "## 局限"),
+        ("- This is a metadata-driven citation map, not a full systematic review of every PDF.", "- 这是基于元数据的引用地图，并非对每篇 PDF 的完整系统综述。"),
+        ("- Citation count is an influence signal, not investment advice or proof of live trading profitability.", "- 引用数是影响力信号，不是投资建议，也不是实盘交易盈利能力证明。"),
+        ("- Semantic Scholar metadata can omit venues, abstracts, PDFs, or influential citation counts for some records.", "- Semantic Scholar 元数据可能缺少部分记录的 venue、摘要、PDF 或影响力引用数。"),
+        ("## Acknowledgements", "## 致谢"),
+        ("## License", "## 许可证"),
+    ],
+}
+
+
+def readme_language_selector_lines(owner, repo, active="en"):
+    del owner, repo
+    lines = ["<div align=\"center\">"]
+    last_index = len(README_LANGUAGE_FILES) - 1
+    for index, (code, filename) in enumerate(README_LANGUAGE_FILES.items()):
+        label = README_LANGUAGE_LABELS[code]
+        rendered_label = f"<strong>{label}</strong>" if code == active else label
+        suffix = " |" if index != last_index else ""
+        lines.append(f'  <a href="{filename}">{rendered_label}</a>{suffix}')
+    lines.extend(["</div>", ""])
     return [
-        '<div align="center">',
-        '  <a href="README.md"><strong>English</strong></a> |',
-        '  <a href="README.de.md">Deutsch</a> |',
-        '  <a href="README.es.md">Español</a> |',
-        '  <a href="README.fr.md">français</a> |',
-        '  <a href="README.ja.md">日本語</a> |',
-        '  <a href="README.ko.md">한국어</a> |',
-        '  <a href="README.pt.md">Português</a> |',
-        '  <a href="README.ru.md">Русский</a> |',
-        '  <a href="README.zh.md">中文</a>',
-        "</div>",
-        "",
+        *lines,
     ]
+
+
+def readme_generation_context(selected, candidates):
+    return {
+        "generated_date": date.today().isoformat(),
+        "candidates_per_year": f"{CANDIDATES_PER_YEAR:,}",
+        "target_per_year": f"{TARGET_PER_YEAR:,}",
+        "year_range": YEAR_RANGE_TEXT,
+        "candidate_count": f"{len(candidates):,}",
+        "selected_count": f"{len(selected):,}",
+        "start_year": START_YEAR,
+        "end_year": END_YEAR,
+    }
+
+
+def readme_english_curation_method():
+    return f"The collection uses Semantic Scholar Academic Graph bulk search. Queries cover stock prediction, equity returns, asset pricing, portfolio optimization, financial time series, algorithmic trading, reinforcement learning, sentiment/news/alternative data, market microstructure, high-frequency trading, volatility, and risk themes. For each year from {START_YEAR} through {END_YEAR}, results are filtered to the publication year, screened with explicit stock-investment and AI-trading relevance expressions in title/abstract/venue metadata, deduplicated by DOI, arXiv, PubMed, CorpusId, paperId, then title, and reduced to at most {CANDIDATES_PER_YEAR:,} candidates by citation count. The final awesome list selects the top {TARGET_PER_YEAR:,} papers within each publication year by citation count; influential citation count and a deterministic metadata importance score are retained as tie-breakers and audit signals."
+
+
+def replace_readme_selector(text, language):
+    start = text.find('<div align="center">\n  <a href="README.md"')
+    if start == -1:
+        return text
+    end = text.find("</div>", start)
+    if end == -1:
+        return text
+    end += len("</div>")
+    selector = "\n".join(readme_language_selector_lines(PROJECT_OWNER, PROJECT_REPO, active=language)).rstrip()
+    note = README_LOCALIZED_COPY[language]["note"]
+    return f"{text[:start]}{selector}\n\n{note}{text[end:]}"
+
+
+def localize_readme_keywords(text, language):
+    descriptions = globals().get("KEYWORD_DESCRIPTION_LANG", {}).get(language)
+    if not descriptions:
+        return text
+    for keyword, english_description, _color in KEYWORD_CONVENTION:
+        localized = descriptions.get(keyword)
+        if localized:
+            text = text.replace(f"**{keyword}**: {english_description}", f"**{keyword}**: {localized}")
+    return text
+
+
+def localized_readme_text(english_text, language, selected, candidates):
+    copy = README_LOCALIZED_COPY[language]
+    context = readme_generation_context(selected, candidates)
+    text = replace_readme_selector(english_text, language)
+    text = text.replace(PROJECT_DESCRIPTION, copy["description"], 1)
+    text = re.sub(
+        r"Generated on \d{4}-\d{2}-\d{2} from free public Semantic Scholar metadata\. This edition investigates up to [\s\S]*?research taxonomy\.",
+        copy["generated"].format(**context),
+        text,
+        count=1,
+    )
+    text = text.replace(readme_english_curation_method(), copy["curation"].format(**context), 1)
+    text = text.replace(
+        "The taxonomy, key ideas, strengths, limitations, method tags, and keyword tags are generated deterministically from public metadata and rule-based domain conventions. No paid API, paid LLM, paid translation, or paid compute was used.",
+        copy["no_paid"],
+        1,
+    )
+    partial_year_warning = f"- Papers from {END_YEAR} are structurally citation-disadvantaged because the year is partial and citation accumulation is still immature as of {date.today().isoformat()}."
+    text = text.replace(
+        partial_year_warning,
+        {
+            "de": f"- Arbeiten aus {END_YEAR} sind strukturell benachteiligt, weil das Jahr nur teilweise abgeschlossen ist und die Zitierakkumulation am {date.today().isoformat()} noch unreif ist.",
+            "es": f"- Los artículos de {END_YEAR} tienen desventaja estructural porque el año es parcial y la acumulación de citas aún es inmadura al {date.today().isoformat()}.",
+            "fr": f"- Les articles de {END_YEAR} sont structurellement désavantagés car l'année est partielle et l'accumulation de citations reste immature au {date.today().isoformat()}.",
+            "ja": f"- {END_YEAR} 年の論文は、年が途中であり {date.today().isoformat()} 時点で引用蓄積がまだ成熟していないため、構造的に不利です。",
+            "ko": f"- {END_YEAR}년 논문은 연도가 아직 진행 중이고 {date.today().isoformat()} 기준 인용 축적이 충분히 성숙하지 않아 구조적으로 불리합니다.",
+            "pt": f"- Artigos de {END_YEAR} têm desvantagem estrutural porque o ano é parcial e a acumulação de citações ainda está imatura em {date.today().isoformat()}.",
+            "ru": f"- Работы {END_YEAR} года структурно находятся в невыгодном положении, поскольку год неполный, а накопление цитирований на {date.today().isoformat()} еще незрелое.",
+            "zh": f"- {END_YEAR} 年论文在结构上处于引用劣势，因为该年份尚未完整，且截至 {date.today().isoformat()} 引用积累仍不成熟。",
+        }[language],
+        1,
+    )
+    text = text.replace(
+        "- Stock-investment research is especially sensitive to transaction costs, survivorship bias, look-ahead bias, market impact, and regime change; those require full-paper and data-level review.",
+        {
+            "de": "- Aktienanlageforschung ist besonders empfindlich gegenüber Transaktionskosten, Survivorship Bias, Look-ahead Bias, Markteinfluss und Regimewechseln; diese Punkte erfordern eine Prüfung auf Paper- und Datenebene.",
+            "es": "- La investigación de inversión en acciones es especialmente sensible a costes de transacción, sesgo de supervivencia, look-ahead bias, impacto de mercado y cambio de régimen; todo ello requiere revisión a nivel de artículo y datos.",
+            "fr": "- La recherche sur l'investissement actions est particulièrement sensible aux coûts de transaction, au biais de survie, au look-ahead bias, à l'impact de marché et aux changements de régime; ces points exigent une revue au niveau des articles et des données.",
+            "ja": "- 株式投資研究は、取引コスト、サバイバーシップバイアス、ルックアヘッドバイアス、マーケットインパクト、レジーム変化に特に敏感であり、論文本文とデータレベルの確認が必要です。",
+            "ko": "- 주식 투자 연구는 거래비용, 생존편향, look-ahead bias, 시장충격, regime change에 특히 민감하므로 논문 전문과 데이터 수준 검토가 필요합니다.",
+            "pt": "- A pesquisa de investimento em ações é especialmente sensível a custos de transação, viés de sobrevivência, look-ahead bias, impacto de mercado e mudança de regime; isso exige revisão no nível do artigo e dos dados.",
+            "ru": "- Исследования инвестиций в акции особенно чувствительны к транзакционным издержкам, survivorship bias, look-ahead bias, market impact и смене режимов; это требует проверки на уровне полной статьи и данных.",
+            "zh": "- 股票投资研究尤其容易受到交易成本、生存者偏差、前视偏差、市场冲击和 regime change 的影响，因此需要论文全文和数据层面的审查。",
+        }[language],
+        1,
+    )
+    text = text.replace(
+        "This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.",
+        {
+            "de": "Dieses Repository und die interaktive Website wurden mit Dank an [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) erstellt. Dessen Workflow und Repository-Struktur haben den hier verwendeten Ansatz für eine taxonomieorientierte, zitiergerankte Forschungskarte geprägt.",
+            "es": "Este repositorio y el sitio interactivo se crearon con agradecimiento a [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Su flujo de curación de papers y organización del repositorio inspiraron el enfoque de este mapa de investigación taxonómico y ordenado por citas.",
+            "fr": "Ce dépôt et le site interactif ont été créés avec reconnaissance envers [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Son workflow de curation d'articles et son organisation de dépôt ont inspiré l'approche utilisée ici.",
+            "ja": "このリポジトリとインタラクティブサイトは [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) への謝意とともに作成しました。その paper-curation ワークフローとリポジトリ構成が、本プロジェクトの分類体系優先・引用順位型研究マップの設計に影響を与えています。",
+            "ko": "이 저장소와 인터랙티브 사이트는 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation)에 대한 감사와 함께 만들었습니다. 해당 paper-curation 워크플로와 저장소 구성이 이곳의 분류 우선, 인용 순위 기반 연구 지도 접근에 참고가 되었습니다.",
+            "pt": "Este repositório e o site interativo foram criados com agradecimento a [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Seu fluxo de curadoria de papers e organização do repositório inspiraram a abordagem usada aqui.",
+            "ru": "Этот репозиторий и интерактивный сайт созданы с благодарностью к [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Его workflow и структура репозитория повлияли на подход к этой таксономической карте исследований, ранжированной по цитированиям.",
+            "zh": "本仓库和交互式网站在致谢 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) 的基础上创建。其论文策展流程和仓库组织方式启发了这里按分类优先、按引用排序的研究地图方法。",
+        }[language],
+        1,
+    )
+    text = text.replace(
+        "CC-BY-4.0 for text and metadata curation. Upstream paper metadata belongs to the original sources.",
+        {
+            "de": "Text und Metadatenkuratierung stehen unter CC-BY-4.0. Die ursprünglichen Paper-Metadaten gehören den jeweiligen Quellen.",
+            "es": "CC-BY-4.0 para texto y curación de metadatos. Los metadatos originales pertenecen a sus fuentes.",
+            "fr": "CC-BY-4.0 pour le texte et la curation des métadonnées. Les métadonnées amont appartiennent aux sources originales.",
+            "ja": "テキストおよびメタデータのキュレーションは CC-BY-4.0 です。元の論文メタデータは各ソースに帰属します。",
+            "ko": "텍스트와 메타데이터 큐레이션은 CC-BY-4.0을 따릅니다. 원천 논문 메타데이터는 각 원본 출처에 속합니다.",
+            "pt": "CC-BY-4.0 para texto e curadoria de metadados. Os metadados originais pertencem às fontes originais.",
+            "ru": "Текст и курирование метаданных распространяются по CC-BY-4.0. Исходные метаданные статей принадлежат оригинальным источникам.",
+            "zh": "文本和元数据策展采用 CC-BY-4.0。上游论文元数据归原始来源所有。",
+        }[language],
+        1,
+    )
+    for old, new in README_STATIC_REPLACEMENTS[language]:
+        text = text.replace(old, new)
+    text = text.replace("Show representative papers for ", copy["show"])
+    text = re.sub(r"(\d[\d,]*) papers\b", lambda match: f"{match.group(1)} {copy['paper_word']}", text)
+    text = localize_readme_keywords(text, language)
+    return text
+
+
+def write_multilingual_readmes(readme_path, selected, candidates):
+    english_text = readme_path.read_text(encoding="utf-8")
+    for language, filename in README_LANGUAGE_FILES.items():
+        if language == "en":
+            continue
+        localized_path = ROOT / filename
+        localized_path.write_text(localized_readme_text(english_text, language, selected, candidates), encoding="utf-8")
+        write_markdown_html(localized_path, f"{PROJECT_TITLE} ({README_LANGUAGE_LABELS[language]})", lang=language)
 
 
 def write_readme(selected, candidates):
@@ -4085,6 +4567,7 @@ def write_readme(selected, candidates):
     readme_path = ROOT / "README.md"
     readme_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     write_markdown_html(readme_path, PROJECT_TITLE)
+    write_multilingual_readmes(readme_path, selected, candidates)
 
 
 def review_sections(selected, korean=False):
