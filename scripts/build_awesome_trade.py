@@ -1940,7 +1940,7 @@ def taxonomy_section(category, rows):
         </summary>
         <div class="section-intro">
           <figure class="section-visual"><img src="assets/taxonomy/{slug}.png" alt="{html.escape(category)} illustration"></figure>
-          <p><strong>Top paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
+          <p><strong class="top-paper-label">Top paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
           <div class="insight-grid">
             <div class="insight-box">
               <strong class="overview-heading">Category Overview</strong>
@@ -1973,7 +1973,7 @@ def all_taxonomy_section(rows):
           <span class="category-citations">{citations:,} citations</span>
         </summary>
         <div class="section-intro">
-          <p><strong>Top paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
+          <p><strong class="top-paper-label">Top paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
         </div>
         <div class="paper-list all-taxonomy-list"></div>
       </details>
@@ -2014,6 +2014,7 @@ def write_site(selected):
     research_overview = research_overview_html().strip()
     research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
     overall_research_templates_payload = json.dumps(overall_research_templates(), ensure_ascii=False)
+    static_site_copy_payload = json.dumps(site_static_copy(), ensure_ascii=False)
     year_script = f"""
   <script>
     (() => {{
@@ -2038,6 +2039,7 @@ def write_site(selected):
       const defaultLanguage = languageSelect.value;
       const researchCopy = {research_copy_payload};
       const overallResearchTemplates = {overall_research_templates_payload};
+      const staticCopy = {static_site_copy_payload};
       const periodOptions = Array.from(periodSelect.options);
       const validYears = Array.from(startSelect.options).map(option => option.value);
       const keywordGrid = document.querySelector(".keyword-grid");
@@ -2078,16 +2080,42 @@ def write_site(selected):
         const fallback = {{
           papers: "papers", categories: "categories", overview: "Category Overview", limitations: "Limitations",
           totalSelected: "Total selected papers", categoryCount: "Categories",
-          keyIdea: "Key idea", strengths: "Strengths", paperLimitations: "Limitations"
+          keyIdea: "Key idea", strengths: "Strengths", paperLimitations: "Limitations",
+          citations: "citations", selectedKeyword: "Selected keyword", matchingPapers: "Matching papers",
+          allKeywords: "all", categoryChart: "Category distribution", citationChart: "Yearly citation mass",
+          topPaper: "Top paper", allTaxonomies: "All Taxonomies"
         }};
         return {{...fallback, ...(precomputed?.uiLabels?.en || {{}}), ...(precomputed?.uiLabels?.[languageSelect.value] || {{}})}};
+      }}
+      function languageStaticCopy() {{
+        return {{...(staticCopy.en || {{}}), ...(staticCopy[languageSelect.value] || {{}})}};
+      }}
+      function displayName(value) {{
+        const current = languageStaticCopy();
+        return current.categoryNames?.[value] || value;
+      }}
+      function updateStaticLocalization(copy) {{
+        const current = languageStaticCopy();
+        document.documentElement.lang = languageSelect.value;
+        document.querySelectorAll("[data-i18n]").forEach(node => {{
+          const key = node.dataset.i18n;
+          if (current[key]) node.textContent = current[key];
+        }});
+        document.querySelectorAll(".keyword-description").forEach(node => {{
+          const suffix = languageSelect.value.charAt(0).toUpperCase() + languageSelect.value.slice(1);
+          const value = node.dataset[`description${{suffix}}`] || node.dataset.descriptionEn;
+          if (value) node.textContent = value;
+        }});
+        document.querySelectorAll(".top-paper-label").forEach(node => {{ node.textContent = `${{copy.topPaper}}:`; }});
+        const allTitle = allTaxonomiesSection?.querySelector(".summary-title");
+        if (allTitle) allTitle.textContent = copy.allTaxonomies;
       }}
       function escapeHtml(value) {{
         const escapeMap = {{ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }};
         return String(value ?? "").replace(/[&<>"']/g, ch => escapeMap[ch]);
       }}
       function names(items, key = "name") {{
-        return (items || []).slice(0, 3).map(item => item[key]).filter(Boolean).join(", ") || "n/a";
+        return (items || []).slice(0, 3).map(item => displayName(item[key])).filter(Boolean).join(", ") || "n/a";
       }}
       function researchTemplateData(metric) {{
         const topCategories = metric.topCategories || [];
@@ -2100,7 +2128,7 @@ def write_site(selected):
           activeYears: formatNumber(metric.activeYears),
           citations: formatNumber(metric.citationCount),
           topCategories: names(topCategories),
-          topCategory: topCategory.name || "n/a",
+          topCategory: displayName(topCategory.name || "n/a"),
           topCategoryCount: formatNumber(topCategory.count || 0),
           topKeywords: names(topKeywords),
           peakYear: metric.peakYear || "n/a",
@@ -2108,7 +2136,7 @@ def write_site(selected):
           peakCitationYear: metric.peakCitationYear || "n/a",
           topPaper: topPaper.title || "n/a",
           topPaperYear: topPaper.year || "n/a",
-          topPaperCategory: topPaper.category || "n/a",
+          topPaperCategory: displayName(topPaper.category || "n/a"),
           topPaperCitations: formatNumber(topPaper.citations || 0)
         }};
       }}
@@ -2161,8 +2189,9 @@ def write_site(selected):
           citationChart.src = chartPath("yearly_citations", start, end);
           citationChart.alt = `Yearly citation chart for ${{label}}`;
         }}
-        if (categoryChartCaption) categoryChartCaption.textContent = `Category distribution (${{label}})`;
-        if (citationChartCaption) citationChartCaption.textContent = `Yearly citation mass (${{label}})`;
+        const copy = labels();
+        if (categoryChartCaption) categoryChartCaption.textContent = `${{copy.categoryChart}} (${{label}})`;
+        if (citationChartCaption) citationChartCaption.textContent = `${{copy.citationChart}} (${{label}})`;
       }}
       function localizedCardText(card, field, language) {{
         const suffix = language.charAt(0).toUpperCase() + language.slice(1);
@@ -2232,7 +2261,8 @@ def write_site(selected):
       function updateKeywordFilterStatus(selected, totalPapers, copy) {{
         if (!keywordFilterStatus) return;
         const keyword = selected.length ? selected[0] : "all";
-        keywordFilterStatus.textContent = `Selected keyword: ${{keyword}} | Matching papers: ${{formatNumber(totalPapers)}} ${{copy.papers}}`;
+        const keywordLabel = keyword === "all" ? copy.allKeywords : keyword;
+        keywordFilterStatus.textContent = `${{copy.selectedKeyword}}: ${{keywordLabel}} | ${{copy.matchingPapers}}: ${{formatNumber(totalPapers)}} ${{copy.papers}}`;
       }}
       function renderAllTaxonomiesCards() {{
         if (!allTaxonomiesList || !allTaxonomiesDetails?.open) return;
@@ -2248,7 +2278,7 @@ def write_site(selected):
         allTaxonomiesSection.hidden = totalPapers === 0;
         allTaxonomiesSection.querySelector(".category-count").textContent = `${{formatNumber(totalPapers)}} ${{copy.papers}}`;
         allTaxonomiesSection.querySelector(".category-years").textContent = yearRangeText(years);
-        allTaxonomiesSection.querySelector(".category-citations").textContent = `${{formatNumber(totalCitations)}} citations`;
+        allTaxonomiesSection.querySelector(".category-citations").textContent = `${{formatNumber(totalCitations)}} ${{copy.citations}}`;
         const topPaperTarget = allTaxonomiesSection.querySelector(".top-paper");
         const topPaper = [...cards].sort((a, b) => Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0))[0]?.querySelector("h3");
         if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
@@ -2260,6 +2290,7 @@ def write_site(selected):
         let end = Number(endSelect.value);
         if (start > end) {{ const previous = start; start = end; end = previous; startSelect.value = String(start); endSelect.value = String(end); }}
         const copy = labels();
+        updateStaticLocalization(copy);
         updateResearchCopy(start, end);
         const activeKeywords = selectedKeywords();
         let totalPapers = 0;
@@ -2287,7 +2318,7 @@ def write_site(selected):
           totalCitations += sectionCitations;
           section.querySelector(".category-count").textContent = `${{formatNumber(sectionCount)}} ${{copy.papers}}`;
           section.querySelector(".category-years").textContent = yearRangeText(sectionYears);
-          section.querySelector(".category-citations").textContent = `${{formatNumber(sectionCitations)}} citations`;
+          section.querySelector(".category-citations").textContent = `${{formatNumber(sectionCitations)}} ${{copy.citations}}`;
           const topPaper = section.querySelector(".paper-card:not([hidden]) h3");
           const topPaperTarget = section.querySelector(".top-paper");
           if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
@@ -2428,55 +2459,55 @@ def write_site(selected):
 <body>
   <header>
     <h1>Awesome Test</h1>
-    <p>A taxonomy-first, citation-ranked map of AI research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR:,} candidate papers; the final collection selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total).</p>
+    <p data-i18n="hero">A taxonomy-first, citation-ranked map of AI research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR:,} candidate papers; the final collection selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total).</p>
     <nav>
-      <a href="https://github.com/honggi82/awesome-test">README</a>
-      <a href="data/{PAPERS_CSV}">CSV Dataset</a>
-      <a href="data/{TAXONOMY_CSV}">Taxonomy CSV</a>
-      <a href="data/{PERIOD_ANALYSIS_JSON}">Period Analysis JSON</a>
-      <a href="#keywords-convention">Keywords Convention</a>
-      <a href="data/{CANDIDATES_CSV}">Candidate Pool</a>
-      <a href="paper/review_en.html">Review Paper</a>
-      <a href="paper/review_ko.html">Korean Review</a>
+      <a href="https://github.com/honggi82/awesome-test" data-i18n="navReadme">README</a>
+      <a href="data/{PAPERS_CSV}" data-i18n="navDataset">CSV Dataset</a>
+      <a href="data/{TAXONOMY_CSV}" data-i18n="navTaxonomyCsv">Taxonomy CSV</a>
+      <a href="data/{PERIOD_ANALYSIS_JSON}" data-i18n="navPeriodJson">Period Analysis JSON</a>
+      <a href="#keywords-convention" data-i18n="navKeywords">Keywords Convention</a>
+      <a href="data/{CANDIDATES_CSV}" data-i18n="navCandidatePool">Candidate Pool</a>
+      <a href="paper/review_en.html" data-i18n="navReview">Review Paper</a>
+      <a href="paper/review_ko.html" data-i18n="navKoreanReview">Korean Review</a>
     </nav>
   </header>
   <main>
     <div class="stats">
-      <div class="stat"><strong id="statPapers">{len(selected)}</strong><span>selected papers</span></div>
-      <div class="stat"><strong id="statYears">{len(year_stats(selected))}</strong><span>years represented</span></div>
-      <div class="stat"><strong id="statCitations">{total_cites:,}</strong><span>citation count total</span></div>
-      <div class="stat"><strong id="statCategories">{len(stats)}</strong><span>topic categories</span></div>
+      <div class="stat"><strong id="statPapers">{len(selected)}</strong><span data-i18n="statSelected">selected papers</span></div>
+      <div class="stat"><strong id="statYears">{len(year_stats(selected))}</strong><span data-i18n="statYears">years represented</span></div>
+      <div class="stat"><strong id="statCitations">{total_cites:,}</strong><span data-i18n="statCitations">citation count total</span></div>
+      <div class="stat"><strong id="statCategories">{len(stats)}</strong><span data-i18n="statCategories">topic categories</span></div>
     </div>
     <form class="filters" id="yearFilter">
       <div class="filter-field wide-field">
-        <label for="periodPreset">Period</label>
+        <label for="periodPreset" data-i18n="filterPeriod">Period</label>
         <select id="periodPreset" name="period">{period_options}</select>
       </div>
       <div class="filter-field">
-        <label for="languageSelect">Language</label>
+        <label for="languageSelect" data-i18n="filterLanguage">Language</label>
         <select id="languageSelect" name="lang">{language_options}</select>
       </div>
       <div class="filter-field">
-        <label for="startYear">Start year</label>
+        <label for="startYear" data-i18n="filterStart">Start year</label>
         <select id="startYear" name="from">{start_year_options}</select>
       </div>
       <div class="filter-field">
-        <label for="endYear">End year</label>
+        <label for="endYear" data-i18n="filterEnd">End year</label>
         <select id="endYear" name="to">{end_year_options}</select>
       </div>
-      <button type="button" id="resetYears">Reset</button>
+      <button type="button" id="resetYears" data-i18n="filterReset">Reset</button>
       <span id="rangeStatus"></span>
     </form>
     {research_overview}
     <section class="keyword-section" id="keywords-convention">
-      <h2>Keywords Convention</h2>
-      <p>These clickable keyword tags define the AI-specific convention used to scan, filter, and extend this collection.</p>
+      <h2 data-i18n="keywordsTitle">Keywords Convention</h2>
+      <p data-i18n="keywordsIntro">These clickable keyword tags define the AI-specific convention used to scan, filter, and extend this collection.</p>
       <div class="keyword-grid">{keyword_html}</div>
       <p class="keyword-filter-status" id="keywordFilterStatus">Selected keyword: all | Matching papers: {len(selected):,} papers</p>
     </section>
-    <h2>Taxonomy</h2>
+    <h2 data-i18n="taxonomyTitle">Taxonomy</h2>
     <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(selected):,} papers; <strong>Categories:</strong> {len(stats)} categories.</p>
-    <p>Each taxonomy section lists papers with publication year, venue, citation count, influential citations, score, keywords, key idea, strengths, research-focused limitations, and paper links. Sections are collapsed by default.</p>
+    <p data-i18n="taxonomyIntro">Each taxonomy section lists papers with publication year, venue, citation count, influential citations, score, keywords, key idea, strengths, research-focused limitations, and paper links. Sections are collapsed by default.</p>
     <div class="figures">
       <figure class="chart-figure">
         <img id="categoryDistributionChart" src="assets/periods/category_distribution_{START_YEAR}_{END_YEAR}.svg" alt="Category distribution chart for {YEAR_RANGE_TEXT}">
@@ -4114,6 +4145,525 @@ def postprocess_generated_files():
         for old, new in replacements.items():
             text = text.replace(old, new)
         path.write_text(text, encoding="utf-8")
+
+
+LANGUAGES = {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語",
+}
+
+UI_LABELS = {
+    "en": {
+        "papers": "papers",
+        "categories": "categories",
+        "overview": "Category Overview",
+        "limitations": "Limitations",
+        "analysis": "Selected-period analysis",
+        "totalSelected": "Total selected papers",
+        "categoryCount": "Categories",
+        "keyIdea": "Key idea",
+        "strengths": "Strengths",
+        "paperLimitations": "Limitations",
+        "citations": "citations",
+        "selectedKeyword": "Selected keyword",
+        "matchingPapers": "Matching papers",
+        "allKeywords": "all",
+        "categoryChart": "Category distribution",
+        "citationChart": "Yearly citation mass",
+        "topPaper": "Top paper",
+        "allTaxonomies": "All Taxonomies",
+    },
+    "ko": {
+        "papers": "편",
+        "categories": "분류",
+        "overview": "분류 개요",
+        "limitations": "한계",
+        "analysis": "선택 기간 분석",
+        "totalSelected": "선정 논문",
+        "categoryCount": "분류",
+        "keyIdea": "핵심 아이디어",
+        "strengths": "강점",
+        "paperLimitations": "한계",
+        "citations": "회 인용",
+        "selectedKeyword": "선택 키워드",
+        "matchingPapers": "일치 논문",
+        "allKeywords": "전체",
+        "categoryChart": "분류별 분포",
+        "citationChart": "연도별 인용 규모",
+        "topPaper": "대표 논문",
+        "allTaxonomies": "전체 분류",
+    },
+    "zh": {
+        "papers": "篇论文",
+        "categories": "个分类",
+        "overview": "分类概览",
+        "limitations": "局限",
+        "analysis": "所选期间分析",
+        "totalSelected": "入选论文",
+        "categoryCount": "分类",
+        "keyIdea": "核心观点",
+        "strengths": "优势",
+        "paperLimitations": "局限",
+        "citations": "次引用",
+        "selectedKeyword": "选中关键词",
+        "matchingPapers": "匹配论文",
+        "allKeywords": "全部",
+        "categoryChart": "分类分布",
+        "citationChart": "年度引用规模",
+        "topPaper": "代表论文",
+        "allTaxonomies": "全部分类",
+    },
+    "ja": {
+        "papers": "本",
+        "categories": "分類",
+        "overview": "分類概要",
+        "limitations": "限界",
+        "analysis": "選択期間の分析",
+        "totalSelected": "選定論文",
+        "categoryCount": "分類",
+        "keyIdea": "主要アイデア",
+        "strengths": "強み",
+        "paperLimitations": "限界",
+        "citations": "件の引用",
+        "selectedKeyword": "選択キーワード",
+        "matchingPapers": "該当論文",
+        "allKeywords": "すべて",
+        "categoryChart": "分類別分布",
+        "citationChart": "年別引用規模",
+        "topPaper": "代表論文",
+        "allTaxonomies": "全分類",
+    },
+}
+
+CATEGORY_NAMES = {
+    "ko": {
+        "Asset Pricing and Return Predictability": "자산가격결정과 수익률 예측",
+        "Portfolio Optimization and Asset Allocation": "포트폴리오 최적화와 자산배분",
+        "Machine Learning for Stock Prediction": "머신러닝 기반 주식 예측",
+        "Deep Learning and Financial Time Series": "딥러닝과 금융 시계열",
+        "Reinforcement Learning and Algorithmic Trading": "강화학습과 알고리즘 트레이딩",
+        "Sentiment, News, and Alternative Data": "감성, 뉴스, 대체데이터",
+        "Market Microstructure and High-Frequency Trading": "시장 미시구조와 고빈도 거래",
+        "Risk, Volatility, and Forecast Evaluation": "위험, 변동성, 예측 평가",
+        "Behavioral Finance and Investor Decision-Making": "행동재무와 투자자 의사결정",
+        "General Finance, Surveys, and Trading Systems": "일반 금융, 서베이, 거래 시스템",
+    },
+    "zh": {
+        "Asset Pricing and Return Predictability": "资产定价与收益预测",
+        "Portfolio Optimization and Asset Allocation": "投资组合优化与资产配置",
+        "Machine Learning for Stock Prediction": "用于股票预测的机器学习",
+        "Deep Learning and Financial Time Series": "深度学习与金融时间序列",
+        "Reinforcement Learning and Algorithmic Trading": "强化学习与算法交易",
+        "Sentiment, News, and Alternative Data": "情绪、新闻与另类数据",
+        "Market Microstructure and High-Frequency Trading": "市场微观结构与高频交易",
+        "Risk, Volatility, and Forecast Evaluation": "风险、波动率与预测评估",
+        "Behavioral Finance and Investor Decision-Making": "行为金融与投资者决策",
+        "General Finance, Surveys, and Trading Systems": "通用金融、综述与交易系统",
+    },
+    "ja": {
+        "Asset Pricing and Return Predictability": "資産価格評価とリターン予測",
+        "Portfolio Optimization and Asset Allocation": "ポートフォリオ最適化と資産配分",
+        "Machine Learning for Stock Prediction": "株式予測のための機械学習",
+        "Deep Learning and Financial Time Series": "深層学習と金融時系列",
+        "Reinforcement Learning and Algorithmic Trading": "強化学習とアルゴリズム取引",
+        "Sentiment, News, and Alternative Data": "センチメント、ニュース、代替データ",
+        "Market Microstructure and High-Frequency Trading": "市場マイクロストラクチャーと高頻度取引",
+        "Risk, Volatility, and Forecast Evaluation": "リスク、ボラティリティ、予測評価",
+        "Behavioral Finance and Investor Decision-Making": "行動ファイナンスと投資家意思決定",
+        "General Finance, Surveys, and Trading Systems": "一般金融、サーベイ、取引システム",
+    },
+}
+
+KOREAN_CATEGORY_NAMES = CATEGORY_NAMES["ko"]
+
+KEYWORD_DESCRIPTION_LANG = {
+    "ko": {
+        "stock-prediction": "주가, 수익률, 방향성, 추세, 시장지수 예측과 forecasting.",
+        "machine-learning": "SVM, 트리, 부스팅, 랜덤 포레스트, 커널, 데이터마이닝 등 전통적 ML 기반 시장 분석.",
+        "deep-learning": "LSTM/GRU/CNN, attention, transformer, 표현학습 기반 금융 시계열 모델.",
+        "portfolio": "포트폴리오 최적화, 자산배분, 포트폴리오 선택, 리스크 패리티, 리밸런싱.",
+        "reinforcement-trading": "강화학습, 알고리즘 트레이딩, 실행, market making, 백테스트된 거래 전략.",
+        "sentiment-altdata": "뉴스, 소셜미디어, NLP, LLM, 실적발표, 대체데이터 기반 투자 신호.",
+        "high-frequency": "시장 미시구조, limit order book, order flow, 유동성, 고빈도 거래.",
+        "risk-volatility": "변동성 예측, VaR, drawdown, tail risk, stress test, 예측 평가.",
+        "asset-pricing": "자산가격결정, 주식 팩터, anomaly, 수익률 예측성, 횡단면 주식 수익률.",
+        "behavioral-finance": "투자자 심리, attention, 행동 편향, 시장 효율성, 의사결정.",
+    },
+    "zh": {
+        "stock-prediction": "股票价格、收益、方向、趋势或市场指数预测。",
+        "machine-learning": "SVM、树模型、提升方法、随机森林、核方法和数据挖掘在市场中的应用。",
+        "deep-learning": "神经网络、LSTM/GRU/CNN、注意力、Transformer 与金融时间序列表征学习。",
+        "portfolio": "投资组合优化、资产配置、组合选择、风险平价与再平衡。",
+        "reinforcement-trading": "强化学习、算法交易、执行、做市与回测交易策略。",
+        "sentiment-altdata": "新闻、社交媒体、NLP、LLM、财报电话会与另类数据投资信号。",
+        "high-frequency": "市场微观结构、限价订单簿、订单流、流动性与高频交易。",
+        "risk-volatility": "波动率预测、VaR、回撤、尾部风险、压力测试与预测评估。",
+        "asset-pricing": "资产定价、股票因子、异象、收益可预测性与横截面股票收益。",
+        "behavioral-finance": "投资者情绪、注意力、行为偏差、市场效率与决策。",
+    },
+    "ja": {
+        "stock-prediction": "株価、リターン、方向、トレンド、市場指数の予測。",
+        "machine-learning": "SVM、木モデル、ブースティング、ランダムフォレスト、カーネル、データマイニングの市場応用。",
+        "deep-learning": "ニューラルネット、LSTM/GRU/CNN、attention、Transformer、金融時系列の表現学習。",
+        "portfolio": "ポートフォリオ最適化、資産配分、ポートフォリオ選択、リスクパリティ、リバランス。",
+        "reinforcement-trading": "強化学習、アルゴリズム取引、執行、マーケットメイク、バックテスト済み取引戦略。",
+        "sentiment-altdata": "ニュース、SNS、NLP、LLM、決算説明会、代替データによる投資シグナル。",
+        "high-frequency": "市場マイクロストラクチャー、板情報、注文フロー、流動性、高頻度取引。",
+        "risk-volatility": "ボラティリティ予測、VaR、ドローダウン、テールリスク、ストレステスト、予測評価。",
+        "asset-pricing": "資産価格評価、株式ファクター、アノマリー、リターン予測可能性、クロスセクション株式リターン。",
+        "behavioral-finance": "投資家心理、注目度、行動バイアス、市場効率性、意思決定。",
+    },
+}
+
+CATEGORY_LIMITATIONS_LANG = {
+    "ko": {
+        "Asset Pricing and Return Predictability": ["수익률 예측성은 거래비용, crowded trade, 다중검정 보정 이후 약해질 수 있습니다.", "인용 영향력은 잘 알려진 anomaly를 선호할 수 있으며 실제 성과 약화를 반영하지 못할 수 있습니다."],
+        "Portfolio Optimization and Asset Allocation": ["배분 성과는 추정오차, turnover, 공매도 제약, 벤치마크 선택에 크게 좌우될 수 있습니다.", "메타데이터만으로 비용, 레버리지, 리밸런싱 규칙을 확인할 수 없습니다."],
+        "Machine Learning for Stock Prediction": ["예측 정확도가 비용 차감 후 위험조정수익으로 이어지지 않을 수 있습니다.", "feature leakage, 생존편향, 비정상성은 지속적인 위험입니다."],
+        "Deep Learning and Financial Time Series": ["딥러닝 모델은 잡음이 크고 비정상적인 금융 데이터에 과적합될 수 있습니다.", "검증 프로토콜이 조금만 달라져도 보고된 성과가 흔들릴 수 있습니다."],
+        "Reinforcement Learning and Algorithmic Trading": ["시뮬레이션 보상은 slippage, latency, market impact가 있는 실제 거래와 다를 수 있습니다.", "정책은 regime shift와 stress period에서 취약할 수 있습니다."],
+        "Sentiment, News, and Alternative Data": ["텍스트 및 대체데이터 연구에서는 timestamp 정렬과 look-ahead bias 통제가 핵심입니다.", "정보가 crowded해지면 sentiment signal은 빠르게 약화될 수 있습니다."],
+        "Market Microstructure and High-Frequency Trading": ["고빈도 결과는 시장 접근, latency, 수수료, order-book 재구성 품질에 민감합니다.", "공개 메타데이터는 실행 가정을 충분히 보여주지 않습니다."],
+        "Risk, Volatility, and Forecast Evaluation": ["위험 예측은 regime break와 극단 사건에서 실패할 수 있습니다.", "loss function 선택이 모델 순위를 크게 바꿀 수 있습니다."],
+        "Behavioral Finance and Investor Decision-Making": ["행동 메커니즘은 시장별·기간별로 달라질 수 있습니다.", "sentiment proxy는 여러 혼재된 경로를 동시에 포착할 수 있습니다."],
+        "General Finance, Surveys, and Trading Systems": ["서베이와 시스템 논문은 인용을 많이 받을 수 있지만 실증 근거는 시장별로 다를 수 있습니다.", "메타데이터 기반 순위는 전문적인 원문 독해와 백테스트 검증을 대체하지 않습니다."],
+    },
+    "zh": {
+        "Asset Pricing and Return Predictability": ["收益可预测性在交易成本、拥挤交易和多重检验修正后可能消失。", "引用影响力可能偏向知名异象，即使其实盘表现后来减弱。"],
+        "Portfolio Optimization and Asset Allocation": ["配置收益可能被估计误差、换手率、卖空约束和基准选择所主导。", "仅靠元数据无法确认成本、杠杆或再平衡规则。"],
+        "Machine Learning for Stock Prediction": ["预测准确率不一定转化为扣除成本后的风险调整收益。", "特征泄漏、生存者偏差和非平稳性仍是主要风险。"],
+        "Deep Learning and Financial Time Series": ["深度模型可能过拟合噪声大、非平稳且信噪比低的金融数据。", "验证协议的细微变化也可能影响报告结果。"],
+        "Reinforcement Learning and Algorithmic Trading": ["模拟奖励可能与含滑点、延迟和市场冲击的可执行交易不同。", "策略在 regime shift 或压力时期可能脆弱。"],
+        "Sentiment, News, and Alternative Data": ["文本和另类数据研究必须严格处理时间戳对齐与前视偏差。", "当信息变得拥挤时，情绪信号可能快速衰减。"],
+        "Market Microstructure and High-Frequency Trading": ["高频结果高度依赖市场接入、延迟、费用和订单簿重建质量。", "公开元数据很少揭示真实执行假设。"],
+        "Risk, Volatility, and Forecast Evaluation": ["风险预测在 regime break 和极端事件下可能失效。", "损失函数选择会显著改变模型排名。"],
+        "Behavioral Finance and Investor Decision-Making": ["行为机制可能具有市场和时期特异性。", "情绪代理变量可能混合多个渠道。"],
+        "General Finance, Surveys, and Trading Systems": ["综述和系统论文可能占据高引用，但实证证据在不同市场中并不一致。", "元数据排序不能替代专家阅读全文和回测验证。"],
+    },
+    "ja": {
+        "Asset Pricing and Return Predictability": ["リターン予測可能性は、取引コスト、混雑、複数検定補正後に消えることがあります。", "引用影響度は有名なアノマリーを過大評価する場合があります。"],
+        "Portfolio Optimization and Asset Allocation": ["配分の改善は、推定誤差、回転率、空売り制約、ベンチマーク選択に左右されます。", "メタデータだけではコスト、レバレッジ、リバランス規則を確認できません。"],
+        "Machine Learning for Stock Prediction": ["予測精度は、コスト控除後のリスク調整リターンに直結しない場合があります。", "特徴量リーク、生存者バイアス、非定常性は継続的な懸念です。"],
+        "Deep Learning and Financial Time Series": ["深層モデルはノイズが大きく非定常な金融データに過学習しやすいです。", "検証手順の小さな違いで報告性能が変わることがあります。"],
+        "Reinforcement Learning and Algorithmic Trading": ["シミュレーション報酬は、スリッページ、遅延、市場インパクトを含む実行可能取引と異なる場合があります。", "方策は regime shift やストレス期に脆弱になり得ます。"],
+        "Sentiment, News, and Alternative Data": ["テキスト・代替データではタイムスタンプ整合性と look-ahead bias の管理が重要です。", "情報が混雑すると sentiment signal は急速に弱まる可能性があります。"],
+        "Market Microstructure and High-Frequency Trading": ["高頻度結果は市場アクセス、遅延、手数料、注文簿再構成品質に強く依存します。", "公開メタデータは実行仮定を十分に示しません。"],
+        "Risk, Volatility, and Forecast Evaluation": ["リスク予測は regime break や極端事象で失敗することがあります。", "損失関数の選択がモデル順位を大きく左右します。"],
+        "Behavioral Finance and Investor Decision-Making": ["行動メカニズムは市場や時期によって変化します。", "センチメント代理変数は複数の経路を混在して捉える場合があります。"],
+        "General Finance, Surveys, and Trading Systems": ["サーベイやシステム論文は高引用になりやすい一方、実証証拠は市場ごとに異なります。", "メタデータ順位は専門家による全文読解やバックテスト検証を代替しません。"],
+    },
+}
+
+
+def localized_category_name(category, language):
+    return CATEGORY_NAMES.get(language, {}).get(category, category)
+
+
+def category_display_name(category, language):
+    return localized_category_name(category, language)
+
+
+def localized_limitations_for(category, language):
+    if language == "en":
+        return TAXONOMY_LIMITATIONS.get(category, TAXONOMY_LIMITATIONS["General Finance, Surveys, and Trading Systems"])[:2]
+    return CATEGORY_LIMITATIONS_LANG.get(language, {}).get(
+        category,
+        CATEGORY_LIMITATIONS_LANG[language]["General Finance, Surveys, and Trading Systems"],
+    )
+
+
+def localized_strengths_for(paper, language):
+    citations = int(paper.get("citationCount") or 0)
+    influential = int(paper.get("influentialCitationCount") or 0)
+    pieces = []
+    if language == "en":
+        return paper["strengths"]
+    if language == "ko":
+        if citations >= 100:
+            pieces.append(f"높은 인용 신호({citations:,}회)")
+        if influential >= 10:
+            pieces.append(f"영향력 인용 신호({influential:,}회)")
+        if paper.get("openAccessPdf"):
+            pieces.append("오픈액세스 PDF 메타데이터 존재")
+        if "recognized finance/AI venue" in str(paper.get("importanceReasons") or ""):
+            pieces.append("금융/AI 주요 venue 신호")
+        return "; ".join(pieces or ["감사된 후보군에서 인용수 기준으로 선정"])
+    if language == "zh":
+        if citations >= 100:
+            pieces.append(f"高引用信号（{citations:,}次）")
+        if influential >= 10:
+            pieces.append(f"影响力引用信号（{influential:,}次）")
+        if paper.get("openAccessPdf"):
+            pieces.append("包含开放获取 PDF 元数据")
+        if "recognized finance/AI venue" in str(paper.get("importanceReasons") or ""):
+            pieces.append("具有金融/AI 重要期刊或会议信号")
+        return "; ".join(pieces or ["从审计后的候选池中按引用数入选"])
+    if citations >= 100:
+        pieces.append(f"高い引用シグナル（{citations:,}件）")
+    if influential >= 10:
+        pieces.append(f"影響力引用シグナル（{influential:,}件）")
+    if paper.get("openAccessPdf"):
+        pieces.append("オープンアクセス PDF メタデータあり")
+    if "recognized finance/AI venue" in str(paper.get("importanceReasons") or ""):
+        pieces.append("金融/AI の主要 venue シグナル")
+    return "; ".join(pieces or ["監査済み候補群から引用数により選定"])
+
+
+def localized_paper_fields(paper, language):
+    if language == "en":
+        return {
+            "keyIdea": paper["keyIdea"],
+            "strengths": paper["strengths"],
+            "limitations": paper["limitations"],
+        }
+    title = paper.get("title") or "this paper"
+    category = localized_category_name(paper.get("category") or category_for(paper), language)
+    if language == "ko":
+        key_idea = f"이 논문은 \"{title}\"을(를) 중심으로 {category} 관점에서 주식 투자와 AI 트레이딩 연구의 핵심 쟁점을 다룹니다."
+    elif language == "zh":
+        key_idea = f"本文围绕《{title}》，从{category}视角梳理其对股票投资与 AI 交易研究的贡献。"
+    else:
+        key_idea = f"この論文は『{title}』を軸に、{category}の観点から株式投資と AI 取引研究への示唆を整理します。"
+    return {
+        "keyIdea": key_idea,
+        "strengths": localized_strengths_for(paper, language),
+        "limitations": "; ".join(localized_limitations_for(paper.get("category") or category_for(paper), language)),
+    }
+
+
+def language_period_analysis(language, category, rows, start, end):
+    count = len(rows)
+    citations = sum(p["citationCount"] for p in rows)
+    top = max(rows, key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["title"]))
+    active_year, active_count = Counter(p["year"] for p in rows).most_common(1)[0]
+    tags = ", ".join(top_metadata_values(rows, "methodTags")) or "metadata-ranked"
+    venues = ", ".join(top_metadata_values(rows, "venue")) or "mixed venues"
+    name = localized_category_name(category, language)
+    if language == "ko":
+        overview = [
+            f"{start}-{end} 기간의 {name} 분류에는 선정 논문 {count:,}편과 인용 {citations:,}회가 포함됩니다. 가장 활발한 연도는 {active_year}년({active_count:,}편)이며, 인용 기준 대표 논문은 \"{top['title']}\"({top['citationCount']:,}회 인용)입니다.",
+            f"자주 등장하는 방법 태그는 {tags}이고, 주요 venue는 {venues}입니다.",
+        ]
+        recency = "인용수 기반 기간 분석은 최신 논문에 구조적으로 불리하므로, 최신성은 별도 전문가 검토로 보완해야 합니다."
+    elif language == "zh":
+        overview = [
+            f"在 {start}-{end} 期间，{name} 分类包含 {count:,} 篇入选论文和 {citations:,} 次引用。最活跃年份为 {active_year} 年（{active_count:,} 篇），引用排名最高的代表论文是《{top['title']}》（{top['citationCount']:,} 次引用）。",
+            f"常见方法标签包括 {tags}，主要 venue 集中在 {venues}。",
+        ]
+        recency = "基于引用数的期间视图会系统性低估新近论文，因此需要额外的专家新近性审查。"
+    elif language == "ja":
+        overview = [
+            f"{start}-{end} 年の {name} 分類には、選定論文 {count:,} 本と {citations:,} 件の引用が含まれます。最も活発な年は {active_year} 年（{active_count:,} 本）で、引用順位の代表論文は『{top['title']}』（{top['citationCount']:,} 件）です。",
+            f"頻出する手法タグは {tags} で、主な venue は {venues} です。",
+        ]
+        recency = "引用数ベースの期間分析は新しい論文に不利なため、新規性は別途専門家レビューで補う必要があります。"
+    else:
+        overview = [
+            f"In {start}-{end}, {name} contains {count:,} selected papers and {citations:,} citations. The most active year is {active_year} ({active_count:,} papers), and the leading citation-ranked paper is \"{top['title']}\" ({top['citationCount']:,} citations).",
+            f"Frequent method tags include {tags}, with venue concentration around {venues}.",
+        ]
+        recency = "Citation-ranked period views structurally disadvantage very recent papers, so novelty needs separate expert review."
+    return {
+        "categoryName": name,
+        "overview": overview,
+        "limitations": [*localized_limitations_for(category, language), recency],
+    }
+
+
+def research_copy():
+    return {
+        "en": research_overview_html(),
+        "ko": "<h2 id='research-timeline-title'>연구 타임라인</h2><div class='timeline-copy'><p>2000-2026년 trade corpus는 자산가격결정, 기술적 분석, 변동성, 포트폴리오 연구에서 머신러닝, 딥러닝, 감성 기반 투자, 강화학습, 고빈도 시장 미시구조로 확장되는 흐름을 보여줍니다.</p><p>이 지도는 투자 조언이 아니라 주식 투자 연구의 인용 영향력 지도입니다.</p></div>",
+        "zh": "<h2 id='research-timeline-title'>研究时间线</h2><div class='timeline-copy'><p>2000-2026 年的 trade corpus 展示了从资产定价、技术分析、波动率和组合研究，向机器学习、深度学习、情绪投资、强化学习和高频市场微观结构扩展的过程。</p><p>该视图是股票投资研究的引用影响力地图，并非投资建议。</p></div>",
+        "ja": "<h2 id='research-timeline-title'>研究タイムライン</h2><div class='timeline-copy'><p>2000-2026 年の trade corpus は、資産価格評価、テクニカル分析、ボラティリティ、ポートフォリオ研究から、機械学習、深層学習、センチメント投資、強化学習、高頻度市場マイクロストラクチャーへ広がる流れを示します。</p><p>これは株式投資研究の引用影響マップであり、投資助言ではありません。</p></div>",
+    }
+
+
+def overall_research_templates():
+    return {
+        "en": {
+            "timelineTitle": "Research Timeline",
+            "summary": [
+                "For {range}, the trade corpus contains {papers} selected papers across {activeYears} active years, with {citations} citations. The strongest taxonomy signals are {topCategories}, and the most active year is {peakYear} ({peakYearCount} papers).",
+                "The leading citation-ranked paper is \"{topPaper}\" ({topPaperYear}, {topPaperCitations} citations) in {topPaperCategory}. Keywords such as {topKeywords} show how this period connects asset pricing, forecasting, portfolio construction, risk, market microstructure, sentiment, and AI-based trading.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Signal Quality", "title": "Prediction must survive market frictions", "body": "{topCategories} dominate {range}, showing where citation-ranked influence concentrates.", "implication": "Implication: evaluate signals after costs, turnover, capacity, and risk constraints."},
+                {"label": "Citation Mass", "title": "Citation peaks mark reusable finance infrastructure", "body": "The selected range carries {citations} citations, with citation mass peaking around {peakCitationYear}.", "implication": "Implication: high-impact papers often define data, factors, methods, or validation conventions."},
+                {"label": "AI Trading", "title": "AI expands the signal surface", "body": "Frequent tags such as {topKeywords} indicate whether the period centers on forecasting, deep learning, sentiment, portfolio construction, or execution.", "implication": "Implication: richer models still need realistic backtests and market-aware validation."},
+                {"label": "Open Gaps", "title": "Recent papers need recency correction", "body": "Newer AI trading papers can be underweighted before citation signals mature.", "implication": "Implication: use this map as a stable citation view, then layer recent expert review on top."},
+            ],
+        },
+        "ko": {
+            "timelineTitle": "연구 타임라인",
+            "summary": [
+                "{range} 기간의 trade corpus는 {activeYears}개 활성 연도에 걸쳐 선정 논문 {papers}편과 인용 {citations}회를 포함합니다. 가장 강한 taxonomy 신호는 {topCategories}이며, 논문 수가 가장 많은 연도는 {peakYear}년({peakYearCount}편)입니다.",
+                "인용 기준 대표 논문은 {topPaperCategory} 분류의 \"{topPaper}\"({topPaperYear}, {topPaperCitations}회 인용)입니다. {topKeywords} 같은 키워드는 이 기간이 자산가격결정, 예측, 포트폴리오, 위험, 시장 미시구조, 감성, AI 기반 트레이딩을 어떻게 연결하는지 보여줍니다.",
+            ],
+            "insightsTitle": "연구 인사이트",
+            "insights": [
+                {"label": "신호 품질", "title": "예측은 시장 마찰을 통과해야 합니다", "body": "{range}에서는 {topCategories}가 인용 영향력을 주도합니다.", "implication": "시사점: 신호는 비용, turnover, capacity, 위험 제약 이후에 평가해야 합니다."},
+                {"label": "인용 규모", "title": "인용 피크는 재사용 가능한 금융 인프라를 보여줍니다", "body": "선택 기간은 {citations}회의 인용을 가지며 citation mass는 {peakCitationYear}년 부근에서 가장 큽니다.", "implication": "시사점: 영향력 높은 논문은 데이터, 팩터, 방법론, 검증 관행을 정의하는 경우가 많습니다."},
+                {"label": "AI 트레이딩", "title": "AI는 신호 공간을 확장합니다", "body": "{topKeywords} 같은 태그는 해당 기간이 forecasting, deep learning, sentiment, portfolio, execution 중 어디에 집중되는지 보여줍니다.", "implication": "시사점: 풍부한 모델도 현실적인 백테스트와 시장 인식 검증이 필요합니다."},
+                {"label": "열린 과제", "title": "최신 논문에는 recency 보정이 필요합니다", "body": "새로운 AI 트레이딩 논문은 인용 신호가 성숙하기 전까지 과소평가될 수 있습니다.", "implication": "시사점: 이 지도는 안정적인 citation view로 사용하고, 최신 전문 리뷰를 덧붙여야 합니다."},
+            ],
+        },
+        "zh": {
+            "timelineTitle": "研究时间线",
+            "summary": [
+                "在 {range} 期间，trade corpus 覆盖 {activeYears} 个活跃年份，包含 {papers} 篇入选论文和 {citations} 次引用。最强的 taxonomy 信号是 {topCategories}，论文数最多的年份是 {peakYear}（{peakYearCount} 篇）。",
+                "引用排名最高的代表论文是 {topPaperCategory} 分类中的《{topPaper}》（{topPaperYear}，{topPaperCitations} 次引用）。{topKeywords} 等关键词显示该期间如何连接资产定价、预测、组合构建、风险、市场微观结构、情绪和 AI 交易。",
+            ],
+            "insightsTitle": "研究洞察",
+            "insights": [
+                {"label": "信号质量", "title": "预测必须经受市场摩擦检验", "body": "{topCategories} 主导 {range} 的引用影响力。", "implication": "启示：信号应在成本、换手率、容量和风险约束之后评估。"},
+                {"label": "引用规模", "title": "引用峰值标记可复用的金融基础设施", "body": "所选期间共有 {citations} 次引用，引用规模在 {peakCitationYear} 附近达到峰值。", "implication": "启示：高影响论文往往定义数据、因子、方法或验证惯例。"},
+                {"label": "AI 交易", "title": "AI 扩展了信号空间", "body": "{topKeywords} 等高频标签显示该时期是否聚焦于预测、深度学习、情绪、组合构建或执行。", "implication": "启示：更复杂模型仍需要现实回测和市场感知验证。"},
+                {"label": "开放问题", "title": "新近论文需要时间校正", "body": "新的 AI 交易论文在引用信号成熟前可能被低估。", "implication": "启示：将该地图作为稳定引用视图，再叠加最新专家审查。"},
+            ],
+        },
+        "ja": {
+            "timelineTitle": "研究タイムライン",
+            "summary": [
+                "{range} の trade corpus は {activeYears} 年にわたり、選定論文 {papers} 本と {citations} 件の引用を含みます。最も強い taxonomy シグナルは {topCategories} で、最も活発な年は {peakYear} 年（{peakYearCount} 本）です。",
+                "引用順位の代表論文は {topPaperCategory} の『{topPaper}』（{topPaperYear}、{topPaperCitations} 件）です。{topKeywords} などのキーワードは、この期間が資産価格評価、予測、ポートフォリオ構築、リスク、市場マイクロストラクチャー、センチメント、AI 取引をどう結びつけるかを示します。",
+            ],
+            "insightsTitle": "研究インサイト",
+            "insights": [
+                {"label": "シグナル品質", "title": "予測は市場摩擦を越えて有効である必要があります", "body": "{range} では {topCategories} が引用影響力を主導しています。", "implication": "示唆：シグナルはコスト、回転率、容量、リスク制約の後で評価すべきです。"},
+                {"label": "引用規模", "title": "引用ピークは再利用可能な金融インフラを示します", "body": "選択期間は {citations} 件の引用を持ち、引用規模は {peakCitationYear} 年付近でピークになります。", "implication": "示唆：影響力の高い論文はデータ、ファクター、方法、検証慣行を定義することが多いです。"},
+                {"label": "AI 取引", "title": "AI はシグナル空間を広げます", "body": "{topKeywords} などのタグは、期間が予測、深層学習、センチメント、ポートフォリオ構築、執行のどこに焦点を置くかを示します。", "implication": "示唆：高度なモデルにも現実的なバックテストと市場を意識した検証が必要です。"},
+                {"label": "未解決課題", "title": "新しい論文には recency 補正が必要です", "body": "新しい AI 取引論文は引用シグナルが成熟するまで過小評価される可能性があります。", "implication": "示唆：このマップを安定した引用ビューとして使い、最新の専門家レビューを重ねてください。"},
+            ],
+        },
+    }
+
+
+def site_static_copy():
+    base_hero = f"A taxonomy-first, citation-ranked map of stock investment and AI-driven trading research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR:,} candidate papers; the final collection selects the top {TARGET_PER_YEAR:,} papers from each year by citation count ({TARGET_TOTAL:,} papers total)."
+    return {
+        "en": {
+            "hero": base_hero,
+            "navReadme": "README",
+            "navDataset": "CSV Dataset",
+            "navTaxonomyCsv": "Taxonomy CSV",
+            "navPeriodJson": "Period Analysis JSON",
+            "navKeywords": "Keywords Convention",
+            "navCandidatePool": "Candidate Pool",
+            "navReview": "Review Paper",
+            "navKoreanReview": "Korean Review",
+            "statSelected": "selected papers",
+            "statYears": "years represented",
+            "statCitations": "citation count total",
+            "statCategories": "topic categories",
+            "filterPeriod": "Period",
+            "filterLanguage": "Language",
+            "filterStart": "Start year",
+            "filterEnd": "End year",
+            "filterReset": "Reset",
+            "keywordsTitle": "Keywords Convention",
+            "keywordsIntro": "These clickable keyword tags define the trade-specific convention used to scan, filter, and extend this collection.",
+            "taxonomyTitle": "Taxonomy",
+            "taxonomyIntro": "Each taxonomy section lists papers with publication year, venue, citation count, influential citations, score, keywords, key idea, strengths, research-focused limitations, and paper links. Sections are collapsed by default.",
+            "categoryNames": {},
+        },
+        "ko": {
+            "hero": f"{START_YEAR}-{END_YEAR}년 주식 투자 및 AI 기반 트레이딩 연구를 taxonomy-first, citation-ranked 방식으로 정리한 지도입니다. 각 연도별 최대 {CANDIDATES_PER_YEAR:,}편의 후보 논문을 조사하고, 인용수 기준 상위 {TARGET_PER_YEAR:,}편씩 총 {TARGET_TOTAL:,}편을 선정했습니다.",
+            "navReadme": "README",
+            "navDataset": "CSV 데이터셋",
+            "navTaxonomyCsv": "Taxonomy CSV",
+            "navPeriodJson": "기간 분석 JSON",
+            "navKeywords": "키워드 규칙",
+            "navCandidatePool": "후보 논문 풀",
+            "navReview": "영문 리뷰",
+            "navKoreanReview": "한국어 리뷰",
+            "statSelected": "선정 논문",
+            "statYears": "포함 연도",
+            "statCitations": "총 인용수",
+            "statCategories": "주제 분류",
+            "filterPeriod": "기간",
+            "filterLanguage": "언어",
+            "filterStart": "시작 연도",
+            "filterEnd": "종료 연도",
+            "filterReset": "초기화",
+            "keywordsTitle": "키워드 규칙",
+            "keywordsIntro": "아래 키워드 태그는 이 컬렉션을 검색, 필터링, 확장할 때 사용하는 거래 연구용 규칙입니다.",
+            "taxonomyTitle": "분류 체계",
+            "taxonomyIntro": "각 분류 섹션은 출판연도, venue, 인용수, 영향력 인용, score, 키워드, 핵심 아이디어, 강점, 연구상 한계, 논문 링크를 보여줍니다. 섹션은 기본적으로 접혀 있습니다.",
+            "categoryNames": CATEGORY_NAMES["ko"],
+        },
+        "zh": {
+            "hero": f"这是 {START_YEAR}-{END_YEAR} 年股票投资与 AI 交易研究的 taxonomy-first、citation-ranked 地图。每年最多调查 {CANDIDATES_PER_YEAR:,} 篇候选论文，并按引用数选出前 {TARGET_PER_YEAR:,} 篇，共 {TARGET_TOTAL:,} 篇。",
+            "navReadme": "README",
+            "navDataset": "CSV 数据集",
+            "navTaxonomyCsv": "Taxonomy CSV",
+            "navPeriodJson": "期间分析 JSON",
+            "navKeywords": "关键词规则",
+            "navCandidatePool": "候选论文池",
+            "navReview": "英文综述",
+            "navKoreanReview": "韩文综述",
+            "statSelected": "入选论文",
+            "statYears": "覆盖年份",
+            "statCitations": "总引用数",
+            "statCategories": "主题分类",
+            "filterPeriod": "期间",
+            "filterLanguage": "语言",
+            "filterStart": "开始年份",
+            "filterEnd": "结束年份",
+            "filterReset": "重置",
+            "keywordsTitle": "关键词规则",
+            "keywordsIntro": "这些可点击关键词定义了本集合用于检索、过滤和扩展的交易研究规则。",
+            "taxonomyTitle": "分类体系",
+            "taxonomyIntro": "每个分类部分列出论文年份、venue、引用数、影响力引用、score、关键词、核心观点、优势、研究局限和论文链接。各部分默认折叠。",
+            "categoryNames": CATEGORY_NAMES["zh"],
+        },
+        "ja": {
+            "hero": f"{START_YEAR}-{END_YEAR} 年の株式投資と AI 取引研究を taxonomy-first、citation-ranked 方式で整理したマップです。各年最大 {CANDIDATES_PER_YEAR:,} 本の候補論文を調査し、引用数上位 {TARGET_PER_YEAR:,} 本ずつ、合計 {TARGET_TOTAL:,} 本を選定しました。",
+            "navReadme": "README",
+            "navDataset": "CSV データセット",
+            "navTaxonomyCsv": "Taxonomy CSV",
+            "navPeriodJson": "期間分析 JSON",
+            "navKeywords": "キーワード規則",
+            "navCandidatePool": "候補論文プール",
+            "navReview": "英語レビュー",
+            "navKoreanReview": "韓国語レビュー",
+            "statSelected": "選定論文",
+            "statYears": "対象年",
+            "statCitations": "総引用数",
+            "statCategories": "主題分類",
+            "filterPeriod": "期間",
+            "filterLanguage": "言語",
+            "filterStart": "開始年",
+            "filterEnd": "終了年",
+            "filterReset": "リセット",
+            "keywordsTitle": "キーワード規則",
+            "keywordsIntro": "これらのクリック可能なキーワードタグは、このコレクションを検索、フィルタ、拡張するための取引研究用ルールです。",
+            "taxonomyTitle": "分類体系",
+            "taxonomyIntro": "各分類セクションには、出版年、venue、引用数、影響力引用、score、キーワード、主要アイデア、強み、研究上の限界、論文リンクが表示されます。セクションは既定で折りたたまれています。",
+            "categoryNames": CATEGORY_NAMES["ja"],
+        },
+    }
+
+
+def site_keyword_convention_html():
+    rows = []
+    for keyword, description, color in KEYWORD_CONVENTION:
+        attrs = {
+            "data-description-en": description,
+            "data-description-ko": KEYWORD_DESCRIPTION_LANG["ko"].get(keyword, description),
+            "data-description-zh": KEYWORD_DESCRIPTION_LANG["zh"].get(keyword, description),
+            "data-description-ja": KEYWORD_DESCRIPTION_LANG["ja"].get(keyword, description),
+        }
+        attr_text = " ".join(f"{key}='{html.escape(value, quote=True)}'" for key, value in attrs.items())
+        rows.append(
+            f"<button class='keyword-item' type='button' data-keyword='{html.escape(keyword)}' aria-pressed='false'>"
+            f"<span class='keyword-chip' style='--chip-color:#{color}'>{html.escape(keyword)}</span>"
+            f"<span class='keyword-description' {attr_text}>{html.escape(description)}</span></button>"
+        )
+    return "\n".join(rows)
 
 
 def main():
