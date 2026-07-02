@@ -1,0 +1,61 @@
+{
+  "mode": "codex-native-paperbanana-compatible-timeline",
+  "summary": "Codex generated a PaperBanana-compatible timeline artifact path without calling external image APIs.",
+  "categories": [
+    {
+      "id": "hdbscan-bridge-and-noise-papers",
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "count": 13
+    },
+    {
+      "id": "hdbscan-cluster-university-nber-working-asset",
+      "name": "HDBSCAN Cluster: university, nber, working, asset",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-harvard-https-figure-edu",
+      "name": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-research-nber-working-national",
+      "name": "HDBSCAN Cluster: research, nber, working, national",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-figure-asset-pricing-investor",
+      "name": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-stock-equity-returns-market",
+      "name": "HDBSCAN Cluster: stock, equity, returns, market",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-stock-illiquidity-comments-new",
+      "name": "HDBSCAN Cluster: stock, illiquidity, comments, new",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-usa-liquidity-return-economics",
+      "name": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-die-working-economics-dokumente",
+      "name": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-return-trend-deviation-excess",
+      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-series-gan-covid-19-tiempo",
+      "name": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "count": 2
+    }
+  ]
+}

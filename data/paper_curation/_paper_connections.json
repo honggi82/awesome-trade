@@ -1,0 +1,1082 @@
+{
+  "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series": [
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.9955,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.9109,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.9106,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.9082,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "091_Asset_pricing_with_liquidity_risk",
+      "score": 0.9076,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "028_Twitter_mood_predicts_the_stock_market": [
+    {
+      "target": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
+      "score": 0.8767,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
+      "score": 0.8697,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst",
+      "score": 0.8669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "357_Investor_Inattention_and_Friday_Earnings_Announcements",
+      "score": 0.8497,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.8377,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns": [
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9357,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.932,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9294,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com": [
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
+      "score": 0.9394,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.9314,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.931,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9232,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici": [
+    {
+      "target": "362_Financial_Constraints_and_Stock_Returns",
+      "score": 0.9933,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "094_Investor_Psychology_and_Asset_Pricing",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "368_Breadth_of_Ownership_and_Stock_Returns",
+      "score": 0.7439,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7428,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "086_Asset_Pricing_at_the_Millennium": [
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9482,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
+      "score": 0.9457,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9428,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9379,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "087_MODELING_AND_FORECASTING_REALIZED_VOLATILITY": [
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.8811,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.8589,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.8585,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.8527,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
+      "score": 0.8519,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "088_Financial_Literacy_and_Stock_Market_Participation": [
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9357,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9311,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9278,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9271,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9243,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w": [
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.9211,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.9106,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.9052,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9002,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.8988,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "090_What_Matters_in_Corporate_Governance": [
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.9775,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.9775,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.9669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8803,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
+      "score": 0.8737,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "091_Asset_pricing_with_liquidity_risk": [
+    {
+      "target": "345_The_distribution_of_realized_stock_return_volatility",
+      "score": 0.925,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.9143,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.9076,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.8961,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.89,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section": [
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.9955,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "091_Asset_pricing_with_liquidity_risk",
+      "score": 0.9143,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.9074,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.9052,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.9031,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B": [
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.977,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.9756,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "090_What_Matters_in_Corporate_Governance",
+      "score": 0.9669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.9018,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8909,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "094_Investor_Psychology_and_Asset_Pricing": [
+    {
+      "target": "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "362_Financial_Constraints_and_Stock_Returns",
+      "score": 0.9435,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7902,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.7846,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7819,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "095_Deep_learning_with_long_short-term_memory_networks_for_finan": [
+    {
+      "target": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
+      "score": 0.9426,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.9018,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
+      "score": 0.8868,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.8824,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "344_In_Search_of_Distress_Risk": [
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.9857,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "090_What_Matters_in_Corporate_Governance",
+      "score": 0.9775,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.977,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
+      "score": 0.8898,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "345_The_distribution_of_realized_stock_return_volatility": [
+    {
+      "target": "091_Asset_pricing_with_liquidity_risk",
+      "score": 0.925,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.8973,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "353_Good_Day_Sunshine_Stock_Returns_and_the_Weather",
+      "score": 0.8959,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.887,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.8847,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "346_Consumption_aggregate_wealth_and_expected_stock_returns": [
+    {
+      "target": "350_The_Geography_of_Investment_Informed_Trading_and_Asset_Price",
+      "score": 0.9308,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7586,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7578,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.7533,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "094_Investor_Psychology_and_Asset_Pricing",
+      "score": 0.7475,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "347_Do_investors_care_about_carbon_risk": [
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9405,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9356,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9324,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9314,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "088_Financial_Literacy_and_Stock_Market_Participation",
+      "score": 0.9311,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis": [
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.8823,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.8791,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.8757,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "028_Twitter_mood_predicts_the_stock_market",
+      "score": 0.8697,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "349_Corporate_immunity_to_the_COVID-19_pandemic": [
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.9314,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9188,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
+      "score": 0.9182,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9168,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.8998,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "350_The_Geography_of_Investment_Informed_Trading_and_Asset_Price": [
+    {
+      "target": "346_Consumption_aggregate_wealth_and_expected_stock_returns",
+      "score": 0.9308,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7398,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7366,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.7308,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
+      "score": 0.7239,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen": [
+    {
+      "target": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
+      "score": 0.9488,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9403,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9379,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9275,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "352_The_Dark_Side_of_Internal_Capital_Markets_Divisional_Rent-Se": [
+    {
+      "target": "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment",
+      "score": 0.8664,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.8523,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
+      "score": 0.8509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.8484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.846,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "353_Good_Day_Sunshine_Stock_Returns_and_the_Weather": [
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9234,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9166,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9153,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9151,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9141,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and": [
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.9426,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8969,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.8898,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.885,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.8838,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement": [
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.931,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9286,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.9211,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9199,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9172,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "356_Stock_Return_Predictability_Is_it_There": [
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.9109,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.9074,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment",
+      "score": 0.9052,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.8953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.8915,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "357_Investor_Inattention_and_Friday_Earnings_Announcements": [
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.8836,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.8759,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.8748,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.8738,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "score": 0.8695,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets": [
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9488,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9457,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.9394,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9311,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9261,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment": [
+    {
+      "target": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "score": 0.9126,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.9052,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.893,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.8874,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "score": 0.8759,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "360_Capital_Investments_and_Stock_Returns": [
+    {
+      "target": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "score": 0.9403,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9328,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.932,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9314,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst": [
+    {
+      "target": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
+      "score": 0.8932,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.8793,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "028_Twitter_mood_predicts_the_stock_market",
+      "score": 0.8669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.8595,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8582,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "362_Financial_Constraints_and_Stock_Returns": [
+    {
+      "target": "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici",
+      "score": 0.9933,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "094_Investor_Psychology_and_Asset_Pricing",
+      "score": 0.9435,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "368_Breadth_of_Ownership_and_Stock_Returns",
+      "score": 0.7406,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7335,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7289,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu": [
+    {
+      "target": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "score": 0.9616,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9482,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9405,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "088_Financial_Literacy_and_Stock_Market_Participation",
+      "score": 0.9357,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "364_Bad_Beta_Good_Beta": [
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.9857,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "090_What_Matters_in_Corporate_Governance",
+      "score": 0.9775,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.9756,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
+      "score": 0.885,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8826,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID": [
+    {
+      "target": "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst",
+      "score": 0.8932,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "score": 0.8868,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "028_Twitter_mood_predicts_the_stock_market",
+      "score": 0.8767,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "score": 0.8746,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "score": 0.8736,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut": [
+    {
+      "target": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "score": 0.9616,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "086_Asset_Pricing_at_the_Millennium",
+      "score": 0.9428,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "score": 0.9357,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "360_Capital_Investments_and_Stock_Returns",
+      "score": 0.9328,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "347_Do_investors_care_about_carbon_risk",
+      "score": 0.9324,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns": [
+    {
+      "target": "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment",
+      "score": 0.9126,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "score": 0.9082,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "score": 0.9026,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "356_Stock_Return_Predictability_Is_it_There",
+      "score": 0.8953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "368_Breadth_of_Ownership_and_Stock_Returns": [
+    {
+      "target": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "score": 0.753,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "364_Bad_Beta_Good_Beta",
+      "score": 0.7524,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "344_In_Search_of_Distress_Risk",
+      "score": 0.7509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici",
+      "score": 0.7439,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "094_Investor_Psychology_and_Asset_Pricing",
+      "score": 0.7436,
+      "reason": "Codex local embedding similarity"
+    }
+  ]
+}

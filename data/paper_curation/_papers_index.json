@@ -1,0 +1,406 @@
+{
+  "mode": "codex-native-full-curation",
+  "topic": "trade",
+  "papers": [
+    {
+      "slug": "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
+      "title": "Illiquidity and Stock Returns: Cross-Section and Time-Series Effects",
+      "category": "HDBSCAN Cluster: stock, illiquidity, comments, new",
+      "key": "FOLDER00003_d3f171a54003",
+      "sourceIndex": null,
+      "textBytes": 94445,
+      "figuresExtracted": 0,
+      "excerpt": "by Yakov Amihud* This version: August 2000 Please do not quote without the author’s permission Comments are welcome *Stern School of Business, New York University, New York 10012, NY. E-mail: yamihud@stern.nyu.edu - I thank Haim Mendelson for valuable comments and suggestions and Viral Acharya for competent research assistance and comments. Helpful comments were also received from Michael Brennan, Martin Gruber and Richard Roll. Copyright © 2000 By Yakov Amihud Abstract New tests are presented on the effects of stock illiquidity on stock return. Over time, expected market illiquidity positively affects ex ante stock excess return (usually called “risk premium”). This complements the positive cross-sectional return-illiquidity relationship. The illiquidity measure here is the average daily ratio of absolute stock return to dollar volume, which is easily obtained from daily stock data for "
+    },
+    {
+      "slug": "028_Twitter_mood_predicts_the_stock_market",
+      "title": "Twitter mood predicts the stock market",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00004_32b1b96bb1fa",
+      "sourceIndex": null,
+      "textBytes": 42189,
+      "figuresExtracted": 3,
+      "excerpt": "## Twitter mood predicts the stock market. Johan Bollen1, ,Huina Mao1, ,Xiao-Jun Zeng2. : authors made equal contributions. ### arXiv:1010.3003v1[cs.CE]14Oct2010 Abstract—Behavioral economics tells us that emotions can profoundly affect individual behavior and decision-making. Does this also apply to societies at large, i.e. can societies experience mood states that affect their collective decision making? By extension is the public mood correlated or even predictive of economic indicators? Here we investigate whether measurements of collective mood states derived from large-scale Twitter feeds are correlated to the value of the Dow Jones Industrial Average (DJIA) over time. We analyze the text content of daily Twitter feeds by two mood tracking tools, namely OpinionFinder that measures positive vs. negative mood and Google-Proﬁle of Mood States (GPOMS) that measures mood in terms of 6 d"
+    },
+    {
+      "slug": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
+      "title": "Investor Sentiment and the Cross-Section of Stock Returns",
+      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "key": "FOLDER00005_38fe80295ad4",
+      "sourceIndex": null,
+      "textBytes": 107526,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES INVESTOR SENTIMENT AND THE CROSS-SECTION OF STOCK RETURNS Malcolm Baker Jeffrey Wurgler Working Paper 10449 http://www.nber.org/papers/w10449 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2004 We thank Ned Elton, Xavier Gabaix, Owen Lamont, Martin Lettau, Anthony Lynch, Sheridan Titman, and Jeremy Stein for helpful comments, as well as participants of seminars at Baruch College, Chicago Quantitative Alliance, the Federal Reserve Bank of New York, Harvard University, Indiana University, NBER, Norwegian School of Economics and Business, Norwegian School of Management, University of Amsterdam, University of British Columbia, University of Illinois, University of Texas, and University of Wisconsin. We gratefully acknowledge financial support from the Q Group (Baker and Wurgler) and the Division of Research of the Harvard Bu"
+    },
+    {
+      "slug": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
+      "title": "No Contagion, Only Interdependence: Measuring Stock Market Comovements",
+      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "key": "FOLDER00006_7cec9721b40b",
+      "sourceIndex": null,
+      "textBytes": 81636,
+      "figuresExtracted": 1,
+      "excerpt": "NBER WORKING PAPER SERIES NO CONTAGION, ONLY INTERDEPENDENCE: MEASURING STOCK MARKET CO-MOVEMENTS Kristin Forbes Roberto Rigobon Working Paper 7267 http://www.nber.org/papers/w7267 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 July 1999 Thanks to Rudiger Dornbusch, Andrew Rose, Jaume Ventura, and seminar participants at MIT, Dartmouth, and NYU for helpful comments and suggestions. All remaining errors are our own.. The views expressed herein are those of the authors and not necessarily those of the National Bureau of Economic Research. © 1999 by Kristin Forbes and Roberto Rigobon. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. No Contagion, Only Interdependence: Measuring Stock Market Co-movements Kristin Forbes "
+    },
+    {
+      "slug": "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici",
+      "title": "Risks for the Long Run: A Potential Resolution of Asset Pricing Puzzles",
+      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "key": "FOLDER00008_b6cc22d99f94",
+      "sourceIndex": null,
+      "textBytes": 2852,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 54] [Figure 55] [Figure 56] [Figure 57] [Figure 58] [Figure 59] [Figure 60] [Figure 61] [Figure 62] [Figure 63] [Figure 64] [Figure 65] [Figure 66] [Figure 67] [Figure 68] [Figure 69] [Figure 70] [Figure 71] [Figure 72] [Figure 73] [Figure 74] [Figure 75] [Figure 76] [Figure 77] [Figure 7"
+    },
+    {
+      "slug": "086_Asset_Pricing_at_the_Millennium",
+      "title": "Asset Pricing at the Millennium",
+      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "key": "FOLDER00009_ce69dc6042b7",
+      "sourceIndex": 5,
+      "textBytes": 2210,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES ASSET PRICING AT THE MILLENNIUM John Y. Campbell Working Paper 7589 http://www.nber.org/papers/w7589 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 March 2000 This paper is a survey of asset pricing presented at the 2000 annual meeting of the American Finance Association, Boston, MA. I am grateful for the insights and stimulation provided by my coauthors, students, and colleagues in the NBER Asset Pricing Program, without whom I could not even attempt such a survey. Franklin Allen, Nick Barberis, Geert Bekaert, Lewis Chan, John Cochrane, David Feldman, Will Goetzmann, Martin Lettau, Sydney Ludvigson, Greg Mankiw, Robert Shiller, Andrei Shleifer, Pietro Veronesi, Luis Viceira, and Tuomo Vuolteenaho gave helpful comments on the first draft. I acknowledge the financial support of the National Science Foundation. The views express"
+    },
+    {
+      "slug": "087_MODELING_AND_FORECASTING_REALIZED_VOLATILITY",
+      "title": "MODELING AND FORECASTING REALIZED VOLATILITY",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00010_13d8ec9edb9f",
+      "sourceIndex": 6,
+      "textBytes": 108645,
+      "figuresExtracted": 0,
+      "excerpt": "1. INTRODUCTION The joint distributional characteristics of asset returns are pivotal for many issues in financial economics. They are the key ingredients for the pricing of financial instruments, and they speak directly to the riskreturn tradeoff critical for portfolio allocation, performance evaluation, and managerial decisions. Moreover, they are intimately related to the conditional portfolio return fractiles, which govern the likelihood of extreme shifts in portfolio value and therefore central to financial risk management, figuring prominently in both regulatory and private-sector initiatives. The most critical feature of the conditional return distribution is arguably its second moment structure, which is empirically the dominant time-varying characteristic of the distribution. This fact has spurred an enormous literature on the modeling and forecasting of return volatility.1 Over"
+    },
+    {
+      "slug": "088_Financial_Literacy_and_Stock_Market_Participation",
+      "title": "Financial Literacy and Stock Market Participation",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00012_d36af90c4806",
+      "sourceIndex": 7,
+      "textBytes": 117125,
+      "figuresExtracted": 0,
+      "excerpt": "FINANCIAL LITERACY AND STOCK MARKET PARTICIPATION Maarten van Rooij Annamaria Lusardi Rob Alessie WORKING PAPER 13565 NBER WORKING PAPER SERIES FINANCIAL LITERACY AND STOCK MARKET PARTICIPATION Maarten van Rooij Annamaria Lusardi Rob Alessie Working Paper 13565 http://www.nber.org/papers/w13565 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 October 2007 We are grateful to James Banks, Johannes Binswanger, Marcello Bofondi, Henrik Cronqvist, Dimitris Georgarakos, Michael Haliassos, Lex Hoogduin, Adriaan Kalwij, Arie Kapteyn, Mauro Mastrogiacomo, Theo Nijman, Gerard van den Berg, Peter van Els, Arthur van Soest, and participants in the Program on the Global Demography of Aging Seminar Series at the Harvard School of Public Health, the CEPR/Netspar European Pension Challenges Conference (London, September 2006), the Netspar Workshop on the Micro-economics"
+    },
+    {
+      "slug": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
+      "title": "Measuring Financial Asset Return and Volatility Spillovers, with Application to Global Equity Markets*",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00015_12568fef9ebe",
+      "sourceIndex": 8,
+      "textBytes": 29455,
+      "figuresExtracted": 1,
+      "excerpt": "[Figure 1] Penn Institute for Economic Research Department of Economics University of Pennsylvania 3718 Locust Walk Philadelphia, PA 19104-6297 pier@econ.upenn.edu http://www.econ.upenn.edu/pier # PIER Working Paper 07-002 “Measuring Financial Asset Return and Volatility Spillovers, with Application to Global Equity Markets” by Francis X. Diebold and Kamil Yilmaz http://ssrn.com/abstract=956918 ## Measuring Financial Asset Return and Volatility Spillovers, With Application to Global Equity Markets ##### Francis X. Diebold University of Pennsylvania and NBER fdiebold@sas.upenn.edu ##### Kamil Yilmaz ###### Koc University kyilmaz@ku.edu.tr ###### This draft/print: January 2007 Abstract: We provide a simple and intuitive measure of interdependence of asset returns and/or volatilities. In particular, we formulate and examine precise and separate measures of return spillovers and volatility s"
+    },
+    {
+      "slug": "090_What_Matters_in_Corporate_Governance",
+      "title": "What Matters in Corporate Governance?",
+      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "key": "FOLDER00016_175e40b5a99a",
+      "sourceIndex": 9,
+      "textBytes": 142881,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # What Matters in Corporate Governance? #### Citation Lucian A. Bebchuk, Alma Cohen & Allen Ferrell, What Matters in Corporate Governance?, 22 Rev. Fin. Stud. 783 (2009). #### Published version http://rfs.oxfordjournals.org/content/22/2/783.full.pdf #### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:11224528 #### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Open Access Policy Articles (OAP), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg #### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy #### Share Your Story The Harvard community has made this article openly available. Please share how this access benefits you. Submit a story HARVARD ISSN 1045-6333 JOHN M. OLIN CE"
+    },
+    {
+      "slug": "091_Asset_pricing_with_liquidity_risk",
+      "title": "Asset pricing with liquidity risk",
+      "category": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "key": "FOLDER00017_bd4026fe5091",
+      "sourceIndex": 10,
+      "textBytes": 97859,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 1] [Figure 2] Journal of Financial Economics 77 (2005) 375–410 www.elsevier.com/locate/jfec # Asset pricing with liquidity risk$ Viral V. Acharyaa,b, Lasse Heje Pedersenb,c,d, aLondon Business School, Regent’s Park, London, NW1 4SA, UK bCenter for Economic Policy Research, UK cStern School of Business, New York University, 44 West Fourth Street, Suite 9-190, New York 10012, USA dNational Bureau of Economic Research, USA Received 6 January 2003; received in revised form 4 May 2004; accepted 11 June 2004 Available online 1 April 2005 Abstract This paper solves explicitly a simple equilibrium model with liquidity risk. In our liquidityadjusted capital asset pricing model, a security’s required return depends on its expected liquidity as well as on the covariances of its own return and liquidity with the market return and liquidity. In addition, a persistent negative shock to a secur"
+    },
+    {
+      "slug": "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section",
+      "title": "Market Liquidity: Illiquidity and Stock Returns Cross-Section and Time-Series Effects＊",
+      "category": "HDBSCAN Cluster: stock, illiquidity, comments, new",
+      "key": "FOLDER00018_9f7056eb355b",
+      "sourceIndex": 11,
+      "textBytes": 94445,
+      "figuresExtracted": 0,
+      "excerpt": "by Yakov Amihud* This version: August 2000 Please do not quote without the author’s permission Comments are welcome *Stern School of Business, New York University, New York 10012, NY. E-mail: yamihud@stern.nyu.edu - I thank Haim Mendelson for valuable comments and suggestions and Viral Acharya for competent research assistance and comments. Helpful comments were also received from Michael Brennan, Martin Gruber and Richard Roll. Copyright © 2000 By Yakov Amihud Abstract New tests are presented on the effects of stock illiquidity on stock return. Over time, expected market illiquidity positively affects ex ante stock excess return (usually called “risk premium”). This complements the positive cross-sectional return-illiquidity relationship. The illiquidity measure here is the average daily ratio of absolute stock return to dollar volume, which is easily obtained from daily stock data for "
+    },
+    {
+      "slug": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
+      "title": "Predicting Excess Stock Returns Out of Sample: Can Anything Beat the Historical Average?",
+      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "key": "FOLDER00020_32533faba728",
+      "sourceIndex": 12,
+      "textBytes": 63635,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # Predicting Excess Stock Returns Out of Sample: Can Anything Beat the Historical Average? ### Citation Campbell, John Y. and Samuel B. Thompson. 2008. Predicting excess stock returns out of sample: Can anything beat the historical average? The Review of Financial Studies 21(4): 1509-1531. ### Published version https://doi.org/10.1093/rfs/hhm055 ### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:2622619 ### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Other Posted Material (LAA), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ### Share Your Story The Harvard community has made this article openly available. Please sh"
+    },
+    {
+      "slug": "094_Investor_Psychology_and_Asset_Pricing",
+      "title": "Investor Psychology and Asset Pricing",
+      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "key": "FOLDER00021_54fe61c914fe",
+      "sourceIndex": 13,
+      "textBytes": 1269,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] Munich Personal RePEc Archive # Investor Psychology and Asset Pricing ## Hirshleifer, David Fisher College of Business, The Ohio State University 10 February 2001 Online at https://mpra.ub.uni-muenchen.de/5300/ MPRA Paper No. 5300, posted 13 Oct 2007 UTC [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figur"
+    },
+    {
+      "slug": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
+      "title": "Deep learning with long short-term memory networks for financial market predictions",
+      "category": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "key": "FOLDER00023_76245d32e241",
+      "sourceIndex": 14,
+      "textBytes": 81532,
+      "figuresExtracted": 5,
+      "excerpt": "Fischer, Thomas; Krauss, Christopher Working Paper ### Deep learning with long short-term memory networks for financial market predictions FAU Discussion Papers in Economics, No. 11/2017 Provided in Cooperation with: Friedrich-Alexander University Erlangen-Nuremberg, Institute for Economics Suggested Citation: Fischer, Thomas; Krauss, Christopher (2017) : Deep learning with long shortterm memory networks for financial market predictions, FAU Discussion Papers in Economics, No. 11/2017, Friedrich-Alexander-Universität Erlangen-Nürnberg, Institute for Economics, Nürnberg This Version is available at: https://hdl.handle.net/10419/157808 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich a"
+    },
+    {
+      "slug": "344_In_Search_of_Distress_Risk",
+      "title": "In Search of Distress Risk",
+      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "key": "FOLDER00024_5a22bebf333f",
+      "sourceIndex": 15,
+      "textBytes": 92268,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] ### In Search of Distress Risk [Figure 2] ###### Citation Campbell, John Y., Jens Hilscher, and Jan Szilagyi. 2008. In Search of Distress Risk. Journal of Finance 63, no. 6: 2899-2939. ###### Published version https://doi.org/10.1111/j.1540-6261.2008.01416.x ###### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:3199070 ###### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Other Posted Material (LAA), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ###### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ###### Share Your Story The Harvard community has made this article openly available. Please share how this access benefits you. Submit a story [Figure 3] # H I E RR ## Harvard Instit"
+    },
+    {
+      "slug": "345_The_distribution_of_realized_stock_return_volatility",
+      "title": "The distribution of realized stock return volatility",
+      "category": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "key": "FOLDER00025_a7712b67fcf7",
+      "sourceIndex": 16,
+      "textBytes": 84439,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 1] [Figure 2] Journal of Financial Economics 61 (2001) 43–76 # The distribution of realized stock return volatility$ Torben G. Andersena,d,1, Tim Bollerslevb,d,2, Francis X. Dieboldc,d,*, Heiko Ebense,3 aDepartment of Finance, Kellogg Graduate School of Management, Northwestern University, Evanston, IL 60208, USA bDepartment of Economics, Duke University, Durham, NC 27708, USA cDepartment of Economics, University of Pennsylvania, Philadelphia, PA 19104-6297, USA dNBER, USA eDepartment of Economics, Johns Hopkins University, Baltimore, MD 21218, USA Received 29 December 1999; received in revised form 9 July 2000; accepted 16 February 2001 Abstract We examine ‘‘realized’’ daily equity return volatilities and correlations obtained from high-frequency intraday transaction prices on individual stocks in the Dow Jones $This work was supported by the National Science Foundation. We than"
+    },
+    {
+      "slug": "346_Consumption_aggregate_wealth_and_expected_stock_returns",
+      "title": "Consumption, aggregate wealth and expected stock returns",
+      "category": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "key": "FOLDER00026_3418a3d121eb",
+      "sourceIndex": 17,
+      "textBytes": 886,
+      "figuresExtracted": 0,
+      "excerpt": "| | | | | | | | |---|---|---|---|---|---|---| | | | | | | | | | | | | | | | | | | | | |---|---|---| | | | | | | | | | | | | | | |---|---|---|---|---| | | | | | | | | | | | | | | | | | | |---|---|---|---|---| | | | | | | | | | | | | | | | | | | |---|---|---|---|---| | | | | | | | | | | | | | | | | | | |---|---|---|---|---| | | | | | | | | | | | | # Figure 1 Excess Return and Trend Deviation 1952:4 to 1998:3 4 2 0 - -4 - -2 Trend Deviation Excess Return 52:4 56:4 60:4 64:4 68:4 72:4 76:4 80:4 84:4 88:4 92:4 96:4 Notes: Excess return is the return on the S&P Composite Index less the return on the three month Treasury bill rate; Trend deviation is the estimated deviation from the shared trend in consumption, labor income and asset wealth (normalized to standard deviations of unity). Shaded areas denote recessions."
+    },
+    {
+      "slug": "347_Do_investors_care_about_carbon_risk",
+      "title": "Do investors care about carbon risk?",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00027_d3fecf230729",
+      "sourceIndex": 18,
+      "textBytes": 169855,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES DO INVESTORS CARE ABOUT CARBON RISK? Patrick Bolton Marcin Kacperczyk Working Paper 26968 http://www.nber.org/papers/w26968 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2020 We thank Franklin Allen, Eric Bouyé, Kent Daniel, Charles Donovan, Gerry Garvey, Lukasz Pomorski, Ailsa Roell, Zacharias Sautner, Gireesh Shrimali, Michela Verardo, Jeff Wurgler and the referee for helpful suggestions. We also appreciate comments from seminar participants at Blackrock, Newcastle University, NHH Bergen, the New Frontiers in Investment Research conference, University of Cardiff, and University College Dublin. We are grateful to Trucost for giving us access to their corporate carbon emissions data, and to Jingyu Zhang for very helpful research assistance. The views expressed herein are those of the authors and do not necessarily refle"
+    },
+    {
+      "slug": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
+      "title": "Does the Stock Market Fully Value Intangibles? Employee Satisfaction and Equity Prices",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00028_8580d00403bb",
+      "sourceIndex": 19,
+      "textBytes": 122936,
+      "figuresExtracted": 0,
+      "excerpt": "Does the Stock Market Fully Value Intangibles? Employee Satisfaction and Equity Prices\u0003 Alex Edmans Wharton School, University of Pennsylvania aedmans@wharton.upenn.edu Journal of Financial Economics, forthcoming Abstract This paper analyzes the relationship between employee satisfaction and long-run stock returns. A value-weighted portfolio of the “100 Best Companies to Work For in Amer- ica”earned an annual four-factor alpha of 3.5% from 1984-2009, and 2.1% above industry benchmarks. The results are robust to controls for …rm characteristics, di¤erent weighting methodologies and the removal of outliers. The Best Companies also exhibited signi…- cantly more positive earnings surprises and announcement returns. These …ndings have three main implications. First, consistent with human capital-centered theories of the …rm, employee satisfaction is positively correlated with shareholder retu"
+    },
+    {
+      "slug": "349_Corporate_immunity_to_the_COVID-19_pandemic",
+      "title": "Corporate immunity to the COVID-19 pandemic",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00031_20e964c78a05",
+      "sourceIndex": 20,
+      "textBytes": 116234,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES CORPORATE IMMUNITY TO THE COVID-19 PANDEMIC Wenzhi Ding Ross Levine Chen Lin Wensi Xie Working Paper 27055 http://www.nber.org/papers/w27055 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2020 The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for discussion and comment purposes. They have not been peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies official NBER publications. © 2020 by Wenzhi Ding, Ross Levine, Chen Lin, and Wensi Xie. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. Corporate Immunity to the COVID-19 Pandem"
+    },
+    {
+      "slug": "350_The_Geography_of_Investment_Informed_Trading_and_Asset_Price",
+      "title": "The Geography of Investment: Informed Trading and Asset Prices",
+      "category": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "key": "FOLDER00033_59b9d21f7896",
+      "sourceIndex": 21,
+      "textBytes": 270,
+      "figuresExtracted": 0,
+      "excerpt": "| | | |---|---| | | | | | | | |---|---|---| | | | | | | | | | |---|---|---|---| | | | | | | | | | | | | | | | |---|---|---|---| | | | | | | | |---| | | |---| | | |---| | | |---| | | | |---|---| | | | | | |---| | | |---|"
+    },
+    {
+      "slug": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
+      "title": "The Stock Market Valuation of Research and Development Expenditures",
+      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "key": "FOLDER00034_3c31abb6d4df",
+      "sourceIndex": 22,
+      "textBytes": 102539,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES THE STOCK MARKET VALUATION OF RESEARCH AND DEVELOPMENT EXPENDITURES Louis K.C. Chan Josef Lakonishok Theodore Sougiannis Working Paper 7223 http://www.nber.org/papers/w7223 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 July 1999 We thank Werner DeBondt, Baruch Lev, Andrei Shleifer, and participants at seminars at Michigan State University, Ohio State University, University of Michigan, and the NBER Behavioral Finance - Asset Pricing Fall 1998 meetings for comments, and Konan Chan for research assistance. All opinions expressed are those of the authors and not those of the National Bureau of Economic Research. © 1999 by Louis K.C. Chan, Josef Lakonishok, and Theodore Sougiannis. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, includ"
+    },
+    {
+      "slug": "352_The_Dark_Side_of_Internal_Capital_Markets_Divisional_Rent-Se",
+      "title": "The Dark Side of Internal Capital Markets: Divisional Rent-Seeking and Inefficient Investment",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00036_b81af0c81ace",
+      "sourceIndex": 23,
+      "textBytes": 84707,
+      "figuresExtracted": 0,
+      "excerpt": "## The Dark Side of Internal Capital Markets: Divisional Rent-Seeking and Ineﬃcient Investment David S. Scharfstein and Jeremy C. Stein September 1999 Abstract We develop a two-tiered agency model that shows how rent-seeking behavior on the part of division managers can subvert the workings of an internal capital market. By rent-seeking, division mangers can raise their bargaining power and extract greater overall compensation from the CEO. And because the CEO is herself an agent of outside investors, this extra compensation may take the form not of cash wages, but rather of preferential capital budgeting allocations. One interesting feature of our model is that it implies a kind of “socialism” in internal capital allocation, whereby weaker divisions get subsidized by stronger ones. MIT Sloan School of Management and NBER. This paper is a completely overhauled version of our March 1997 N"
+    },
+    {
+      "slug": "353_Good_Day_Sunshine_Stock_Returns_and_the_Weather",
+      "title": "Good Day Sunshine: Stock Returns and the Weather",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00038_532fe7024a16",
+      "sourceIndex": 24,
+      "textBytes": 73358,
+      "figuresExtracted": 0,
+      "excerpt": "# Good Day Sunshine: Stock Returns and the Weather∗ #### David Hirshleifer and Tyler Shumway† August 17, 2001 ∗We thank Aldo Rosas for his excellent research assistance. We also thank the editor, Rick Green; an anonymous referee; Andrew Ang, Michael Cooper, Joshua Coval, Bud Gibson, Marc Hulbert, Daniel Kahneman, Seongyeon Lim, Marina Murphy, Norbert Schwarz, Lu Zheng, Jason Zweig, and seminar participants at the Decision Sciences Consortium and at the Mitsui Finance Seminar at the University of Michigan for helpful comments. †Fisher College of Business, Ohio State University; and University of Michigan Business School, respectively. David Hirshleifer can be reached at hirshleifer.2@osu.edu or (614) 292-5174; Fisher College of Business, The Ohio State University, 740A Fisher Hall, 2100 Neil Avenue, Columbus, OH 43210-1144; http://ﬁsher.osu.edu/facultyguide/faculty/hirshleifer/hirshleifer"
+    },
+    {
+      "slug": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
+      "title": "Asymmetric Dynamics in the Correlations of Global Equity and Bond Returns",
+      "category": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "key": "FOLDER00040_9eac28102a07",
+      "sourceIndex": 25,
+      "textBytes": 106268,
+      "figuresExtracted": 0,
+      "excerpt": "Sheppard, Kevin; Cappiello, Lorenzo; Engle, Robert F. Working Paper ###### Asymmetric dynamics in the correlations of global equity and bond returns ECB Working Paper, No. 204 ###### Provided in Cooperation with: European Central Bank (ECB) Suggested Citation: Sheppard, Kevin; Cappiello, Lorenzo; Engle, Robert F. (2003) : Asymmetric dynamics in the correlations of global equity and bond returns, ECB Working Paper, No. 204, European Central Bank (ECB), Frankfurt a. M. This Version is available at: https://hdl.handle.net/10419/152638 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich machen, vertreiben oder anderweitig nutzen. Sofern die Verfasser die Do"
+    },
+    {
+      "slug": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
+      "title": "Roughing It Up: Including Jump Components in the Measurement, Modeling, and Forecasting of Return Volatility",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00043_b7339acb6960",
+      "sourceIndex": 26,
+      "textBytes": 106983,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES ROUGHING IT UP: INCLUDING JUMP COMPONENTS IN THE MEASUREMENT, MODELING AND FORECASTING OF RETURN VOLATILITY Torben G. Andersen Tim Bollerslev Francis X. Diebold Working Paper 11775 http://www.nber.org/papers/w11775 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 November 2005 Earlier versions of this paper were circulated under the title “Some Like it Smooth, and Some Like it Rough: Disentangling Continuous and Jump Components in Measuring, Modeling and Forecasting Asset Return Volatility.” Our research was supported by the National Science Foundation, the Guggenheim Foundation, and the Wharton Financial Institutions Center. We are grateful to Olsen and Associates for generously supplying their intraday exchange rate data. Xin Huang provided excellent research assistance. We would also like to thank Federico Bandi, Michael Joha"
+    },
+    {
+      "slug": "356_Stock_Return_Predictability_Is_it_There",
+      "title": "Stock Return Predictability: Is it There?",
+      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "key": "FOLDER00044_137557a8f1d0",
+      "sourceIndex": 27,
+      "textBytes": 110283,
+      "figuresExtracted": 0,
+      "excerpt": "# 1 Introduction A large body of empirical work has accumulated documenting excess stock return predictability. Among the most popular predictors are the nominal interest rate and the dividend yield.1 The dividend yield appears to be the most popular stock return predictor used in applied work, but more recently Lamont (1998) and Campbell and Shiller (1988) argue that the earnings yield, has independent forecasting power for excess stock returns in addition to the dividend yield. The debate on what drives the predictability continues. It may reﬂect irrational investor behavior and hence be exploitable in trading strategies (see Cutler, Poterba and Summers (1989)); it may reﬂect time-varying risk premiums (Kandel and Stambaugh (1990)), Campbell and Cochrane (1999), Bekaert and Grenadier (2000)); or it may simply not be present in the data. This last possibility gains credulity considering"
+    },
+    {
+      "slug": "357_Investor_Inattention_and_Friday_Earnings_Announcements",
+      "title": "Investor Inattention and Friday Earnings Announcements",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00046_5f3a479f9ee6",
+      "sourceIndex": 28,
+      "textBytes": 110319,
+      "figuresExtracted": 1,
+      "excerpt": "# Investor Inattention and Friday Earnings Announcements STEFANO DELLAVIGNA and JOSHUA M. POLLET∗ ## February 2, 2008 Forthcoming, Journal of Finance Abstract Does limited attention among investors aﬀect stock returns? We compare the response to earnings announcements on Friday, when investor inattention is more likely, to the response on other weekdays. If inattention inﬂuences stock prices, we should observe less immediate response and more drift for Friday announcements. Indeed, Friday announcements have a 15% lower immediate response and a 70% higher delayed response. A portfolio investing in diﬀerential Friday drift earns substantial abnormal returns. In addition, trading volume is 8% lower around Friday announcements. These ﬁndings support explanations of post-earnings announcement drift based on underreaction to information caused by limited attention. ∗DellaVigna is from the Depa"
+    },
+    {
+      "slug": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
+      "title": "Asset Fire Sales (and Purchases) in Equity Markets",
+      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "key": "FOLDER00052_855fac662d17",
+      "sourceIndex": 29,
+      "textBytes": 2640312,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES ASSET FIRE SALES (AND PURCHASES) IN EQUITY MARKETS Joshua D. Coval Erik Stafford Working Paper 11357 http://www.nber.org/papers/w11357 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 May 2005 We thank Malcolm Baker, Ken Froot, Bob Merton, André Perold, David Scharfstein, Andrei Shleifer, and Tuomo Vuolteenaho for valuable comments and discussions, and seminar participants at Harvard Business School and the University of Virginia. We also thank Joshua Pollet and Ken French for providing some of the data used in this study. The views expressed herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of Economic Research. ©2005 by Joshua D. Coval and Erik Stafford. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided t"
+    },
+    {
+      "slug": "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment",
+      "title": "When Does the Market Matter? Stock Prices and the Investment of Equity-Dependent Firms",
+      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "key": "FOLDER00053_7ac426025865",
+      "sourceIndex": 30,
+      "textBytes": 82470,
+      "figuresExtracted": 0,
+      "excerpt": "- I. Introduction Corporate investment and the stock market are positively correlated, both in the time series and in the cross-section. The traditional explanation for this relationship is that stock prices rationally reflect the marginal product of capital. This is the usual interpretation given to the relationship between investment and Tobin’s Q, for example, as in Tobin (1969) and von Furstenberg (1977). Keynes (1936) suggests a very different explanation. He argues that stock prices contain an important element of irrationality. As a result, the effective cost of external equity sometimes diverges from the cost of other forms of capital. This affects the pattern of equity issues and in turn corporate investment. This “equity financing channel” has been developed in work by Bosworth (1975), Fischer and Merton (1984), Morck, Shleifer and Vishny (1990), Blanchard, Rhee and Summers (19"
+    },
+    {
+      "slug": "360_Capital_Investments_and_Stock_Returns",
+      "title": "Capital Investments and Stock Returns",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00056_d2201cac799e",
+      "sourceIndex": 31,
+      "textBytes": 89880,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES CAPITAL INVESTMENTS AND STOCK RETURNS Sheridan Titman K.C. John Wei Feixue Xie Working Paper 9951 http://www.nber.org/papers/w9951 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 September 2003 The authors appreciate the helpful comments of the seminar participants at Peking University, the Hong Kong University of Science and Technology, National Central University, National Chengchi University, University of Arizona, and the Ninth SFM Conference held in Kaoshiung, Taiwan. The authors also thank Andres Almazan, Paul Malatesta (the editor), and two anonymous referees for insightful comments and Dr. Virginia Unkefer for editorial assistance. Sheridan Titman and John Wei acknowledge the financial support from an RGC Competitive Earmarked Research Grant of the Hong Kong Special Administration Region, China (HKUST6014/99H). The view"
+    },
+    {
+      "slug": "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst",
+      "title": "Financial Time Series Forecasting with Deep Learning : A Systematic Literature Review: 2005-2019",
+      "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "key": "FOLDER00059_465de4ac37a2",
+      "sourceIndex": 32,
+      "textBytes": 104177,
+      "figuresExtracted": 0,
+      "excerpt": "GENERACIÓN DE SERIES DE TIEMPO FINANCIERAS SINTÉTICAS PARA “DATA AUGMENTATION” USANDO REDES NEURONALES GENERATIVAS ADVERSARIAS (GAN) GENERATION OF SYNTHETIC FINANCIAL TIME SERIES FOR “DATA AUGMENTATION” USING GENERATIVE ADVERSARIAL NETWORKS (GAN) [Figure 1] Elaborado por: Edwin Fernando Villarraga Ossa Tutor: Fernán Alonso Villa Garzón. Phd. Trabajo Final para optar al título de Maestría en Ingeniería MAESTRIA EN INGENIERIA – ANALÍTICA UNIVERSIDAD NACIONAL DE COLOMBIA SEDE MEDELLÍN 2021 # TABLA DE CONTENIDO - 1. JUSTIFICACIÓN 5 - 1.1 APORTE ACADÉMICO 8 - 1.2 APORTE PARA PRACTITIONERS 8 - 2. CARACTERÍSTICAS DE LAS SERIES DE TIEMPO FINANCIERAS 9 - 2.1 SERIES DE TIEMPO FINANCIERAS DIARIAS 9 - 2.2 SERIES DE TIEMPO FINANCIERAS INTRADIARIAS 10 - 3. CARACTERIZACIÓN DE LOS MODELOS GAN 14 - 3.1 MODELOS GAN 14 - 3.1.1 Modelo GAN Original 14 - 3.1.2 Modelo DCGAN 15 - 3.1.3 Modelos GAN con Variables"
+    },
+    {
+      "slug": "362_Financial_Constraints_and_Stock_Returns",
+      "title": "Financial Constraints and Stock Returns",
+      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "key": "FOLDER00060_5c52471e9420",
+      "sourceIndex": 33,
+      "textBytes": 20619,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figure 55] [Figure 56] [Figure 57] [Figure 58] [Figure 59] [Figure 60] [Figure 61] [Figure 62] [Figure 63] [Figure 64] [Figure 65] [Figure 66] [Figure 67] [Figure 68] [Figure 69] [Figure 70] [Figure 71] [Figure 72] [Figure 73] [Figure 74] [Figure 75] [Figure 7"
+    },
+    {
+      "slug": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
+      "title": "The Small World of Investing: Board Connections and Mutual Fund Returns",
+      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "key": "FOLDER00068_3b2361ead49e",
+      "sourceIndex": 34,
+      "textBytes": 219385,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES THE SMALL WORLD OF INVESTING: BOARD CONNECTIONS AND MUTUAL FUND RETURNS Lauren Cohen Andrea Frazzini Christopher Malloy Working Paper 13121 http://www.nber.org/papers/w13121 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 May 2007 We would like to thank Malcolm Baker, Nick Barberis, John Campbell, Judy Chevalier, Jennifer Conrad, Kent Daniel, Will Goetzmann, Steve Kaplan, Owen Lamont, Alexander Ljungqvist, Toby Moskowitz, Fiona Scott Morton, Ludovic Phalippou, Bob Shiller, Jeremy Stein, Mike Weisbach, and seminar participants at the University of Chicago, Yale University, London Business School, Harvard University, University of Illinois, Erasmus Universiteit Rotterdam, 2007 Asset Pricing Mini Conference at Washington University, AQR Capital Management, and Goldman Sachs Asset Management for helpful comments. We also thank Boar"
+    },
+    {
+      "slug": "364_Bad_Beta_Good_Beta",
+      "title": "Bad Beta, Good Beta",
+      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "key": "FOLDER00072_89162a718430",
+      "sourceIndex": 35,
+      "textBytes": 124836,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] ### Bad Beta, Good Beta [Figure 2] ###### Citation Campbell, John Y., and Tuomo Vuolteenaho. 2004. Bad Beta, Good Beta. American Economic Review 94(5): 1249-1275. ###### Published version https://doi.org/10.1257/0002828043052240 ###### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:3122489 ###### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Other Posted Material (LAA), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ###### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ###### Share Your Story The Harvard community has made this article openly available. Please share how this access benefits you. Submit a story [Figure 3] # H I E R ## Harvard Institute of Economic Research Discus"
+    },
+    {
+      "slug": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
+      "title": "Death and contagious infectious diseases: Impact of the COVID-19 virus on stock market returns",
+      "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "key": "FOLDER00073_068e24713818",
+      "sourceIndex": 36,
+      "textBytes": 22595,
+      "figuresExtracted": 3,
+      "excerpt": "[Figure 1] Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active. Journal of Behavioral and Experimental Finance 27 (2020) 100326 |[Figure 2]| |---| Contents lists available at Scien"
+    },
+    {
+      "slug": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
+      "title": "On the Industry Concentration of Actively Managed Equity Mutual Funds",
+      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "key": "FOLDER00075_c7726a12dfd0",
+      "sourceIndex": 37,
+      "textBytes": 80617,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES ON THE INDUSTRY CONCENTRATION OF ACTIVELY MANAGED EQUITY MUTUAL FUNDS Marcin Kacperczyk Clemens Sialm Lu Zheng Working Paper 10770 http://www.nber.org/papers/w10770 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 September 2004 Kacperczyk is from the Sauder School of Business at University of British Columbia. Sialm and Zheng are from the Michigan Business School, Ann Arbor. We thank Sreedhar Bharath, Sugato Bhattacharyya, Fang Cai, Joel Dickson, William Goetzmann, Rick Green, Gautam Kaul, Lutz Kilian, Zbigniew Kominek, Francine Lafontaine, Luboš Pástor, Tyler Shumway, Laura Starks, Steve Todd, Zhi Wang, Russ Wermers, Toni Whited, and especially an anonymous referee. We also benefited from helpful comments by seminar participants at the 2002 CIRANO seminar in Montreal, the 2003 European Financial Management Association Meeting "
+    },
+    {
+      "slug": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
+      "title": "The Equity Share in New Issues and Aggregate Stock Returns",
+      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "key": "FOLDER00079_ce0c951beb70",
+      "sourceIndex": 38,
+      "textBytes": 242411,
+      "figuresExtracted": 2,
+      "excerpt": "THE JOURNAL OF FINANCE • VOL. LV, NO. 5 • OCT. 2000 # The Equity Share in New Issues and Aggregate Stock Returns MALCOLM BAKER and JEFFREY WURGLER* ##### ABSTRACT The share of equity issues in total new equity and debt issues is a strong predictor of U.S. stock market returns between 1928 and 1997. In particular, firms issue relatively more equity than debt just before periods of low market returns. The equity share in new issues has stable predictive power in both halves of the sample period and after controlling for other known predictors. We do not find support for efficient market explanations of the results. Instead, the fact that the equity share sometimes predicts significantly negative market returns suggests inefficiency and that firms time the market component of their returns when issuing securities. IN THEIR CLASSIC PROOF of the irrelevance of financing policy, Modigliani and"
+    },
+    {
+      "slug": "368_Breadth_of_Ownership_and_Stock_Returns",
+      "title": "Breadth of Ownership and Stock Returns",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00081_6f6df963197c",
+      "sourceIndex": 39,
+      "textBytes": 3004,
+      "figuresExtracted": 0,
+      "excerpt": "###### ε + ε − + γ #### γ ( − ) [ γ ( − )] γ γ ( − ) + # ∫ = γ − + γ − − = − γ + γ + # ∫ ( ) ( ) = γ − + γ − =       ###### = + + γ − γ +γ γ + γ γ ∗  < ∗ =   + γ γ   ≥  γ γ + − ≥ γ + γ ∗ ∗ ∗ ### ( − ∗) γ ∗ γ γ ≥ γ γ =  + − ∗      ### ( − ∗) γ γ γ γ ∗ ### ( − ∗) γ ≥ ∗ ≥ γ ###### γ ###### γ ### ( − ∗) ∆ ∆ ###### ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ###### ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ##### ( ) + − = γ ###### γ + ( − ) =       ###### = + + γ ± γ +γ γ + γ γ + ≥ γ + γ = − γ γ γ + γ = + = = − γ + γ < γ + γ − ###### λ=γ +γ γ + γ =  −     + − λ γ ∗  =        γ  ∗ ∗ ## ( ) ∂ − = + − + ∂ γ λ λ γ = γ + γ ∂ = ∂ = γ γ + ###### γ ###### ∂ λ− = ≥ ∂ ≥ ###### γ + γ < ###### γ + γ  + ###### γ γ γ γ  ∂     = − ∂ ###### λ ###### λ ≤ γ + γ ###### γ ≥ γ ### ( − ∗) < γ + γ ∗"
+    }
+  ]
+}

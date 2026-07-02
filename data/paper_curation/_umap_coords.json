@@ -1,0 +1,202 @@
+{
+  "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series": {
+    "x": 12.287074,
+    "y": 5.926122,
+    "category": "HDBSCAN Cluster: stock, illiquidity, comments, new"
+  },
+  "028_Twitter_mood_predicts_the_stock_market": {
+    "x": 11.14421,
+    "y": 5.695099,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns": {
+    "x": 13.393947,
+    "y": 4.15351,
+    "category": "HDBSCAN Cluster: university, nber, working, asset"
+  },
+  "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com": {
+    "x": 12.429164,
+    "y": 4.685045,
+    "category": "HDBSCAN Cluster: research, nber, working, national"
+  },
+  "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici": {
+    "x": 9.341003,
+    "y": 4.527827,
+    "category": "HDBSCAN Cluster: figure, asset, pricing, investor"
+  },
+  "086_Asset_Pricing_at_the_Millennium": {
+    "x": 13.0432,
+    "y": 3.664709,
+    "category": "HDBSCAN Cluster: university, nber, working, asset"
+  },
+  "087_MODELING_AND_FORECASTING_REALIZED_VOLATILITY": {
+    "x": 11.916256,
+    "y": 6.124478,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "088_Financial_Literacy_and_Stock_Market_Participation": {
+    "x": 12.778001,
+    "y": 3.327589,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w": {
+    "x": 11.929119,
+    "y": 5.081915,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "090_What_Matters_in_Corporate_Governance": {
+    "x": 10.150786,
+    "y": 3.925836,
+    "category": "HDBSCAN Cluster: harvard, https, figure, edu"
+  },
+  "091_Asset_pricing_with_liquidity_risk": {
+    "x": 13.136875,
+    "y": 5.432932,
+    "category": "HDBSCAN Cluster: usa, liquidity, return, economics"
+  },
+  "092_Market_Liquidity_Illiquidity_and_Stock_Returns_Cross-Section": {
+    "x": 12.664415,
+    "y": 6.024098,
+    "category": "HDBSCAN Cluster: stock, illiquidity, comments, new"
+  },
+  "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B": {
+    "x": 10.53775,
+    "y": 4.281534,
+    "category": "HDBSCAN Cluster: harvard, https, figure, edu"
+  },
+  "094_Investor_Psychology_and_Asset_Pricing": {
+    "x": 9.403952,
+    "y": 4.848091,
+    "category": "HDBSCAN Cluster: figure, asset, pricing, investor"
+  },
+  "095_Deep_learning_with_long_short-term_memory_networks_for_finan": {
+    "x": 10.993216,
+    "y": 4.555427,
+    "category": "HDBSCAN Cluster: die, working, economics, dokumente"
+  },
+  "344_In_Search_of_Distress_Risk": {
+    "x": 10.530854,
+    "y": 4.26204,
+    "category": "HDBSCAN Cluster: harvard, https, figure, edu"
+  },
+  "345_The_distribution_of_realized_stock_return_volatility": {
+    "x": 13.451026,
+    "y": 4.816739,
+    "category": "HDBSCAN Cluster: usa, liquidity, return, economics"
+  },
+  "346_Consumption_aggregate_wealth_and_expected_stock_returns": {
+    "x": 9.352733,
+    "y": 3.986776,
+    "category": "HDBSCAN Cluster: return, trend, deviation, excess"
+  },
+  "347_Do_investors_care_about_carbon_risk": {
+    "x": 12.530057,
+    "y": 3.699637,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis": {
+    "x": 11.67389,
+    "y": 6.578574,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "349_Corporate_immunity_to_the_COVID-19_pandemic": {
+    "x": 11.831556,
+    "y": 4.237402,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "350_The_Geography_of_Investment_Informed_Trading_and_Asset_Price": {
+    "x": 9.686799,
+    "y": 4.119015,
+    "category": "HDBSCAN Cluster: return, trend, deviation, excess"
+  },
+  "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen": {
+    "x": 13.037031,
+    "y": 4.506897,
+    "category": "HDBSCAN Cluster: research, nber, working, national"
+  },
+  "352_The_Dark_Side_of_Internal_Capital_Markets_Divisional_Rent-Se": {
+    "x": 12.286424,
+    "y": 6.937399,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "353_Good_Day_Sunshine_Stock_Returns_and_the_Weather": {
+    "x": 13.595971,
+    "y": 3.500098,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and": {
+    "x": 11.139908,
+    "y": 3.922034,
+    "category": "HDBSCAN Cluster: die, working, economics, dokumente"
+  },
+  "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement": {
+    "x": 12.447857,
+    "y": 5.168622,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "356_Stock_Return_Predictability_Is_it_There": {
+    "x": 12.371716,
+    "y": 6.449722,
+    "category": "HDBSCAN Cluster: stock, equity, returns, market"
+  },
+  "357_Investor_Inattention_and_Friday_Earnings_Announcements": {
+    "x": 11.705654,
+    "y": 6.157563,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets": {
+    "x": 12.782004,
+    "y": 4.178692,
+    "category": "HDBSCAN Cluster: research, nber, working, national"
+  },
+  "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment": {
+    "x": 12.558602,
+    "y": 6.774199,
+    "category": "HDBSCAN Cluster: stock, equity, returns, market"
+  },
+  "360_Capital_Investments_and_Stock_Returns": {
+    "x": 13.979989,
+    "y": 3.79211,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst": {
+    "x": 11.312304,
+    "y": 5.155346,
+    "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo"
+  },
+  "362_Financial_Constraints_and_Stock_Returns": {
+    "x": 9.037519,
+    "y": 4.594901,
+    "category": "HDBSCAN Cluster: figure, asset, pricing, investor"
+  },
+  "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu": {
+    "x": 13.171313,
+    "y": 3.664458,
+    "category": "HDBSCAN Cluster: university, nber, working, asset"
+  },
+  "364_Bad_Beta_Good_Beta": {
+    "x": 10.14591,
+    "y": 4.513144,
+    "category": "HDBSCAN Cluster: harvard, https, figure, edu"
+  },
+  "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID": {
+    "x": 10.856577,
+    "y": 4.98576,
+    "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo"
+  },
+  "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut": {
+    "x": 13.624478,
+    "y": 3.839772,
+    "category": "HDBSCAN Cluster: university, nber, working, asset"
+  },
+  "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns": {
+    "x": 11.959824,
+    "y": 6.776511,
+    "category": "HDBSCAN Cluster: stock, equity, returns, market"
+  },
+  "368_Breadth_of_Ownership_and_Stock_Returns": {
+    "x": 10.031847,
+    "y": 4.974514,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  }
+}

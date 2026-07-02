@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "summary": "Codex-native cluster containing 13 processed papers.",
+      "count": 13
+    },
+    {
+      "name": "HDBSCAN Cluster: university, nber, working, asset",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: research, nber, working, national",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: stock, equity, returns, market",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: stock, illiquidity, comments, new",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    }
+  ]
+}
