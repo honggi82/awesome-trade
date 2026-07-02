@@ -5,31 +5,71 @@
     {
       "id": "hdbscan-bridge-and-noise-papers",
       "name": "HDBSCAN Bridge and Noise Papers",
-      "count": 13
+      "count": 47
     },
     {
-      "id": "hdbscan-cluster-university-nber-working-asset",
-      "name": "HDBSCAN Cluster: university, nber, working, asset",
+      "id": "hdbscan-cluster-nber-research-working-stock",
+      "name": "HDBSCAN Cluster: nber, research, working, stock",
+      "count": 10
+    },
+    {
+      "id": "hdbscan-cluster-italy-via-bologna-markets",
+      "name": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "count": 5
+    },
+    {
+      "id": "hdbscan-cluster-learning-deep-stock-prediction",
+      "name": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "count": 5
+    },
+    {
+      "id": "hdbscan-cluster-return-trend-deviation-excess",
+      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
       "count": 4
     },
     {
-      "id": "hdbscan-cluster-harvard-https-figure-edu",
-      "name": "HDBSCAN Cluster: harvard, https, figure, edu",
-      "count": 4
-    },
-    {
-      "id": "hdbscan-cluster-research-nber-working-national",
-      "name": "HDBSCAN Cluster: research, nber, working, national",
+      "id": "hdbscan-cluster-figure-stock-returns-risks",
+      "name": "HDBSCAN Cluster: figure, stock, returns, risks",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-figure-asset-pricing-investor",
-      "name": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "id": "hdbscan-cluster-usa-economics-university-return",
+      "name": "HDBSCAN Cluster: usa, economics, university, return",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-stock-equity-returns-market",
-      "name": "HDBSCAN Cluster: stock, equity, returns, market",
+      "id": "hdbscan-cluster-university-nber-working-research",
+      "name": "HDBSCAN Cluster: university, nber, working, research",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-returns-stock-investment-rms",
+      "name": "HDBSCAN Cluster: returns, stock, investment, rms",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-covid-19-figure-available-elsevier",
+      "name": "HDBSCAN Cluster: covid-19, figure, available, elsevier",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-stock-returns-variables-macroeconomic",
+      "name": "HDBSCAN Cluster: stock, returns, variables, macroeconomic",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-working-cfr-die-research",
+      "name": "HDBSCAN Cluster: working, cfr, die, research",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-costs-market-cost-trading",
+      "name": "HDBSCAN Cluster: costs, market, cost, trading",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-nber-working-stock-research",
+      "name": "HDBSCAN Cluster: nber, working, stock, research",
       "count": 3
     },
     {
@@ -38,23 +78,103 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-usa-liquidity-return-economics",
-      "name": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "id": "hdbscan-cluster-university-nber-asset-pricing",
+      "name": "HDBSCAN Cluster: university, nber, asset, pricing",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-die-working-economics-dokumente",
-      "name": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "id": "hdbscan-cluster-financial-van-working-university",
+      "name": "HDBSCAN Cluster: financial, van, working, university",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-return-trend-deviation-excess",
-      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "id": "hdbscan-cluster-university-edu-asset-return",
+      "name": "HDBSCAN Cluster: university, edu, asset, return",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-series-gan-covid-19-tiempo",
-      "name": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "id": "hdbscan-cluster-harvard-article-figure-http",
+      "name": "HDBSCAN Cluster: harvard, article, figure, http",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-harvard-stock-returns-https",
+      "name": "HDBSCAN Cluster: harvard, stock, returns, https",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-harvard-figure-https-beta",
+      "name": "HDBSCAN Cluster: harvard, figure, https, beta",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-weak-stock-returns-market",
+      "name": "HDBSCAN Cluster: weak, stock, returns, market",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-nber-working-not-papers",
+      "name": "HDBSCAN Cluster: nber, working, not, papers",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-ecb-working-die-european",
+      "name": "HDBSCAN Cluster: ecb, working, die, european",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-return-research-hedge-funds",
+      "name": "HDBSCAN Cluster: return, research, hedge, funds",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-capital-stock-investment-market",
+      "name": "HDBSCAN Cluster: capital, stock, investment, market",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-university-mutual-nber-working",
+      "name": "HDBSCAN Cluster: university, mutual, nber, working",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-discussion-international-finance-papers",
+      "name": "HDBSCAN Cluster: discussion, international, finance, papers",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-figure-measuring-reaction-monetary",
+      "name": "HDBSCAN Cluster: figure, measuring, reaction, monetary",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-sentiment-returns-investor-stock",
+      "name": "HDBSCAN Cluster: sentiment, returns, investor, stock",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-nber-working-research-papers",
+      "name": "HDBSCAN Cluster: nber, working, research, papers",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-growth-how-environment-financing",
+      "name": "HDBSCAN Cluster: growth, how, environment, financing",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-corporate-disclosure-hot-markets",
+      "name": "HDBSCAN Cluster: corporate, disclosure, hot, markets",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-des-recherche-tudes-document",
+      "name": "HDBSCAN Cluster: des, recherche, tudes, document",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-stock-uncertainty-policy-market",
+      "name": "HDBSCAN Cluster: stock, uncertainty, policy, market",
       "count": 2
     }
   ]

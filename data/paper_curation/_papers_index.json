@@ -25,7 +25,7 @@
     {
       "slug": "029_Investor_Sentiment_and_the_Cross-Section_of_Stock_Returns",
       "title": "Investor Sentiment and the Cross-Section of Stock Returns",
-      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00005_38fe80295ad4",
       "sourceIndex": null,
       "textBytes": 107526,
@@ -35,7 +35,7 @@
     {
       "slug": "030_No_Contagion_Only_Interdependence_Measuring_Stock_Market_Com",
       "title": "No Contagion, Only Interdependence: Measuring Stock Market Comovements",
-      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
       "key": "FOLDER00006_7cec9721b40b",
       "sourceIndex": null,
       "textBytes": 81636,
@@ -45,7 +45,7 @@
     {
       "slug": "031_Risks_for_the_Long_Run_A_Potential_Resolution_of_Asset_Prici",
       "title": "Risks for the Long Run: A Potential Resolution of Asset Pricing Puzzles",
-      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "category": "HDBSCAN Cluster: figure, stock, returns, risks",
       "key": "FOLDER00008_b6cc22d99f94",
       "sourceIndex": null,
       "textBytes": 2852,
@@ -55,7 +55,7 @@
     {
       "slug": "086_Asset_Pricing_at_the_Millennium",
       "title": "Asset Pricing at the Millennium",
-      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "category": "HDBSCAN Cluster: university, nber, asset, pricing",
       "key": "FOLDER00009_ce69dc6042b7",
       "sourceIndex": 5,
       "textBytes": 2210,
@@ -75,7 +75,7 @@
     {
       "slug": "088_Financial_Literacy_and_Stock_Market_Participation",
       "title": "Financial Literacy and Stock Market Participation",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: financial, van, working, university",
       "key": "FOLDER00012_d36af90c4806",
       "sourceIndex": 7,
       "textBytes": 117125,
@@ -85,7 +85,7 @@
     {
       "slug": "089_Measuring_Financial_Asset_Return_and_Volatility_Spillovers_w",
       "title": "Measuring Financial Asset Return and Volatility Spillovers, with Application to Global Equity Markets*",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: university, edu, asset, return",
       "key": "FOLDER00015_12568fef9ebe",
       "sourceIndex": 8,
       "textBytes": 29455,
@@ -95,7 +95,7 @@
     {
       "slug": "090_What_Matters_in_Corporate_Governance",
       "title": "What Matters in Corporate Governance?",
-      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "category": "HDBSCAN Cluster: harvard, article, figure, http",
       "key": "FOLDER00016_175e40b5a99a",
       "sourceIndex": 9,
       "textBytes": 142881,
@@ -105,7 +105,7 @@
     {
       "slug": "091_Asset_pricing_with_liquidity_risk",
       "title": "Asset pricing with liquidity risk",
-      "category": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "category": "HDBSCAN Cluster: usa, economics, university, return",
       "key": "FOLDER00017_bd4026fe5091",
       "sourceIndex": 10,
       "textBytes": 97859,
@@ -125,7 +125,7 @@
     {
       "slug": "093_Predicting_Excess_Stock_Returns_Out_of_Sample_Can_Anything_B",
       "title": "Predicting Excess Stock Returns Out of Sample: Can Anything Beat the Historical Average?",
-      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "category": "HDBSCAN Cluster: harvard, stock, returns, https",
       "key": "FOLDER00020_32533faba728",
       "sourceIndex": 12,
       "textBytes": 63635,
@@ -135,7 +135,7 @@
     {
       "slug": "094_Investor_Psychology_and_Asset_Pricing",
       "title": "Investor Psychology and Asset Pricing",
-      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00021_54fe61c914fe",
       "sourceIndex": 13,
       "textBytes": 1269,
@@ -145,7 +145,7 @@
     {
       "slug": "095_Deep_learning_with_long_short-term_memory_networks_for_finan",
       "title": "Deep learning with long short-term memory networks for financial market predictions",
-      "category": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00023_76245d32e241",
       "sourceIndex": 14,
       "textBytes": 81532,
@@ -155,7 +155,7 @@
     {
       "slug": "344_In_Search_of_Distress_Risk",
       "title": "In Search of Distress Risk",
-      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "category": "HDBSCAN Cluster: harvard, figure, https, beta",
       "key": "FOLDER00024_5a22bebf333f",
       "sourceIndex": 15,
       "textBytes": 92268,
@@ -165,7 +165,7 @@
     {
       "slug": "345_The_distribution_of_realized_stock_return_volatility",
       "title": "The distribution of realized stock return volatility",
-      "category": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "category": "HDBSCAN Cluster: usa, economics, university, return",
       "key": "FOLDER00025_a7712b67fcf7",
       "sourceIndex": 16,
       "textBytes": 84439,
@@ -185,7 +185,7 @@
     {
       "slug": "347_Do_investors_care_about_carbon_risk",
       "title": "Do investors care about carbon risk?",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: university, nber, working, research",
       "key": "FOLDER00027_d3fecf230729",
       "sourceIndex": 18,
       "textBytes": 169855,
@@ -195,7 +195,7 @@
     {
       "slug": "348_Does_the_Stock_Market_Fully_Value_Intangibles_Employee_Satis",
       "title": "Does the Stock Market Fully Value Intangibles? Employee Satisfaction and Equity Prices",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: weak, stock, returns, market",
       "key": "FOLDER00028_8580d00403bb",
       "sourceIndex": 19,
       "textBytes": 122936,
@@ -205,7 +205,7 @@
     {
       "slug": "349_Corporate_immunity_to_the_COVID-19_pandemic",
       "title": "Corporate immunity to the COVID-19 pandemic",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: nber, working, not, papers",
       "key": "FOLDER00031_20e964c78a05",
       "sourceIndex": 20,
       "textBytes": 116234,
@@ -225,7 +225,7 @@
     {
       "slug": "351_The_Stock_Market_Valuation_of_Research_and_Development_Expen",
       "title": "The Stock Market Valuation of Research and Development Expenditures",
-      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
       "key": "FOLDER00034_3c31abb6d4df",
       "sourceIndex": 22,
       "textBytes": 102539,
@@ -255,7 +255,7 @@
     {
       "slug": "354_Asymmetric_Dynamics_in_the_Correlations_of_Global_Equity_and",
       "title": "Asymmetric Dynamics in the Correlations of Global Equity and Bond Returns",
-      "category": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "category": "HDBSCAN Cluster: ecb, working, die, european",
       "key": "FOLDER00040_9eac28102a07",
       "sourceIndex": 25,
       "textBytes": 106268,
@@ -265,7 +265,7 @@
     {
       "slug": "355_Roughing_It_Up_Including_Jump_Components_in_the_Measurement",
       "title": "Roughing It Up: Including Jump Components in the Measurement, Modeling, and Forecasting of Return Volatility",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: return, research, hedge, funds",
       "key": "FOLDER00043_b7339acb6960",
       "sourceIndex": 26,
       "textBytes": 106983,
@@ -275,7 +275,7 @@
     {
       "slug": "356_Stock_Return_Predictability_Is_it_There",
       "title": "Stock Return Predictability: Is it There?",
-      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "category": "HDBSCAN Cluster: returns, stock, investment, rms",
       "key": "FOLDER00044_137557a8f1d0",
       "sourceIndex": 27,
       "textBytes": 110283,
@@ -295,7 +295,7 @@
     {
       "slug": "358_Asset_Fire_Sales_and_Purchases_in_Equity_Markets",
       "title": "Asset Fire Sales (and Purchases) in Equity Markets",
-      "category": "HDBSCAN Cluster: research, nber, working, national",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
       "key": "FOLDER00052_855fac662d17",
       "sourceIndex": 29,
       "textBytes": 2640312,
@@ -305,7 +305,7 @@
     {
       "slug": "359_When_Does_the_Market_Matter_Stock_Prices_and_the_Investment",
       "title": "When Does the Market Matter? Stock Prices and the Investment of Equity-Dependent Firms",
-      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "category": "HDBSCAN Cluster: capital, stock, investment, market",
       "key": "FOLDER00053_7ac426025865",
       "sourceIndex": 30,
       "textBytes": 82470,
@@ -315,7 +315,7 @@
     {
       "slug": "360_Capital_Investments_and_Stock_Returns",
       "title": "Capital Investments and Stock Returns",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
       "key": "FOLDER00056_d2201cac799e",
       "sourceIndex": 31,
       "textBytes": 89880,
@@ -325,7 +325,7 @@
     {
       "slug": "361_Financial_Time_Series_Forecasting_with_Deep_Learning__A_Syst",
       "title": "Financial Time Series Forecasting with Deep Learning : A Systematic Literature Review: 2005-2019",
-      "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00059_465de4ac37a2",
       "sourceIndex": 32,
       "textBytes": 104177,
@@ -335,7 +335,7 @@
     {
       "slug": "362_Financial_Constraints_and_Stock_Returns",
       "title": "Financial Constraints and Stock Returns",
-      "category": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "category": "HDBSCAN Cluster: figure, stock, returns, risks",
       "key": "FOLDER00060_5c52471e9420",
       "sourceIndex": 33,
       "textBytes": 20619,
@@ -345,7 +345,7 @@
     {
       "slug": "363_The_Small_World_of_Investing_Board_Connections_and_Mutual_Fu",
       "title": "The Small World of Investing: Board Connections and Mutual Fund Returns",
-      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "category": "HDBSCAN Cluster: university, mutual, nber, working",
       "key": "FOLDER00068_3b2361ead49e",
       "sourceIndex": 34,
       "textBytes": 219385,
@@ -355,7 +355,7 @@
     {
       "slug": "364_Bad_Beta_Good_Beta",
       "title": "Bad Beta, Good Beta",
-      "category": "HDBSCAN Cluster: harvard, https, figure, edu",
+      "category": "HDBSCAN Cluster: harvard, figure, https, beta",
       "key": "FOLDER00072_89162a718430",
       "sourceIndex": 35,
       "textBytes": 124836,
@@ -365,7 +365,7 @@
     {
       "slug": "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
       "title": "Death and contagious infectious diseases: Impact of the COVID-19 virus on stock market returns",
-      "category": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "category": "HDBSCAN Cluster: covid-19, figure, available, elsevier",
       "key": "FOLDER00073_068e24713818",
       "sourceIndex": 36,
       "textBytes": 22595,
@@ -375,7 +375,7 @@
     {
       "slug": "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
       "title": "On the Industry Concentration of Actively Managed Equity Mutual Funds",
-      "category": "HDBSCAN Cluster: university, nber, working, asset",
+      "category": "HDBSCAN Cluster: university, mutual, nber, working",
       "key": "FOLDER00075_c7726a12dfd0",
       "sourceIndex": 37,
       "textBytes": 80617,
@@ -385,7 +385,7 @@
     {
       "slug": "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
       "title": "The Equity Share in New Issues and Aggregate Stock Returns",
-      "category": "HDBSCAN Cluster: stock, equity, returns, market",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00079_ce0c951beb70",
       "sourceIndex": 38,
       "textBytes": 242411,
@@ -401,6 +401,1006 @@
       "textBytes": 3004,
       "figuresExtracted": 0,
       "excerpt": "###### ε + ε − + γ #### γ ( − ) [ γ ( − )] γ γ ( − ) + # ∫ = γ − + γ − − = − γ + γ + # ∫ ( ) ( ) = γ − + γ − =       ###### = + + γ − γ +γ γ + γ γ ∗  < ∗ =   + γ γ   ≥  γ γ + − ≥ γ + γ ∗ ∗ ∗ ### ( − ∗) γ ∗ γ γ ≥ γ γ =  + − ∗      ### ( − ∗) γ γ γ γ ∗ ### ( − ∗) γ ≥ ∗ ≥ γ ###### γ ###### γ ### ( − ∗) ∆ ∆ ###### ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ###### ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ∆ ##### ( ) + − = γ ###### γ + ( − ) =       ###### = + + γ ± γ +γ γ + γ γ + ≥ γ + γ = − γ γ γ + γ = + = = − γ + γ < γ + γ − ###### λ=γ +γ γ + γ =  −     + − λ γ ∗  =        γ  ∗ ∗ ## ( ) ∂ − = + − + ∂ γ λ λ γ = γ + γ ∂ = ∂ = γ γ + ###### γ ###### ∂ λ− = ≥ ∂ ≥ ###### γ + γ < ###### γ + γ  + ###### γ γ γ γ  ∂     = − ∂ ###### λ ###### λ ≤ γ + γ ###### γ ≥ γ ### ( − ∗) < γ + γ ∗"
+    },
+    {
+      "slug": "586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E",
+      "title": "Real-Time Price Discovery in Global Stock, Bond and Foreign Exchange Markets",
+      "category": "HDBSCAN Cluster: discussion, international, finance, papers",
+      "key": "FOLDER00083_b249bfe6b035",
+      "sourceIndex": 40,
+      "textBytes": 92592,
+      "figuresExtracted": 1,
+      "excerpt": "Board of Governors of the Federal Reserve System International Finance Discussion Papers Number 871 September 2006 Real-Time Price Discovery in Global Stock, Bond and Foreign Exchange Markets Torben G. Andersen, Tim Bollerslev, Francis X. Diebold and Clara Vega NOTE: International Finance Discussion Papers are preliminary materials circulated to stimulate discussion and critical comment. References in publications to International Finance Discussion Papers (other than an acknowledgment that the writer has had access to unpublished material) should be cleared with the author or authors. Recent IFDPs are available on the Web at www.federalreserve.gov/pubs/ifdp/. Real-Time Price Discovery in Global Stock, Bond and Foreign Exchange Markets Torben G. Andersen, Tim Bollerslev, Francis X. Diebold and Clara Vega* Abstract Using a unique high-frequency futures dataset, we characterize the respons"
+    },
+    {
+      "slug": "587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f",
+      "title": "Corporate Social Performance and Stock Returns: UK Evidence from Disaggregate Measures",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00086_1d332da03ed0",
+      "sourceIndex": 41,
+      "textBytes": 52197,
+      "figuresExtracted": 0,
+      "excerpt": "# Corporate social performance and stock returns: UK evidence from disaggregate measures #### Article Accepted Version Brammer, S., Brooks, C. ORCID: https://orcid.org/0000-00022668-1153 and Pavelin, S. (2006) Corporate social performance and stock returns: UK evidence from disaggregate measures. Financial Management, 35 (3). pp. 97- 116. ISSN 1755-053X doi: 10.1111/j.1755053X.2006.tb00149.x Available at https://centaur.reading.ac.uk/20507/ It is advisable to refer to the publisher’s version if you intend to cite from the work. See Guidance on citing. Published version at: http://dx.doi.org/10.1111/j.1755-053X.2006.tb00149.x To link to this article DOI: http://dx.doi.org/10.1111/j.1755-053X.2006.tb00149.x Publisher: Wiley All outputs in CentAUR are protected by Intellectual Property Rights law, including copyright law. Copyright and IPR is retained by the creators or other copyright hold"
+    },
+    {
+      "slug": "588_What_Drives_Firm-Level_Stock_Returns",
+      "title": "What Drives Firm-Level Stock Returns?",
+      "category": "HDBSCAN Cluster: stock, returns, variables, macroeconomic",
+      "key": "FOLDER00089_5798abdbaf71",
+      "sourceIndex": 42,
+      "textBytes": 81669,
+      "figuresExtracted": 0,
+      "excerpt": "By definition, a firm’s stock returns are driven by shocks to expected cash flows (i.e., cash-flow news) and/or shocks to discount rates (i.e., expected-return news). There is a substantial body of research measuring the relative importance of cash-flow and expected-return news for aggregate portfolio returns (e.g., Campbell [1991] and Campbell and Ammer [1993]), but virtually no evidence on the relative importance of these components at the firm level. In this paper, I estimate a vector autoregression (VAR) from a large firm-level panel (the 1954-1996 CRSP-COMPUSTAT intersection). The VAR and Campbell’s (1991) return-decomposition framework enable me to decompose the firm-level stock return into cash-flow and expected-return news and to estimate how important these two sources of stock-return variation are for an individual firm. In addition, I measure whether positive cash-flow news is"
+    },
+    {
+      "slug": "589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns",
+      "title": "Mental Accounting, Loss Aversion, and Individual Stock Returns",
+      "category": "HDBSCAN Cluster: figure, stock, returns, risks",
+      "key": "FOLDER00091_081d41252dcb",
+      "sourceIndex": 43,
+      "textBytes": 3252,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figure 55] [Figure 56] [Figure 57] [Figure 58] [Figure 59] [Figure 60] [Figure 61] [Figure 62] [Figure 63] [Figure 64] [Figure 65] [Figure 66] [Figure 67] [Figure 68] [Figure 69] [Figure 70] [Figure 71] [Figure 72] [Figure 73] [Figure 74] [Figure 75] [Figure 7"
+    },
+    {
+      "slug": "590_Stock_Price_Prediction_Using_the_ARIMA_Model",
+      "title": "Stock Price Prediction Using the ARIMA Model",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00093_7145e36ee5ea",
+      "sourceIndex": 44,
+      "textBytes": 19510,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 1] 2014 UKSim-AMSS 16th International Conference on Computer Modelling and Simulation # Stock Price Prediction Using the ARIMA Model 1Ayodele A. Adebiyi., 2Aderemi O. Adewumi 1,2School of Mathematic, Statistics & Computer Science University of KwaZulu-Natal Durban, South Africa email: {adebiyi, adewumia}@ukzn.ac.za 3Charles K. Ayo 3Department of Computer & Information Sciences Covenant University Ota, Nigeria email: charles.ayo@covenantuniversity.edu.ng Abstract— Stock price prediction is an important topic in finance and economics which has spurred the interest of researchers over the years to develop better predictive models. The autoregressive integrated moving average (ARIMA) models have been explored in literature for time series prediction. This paper presents extensive process of building stock price predictive model using the ARIMA model. Published stock data obtained fro"
+    },
+    {
+      "slug": "591_A_deep_learning_framework_for_financial_time_series_using_st",
+      "title": "A deep learning framework for financial time series using stacked autoencoders and long-short term memory",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00094_e9c65a86859b",
+      "sourceIndex": 45,
+      "textBytes": 74201,
+      "figuresExtracted": 5,
+      "excerpt": "RESEARCH ARTICLE # A deep learning framework for financial time series using stacked autoencoders and longshort term memory a1111111111 a1111111111 a1111111111 a1111111111 a1111111111 [Figure 2] OPEN ACCESS Citation: Bao W, Yue J, Rao Y (2017) A deep learning framework for financial time series using stacked autoencoders and long-short term memory. PLoS ONE 12(7): e0180944. https://doi. org/10.1371/journal.pone.0180944 Editor: Boris Podobnik, University of Rijeka, CROATIA Received: December 20, 2016 Accepted: June 10, 2017 Published: July 14, 2017 Copyright: © 2017 Bao et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: All data are available from figshare database (DOI:1"
+    },
+    {
+      "slug": "592_Expectations_of_Returns_and_Expected_Returns",
+      "title": "Expectations of Returns and Expected Returns",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00096_d7e1b7ad9c46",
+      "sourceIndex": 46,
+      "textBytes": 96390,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # Expectations of Returns and Expected Returns ##### Citation Greenwood, Robin Marc, and Andrei Shleifer. 2014. “Expectations of Returns and Expected Returns.” Review of Financial Studies 27 (3) (March 1): 714–746. doi:10.1093/rfs/hht082. http://dx.doi.org/10.1093/rfs/hht082. ##### Published version https://doi.org/10.1093/rfs/hht082 ##### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:11880390 ##### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Open Access Policy Articles (OAP), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ##### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ##### Share Your Story The Harvard community has made this article openly available. Please"
+    },
+    {
+      "slug": "593_Winter_Blues_A_SAD_Stock_Market_Cycle",
+      "title": "Winter Blues: A SAD Stock Market Cycle",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00101_0889d2af81cf",
+      "sourceIndex": 47,
+      "textBytes": 5772,
+      "figuresExtracted": 0,
+      "excerpt": "|[Figure 1]<br><br>Working Paper Series<br><br>Winter Blues: A SAD Stock Market Cycle Mark Kamstra, Lisa Kramer, and Maurice Levi Working Paper 2002-13 July 2002<br><br>| |---| Federal Reserve Bank of Atlanta Working Paper 2002-13 July 2002 # Winter Blues: A SAD Stock Market Cycle ## Mark Kamstra, Federal Reserve Bank of Atlanta Lisa Kramer, University of Toronto Maurice Levi, University of British Columbia Abstract: This paper investigates the role of seasonal affective disorder (SAD) in the seasonal time-variation of stock market returns. SAD is an extensively documented medical condition whereby the shortness of the days in fall and winter leads to depression for many people. Experimental research in psychology and economics indicates that depression, in turn, causes heightened risk aversion. Building on these links between the length of day, depression, and risk aversion, we provide "
+    },
+    {
+      "slug": "594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices",
+      "title": "Dotcom Mania: The Rise and Fall of Internet Stock Prices",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00102_ced3313bc024",
+      "sourceIndex": 48,
+      "textBytes": 107292,
+      "figuresExtracted": 0,
+      "excerpt": "I. Introduction By February 2000, the internet sector equaled 6% of the market capitalization of all U.S. public companies and 20% of all publicly trade equity volume. Moreover, in just a two-year period of time, the entire sector earned over 1000% returns on their public equity. This paper provides a new look at the behavior of stock prices in this sector. In particular, we develop a cohesive explanation of the rise, persistence and then subsequent fall of internet stock prices. Of particular interest is the question of how the mispricing of internet stocks could persist in the presence of well-funded, rational investors. We provide an analysis based on Lintner’s (1969) model of asset prices with investors having heterogenous beliefs and facing short sale restrictions. For Lintner’s model to produce “bubble-like” behavior in asset prices, two conditions are necessary: (i) heterogeneity "
+    },
+    {
+      "slug": "595_The_Portfolio_Flows_of_International_Investors",
+      "title": "The Portfolio Flows of International Investors",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00103_b8997095fbe3",
+      "sourceIndex": 49,
+      "textBytes": 561,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38]"
+    },
+    {
+      "slug": "596_Financial_Markets_and_Firm_Dynamics",
+      "title": "Financial Markets and Firm Dynamics",
+      "category": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "key": "FOLDER00111_41a7b1bfce3f",
+      "sourceIndex": 50,
+      "textBytes": 291,
+      "figuresExtracted": 0,
+      "excerpt": "| | |---| | | |---| | | |---| | | |---| | | |---| | | |---| | | | |---|---| | | | | | |---| | | |---| | | |---| | | |---| | | |---| | | |---| | | |---| | | |---| | | | |---|---| | | | | | |---| | | | |---|---| | | |"
+    },
+    {
+      "slug": "597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination",
+      "title": "Does Weak Governance Cause Weak Stock Returns? An Examination of Firm Operating Performance and Investors' Expectations",
+      "category": "HDBSCAN Cluster: weak, stock, returns, market",
+      "key": "FOLDER00116_f7fc62ef6261",
+      "sourceIndex": 51,
+      "textBytes": 110345,
+      "figuresExtracted": 0,
+      "excerpt": "# Does Weak Governance Cause Weak Stock Returns? An Examination of Firm Operating Performance and Investors’ Expectations JOHN E. CORE, WAYNE R. GUAY, and TJOMME O. RUSTICUS* This version: April 18, 2005 ## ABSTRACT We investigate Gompers, Ishii, and Metrick’s (2003) finding that firms with weak shareholder rights exhibit significant stock market underperformance. If the relation between poor governance and poor returns is causal, we expect that the market is negatively surprised by the poor operating performance of weak governance firms. We find that firms with weak shareholder rights exhibit significant operating underperformance. However, analysts’ forecast errors and earnings announcement returns show no evidence that this underperformance surprises the market. Our results are robust to controls for takeover activity. Overall, our results do not support the hypothesis that weak gover"
+    },
+    {
+      "slug": "598_Efficient_Tests_of_Stock_Return_Predictability",
+      "title": "Efficient Tests of Stock Return Predictability",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00119_d3b3ddf789aa",
+      "sourceIndex": 52,
+      "textBytes": 105018,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES EFFICIENT TESTS OF STOCK RETURN PREDICTABILITY John Y. Campbell Motohiro Yogo Working Paper 10026 http://www.nber.org/papers/w10026 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 October 2003 We have benefited from comments and discussions by Andrew Ang, Geert Bekaert, Jean-Marie Dufour, Markku Lanne, Marcelo Moreira, Robert Shiller, Robert Stambaugh, James Stock, Mark Watson, the referees, and seminar participants at Harvard, the Econometric Society Australasian Meeting 2002, the NBER Summer Institute 2003, and the CIRANO-CIREQ Financial Econometrics Conference 2004. © 2003 by John Y. Campbell and Motohiro Yogo. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. Efficient Tests of Stock Retu"
+    },
+    {
+      "slug": "599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump",
+      "title": "Jumps in Financial Markets: A New Nonparametric Test and Jump Dynamics",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00126_ecb353e67432",
+      "sourceIndex": 53,
+      "textBytes": 74837,
+      "figuresExtracted": 1,
+      "excerpt": "# Jumps in Financial Markets: A New Nonparametric Test and Jump Dynamics Suzanne S. Lee Georgia Institute of Technology Per A. Mykland Department of Statistics, University of Chicago This article introduces a new nonparametric test to detect jump arrival times and realized jump sizes in asset prices up to the intra-day level. We demonstrate that the likelihood of misclassiﬁcation of jumps becomes negligible when we use high-frequency returns. Using our test, we examine jump dynamics and their distributions in the U.S. equity markets. The results show that individual stock jumps are associated with prescheduled earnings announcements and other company-speciﬁc news events. Additionally, S&P 500 Index jumps are associated with general market news announcements. This suggests different pricing models for individual equity options versus index options. (JEL G12, G22, G14) Financial markets so"
+    },
+    {
+      "slug": "600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic",
+      "title": "Economic uncertainty before and during the COVID-19 pandemic",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00128_57a91cab4cf2",
+      "sourceIndex": 54,
+      "textBytes": 51797,
+      "figuresExtracted": 5,
+      "excerpt": "NBER WORKING PAPER SERIES ECONOMIC UNCERTAINTY BEFORE AND DURING THE COVID-19 PANDEMIC David Altig Scott R. Baker Jose Maria Barrero Nicholas Bloom Philip Bunn Scarlet Chen Steven J. Davis Julia Leather Brent H. Meyer Emil Mihaylov Paul Mizen Nicholas B. Parker Thomas Renault Pawel Smietanka Greg Thwaites Working Paper 27418 http://www.nber.org/papers/w27418 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 June 2020 We thank the US National Science Foundation, the Sloan Foundation, the University of Chicago Booth School of Business, and the Economic and Social Research Council for financial support. We thank Mike Clements and Martin Weale for comments on an earlier draft, Ian Dew-Becker for supplying data on the 24-month VIX, and Niall Ferguson for pointers to the literature on excess mortality in previous pandemics. This paper expands and extends parts "
+    },
+    {
+      "slug": "601_Fractional_calculus_and_continuous-time_finance",
+      "title": "Fractional calculus and continuous-time finance",
+      "category": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "key": "FOLDER00130_2b5635365ec1",
+      "sourceIndex": 55,
+      "textBytes": 22663,
+      "figuresExtracted": 0,
+      "excerpt": "arXiv:cond-mat/0001120v1[cond-mat.dis-nn]10Jan2000 Fractional calculus and continuous-time ﬁnance Enrico Scalasa, Rudolf Gorenﬂob, and Francesco Mainardic aDipartimento di Scienze e Tecnologie Avanzate, Universit`a del Piemonte Orientale, via Cavour 84, I–15100 Alessandria, Italy and INFN Sezione di Torino, via P.Giuria 1, I–10125 Torino, Italy bErstes Matematisches Institut, Freie Universitaet Berlin, Arnimallee 2-6, D–14195 Berlin, Germany cDipartimento di Fisica, Universita` di Bologna and INFN Sezione di Bologna, via Irnerio 46, I–40126 Bologna, Italy [Figure 1] Abstract In this paper we present a rather general phenomenological theory of tick-by-tick dynamics in ﬁnancial markets. Many well-known aspects, such as the Le´vy scaling form, follow as particular cases of the theory. The theory fully takes into account the non-Markovian and non-local character of ﬁnancial time series. Pred"
+    },
+    {
+      "slug": "602_Volatility_is_rough",
+      "title": "Volatility is rough",
+      "category": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "key": "FOLDER00133_af2ccdab3f04",
+      "sourceIndex": 56,
+      "textBytes": 69177,
+      "figuresExtracted": 4,
+      "excerpt": "# arXiv:1410.3394v1[q-fin.ST]13Oct2014 ## Volatility is rough Jim Gatheral Baruch College, City University of New York jim.gatheral@baruch.cuny.edu Thibault Jaisson∗ CMAP, Ecole´ Polytechnique Paris thibault.jaisson@polytechnique.edu Mathieu Rosenbaum LPMA, Universit´e Pierre et Marie Curie (Paris 6) mathieu.rosenbaum@upmc.fr October 14, 2014 Abstract Estimating volatility from recent high frequency data, we revisit the question of the smoothness of the volatility process. Our main result is that log-volatility behaves essentially as a fractional Brownian motion with Hurst exponent H of order 0.1, at any reasonable time scale. This leads us to adopt the fractional stochastic volatility (FSV) model of Comte and Renault [16]. We call our model Rough FSV (RFSV) to underline that, in contrast to FSV, H < 1/2. We demonstrate that our RFSV model is remarkably consistent with ﬁnancial time seri"
+    },
+    {
+      "slug": "603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a",
+      "title": "Can Mutual Fund \"Stars\" Really Pick Stocks? New Evidence from a Bootstrap Analysis",
+      "category": "HDBSCAN Cluster: working, cfr, die, research",
+      "key": "FOLDER00143_64711c070d0e",
+      "sourceIndex": 57,
+      "textBytes": 51107,
+      "figuresExtracted": 0,
+      "excerpt": "Kosowski, Robert; Timmermann, Allan; Wermers, Russ; White, Hal Working Paper ### Can mutual fund stars really pick stocks? New evidence from a bootstrap analysis CFR Working Paper, No. 05-14 Provided in Cooperation with: Centre for Financial Research (CFR), University of Cologne Suggested Citation: Kosowski, Robert; Timmermann, Allan; Wermers, Russ; White, Hal (2005) : Can mutual fund stars really pick stocks? New evidence from a bootstrap analysis, CFR Working Paper, No. 05-14, University of Cologne, Centre for Financial Research (CFR), Cologne This Version is available at: https://hdl.handle.net/10419/57722 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zug"
+    },
+    {
+      "slug": "604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock",
+      "title": "Dumb Money: Mutual Fund Flows and the Cross-Section of Stock Returns",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00150_4bdf81b6ba6f",
+      "sourceIndex": 58,
+      "textBytes": 107996,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES DUMB MONEY: MUTUAL FUND FLOWS AND THE CROSS-SECTION OF STOCK RETURNS Andrea Frazzini Owen A. Lamont Working Paper 11526 http://www.nber.org/papers/w11526 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 July 2005 We thank Nicholas Barberis, Judith Chevalier, David Musto, Stefan Nagel, and seminar participants at Goldman Sachs, the NBER and Yale for helpful comments. We thank Breno Schmidt for research assistance. The views expressed herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of Economic Research. ©2005 by Andrea Frazzini and Owen A. Lamont. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. Dumb Money: Mutual Fund Flows and the Cross-Sectio"
+    },
+    {
+      "slug": "605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke",
+      "title": "Measuring The Reaction of Monetary Policy to the Stock Market",
+      "category": "HDBSCAN Cluster: figure, measuring, reaction, monetary",
+      "key": "FOLDER00152_a6e7c6991dfc",
+      "sourceIndex": 59,
+      "textBytes": 925,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figure 55] [Figure 56] [Figure 57] [Figure 58] [Figure 59] [Figure 60] [Figure 61] | | |---| | |"
+    },
+    {
+      "slug": "606_Investor_sentiment_and_stock_returns_Some_international_evid",
+      "title": "Investor sentiment and stock returns: Some international evidence",
+      "category": "HDBSCAN Cluster: sentiment, returns, investor, stock",
+      "key": "FOLDER00154_6c417815c764",
+      "sourceIndex": 60,
+      "textBytes": 74094,
+      "figuresExtracted": 0,
+      "excerpt": "Maik Schmeling Discussion Paper No. 407 November 2008 ISSN 0949-9962 Abstract: We examine whether consumer confidence – as a proxy for individual investor sentiment – affects expected stock returns internationally in 18 industrialized countries. In line with recent evidence for the U.S., we find that sentiment negatively forecasts aggregate stock market returns on average across countries. When sentiment is high, future stock returns tend to be lower and vice versa. This relation also holds for returns of value stocks, growth stocks, small stocks, and for different forecasting horizons. Finally, we employ a cross-sectional perspective and provide evidence that the impact of sentiment on stock returns is higher for countries which have less market integrity and which are culturally more prone to herd-like behavior and overreaction. Keywords: consumer confidence; growth stocks; investor se"
+    },
+    {
+      "slug": "607_The_Real_Effects_of_Financial_Markets",
+      "title": "The Real Effects of Financial Markets",
+      "category": "HDBSCAN Cluster: nber, working, not, papers",
+      "key": "FOLDER00156_ccc493719637",
+      "sourceIndex": 61,
+      "textBytes": 79879,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES THE REAL EFFECTS OF FINANCIAL MARKETS Philip Bond Alex Edmans Itay Goldstein Working Paper 17719 http://www.nber.org/papers/w17719 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 December 2011 The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for discussion and comment purposes. They have not been peerreviewed or been subject to the review by the NBER Board of Directors that accompanies official NBER publications. © 2011 by Philip Bond, Alex Edmans, and Itay Goldstein. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. The Real Effects of Financial Markets Philip Bond, Ale"
+    },
+    {
+      "slug": "608_Rational_contagion_and_the_globalization_of_securities_marke",
+      "title": "Rational contagion and the globalization of securities markets",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00157_394a636f8864",
+      "sourceIndex": 62,
+      "textBytes": 89184,
+      "figuresExtracted": 0,
+      "excerpt": "May 17, 1999 Rational Contagion and the Globalization of Securities Markets* Guillermo A. Calvo University of Maryland and NBER by Enrique G. Mendoza Duke University and NBER This paper argues that globalization may promote contagion by weakening incentives for gathering costly information and by strengthening incentives for imitating arbitrary market portfolios. In the presence of short-selling constraints, the gain of gathering information at a fixed cost may diminish as markets grow. Moreover, if a portfolio manager’s marginal cost for yielding below-market returns exceeds the marginal gain for above-market returns, there is a range of optimal portfolios in which all investors imitate arbitrary market portfolios and this range widens as the market grows. Numerical simulations suggest that these frictions can have significant implications for capital flows in emerging markets. JEL Clas"
+    },
+    {
+      "slug": "609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non",
+      "title": "Optimal Portfolio Choice for Long-Horizon Investors with Nontradable Labor Income",
+      "category": "HDBSCAN Cluster: university, nber, asset, pricing",
+      "key": "FOLDER00160_867ba2870235",
+      "sourceIndex": 63,
+      "textBytes": 9977,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES OPTIMAL PORTFOLIO CHOICE FOR LONG-HORIZON INVESTORS WITH NONTRADABLE LABOR INCOME Luis M. Viceira Working Paper 7409 http://www.nber.org/papers/w7409 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 October 1999 The author is grateful for comments, suggestions and discussions with John Y. Campbell, Gary Chamberlain, David Laibson, Gregory Mankiw, Robert Merton, Andrew Metrick, Rene Stulz, Jaume Ventura, Pietro Veronesi, Philippe Weil and two anonymous referees, and for comments from seminar participants at Columbia University, Cornell University, Duke University, Harvard University, MIT, Northwestern University, New York University, Stanford University, the University of California in Los Angeles, the University of Chicago, the University of Pennsylvania, the University of Rochester and the 1997 NBER Summer Institute. The author"
+    },
+    {
+      "slug": "610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe",
+      "title": "The Effect of Socially Responsible Investing on Portfolio Performance",
+      "category": "HDBSCAN Cluster: working, cfr, die, research",
+      "key": "FOLDER00165_3be97390d132",
+      "sourceIndex": 64,
+      "textBytes": 50944,
+      "figuresExtracted": 0,
+      "excerpt": "Kempf, Alexander; Osthoff, Peer Working Paper ##### The effect of socially responsible investing on portfolio performance CFR Working Paper, No. 06-10 Provided in Cooperation with: Centre for Financial Research (CFR), University of Cologne Suggested Citation: Kempf, Alexander; Osthoff, Peer (2007) : The effect of socially responsible investing on portfolio performance, CFR Working Paper, No. 06-10, University of Cologne, Centre for Financial Research (CFR), Cologne This Version is available at: https://hdl.handle.net/10419/57725 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich machen, vertreiben oder anderweitig nutzen. Sofern die Verfasser die Dokum"
+    },
+    {
+      "slug": "611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of",
+      "title": "Trading Volume: Definitions, Data Analysis, and Implications of Portfolio Theory",
+      "category": "HDBSCAN Cluster: figure, measuring, reaction, monetary",
+      "key": "FOLDER00172_c7b7a63b0c9a",
+      "sourceIndex": 65,
+      "textBytes": 831,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figure 55] [Figure 56]"
+    },
+    {
+      "slug": "612_Ex_Ante_Skewness_and_Expected_Stock_Returns",
+      "title": "Ex Ante Skewness and Expected Stock Returns",
+      "category": "HDBSCAN Cluster: returns, stock, investment, rms",
+      "key": "FOLDER00173_36d3aca0fbb6",
+      "sourceIndex": 66,
+      "textBytes": 182890,
+      "figuresExtracted": 0,
+      "excerpt": "# Ex Ante Skewness and Expected Stock Returns∗ ## Jennifer Conrad† Robert F. Dittmar‡ Eric Ghysels§ First Draft: March 2007 This Draft: October 2008 Abstract We use a sample of option prices, and the method of Bakshi, Kapadia and Madan (2003), to estimate the ex ante higher moments of the underlying individual securities’ risk-neutral returns distribution. We ﬁnd that individual securities’ volatility, skewness and kurtosis are strongly related to subsequent returns. Speciﬁcally, we ﬁnd a negative relation between volatility and returns in the cross-section. We also ﬁnd a signiﬁcant relation between skewness and returns, with more negatively (positively) skewed returns associated with subsequent higher (lower) returns, while kurtosis is positively related to subsequent returns. To analyze the extent to which these returns relations represent compensation for risk, we use data on index op"
+    },
+    {
+      "slug": "613_Political_Relationships_Global_Financing_and_Corporate_Trans",
+      "title": "Political Relationships, Global Financing and Corporate Transparency",
+      "category": "HDBSCAN Cluster: working, cfr, die, research",
+      "key": "FOLDER00179_11dbdfd75fe9",
+      "sourceIndex": 67,
+      "textBytes": 71448,
+      "figuresExtracted": 0,
+      "excerpt": "Leuz, Christian; Oberholzer-Gee, Felix Working Paper # Political Relationships, Global Financing and Corporate Transparency CREMA Working Paper, No. 2003-03 Provided in Cooperation with: CREMA - Center for Research in Economics, Management and the Arts, Zürich Suggested Citation: Leuz, Christian; Oberholzer-Gee, Felix (2003) : Political Relationships, Global Financing and Corporate Transparency, CREMA Working Paper, No. 2003-03, Center for Research in Economics, Management and the Arts (CREMA), Basel This Version is available at: https://hdl.handle.net/10419/214279 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich machen, vertreiben oder anderweitig n"
+    },
+    {
+      "slug": "614_Presidential_Address_The_Cost_of_Active_Investing",
+      "title": "Presidential Address: The Cost of Active Investing",
+      "category": "HDBSCAN Cluster: costs, market, cost, trading",
+      "key": "FOLDER00180_c657b58ecd62",
+      "sourceIndex": 68,
+      "textBytes": 107815,
+      "figuresExtracted": 3,
+      "excerpt": "THE JOURNAL OF FINANCE • VOL. LXIII, NO. 4 • AUGUST 2008 # Presidential Address: The Cost of Active Investing KENNETH R. FRENCH∗ #### ABSTRACT I compare the fees, expenses, and trading costs society pays to invest in the U.S. stock market with an estimate of what would be paid if everyone invested passively. Averaging over 1980–2006, I find investors spend 0.67% of the aggregate value of the market each year searching for superior returns. Society’s capitalized cost of price discovery is at least 10% of the current market cap. Under reasonable assumptions, the typical investor would increase his average annual return by 67 basis points over the 1980–2006 period if he switched to a passive market portfolio. HOWMUCHDOINVESTORSSPENDTRYINGtobeatthemarket?Toanswerthisquestion, I start by estimating the total amount society spends to invest. I measure four components: the fees and expenses inv"
+    },
+    {
+      "slug": "615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o",
+      "title": "Information costs and home bias: an analysis of US holdings of foreign equities",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00181_afafa9698b0f",
+      "sourceIndex": 69,
+      "textBytes": 77571,
+      "figuresExtracted": 0,
+      "excerpt": "Board of Governors of the Federal Reserve System International Finance Discussion Papers Number 691 December 2000 INFORMATION COSTS AND HOME BIAS: AN ANALYSIS OF U.S. HOLDINGS OF FOREIGN EQUITIES Alan G. Ahearne, William L. Griever, and Francis E. Warnock NOTE: International Finance Discussion Papers are preliminary materials circulated to stimulate discussion and critical comment. References in publications to International Finance Discussion Papers (other than an acknowledgment that the writer has had access to unpublished material) should be cleared with the author or authors. Recent IFDPs are available on the Web at www.federalreserve.gov/pubs/ifdp/. INFORMATION COSTS AND HOME BIAS: AN ANALYSIS OF U.S. HOLDINGS OF FOREIGN EQUITIES Alan G. Ahearne, William L. Griever, and Francis E. Warnock* Abstract: We aim to provide insight into the observed equity home bias phenomenon by analyzing"
+    },
+    {
+      "slug": "616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices",
+      "title": "Do Structural Oil-Market Shocks Affect Stock Prices?",
+      "category": "HDBSCAN Cluster: university, edu, asset, return",
+      "key": "FOLDER00184_5981300f695b",
+      "sourceIndex": 70,
+      "textBytes": 40172,
+      "figuresExtracted": 0,
+      "excerpt": "## Department of Economics Working Paper Series ### Do Structural Oil-Market Shocks Affect Stock Prices? Nicholas Apergis University of Piraeus #### Stephen M. Miller University of Connecticut and University of Nevada, Las Vegas Working Paper 2008-51R July 2008 [Figure 1] 341 Mansﬁeld Road, Unit 1063 Storrs, CT 06269–1063 Phone: (860) 486–3022 Fax: (860) 486–4463 http://www.econ.uconn.edu/ This working paper is indexed on RePEc, http://repec.org/ ### Abstract This paper investigates how explicit structural shocks that characterize the endogenous character of oil price changes affect stock-market returns in a sample of eight countries — Australia, Canada, France, Germany, Italy, Japan, the United Kingdom, and the United States. For each country, the analysis proceeds in two steps. First, modifying the procedure of Kilian (2008a), we employ a vector errorcorrection or vector autoregressive"
+    },
+    {
+      "slug": "617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility",
+      "title": "The VIX, the Variance Premium and Stock Market Volatility",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00187_2b2c12ade4c0",
+      "sourceIndex": 71,
+      "textBytes": 77411,
+      "figuresExtracted": 0,
+      "excerpt": "Bekaert, Geert; Hoerova, Marie Working Paper ##### The VIX, the variance premium and stock market volatility ECB Working Paper, No. 1675 ###### Provided in Cooperation with: European Central Bank (ECB) Suggested Citation: Bekaert, Geert; Hoerova, Marie (2014) : The VIX, the variance premium and stock market volatility, ECB Working Paper, No. 1675, European Central Bank (ECB), Frankfurt a. M. This Version is available at: https://hdl.handle.net/10419/154108 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öffentlich ausstellen, öffentlich zugänglich machen, vertreiben oder anderweitig nutzen. Sofern die Verfasser die Dokumente unter Open-Content-Lizenzen (insbesondere CC-Lizenzen) zur Verfügung "
+    },
+    {
+      "slug": "618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M",
+      "title": "Portfolio Selection with Parameter and Model Uncertainty: A Multi-Prior Approach",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00189_cc140125e890",
+      "sourceIndex": 72,
+      "textBytes": 104883,
+      "figuresExtracted": 0,
+      "excerpt": "# Portfolio Selection with Parameter and Model Uncertainty: A Multi-Prior Approach∗ Lorenzo Garlappi† Raman Uppal‡ Tan Wang§ April 2004 ∗We gratefully acknowledge ﬁnancial support from INQUIRE UK; this article however represents the views of the authors and not of INQUIRE. We are very grateful to Lubosˇˇ P´stor for extensive comments. We thank Nicholas Barberis, Suleyman Basak, Ian Cooper, Victor DeMiguel, Francisco Gomes, Tim Johnson, Catalina Stefanescu, Yongjun Tang, Sheridan Titman, Roberto Wessels and participants at presentations given at Copenhagen Business School, Imperial College, Lancaster University, London Business School, University of Maryland, University of Texas at Austin, and the INQUIRE Fall 2003 conference for helpful suggestions. †McCombs School of Business, The University of Texas at Austin, Austin TX, 78712; Email: lorenzo.garlappi@mccombs.utexas.edu. ‡London Busine"
+    },
+    {
+      "slug": "619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering",
+      "title": "The Stock Market and Corporate Investment: A Test of Catering Theory",
+      "category": "HDBSCAN Cluster: returns, stock, investment, rms",
+      "key": "FOLDER00191_2d7ee190f2a9",
+      "sourceIndex": 73,
+      "textBytes": 94302,
+      "figuresExtracted": 1,
+      "excerpt": "# The Stock Market and Corporate Investment: A Test of Catering Theory Christopher Polk London School of Economics Paola Sapienza Northwestern University, CEPR, and NBER Wetest a cateringtheorydescribinghowstockmarket mispricingmightinﬂuence individual ﬁrms’ investment decisions. We use discretionary accruals as our proxy for mispricing. We ﬁnd a positive relation between abnormal investment and discretionary accruals; that abnormal investment is more sensitive to discretionary accruals for ﬁrms with higher R&D intensity (opaque ﬁrms) or share turnover (ﬁrms with shorter shareholder horizons); that ﬁrms with high abnormal investment subsequently have low stock returns; and that the larger the relative price premium, the stronger the abnormal return predictability. We show that patterns in abnormal returns are stronger for ﬁrms with higher R&D intensity or share turnover. (JEL G14, G31) I"
+    },
+    {
+      "slug": "620_Climate_risks_and_market_efficiency",
+      "title": "Climate risks and market efficiency",
+      "category": "HDBSCAN Cluster: nber, working, research, papers",
+      "key": "FOLDER00200_e36bf5ba6788",
+      "sourceIndex": 74,
+      "textBytes": 141852,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES CLIMATE RISKS AND MARKET EFFICIENCY Harrison Hong Frank Weikai Li Jiangmin Xu Working Paper 22890 http://www.nber.org/papers/w22890 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 December 2016 We thank Stefano Giglio, Robert Engle, and seminar participants at the 2016 NBER Summer Institute Forecasting and Empirical Methods, the 2016 Symposium on Financial Engineering and Risk Management, the 2016 Research in Behavioral Finance Conference, the Volatility Institute at NYU, and the 2016 NBER Asset Pricing Meetings. The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for discussion and comment purposes. They have not been peer-reviewed or been subject to the review by the NBER Board of Directors that accompanies"
+    },
+    {
+      "slug": "621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark",
+      "title": "The Flash Crash: High-Frequency Trading in an Electronic Market",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00201_a0ed290358ff",
+      "sourceIndex": 75,
+      "textBytes": 86195,
+      "figuresExtracted": 0,
+      "excerpt": "# The Flash Crash: High-Frequency Trading in an Electronic Market ANDREI KIRILENKO, ALBERT S. KYLE, MEHRDAD SAMADI, and TUGKAN TUZUN∗ ABSTRACT We study intraday market intermediation in an electronic market before and during a period of large and temporary selling pressure. On May 6, 2010, U.S. ﬁnancial markets experienced a systemic intraday event – the Flash Crash – where a large automated selling program was rapidly executed in the E-mini S&P 500 stock index futures market. Using audit trail transaction-level data for the E-mini on May 6 and the previous three days, we ﬁnd that the trading pattern of the most active nondesignated intraday intermediaries (classiﬁed as High Frequency Traders) did not change when prices fell during the Flash Crash. ∗Kirilenko is with Imperial College London, Kyle is with the University of Maryland, Samadi is with Southern Methodist University, and Tuzun "
+    },
+    {
+      "slug": "622_How_Important_Are_Financing_Constraints_The_Role_of_Finance",
+      "title": "How Important Are Financing Constraints? The Role of Finance in the Business Environment",
+      "category": "HDBSCAN Cluster: growth, how, environment, financing",
+      "key": "FOLDER00206_c16c28107024",
+      "sourceIndex": 76,
+      "textBytes": 88674,
+      "figuresExtracted": 1,
+      "excerpt": "# How Important Are Financing Constraints? The Role of Finance in the Business Environment ## Meghana Ayyagari, Asli Demirgu¨c¸-Kunt, and Vojislav Maksimovic What role does the business environment play in promoting or restraining ﬁrm growth? Recent literature points to a number of factors as obstacles to growth. Inefﬁcient functioning of ﬁnancial markets, inadequate security and enforcement of property rights, poor provision of infrastructure, inefﬁcient regulation and taxation, and broader governance features such as corruption and macroeconomic stability are all discussed without any comparative evidence on their ordering. Using ﬁrm-level survey data on the relative importance of different features of the business environment, the article ﬁnds that although ﬁrms report many obstacles to growth, not all the obstacles are equally constraining. Some affect ﬁrm growth only indirectly thro"
+    },
+    {
+      "slug": "623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St",
+      "title": "Can Time-Varying Risk of Rare Disasters Explain Aggregate Stock Market Volatility?",
+      "category": "HDBSCAN Cluster: nber, working, stock, research",
+      "key": "FOLDER00213_763197600ed2",
+      "sourceIndex": 77,
+      "textBytes": 120381,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES CAN TIME-VARYING RISK OF RARE DISASTERS EXPLAIN AGGREGATE STOCK MARKET VOLATILITY? Jessica Wachter Working Paper 14386 http://www.nber.org/papers/w14386 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 October 2008 For helpful comments, I thank Robert Barro, John Campbell, Mikhail Chernov, Gregory Du˙ee, Xavier Gabaix, Paul Glasserman, Francois Gourio, Dana Kiku, Bruce Lehmann, Christian Juillard, Monika Piazzesi, Nikolai Roussanov, Jerry Tsai, Pietro Veronesi and seminar participants at the 2008 NBER Summer Institute, the 2008 SED Meetings, the 2011 AFA Meetings, Brown University, the Federal Reserve Bank of New York, MIT, University of Maryland and the Wharton School. I am grateful for financial support from the Aronson+Johson+Ortiz fellowship through the Rodney L. White Center for Financial Research. Thomas Plank and Leonid S"
+    },
+    {
+      "slug": "624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns",
+      "title": "Firm Size and Cyclical Variations in Stock Returns",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00215_fe606138b055",
+      "sourceIndex": 78,
+      "textBytes": 88728,
+      "figuresExtracted": 0,
+      "excerpt": "_______________________________________________ FINANCIAL MARKETS GROUP AN ESRC RESEARCH CENTRE _______________________________________________ LONDON SCHOOL OF ECONOMICS Any opinions expressed are those of the author and not necessarily those of the Financial Markets Group. ISSN 0956-8549-335 Firm Size and Cyclical Variations in Stock Returns By Gabriel Perez-Quiros and Allan Timmermann DISCUSSION PAPER 335 September 1999 Firm Size and Cyclical Variations in Stock Returns Gabriel Perez-Quiros Allan Timmermann¤ July 15, 1999 ABSTRACT Recent imperfect capital market theories predict the presence of asymme- tries in the variation of small and large ¯rms' risk over the economic cycle. Small ¯rms with little collateral should be more strongly a®ected by tighter credit market conditions in a recession state than large, better collateralized ones. This paper adopts a °exible econometric model "
+    },
+    {
+      "slug": "625_Funding_growth_in_bank-based_and_market-based_financial_syst",
+      "title": "Funding growth in bank-based and market-based financial systems: evidence from firm-level data",
+      "category": "HDBSCAN Cluster: growth, how, environment, financing",
+      "key": "FOLDER00219_fafbdd305640",
+      "sourceIndex": 79,
+      "textBytes": 69926,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] PublicDisclosureAuthorizedPublicDisclosureAuthorizedPublicDisclosureAuthorizedPublicDisclosureAuthorized POLICY RESEARCH WORKING PAPER 2432 # Funding Growth in Bank- How the relative development of a country's Basedand Market-Based stockmarketandbanking Financial Systems systemaffectsfirms'growth is closelytiedto how well developed the country's Evidence from Firm-Level Data contractingenvironmentis. How differencesin the contracting environment Asll Demirgu-Kunt affectthe relative Vojislav Maksimovic development of the stock marketor banking system may haveimplicationsfor which firmsand which projects get financing. TheWorld Bank DevelopmentResearchGroup Finance August2000 [Figure 2] POLICY RESEARCH WORKING PAPER 2432 ### Summary findings Demirgiuc-Kuntand Maksimovic investigate whether banking system have different effects on access to firms' access to external financing to "
+    },
+    {
+      "slug": "626_Global_Pricing_of_Carbon-Transition_Risk",
+      "title": "Global Pricing of Carbon-Transition Risk",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00223_3b886164b8c1",
+      "sourceIndex": 80,
+      "textBytes": 162095,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES GLOBAL PRICING OF CARBON-TRANSITION RISK Patrick Bolton Marcin Kacperczyk Working Paper 28510 http://www.nber.org/papers/w28510 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 February 2021 We thank John Cochrane, Harrison Hong, Christian Leuz, Kunal Sachdeva, Zacharias Sautner, and seminar participants at Bank of Italy, Danmarks Nationalbank Climate Conference, Florida State University, HEC Montreal, Imperial College, INSEAD, McGill, NBER LTAM Meetings, NBIM, Rice University, University of Alberta, University of Cyprus, University of Miami, University of Geneva Climate Conference, UNPRI, Virtual Seminar on Climate Economics for helpful suggestions. We are grateful to Trucost for giving us access to their corporate carbon emissions data, and to Adrian Lam and Jingyu Zhang for their very helpful research assistance. Some of the "
+    },
+    {
+      "slug": "627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T",
+      "title": "Financial Systems and the Role of Banks in Monetary Policy Transmission in the Euro Area",
+      "category": "HDBSCAN Cluster: ecb, working, die, european",
+      "key": "FOLDER00224_61439bb5e579",
+      "sourceIndex": 81,
+      "textBytes": 74306,
+      "figuresExtracted": 0,
+      "excerpt": "Ehrmann, Michael; Gambacorta, Leonardo; Martinéz Pagés, Jorge; Sevestre, Patrick; Worms, Andreas Working Paper ### Financial systems and the role of banks in monetary policy transmission in the euro area ECB Working Paper, No. 105 ###### Provided in Cooperation with: European Central Bank (ECB) Suggested Citation: Ehrmann, Michael; Gambacorta, Leonardo; Martinéz Pagés, Jorge; Sevestre, Patrick; Worms, Andreas (2001) : Financial systems and the role of banks in monetary policy transmission in the euro area, ECB Working Paper, No. 105, European Central Bank (ECB), Frankfurt a. M. This Version is available at: https://hdl.handle.net/10419/152539 Standard-Nutzungsbedingungen: Die Dokumente auf EconStor dürfen zu eigenen wissenschaftlichen Zwecken und zum Privatgebrauch gespeichert und kopiert werden. Sie dürfen die Dokumente nicht für öffentliche oder kommerzielle Zwecke vervielfältigen, öff"
+    },
+    {
+      "slug": "628_How_do_venture_capitalists_make_decisions",
+      "title": "How do venture capitalists make decisions?",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00229_45bd644e8eb1",
+      "sourceIndex": 82,
+      "textBytes": 154017,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES HOW DO VENTURE CAPITALISTS MAKE DECISIONS? Paul Gompers William Gornall Steven N. Kaplan Ilya A. Strebulaev Working Paper 22587 http://www.nber.org/papers/w22587 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 September 2016 We thank Dasha Anosova and Kevin Huang for their research assistance. We thank the Kauffman Fellows Program, the National Venture Capital Association, the University of Chicago Booth School of Business, Harvard Business School, and the Stanford Graduate School of Business for providing us access to their members and alumni. We thank Phil Wickham of the Kauffman Fellows Program, Bobby Franklin and Maryam Haque of the National Venture Capital Association for their help in disseminating the survey. We thank Shai Bernstein, Felda Hardymon, Michal Kosinski, and participants at the NBER Summer Institute for helpf"
+    },
+    {
+      "slug": "629_Applications_of_deep_learning_in_stock_market_prediction_rec",
+      "title": "Applications of deep learning in stock market prediction: recent progress",
+      "category": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "key": "FOLDER00231_f7d534c1088a",
+      "sourceIndex": 83,
+      "textBytes": 147460,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:2003.01859v1[q-fin.ST]29Feb2020 ## Applications of deep learning in stock market prediction: recent progress #### Weiwei Jiang∗ Department of Electronic Engineering, Tsinghua University, Beijing 100084, China ### Abstract Stock market prediction has been a classical yet challenging problem, with the attention from both economists and computer scientists. With the purpose of building an eﬀective prediction model, both linear and machine learning tools have been explored for the past couple of decades. Lately, deep learning models have been introduced as new frontiers for this topic and the rapid development is too fast to catch up. Hence, our motivation for this survey is to give a latest review of recent works on deep learning models for stock market prediction. We not only category the diﬀerent data sources, various neural network structures, and common used evaluation metrics, "
+    },
+    {
+      "slug": "630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing",
+      "title": "Hot Markets, Investor Sentiment, and IPO Pricing",
+      "category": "HDBSCAN Cluster: corporate, disclosure, hot, markets",
+      "key": "FOLDER00238_8e706fe3ad75",
+      "sourceIndex": 84,
+      "textBytes": 83891,
+      "figuresExtracted": 0,
+      "excerpt": "First Draft Comments Welcome # Hot Markets, Investor Sentiment, and IPO Pricing #### Alexander P. Ljungqvist NYU Stern School of Business aljungqv@stern.nyu.edu #### Vikram Nanda University of Michigan Business School vnanda@umich.edu #### Rajdeep Singh University of Minnesota rajsingh@tc.umn.edu #### September 18, 2001 We are grateful to Ross Levine, James Montier, and William Wilhelm for helpful feedback. The usual disclaimer applies. # Hot Markets, Investor Sentiment, and IPO Pricing ## Abstract Our model of the initial public oﬀering process links the three main empirical IPO ‘anomalies’ – underpricing, hot issue markets, and long-run underperformance – and traces - them to a common source of ineﬃciency. We relate hot IPO markets (such as the 1999/2000 market for Internet IPOs) to the presence of a class of investors who are ‘irrational’ in the sense of having exuberant expectations "
+    },
+    {
+      "slug": "631_Boardroom_Centrality_and_Firm_Performance",
+      "title": "Boardroom Centrality and Firm Performance",
+      "category": "HDBSCAN Cluster: harvard, article, figure, http",
+      "key": "FOLDER00239_9c8a9c5c4760",
+      "sourceIndex": 85,
+      "textBytes": 139963,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # Boardroom Centrality and Firm Performance ### Citation Larcker, David F., Eric C. So, and Charles C.Y. Wang. \"Boardroom Centrality and Firm Performance.\" Journal of Accounting & Economics 55, nos. 2-3 (April–May 2013): 225–250. ### Published version http://www.sciencedirect.com/science/article/pii/S0165410113000141 ### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:28548030 ### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Open Access Policy Articles (OAP), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ### Share Your Story The Harvard community has made this article openly available. Please share how this access be"
+    },
+    {
+      "slug": "632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin",
+      "title": "Forecasting Daily Variability of the S&P 100 Stock Index Using Historical, Realised and Implied Volatility Measurements",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00244_9612e975b6f9",
+      "sourceIndex": 86,
+      "textBytes": 90166,
+      "figuresExtracted": 2,
+      "excerpt": "[Figure 1] TI 2004-016/4 Tinbergen Institute Discussion Paper # Forecasting Daily Variability of the S&P 100 Stock Index using Historical, Realised and Implied Volatility Measurements ### Siem Jan Koopmana,b Borus Jungbackera Eugenie Holc aDepartmentof Econometrics, VrijeUniversiteit Amsterdam, bTinbergen Institute, cING GroupCredit Risk Managemen t, The Nethelands.r |Tinbergen Institute The Tinbergen Institute is the institute for economic research of the Erasmus Universiteit Rotterdam, Universiteit van Amsterdam, and Vrije Universiteit Amsterdam.<br><br>Tinbergen Institute Amsterdam Roetersstraat 31 1018 WB Amsterdam The Netherlands Tel.: +31(0)20 551 3500 Fax: +31(0)20 551 3555<br><br>Tinbergen Institute Rotterdam Burg. Oudlaan 50 3062 PA Rotterdam The Netherlands Tel.: +31(0)10 408 8900 Fax: +31(0)10 408 9031<br><br>Please send questions and/or remarks of nonscientific nature to drie"
+    },
+    {
+      "slug": "633_Multivariate_realised_kernels_consistent_positive_semi-defin",
+      "title": "Multivariate realised kernels: consistent positive semi-definite estimators of the covariation of equity prices with noise and non-synchronous trading",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00245_4464d7ac30bb",
+      "sourceIndex": 87,
+      "textBytes": 109226,
+      "figuresExtracted": 2,
+      "excerpt": "# Multivariate realised kernels: consistent positive semi-deﬁnite estimators of the covariation of equity prices with noise and non-synchronous trading∗ OLE E. BARNDORFF-NIELSEN The T.N. Thiele Centre for Mathematics in Natural Science, Department of Mathematical Sciences, University of Aarhus, Ny Munkegade, DK-8000 Aarhus C, Denmark & CREATES, University of Aarhus oebn@imf.au.dk PETER REINHARD HANSEN Department of Economics, Stanford University, Landau Economics Building, 579 Serra Mall, Stanford, CA 94305-6072, USA peter.hansen@stanford.edu ASGER LUNDE Department of Marketing and Statistics, Aarhus School of Business, University of Aarhus, Fuglesangs Alle 4, DK-8210 Aarhus V, Denmark & CREATES, University of Aarhus alunde@asb.dk NEIL SHEPHARD Oxford-Man Institute, University of Oxford, Blue Boar Court, Alfred Road, Oxford OX1 4EH, UK & Department of Economics, University of Oxford neil"
+    },
+    {
+      "slug": "634_Spurious_Regressions_in_Financial_Economics",
+      "title": "Spurious Regressions in Financial Economics",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00248_7ec5c95b4330",
+      "sourceIndex": 88,
+      "textBytes": 63127,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES SPURIOUS REGRESSIONS IN FINANCIAL ECONOMICS? Wayne E. Ferson Sergei Sarkissian Timothy Simin Working Paper 9143 http://www.nber.org/papers/w9143 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 September 2002 We are grateful to Eugene Fama for suggesting the question that motivates this research and to John Cochrane, Frank Diebold, Richard C. Green, Gordon Hanka, Raymond Kan, Donald Keim, Jeffrey Pontiff, Rossen Valkanov and an anonymous referee for helpful comments or help with data. Ferson acknowledges financial support from the Pigott-Paccar professorship at the University of Washington and the Collins Chair in Finance at Boston College. Sarkissian acknowledges financial support from FCAR and IFM2. This paper has benefited from workshops at McGill University, at the July 2000 NBER Asset Pricing Group, the 2000 Northern Financ"
+    },
+    {
+      "slug": "635_A_flow-based_explanation_for_return_predictability",
+      "title": "A flow-based explanation for return predictability",
+      "category": "HDBSCAN Cluster: costs, market, cost, trading",
+      "key": "FOLDER00249_de4381b5ed47",
+      "sourceIndex": 89,
+      "textBytes": 139890,
+      "figuresExtracted": 0,
+      "excerpt": "ISSN 0956-8549-642 A Flow-Based Explanation for Return Predictability By Dong Lou THE PAUL WOOLLEY CENTRE WORKING PAPER SERIES NO 7 DISCUSSION PAPER NO 642 DISCUSSION PAPER SERIES November 2009 Dong Lou has been teaching at the London School of Economics since July 2009. He earned a Ph.D. in Finance from Yale University and a B.S. in Computer Science from Columbia University. Lou’s research mostly focuses on understanding market inefficiencies, and their distortionary effects on resource allocation (such as capital and managerial effort) in the real economy. In his Ph.D. dissertation, Lou shows that mutual fund investment-flow induced trading can have a long-lasting return effect in the stock market. In some follow-up projects, Lou further studies the potential effects of such temporary price pressure on firms’ debt financing and investment decisions, and firms’ interactions with non-equ"
+    },
+    {
+      "slug": "636_Stock_Market_Openings_Experience_of_Emerging_Economies",
+      "title": "Stock Market Openings: Experience of Emerging Economies",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00250_97128c22e393",
+      "sourceIndex": 90,
+      "textBytes": 103859,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 1] Stock Market Openings: Experience of Emerging Economies Author(s): E. Han Kim and Vijay Singal Source: The Journal of Business, Vol. 73, No. 1 (January 2000), pp. 25-66 Published by: The University of Chicago Press Stable URL: http://www.jstor.org/stable/10.1086/209631 . Accessed: 26/06/2014 11:41 Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at . http://www.jstor.org/page/info/about/policies/terms.jsp ### . JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide range of content in a trusted digital archive. We use information technology and tools to increase productivity and facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org. ### . [Figure 2] The University of Chicago Press is collaborating with JSTOR to digi"
+    },
+    {
+      "slug": "637_The_Emergence_of_Organizations_and_Markets",
+      "title": "The Emergence of Organizations and Markets",
+      "category": "HDBSCAN Cluster: covid-19, figure, available, elsevier",
+      "key": "FOLDER00252_4b3b6d0c4fed",
+      "sourceIndex": 91,
+      "textBytes": 24142,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] Zitierhinweis Šerá, Eva: Rezension über: John F. Padgett / Walter W. Powell, The Emergence of Organizations and Markets, Oxford: Princeton University Press, 2012, in: Historical Sociology, 2016, 2, S. 148-152, heruntergeladen über Website copyright [Figure 2] Dieser Beitrag kann vom Nutzer zu eigenen nicht-kommerziellen Zwecken heruntergeladen und/oder ausgedruckt werden. Darüber hinausgehende Nutzungen sind ohne weitere Genehmigung der Rechteinhaber nur im Rahmen der gesetzlichen Schrankenbestimmungen (§§ 44a-63a UrhG) zulässig. dodávali také souřadnice potenciálních cílů ze špionážních letadel AWACS. A konečně Sovětský svaz mu prodával rakety Scud, nosiče konvenčních i chemických hlavic. Jak se vyjádřil tehdejší prezident Rafsandžání (1988): „I když je použití takových zbraní nehumánní, tato válka nám ukázala, že mezinárodní právo je jen cár papíru.“ Výsledkem byl pocit vlas"
+    },
+    {
+      "slug": "638_The_Stock_Market_and_Capital_Accumulation",
+      "title": "The Stock Market and Capital Accumulation",
+      "category": "HDBSCAN Cluster: capital, stock, investment, market",
+      "key": "FOLDER00253_4aeca5732f22",
+      "sourceIndex": 92,
+      "textBytes": 47465,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # .I Introduction A basic first-order condition holds that firms invest in produced capital to the point that its discounted return is equal to its production cost. How effective are firms in satisfying suonegodne tnemtsevni sisehtopyh this condition? The considered in this paper holds that the condition applies as a workable approximation, if not from year to year, at least over longer periods. Under the reasonable assumption that the securities issued by a firm are claims on its capital and therefore have a total value equal to the value of the capital, the observed value of the securitiesquantity ofrevealscapital.theThe endogenous investment hypothesis implies that securities markets provide a way to measure intangible capital accumulated by the corporate sector, where both the flow of investment and the stock of capital are not directly observed. There are good "
+    },
+    {
+      "slug": "639_Labor_Income_And_Predictable_Stock_Returns",
+      "title": "Labor Income And Predictable Stock Returns",
+      "category": "HDBSCAN Cluster: stock, returns, variables, macroeconomic",
+      "key": "FOLDER00255_ee0c0b0e1838",
+      "sourceIndex": 93,
+      "textBytes": 105443,
+      "figuresExtracted": 0,
+      "excerpt": "# I. INTRODUCTION Predictability, both in the time series and the cross section of stock returns, has been the focus of much research in the ﬁeld of empirical ﬁnance. At the time-series level, the main ﬁnding is that variables like the price-dividend ratio and term premia can predict stock returns variation at long horizons.1 As for the cross section of stock returns, predictability translates into the use of conditioning variables to improve on the performance of the CAPM and Consumption CAPM (CCAPM) versus their unconditional counterparts. These two strands of the literature connect because lagged instruments that are shown to predict market returns are natural conditioning variables for tests of the cross section.2 Extant economic explanations for the time-series and cross-sectional predictability are notably sparse and detached from one another. Time series predictability is obtained"
+    },
+    {
+      "slug": "640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor",
+      "title": "Fight or Flight? Portfolio Rebalancing by Individual Investors",
+      "category": "HDBSCAN Cluster: financial, van, working, university",
+      "key": "FOLDER00256_56fc6215bde4",
+      "sourceIndex": 94,
+      "textBytes": 116386,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES FIGHT OR FLIGHT? PORTFOLIO REBALANCING BY INDIVIDUAL INVESTORS Laurent E. Calvet John Y. Campbell Paolo Sodini Working Paper 14177 http://www.nber.org/papers/w14177 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 July 2008 We thank Statistics Sweden for providing the data. We received helpful comments from Markus Brunnermeier, Ren? Garcia, David McCarthy, Stefan Nagel, Paolo Zaffaroni, three anonymous referees, and seminar participants at Bergen, Boston University, the Federal Reserve Bank of Minneapolis, the Financial Services Authority of the UK, Harvard University, Imperial College, MIT, Oxford University, Pompeu Fabra, SIFR, the Stockholm School of Economics, the Swedish Financial Supervisory Authority, Universit? Libre de Bruxelles, the University of Helsinki, the University of Venice, the Wharton School, the 2007 Brazilia"
+    },
+    {
+      "slug": "641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind",
+      "title": "News Arrival, Jump Dynamics and Volatility Components for Individual Stock Returns",
+      "category": "HDBSCAN Cluster: des, recherche, tudes, document",
+      "key": "FOLDER00258_df1ccef1f205",
+      "sourceIndex": 95,
+      "textBytes": 100642,
+      "figuresExtracted": 0,
+      "excerpt": "|2003s-38<br><br>| |---| ## News Arrival, Jump Dynamics and Volatility Components for Individual Stock Returns John M. Maheu, Thomas H. McCurdy |Série Scientifique Scientific Series<br><br>| |---| ##### Montréal Juin 2003 © 2003 John M. Maheu, Thomas H. McCurdy. Tous droits réservés. All rights reserved. Reproduction partielle permise avec citation du document source, incluant la notice ©. Short sections may be quoted without explicit permission, if full credit, including © notice, is given to the source. [Figure 1] [Figure 2] ###### CIRANO Le CIRANO est un organisme sans but lucratif constitué en vertu de la Loi des compagnies du Québec. Le financement de son infrastructure et de ses activités de recherche provient des cotisations de ses organisationsmembres, d’une subvention d’infrastructure du ministère de la Recherche, de la Science et de la Technologie, de même que des subventions e"
+    },
+    {
+      "slug": "642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol",
+      "title": "Dynamic Consumption and Portfolio Choice with Stochastic Volatility in Incomplete Markets",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00261_75dd08cfce4f",
+      "sourceIndex": 96,
+      "textBytes": 3423,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES DYNAMIC CONSUMPTION AND PORTFOLIO CHOICE WITH STOCHASTIC VOLATILITY IN INCOMPLETE MARKETS George Chacko Luis M. Viceira Working Paper 7377 http://www.nber.org/papers/w7377 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 October 1999 We want to thank John Campbell, Pascal Maenhout, Robert Merton, Rachel Pownall, Enrique Sentana, Raman Uppal and seminar participants at HBS, CEMFI, the NBER, the XVII Latin American Meeting of the Econometric Society and the 1999 Conference of the European Finance Association for their comments and suggestions. The views expressed herein are those of the authors and not necessarily those of the National Bureau of Economic Research. © 1999 by George Chacko and Luis M. Viceira. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provide"
+    },
+    {
+      "slug": "643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For",
+      "title": "Reconciling the Return Predictability Evidence In-Sample Forecasts, Out-of-Sample Forecasts, and Parameter Instability",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00265_0d8e967714b9",
+      "sourceIndex": 97,
+      "textBytes": 128266,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES RECONCILING THE RETURN PREDICTABILITY EVIDENCE Martin Lettau Stijn Van Nieuwerburgh Working Paper 12109 http://www.nber.org/papers/w12109 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 March 2006 Lettau: Department of Finance, Stern School of Business, New York University, 44 W. 4th Street, New York, NY 10012; mlettau@stern.nyu.edu; Tel: (212) 998-0378; http://www.stern.nyu.edu/ mlettau. Van Nieuwerburgh: Department of Finance, Stern School of Business, New York University, 44 W. 4th Street, New York, NY 10012; svnieuwe@stern.nyu.edu; Tel: (212) 998-0673;http://www.stern.nyu.edu/ svnieuwe. We thank an anonymous referee, the editor, Yakov Amihud, John Campbell, Kenneth French, Sydney Ludvigson, Eli Ofek, Matthew Richardson, Ivo Welch, Robert Whitelaw and the seminar participants at NYU and McGill University for comments. The vi"
+    },
+    {
+      "slug": "644_Testing_Asymmetric-Information_Asset_Pricing_Models",
+      "title": "Testing Asymmetric-Information Asset Pricing Models",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00268_7ed0108d0ff5",
+      "sourceIndex": 98,
+      "textBytes": 109150,
+      "figuresExtracted": 0,
+      "excerpt": "# Testing Asymmetric-Information Asset Pricing Models∗ Bryan Kelly New York University Alexander Ljungqvist New York University and CEPR January 8, 2009 Abstract We test models of asset pricing under asymmetric information using plausibly exogenous variation in the supply of information caused by the closure or restructuring of brokerage ﬁrms’ research operations. Consistent with predictions derived from a Grossman and Stiglitz-type model, share prices and uninformed investors’ demands fall as information asymmetry increases. Cross-sectional tests support the comparative statics. Prices and uninformed demand experience larger declines, the more investors are uninformed, the larger and more variable is turnover, the more uncertain is the asset’s payoﬀ, and the noisier is the better-informed investors’ signal. We show that prices fall because expected returns become more sensitive to a liq"
+    },
+    {
+      "slug": "645_Earnings_Quality_and_Stock_Returns",
+      "title": "Earnings Quality and Stock Returns",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00279_b1945cc4e663",
+      "sourceIndex": 99,
+      "textBytes": 84588,
+      "figuresExtracted": 0,
+      "excerpt": "Security analysts, ﬁrm managers, and investors all devote a great deal of attention to ﬁrms’ reported earnings. Forecasts of earnings are widely disseminated in the ﬁnancial press, and revisions in analysts’ forecasts are closely followed. Managers are keenly interested in maintaining growth in earnings because their compensations are often tied to their ﬁrms’ earnings. News that a ﬁrm has fallen short of earnings expectations can immediately send its stock price plummeting; ﬁrms that beat expectations, on the other hand, are handsomely rewarded by investors. With the advent of round-the-clock ﬁnancial news reporting as well as expanded trading venues, the market’s obsession with earnings performance is not likely to diminish. The focus on earnings is so great that it has been suggested that the market ﬁxates on ﬁrms’ bottom line income, to the exclusion of other indicators of operating "
+    },
+    {
+      "slug": "646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas",
+      "title": "Intermediary Asset Pricing: New Evidence from Many Asset Classes",
+      "category": "HDBSCAN Cluster: university, nber, working, research",
+      "key": "FOLDER00281_87cb76c97d1f",
+      "sourceIndex": 100,
+      "textBytes": 161745,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES INTERMEDIARY ASSET PRICING: NEW EVIDENCE FROM MANY ASSET CLASSES Zhiguo He Bryan Kelly Asaf Manela Working Paper 21920 http://www.nber.org/papers/w21920 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 January 2016 We thank Markus Brunnermeier, Ian Dew-Becker, Valentin Haddad, Arvind Krishnamurthy, Alan Moreira, Tyler Muir, Lasse Pedersen, Alexi Savov, Rob Vishny, seminar participants at Stanford University, Penn State University, University of Iowa, Emory University, London School of Economics, London Business School, University of Houston, University of Washington, University of Oklahoma, Washington University, Gerzensee Summer School 2015, CITE 2015, NBER AP 2015, and Chicago Booth Asset Pricing Conference 2015 for helpful comments. The views expressed herein are those of the authors and do not necessarily reflect the views o"
+    },
+    {
+      "slug": "647_High-frequency_trading_in_a_limit_order_book",
+      "title": "High-frequency trading in a limit order book",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00287_5323d0c79cf4",
+      "sourceIndex": 101,
+      "textBytes": 30840,
+      "figuresExtracted": 3,
+      "excerpt": "# High-frequency trading in a limit order book ### Marco Avellaneda & Sasha Stoikov October 5, 2006 Abstract We study a stock dealer’s strategy for submitting bid and ask quotes in a limit order book. The agent faces an inventory risk due to the diﬀusive nature of the stock’s mid-price and a transactions risk due to a Poisson arrival of market buy and sell orders. After setting up the agent’s problem in a maximal expected utility framework, we derive the solution in a two step procedure. First, the dealer computes a personal indiﬀerence valuation for the stock, given his current inventory. Second, he calibrates his bid and ask quotes to the market’s limit order book. We compare this ”inventory-based” strategy to a ”naive” strategy that is symmetric around the mid-price, by simulating stock price paths and displaying the P&L proﬁles of both strategies. We ﬁnd that our strategy yields P&L "
+    },
+    {
+      "slug": "648_Alternative_models_for_stock_price_dynamics",
+      "title": "Alternative models for stock price dynamics",
+      "category": "HDBSCAN Cluster: usa, economics, university, return",
+      "key": "FOLDER00289_fc79e117ef80",
+      "sourceIndex": 102,
+      "textBytes": 79265,
+      "figuresExtracted": 5,
+      "excerpt": "Journal of Econometrics 116 (2003) 225–257 www.elsevier.com/locate/econbase # Alternative models for stock price dynamics Mikhail Chernova, A. Ronald Gallantb, Eric Ghyselsb;∗, George Tauchenc aColumbia Business School, Division of Finance and Economics, 413 Uris Hall, 3022 Broadway, New York, NY 10027, USA bDepartment of Economics, University of North Carolina at Chapel Hill CB 3305, Chapel Hill, NC 27599-3305, USA cDepartment of Economics, 305 Social Science, Box 90097, Duke University, Durham, NC 27708-0097, USA Abstract This paper evaluates the role of various volatility speci cations, such as multiple stochastic volatility (SV) factors and jump components, in appropriate modeling of equity return distributions. We use estimation technology that facilitates nonnested model comparisons and use a long data set which provides rich information about the conditional and unconditional dist"
+    },
+    {
+      "slug": "649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from",
+      "title": "Credit Market Shocks and Economic Fluctuations: Evidence from Corporate Bond and Stock Markets",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00296_27f21ecab3af",
+      "sourceIndex": 103,
+      "textBytes": 123695,
+      "figuresExtracted": 4,
+      "excerpt": "NBER WORKING PAPER SERIES CREDIT MARKET SHOCKS AND ECONOMIC FLUCTUATIONS: EVIDENCE FROM CORPORATE BOND AND STOCK MARKETS Simon Gilchrist Vladimir Yankov Egon Zakrajsek Working Paper 14863 http://www.nber.org/papers/w14863 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2009 We thank Jean Boivin, Jon Faust, Domenico Giannone, David Lucca, Michael McCracken, Roland Meeks, Zhongjun Qu, Jonathan Wright, and seminar participants at the Federal Reserve Board, the European Central Bank, and the NBER/ME Spring 2009 meeting for comments and suggestions. Isaac Laughlin and Oren Ziv provided outstanding research assistance. The views expressed in this paper are solely the responsibility of the authors and should not be interpreted as reflecting the views of the Board of Governors of the Federal Reserve System, nor anyone else associated with the Federal Rese"
+    },
+    {
+      "slug": "650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets",
+      "title": "The Co‐movement of Credit Default Swap, Bond and Stock Markets: an Empirical Analysis",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00298_a6e24afe3f83",
+      "sourceIndex": 104,
+      "textBytes": 101008,
+      "figuresExtracted": 0,
+      "excerpt": "DISCUSSION PAPER SERIES ABCD www.cepr.org Available online at: www.cepr.org/pubs/dps/DP4674.asp and www.ssrn.com/abstract=635981 www.ssrn.com/xxx/xxx/xxx No. 4674 THE COMOVEMENT OF CREDIT DEFAULT SWAP, BOND AND STOCK MARKETS: AN EMPIRICAL ANALYSIS Lars Norden and Martin Weber FINANCIAL ECONOMICS ISSN 0265-8003 THE COMOVEMENT OF CREDIT DEFAULT SWAP, BOND AND STOCK MARKETS: AN EMPIRICAL ANALYSIS Lars Norden, Universität Mannheim Martin Weber, Universität Mannheim and CEPR Discussion Paper No. 4674 October 2004 Centre for Economic Policy Research 90–98 Goswell Rd, London EC1V 7RR, UK Tel: (44 20) 7878 2900, Fax: (44 20) 7878 2999 Email: cepr@cepr.org, Website: www.cepr.org This Discussion Paper is issued under the auspices of the Centre’s research programme in FINANCIAL ECONOMICS. Any opinions expressed here are those of the author(s) and not those of the Centre for Economic Policy Research"
+    },
+    {
+      "slug": "651_Correlations_and_volatility_spillovers_across_commodity_and",
+      "title": "Correlations and volatility spillovers across commodity and stock markets: Linking energies, food, and gold",
+      "category": "HDBSCAN Cluster: covid-19, figure, available, elsevier",
+      "key": "FOLDER00300_67ba2b987b22",
+      "sourceIndex": 105,
+      "textBytes": 50184,
+      "figuresExtracted": 2,
+      "excerpt": "|[Figure 1]<br><br>This may be the author’s version of a work that was submitted/accepted for publication in the following source:<br><br>Mensi, Walid, Beljid, Makram, Boubaker, Adel, & Managi, Shunsuke<br><br>(2013) Correlations and volatility spillovers across commodity and stock markets: Linking energies, food, and gold. Economic Modelling, 32, pp. 15-22.<br><br>This ﬁle was downloaded from: https://eprints.qut.edu.au/75383/<br><br>© Consult author(s) regarding copyright matters<br><br>This work is covered by copyright. Unless the document is being made available under a Creative Commons Licence, you must assume that re-use is limited to personal use and that permission from the copyright owner must be obtained for all other uses. If the document is available under a Creative Commons License (or other speciﬁed license) then refer to the Licence for details of permitted re-use. It is a"
+    },
+    {
+      "slug": "652_Waiting-times_and_returns_in_high-frequency_financial_data_a",
+      "title": "Waiting-times and returns in high-frequency financial data: an empirical study",
+      "category": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "key": "FOLDER00301_60d00d7b1330",
+      "sourceIndex": 106,
+      "textBytes": 15886,
+      "figuresExtracted": 3,
+      "excerpt": "arXiv:cond-mat/0203596v1[cond-mat.stat-mech]28Mar2002 Waiting-times and returns in high-frequency ﬁnancial data: an empirical study Marco Raberto a, Enrico Scalasb, Francesco Mainardi c,1 aDipartimento di Ingegneria Bioﬁsica ed Elettronica, Universit`a di Genova, via dell’Opera Pia 11a, I–16145 Genova, Italy bDipartimento di Scienze e Tecnologie Avanzate, Universit`a del Piemonte Orientale, via Cavour 84, I–15100 Alessandria, Italy cDipartimento di Fisica, Universit`a di Bologna and INFN Sezione di Bologna, via Irnerio 46, I–40126 Bologna, Italy [Figure 1] Abstract In ﬁnancial markets, not only prices and returns can be considered as random variables, but also the waiting time between two transactions varies randomly. In the following, we analyse the statistical properties of General Electric stock prices, traded at NYSE, in October 1999. These properties are critically revised in the fr"
+    },
+    {
+      "slug": "653_Temporal_Relational_Ranking_for_Stock_Prediction",
+      "title": "Temporal Relational Ranking for Stock Prediction",
+      "category": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "key": "FOLDER00302_5622dc22f90d",
+      "sourceIndex": 107,
+      "textBytes": 93226,
+      "figuresExtracted": 5,
+      "excerpt": "## Temporal Relational Ranking for Stock Prediction # arXiv:1809.09441v2[cs.CE]19Jan2019 FULI FENG, National University of Singapore, Singapore XIANGNAN HE, University of Science and Technology of China, China XIANG WANG, National University of Singapore, Singapore CHENG LUO, Tsinghua University, China YIQUN LIU, Tsinghua University, China TAT-SENG CHUA, National University of Singapore, Singapore Stock prediction aims to predict the future trends of a stock in order to help investors to make good investment decisions. Traditional solutions for stock prediction are based on time-series models. With the recent success of deep neural networks in modeling sequential data, deep learning has become a promising choice for stock prediction. However, most existing deep learning solutions are not optimized towards the target of investment, i.e., selecting the best stock with highest expected reve"
+    },
+    {
+      "slug": "654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil",
+      "title": "Dynamic Co-Movements of Stock Market Returns, Implied Volatility and Policy Uncertainty",
+      "category": "HDBSCAN Cluster: stock, uncertainty, policy, market",
+      "key": "FOLDER00306_14b773020050",
+      "sourceIndex": 108,
+      "textBytes": 26756,
+      "figuresExtracted": 1,
+      "excerpt": "# Dynamic Co-movements of Stock Market Returns, Implied Volatility and Policy Uncertainty ### Nikolaos Antonakakisa,∗, Ioannis Chatziantonioua, George Filisb aUniversity of Portsmouth, Department of Economics and Finance, Portsmouth Business School, Richmond Building, Portland Street, Portsmouth, PO1 3DE, United Kingdom bBournemouth University, Accounting, Finance and Economics Department, 89 Holdenhurst Road, Bournemouth, Dorset, BH8 8EB, United Kingdom ## Abstract In this paper we examine the extent of time-varying correlations among stock markets returns, stock market implied volatility and policy uncertainty based on a newly introduced uncertainty index by Baker et al. (2012). We ﬁnd that the dynamic correlations of policy uncertainty and stock market returns are consistently negative, apart from the period during the latest global ﬁnancial crisis, wherein correlations became positiv"
+    },
+    {
+      "slug": "655_Technological_Revolutions_and_Stock_Prices",
+      "title": "Technological Revolutions and Stock Prices",
+      "category": "HDBSCAN Cluster: nber, working, stock, research",
+      "key": "FOLDER00308_7fb28269ffce",
+      "sourceIndex": 109,
+      "textBytes": 124695,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES TECHNOLOGICAL REVOLUTIONS AND STOCK PRICES Lubos Pastor Pietro Veronesi Working Paper 11876 http://www.nber.org/papers/w11876 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 December 2005 Revised February 2008 We thank Sreedhar Bharath, Markus Brunnermeier, Leonid Kogan, Lars Lochstoer, Lu Zhang, and especially Judy Chevalier and two anonymous referees for very helpful comments. We also thank Malcolm Baker, Robert Barro, Efraim Benmelech, Gene Fama, Bob Fogel, Boyan Jovanovic, John Heaton, Ali Lazrak, Robert Novy-Marx, Rob Stambaugh, Dmitriy Stolyarov, and the audiences at the 2008 AEA meeting, 2007 AFA meeting, 2006 EFA meeting, 2006 UBC Summer Conference, Fall 2005 NBER Asset Pricing meeting, CERGE-EI Prague, Dartmouth College, Ente Einaudi, Harvard University, Indiana University, London Business School, London School of Econ"
+    },
+    {
+      "slug": "656_Comparative_Value_Relevance_Among_German_US_And_Internationa",
+      "title": "Comparative Value Relevance Among German, U.S. And International Accounting Standards: A German Stock Market Perspective",
+      "category": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "key": "FOLDER00318_71bf9dfa776a",
+      "sourceIndex": 110,
+      "textBytes": 1823,
+      "figuresExtracted": 0,
+      "excerpt": "# β β β β β β β β β β β β β β β β β β β β β β β β β β β β β | | | | |---|---|---| | | | | | | | | | | | | | | | | | | | | | | | | | |---|---|---|---| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |---|---|---|---|---|---|---| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |---|---|---|---| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | β β β β β β | | |β|β|β|β|β|β| |β β| |---|---|---|---|---|---|---|---|---|---| | | | | | | | | | | | | | | | | | | | | | | β β β β β β β β β | | |β|β|β|β|β|β|β|β|β| |β β| |---|---|---|---|---|---|---|---|---|---|---|---|---| | | | | | | | | | | | | | | | | | | | | | | | | | | | | β β β β β β β β β | | |β|β|β|β|β|β|β|β|β| |β β| |---|---|---|---|---|---|---|---|---|---|---|---|---| | | | | | | | | | | | | | | | | | | | | | "
+    },
+    {
+      "slug": "657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti",
+      "title": "Trading Costs and Returns for U.S. Equities: Estimating Effective Costs from Daily Data",
+      "category": "HDBSCAN Cluster: costs, market, cost, trading",
+      "key": "FOLDER00319_f047c39a21d4",
+      "sourceIndex": 111,
+      "textBytes": 86194,
+      "figuresExtracted": 4,
+      "excerpt": "THE JOURNAL OF FINANCE • VOL. LXIV, NO. 3 • JUNE 2009 # Trading Costs and Returns for U.S. Equities: Estimating Effective Costs from Daily Data JOEL HASBROUCK∗ #### ABSTRACT The effective cost of trading is usually estimated from transaction-level data. This study proposes a Gibbs estimate that is based on daily closing prices. In a validation sample, the daily Gibbs estimate achieves a correlation of 0.965 with the transactionlevel estimate. When the Gibbs estimates are incorporated into asset pricing specifications over a long historical sample (1926 to 2006), the results suggest that effective cost (as a characteristic) is positively related to stock returns. The relation is strongest in January, but it appears to be distinct from size effects. INVESTIGATIONS INTO THE ROLE of liquidity and transaction costs in asset pricing must generally confront the fact that while many asset pricin"
+    },
+    {
+      "slug": "658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per",
+      "title": "The impact of the SARS outbreak on Taiwanese hotel stock performance: An event-study approach",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00321_4dd4c8ecd63e",
+      "sourceIndex": 112,
+      "textBytes": 42104,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] Since January 2020 Elsevier has created a COVID-19 resource centre with free information in English and Mandarin on the novel coronavirus COVID19. The COVID-19 resource centre is hosted on Elsevier Connect, the company's public news and information website. Elsevier hereby grants permission to make all its COVID-19-related research that is available on the COVID-19 resource centre - including this research content - immediately available in PubMed Central and other publicly funded repositories, such as the WHO COVID database with rights for unrestricted research re-use and analyses in any form or by any means with acknowledgement of the original source. These permissions are granted for free by Elsevier for as long as the COVID-19 resource centre remains active. [Figure 2] [Figure 3] Hospitality Management 26 (2007) 200–212 [Figure 4] www.elsevier.com/locate/ijhosman # The imp"
+    },
+    {
+      "slug": "659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand",
+      "title": "How Markets Slowly Digest Changes in Supply and Demand",
+      "category": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "key": "FOLDER00327_f2ff6e2fbfd8",
+      "sourceIndex": 113,
+      "textBytes": 290847,
+      "figuresExtracted": 2,
+      "excerpt": "arXiv:0809.0822v1[q-fin.TR]4Sep2008 # How markets slowly digest changes in supply and demand ## Jean-Philippe Bouchaud∗, J. Doyne Farmer†, , Fabrizio Lillo‡,† ∗ Science & Finance, Capital Fund Management, 6 Bvd Haussmann, 75009 Paris, France †Santa Fe Institute, 1399 Hyde Park Rd., Santa Fe NM 87505, USA LUISS Guido Carli, Viale Pola 12, 00198 Roma, Italy ‡Dipartimento di Fisica e Tecnologie Relative, Viale delle Scienze I-90128, Palermo, Italy ACADEMIC PRESS ##### Abstract In this article we revisit the classic problem of tatonnement in price formation from a microstructure point of view, reviewing a recent body of theoretical and empirical work explaining how ﬂuctuations in supply and demand are slowly incorporated into prices. Because revealed market liquidity is extremely low, large orders to buy or sell can only be traded incrementally, over periods of time as long as months. As a r"
+    },
+    {
+      "slug": "660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b",
+      "title": "Hedging emerging market stock prices with oil, gold, VIX, and bonds: A comparison between DCC, ADCC and GO-GARCH ☆",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00329_59d216c616cf",
+      "sourceIndex": 114,
+      "textBytes": 68137,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] Munich Personal RePEc Archive # Hedging emerging market stock prices with oil, gold, VIX, and bonds: A comparison between DCC, ADCC and GO-GARCH ## Syed Abul, Basher and Perry, Sadorsky 6 December 2015 Online at https://mpra.ub.uni-muenchen.de/68231/ MPRA Paper No. 68231, posted 08 Dec 2015 09:21 UTC ### Hedging emerging market stock prices with oil, gold, VIX, and bonds: A comparison between DCC, ADCC and GO-GARCH Syed Abul Basher Department of Economics, East West University, Plot No-A/2, Aftabnagar Main Road, Dhaka 1219, Bangladesh and Fikra Research & Policy, P.O. Box 2664, Doha, Qatar Email: syed.basher@gmail.com Perry Sadorsky Schulich School of Business York University 4700 Keele Street Toronto, Ontario, Canada M3J 1P3 Email: psadorsk@schulich.yorku.ca Telephone: +1 416 736 5067 Fax: +1 416 736 5687 October 2014, revised June 2015 ### Abstract While much rese"
+    },
+    {
+      "slug": "661_Oil_shocks_policy_uncertainty_and_stock_market_return",
+      "title": "Oil shocks, policy uncertainty and stock market return",
+      "category": "HDBSCAN Cluster: stock, uncertainty, policy, market",
+      "key": "FOLDER00336_838af8f57ce3",
+      "sourceIndex": 115,
+      "textBytes": 45369,
+      "figuresExtracted": 1,
+      "excerpt": "[Figure 1] [Figure 2] Munich Personal RePEc Archive # Oil shocks, policy uncertainty and stock market return ### Kang, Wensheng and Ratti, Ronald A. Kent State University, University of Western Sydney 5 February 2013 Online at https://mpra.ub.uni-muenchen.de/49008/ MPRA Paper No. 49008, posted 11 Aug 2013 17:14 UTC #### Oil Shocks, Policy Uncertainty and Stock Market Return by Wensheng Kanga and Ronald A. Rattib aDepartment of Economics, Kent State University, Ohio, USA bSchool of Business, University of Western Sydney, NSW, Australia (February 2013) Abstract Oil price shocks and economic policy uncertainty are interrelated and influence stock market return. For the U.S. an unanticipated increase in policy uncertainty has a significant negative effect on real stock returns. A positive oil-market specific demand shock (indicating greater concern about future oil supplies) significantly ra"
+    },
+    {
+      "slug": "662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor",
+      "title": "Forecasting Stock Market Returns: The Sum of the Parts is More than the Whole",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00342_533c61215b1c",
+      "sourceIndex": 116,
+      "textBytes": 78103,
+      "figuresExtracted": 1,
+      "excerpt": "NBER WORKING PAPER SERIES FORECASTING STOCK MARKET RETURNS: THE SUM OF THE PARTS IS MORE THAN THE WHOLE Miguel A. Ferreira Pedro Santa-Clara Working Paper 14571 http://www.nber.org/papers/w14571 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 December 2008 We thank Michael Brandt, John Campbell, Amit Goyal, Lubos Pastor, Ivo Welch, and seminar participants at Barclays Global Investors, Manchester Business School, and University of Piraeus for helpful comments. The views expressed herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for discussion and comment purposes. They have not been peerreviewed or been subject to the review by the NBER Board of Directors that accompanies official NBER publications. © 2008 by Miguel A. Ferreira and Pedro Santa-Clara"
+    },
+    {
+      "slug": "663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera",
+      "title": "Asset Pricing with Idiosyncratic Risk and Overlapping Generations",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00347_3ad89fc149dd",
+      "sourceIndex": 117,
+      "textBytes": 1274,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] [Figure 4] [Figure 5] [Figure 6] [Figure 7] [Figure 8] [Figure 9] [Figure 10] [Figure 11] [Figure 12] [Figure 13] [Figure 14] [Figure 15] [Figure 16] [Figure 17] [Figure 18] [Figure 19] [Figure 20] [Figure 21] [Figure 22] [Figure 23] [Figure 24] [Figure 25] [Figure 26] [Figure 27] [Figure 28] [Figure 29] [Figure 30] [Figure 31] [Figure 32] [Figure 33] [Figure 34] [Figure 35] [Figure 36] [Figure 37] [Figure 38] [Figure 39] [Figure 40] [Figure 41] [Figure 42] [Figure 43] [Figure 44] [Figure 45] [Figure 46] [Figure 47] [Figure 48] [Figure 49] [Figure 50] [Figure 51] [Figure 52] [Figure 53] [Figure 54] [Figure 55] 1.2 - 0.8 - 1 MedianPortfolioShareinBonds 0.6 0.4 0.2 0 −0.2 −0.4 20 30 40 50 60 70 80 90 Age 1.4 1.2 Income - 0.8 - 1 Cross−SectionalVarianceofLog Consumption 0.6 0.4 0.2 0 20 30 40 50 60 70 80 90 Age 0.18 Income 0.16 0.14 StandardDeviationofConsum"
+    },
+    {
+      "slug": "664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin",
+      "title": "Stock Repurchases in Canada: Performance and Strategic Trading",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00351_a11c491e8ebb",
+      "sourceIndex": 118,
+      "textBytes": 72021,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES STOCK REPURCHASES IN CANADA: PERFORMANCE AND STRATEGIC TRADING David Ikenberry Josef Lakonishok Theo Vermaelen Working Paper 7325 http://www.nber.org/papers/w7325 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 August 1999 We appreciate the research assistance of Pricha Sethapakdi. Timothy Baikie, Special Counsel Market Regulation for the Toronto Stock Exchange, was helpful in providing data and counsel. We also thank Dino Mastroianni and Vinod Chandrashekaran from BARRA for their help and comments. We appreciate the comments of Louis Chan, Ken French, Ravi Jagannathan, Narasimhan Jegadeesh, Jason Karceski, Inmoo Lee, Raghu Rau, Cliff Stephens, René Stulz, Sheridan Titman and seminar participants at the University of Washington, University of Texas and Catholic University Leuven. The views expressed herein are those of the auth"
+    },
+    {
+      "slug": "665_Unstable_Banking",
+      "title": "Unstable Banking",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00354_68909f32c4eb",
+      "sourceIndex": 119,
+      "textBytes": 77254,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] # Unstable banking [Figure 2] ###### Citation Shleifer, Andrei, and Robert W. Vishny. 2010. “Unstable Banking.” Journal of Financial Economics 97 (3) (September): 306–318. doi:10.1016/j.jfineco.2009.10.007. ###### Published version https://doi.org/10.1016/j.jfineco.2009.10.007 ###### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:33077921 ###### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Open Access Policy Articles (OAP), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ###### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ###### Share Your Story The Harvard community has made this article openly available. Please share how this access benefits you. Submit a story NBER WORKING "
+    },
+    {
+      "slug": "666_The_predictive_power_of_zero_intelligence_in_financial_marke",
+      "title": "The predictive power of zero intelligence in financial markets.",
+      "category": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "key": "FOLDER00355_998fa63cb024",
+      "sourceIndex": 120,
+      "textBytes": 37177,
+      "figuresExtracted": 4,
+      "excerpt": "[Figure 1] ## The predictive power of zero intelligence in financial markets #### J. Doyne Farmer*†, Paolo Patelli*‡, and Ilija I. Zovko*§ *Santa Fe Institute, 1399 Hyde Park Road, Santa Fe, NM 87501; ‡Sant’Anna School of Advanced Studies, Piazza Martiri della Liberta` 33, 56127 Pisa, Italy; and §Center for Nonlinear Dynamics in Economics and Finance, University of Amsterdam, Roetersstraat 11, NL-1018 WB Amsterdam, The Netherlands Communicated by Kenneth J. Arrow, Stanford University, Stanford, CA, December 8, 2004 (received for review February 9, 2004) Standard models in economics stress the role of intelligent agents who maximize utility. However, there may be situations where constraints imposed by market institutions dominate strategic agent behavior. We use data from the London Stock Exchange to test a simple model in which minimally intelligent agents place orders to trade at rando"
+    },
+    {
+      "slug": "667_Optimal_Portfolio_Allocation_under_Higher_Moments",
+      "title": "Optimal Portfolio Allocation under Higher Moments",
+      "category": "HDBSCAN Cluster: des, recherche, tudes, document",
+      "key": "FOLDER00361_5843f22d5411",
+      "sourceIndex": 121,
+      "textBytes": 26539,
+      "figuresExtracted": 0,
+      "excerpt": "# NOTES D’ÉTUDES ET DE RECHERCHE |OPTIMAL PORTFOLIO ALLOCATION UNDER HIGHER MOMENTS<br><br>Eric Jondeau and Michael Rockinger<br><br>Février 2004<br><br>NER # 108| |---| [Figure 1] DIRECTION GÉNÉRALE DES ÉTUDES ET DES RELATIONS INTERNATIONALES #### DIRECTION GÉNÉRALE DES ÉTUDES ET DES RELATIONS INTERNATIONALES ###### DIRECTION DES ÉTUDES ÉCONOMIQUES ET DE LA RECHERCHE |OPTIMAL PORTFOLIO ALLOCATION UNDER HIGHER MOMENTS<br><br>Eric Jondeau and Michael Rockinger<br><br>Février 2004<br><br>NER # 108| |---| Les Notes d'Études et de Recherche reflètent les idées personnelles de leurs auteurs et n'expriment pas nécessairement la position de la Banque de France. Ce document est disponible sur le site internet de la Banque de France « www.banque-France.fr ». The Working Paper Series reflect the opinions of the authors and do not necessarily express the views of the Banque de France. This document"
+    },
+    {
+      "slug": "668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po",
+      "title": "A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem",
+      "category": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "key": "FOLDER00370_959011d66b80",
+      "sourceIndex": 122,
+      "textBytes": 82128,
+      "figuresExtracted": 5,
+      "excerpt": "arXiv:1706.10059v2[q-fin.CP]16Jul2017 A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem Zhengyao Jiang zhengyao.jiang15@student.xjtlu.edu.cn Dixing Xu dixing.xu15@student.xjtlu.edu.cn Department of Computer Sciences and Software Engineering Jinjun Liang jinjun.liang@xjtlu.edu.cn Department of Mathematical Sciences Xi’an Jiaotong-Liverpool University Suzhou, SU 215123, P. R. China Editor: XZY ABCDE Abstract Financial portfolio management is the process of constant redistribution of a fund into different ﬁnancial products. This paper presents a ﬁnancial-model-free Reinforcement Learning framework to provide a deep machine learning solution to the portfolio management problem. The framework consists of the Ensemble of Identical Independent Evaluators (EIIE) topology, a Portfolio-Vector Memory (PVM), an Online Stochastic Batch Learning (OSBL) scheme, and "
+    },
+    {
+      "slug": "669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V",
+      "title": "Deja Vol: Predictive Regressions for Aggregate Stock Market Volatility Using Macroeconomic Variables",
+      "category": "HDBSCAN Cluster: stock, returns, variables, macroeconomic",
+      "key": "FOLDER00382_3f419ed49f2d",
+      "sourceIndex": 123,
+      "textBytes": 107240,
+      "figuresExtracted": 0,
+      "excerpt": "## ‘Déjà vol’: Predictive regressions for aggregate stock market volatility using macroeconomic variables Bradley S. Paye∗ Terry College of Business, University of Georgia, Athens, GA 30602, USA ### Abstract Aggregate stock return volatility is both persistent and countercyclical. This paper tests whether it is possible to improve volatility forecasts at monthly and quarterly horizons by conditioning on additional macroeconomic variables. I ﬁnd that several variables related to macroeconomic uncertainty, time-varying expected stock returns, and credit conditions Granger cause volatility. It is more difﬁcult to ﬁnd evidence that forecasts exploiting macroeconomic variables outperform a univariate benchmark out-of-sample. The most successful approaches involve simple combinations of individual forecasts. Predictive power associated with macroeconomic variables appears to concentrate around"
+    },
+    {
+      "slug": "670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices",
+      "title": "Stock Movement Prediction from Tweets and Historical Prices",
+      "category": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "key": "FOLDER00387_e6ce3e2eb500",
+      "sourceIndex": 124,
+      "textBytes": 40765,
+      "figuresExtracted": 3,
+      "excerpt": "# Stock Movement Prediction from Tweets and Historical Prices Yumo Xu and Shay B. Cohen School of Informatics, University of Edinburgh 10 Crichton Street, Edinburgh EH8 9AB yumo.xu@ed.ac.uk, scohen@inf.ed.ac.uk ## Abstract Stock movement prediction is a challenging problem: the market is highly stochastic, and we make temporally-dependent predictions from chaotic data. We treat these three complexities and present a novel deep generative model jointly exploiting text and price signals for this task. Unlike the case with discriminative or topic modeling, our model introduces recurrent, continuous latent variables for a better treatment of stochasticity, and uses neural variational inference to address the intractable posterior inference. We also provide a hybrid objective with temporal auxiliary to ﬂexibly capture predictive dependencies. We demonstrate the stateof-the-art performance of "
+    },
+    {
+      "slug": "671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country",
+      "title": "The Determinants of Mutual Fund Performance: A Cross-Country Study",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00388_a062d18e9c26",
+      "sourceIndex": 125,
+      "textBytes": 121375,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] # City Research Online City St George’s, University of London |Citation: Ferreira, M., Keswani, A., Ramos, S. & Miguel, A. F. (2013). The Determinants of Mutual Fund Performance: A Cross-Country Study. Review of Finance, 17(2), pp. 483-525. doi: 10.1093/rof/rfs013<br><br>This is the accepted version of the paper.<br><br>This version of the publication may differ from the final published version. To cite this item please consult the publisher's version.| |---| Permanent repository link: https://openaccess.city.ac.uk/id/eprint/13633/ Link to published version: https://doi.org/10.1093/rof/rfs013 Copyright and Reuse: Copyright and Moral Rights remain with the author(s) and/or copyright holders. Copies of full items can be used for personal research or study, educational, or not-for-profit purposes without prior permission or charge, unless otherwise indicated, provided that the au"
+    },
+    {
+      "slug": "672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for",
+      "title": "The Risk of Being a Fallen Angel and the Corporate Dash for Cash in the Midst of COVID",
+      "category": "HDBSCAN Cluster: university, nber, working, research",
+      "key": "FOLDER00404_248de21951fa",
+      "sourceIndex": 126,
+      "textBytes": 96657,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES THE RISK OF BEING A FALLEN ANGEL AND THE CORPORATE DASH FOR CASH IN THE MIDST OF COVID Viral V. Acharya Sascha Steffen Working Paper 27601 http://www.nber.org/papers/w27601 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 July 2020 We thank editors Andrew Ellul, Isil Erel, and Uday Rajan (the editors). We also thank Ed Altman, Yakov Amihud, Tobias Berg, Ruediger Fahlenbrach, Max Jager, Daniel Streitz, and Josef Zechner and seminar participants at Bank of England, CFA Society – New York, NYU Stern School of Business, and Standard & Poor’s. Christian Schmidt provided excellent research assistance. Send correspondence to Sascha Steffen, s.steffen@fs.de. The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for disc"
+    },
+    {
+      "slug": "673_Deep_hedging",
+      "title": "Deep hedging",
+      "category": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "key": "FOLDER00406_25b5f717d852",
+      "sourceIndex": 127,
+      "textBytes": 81906,
+      "figuresExtracted": 0,
+      "excerpt": "# arXiv:1802.03042v1[q-fin.CP]8Feb2018 1 ## DEEP HEDGING HANS BUEHLER, LUKAS GONON, JOSEF TEICHMANN, AND BEN WOOD Abstract. We present a framework for hedging a portfolio of derivatives in the presence of market frictions such as transaction costs, market impact, liquidity constraints or risk limits using modern deep reinforcement machine learning methods. We discuss how standard reinforcement learning methods can be applied to non-linear reward structures, i.e. in our case convex risk measures. As a general contribution to the use of deep learning for stochastic processes, we also show in section 4 that the set of constrained trading strategies used by our algorithm is large enough to -approximate any optimal solution. Our algorithm can be implemented eﬃciently even in high-dimensional situations using modern machine learning tools. Its structure does not depend on speciﬁc market dynami"
+    },
+    {
+      "slug": "674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch",
+      "title": "Rise of the Machines: Algorithmic Trading in the Foreign Exchange Market: Rise of the Machines",
+      "category": "HDBSCAN Cluster: discussion, international, finance, papers",
+      "key": "FOLDER00407_906e46fca708",
+      "sourceIndex": 128,
+      "textBytes": 4325,
+      "figuresExtracted": 0,
+      "excerpt": "Board of Governors of the Federal Reserve System International Finance Discussion Papers Number 980 October 2009 ### Rise of the Machines: Algorithmic Trading in the Foreign Exchange Market Alain Chaboud, Benjamin Chiquoine, Erik Hjalmarsson, Clara Vega NOTE: International Finance Discussion Papers are preliminary materials circulated to stimulate discussion and critical comment. References in publications to International Finance Discussion Papers (other than an acknowledgment that the writer has had access to unpublished material) should be cleared with the author or authors. Recent IFDPs are available on the Web at www.federalreserve.gov/pubs/ifdp/. This paper can be downloaded without charge from Social Science Research Network electronic library at http://www.ssrn.com/. Participation(Percent) 100 80 60 40 20 0 Jan-03 Jan-04 Jan-05 Jan-06 Jan-07 Jan-08 ## USD/EUR JPY/USD JPY/EUR Figu"
+    },
+    {
+      "slug": "675_Return_and_volatility_transmission_between_world_oil_prices",
+      "title": "Return and volatility transmission between world oil prices and stock markets of the GCC countries",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00408_7a91d655518f",
+      "sourceIndex": 129,
+      "textBytes": 43606,
+      "figuresExtracted": 1,
+      "excerpt": "# Return and volatility transmission between world oil prices and stock markets of the GCC countries Mohamed El Hedi Arouri LEO, University of Orléans & EDHEC Business School Rue de Blois - BP 6739, 45067 Orléans Cedex 2, France Email: mohamed.arouri@univ-orleans.fr │ Phone: +33.2.38.49.24.10 │ Fax: +33.2.38.41.73.80 Amine Lahiani LEO, University of Orléans and ESC Rennes Business School Rue de Blois - BP 6739, 45067 Orléans Cedex 2, France Email: amine.lahiani@univ-orleans.fr │ Phone: +33.2.38.49.24.10 │ Fax: +33.2.38.41.73.80 Duc Khuong Nguyen* ISC Paris School of Management 22, Boulevard du Fort de Vaux, 75017 Paris Email: dnguyen@groupeisc.com │ Phone: +33.1.40.53.99.99 │ Fax: +33.1.40.53.98.98 *Corresponding author #### Abstract This paper investigates the return linkages and volatility transmission between oil and stock markets in the Gulf Cooperation Council (GCC) countries over t"
+    },
+    {
+      "slug": "676_International_Asset_Allocation_Under_Regime_Switching_Skew_a",
+      "title": "International Asset Allocation Under Regime Switching, Skew and Kurtosis Preferences",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00409_3e3c1d42e1a6",
+      "sourceIndex": 130,
+      "textBytes": 134384,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] # ECONOMIC RESEARCH FEDERAL RESERVE BANK OF ST. LOUIS WORKING PAPER SERIES International Asset Allocation under Regime Switching, Skew and Kurtosis Preferences |Authors|Massimo Guidolin, and Allan Timmermann| |---|---| |Working Paper Number|2005-034C| |Revision Date|August 2007| |Citable Link|https://doi.org/10.20955/wp.2005.034| |Suggested Citation|Guidolin, M., Timmermann, A., 2007; International Asset Allocation under Regime Switching, Skew and Kurtosis Preferences, Federal Reserve Bank of St. Louis Working Paper 2005-034. URL https://doi.org/10.20955/wp.2005.034| |Published In|Review of Financial Studies| |---|---| |Publisher Link|https://doi.org/10.1093/rfs/hhn006| Federal Reserve Bank of St. Louis, Research Division, P.O. Box 442, St. Louis, MO 63166 The views expressed in this paper are those of the author(s) and do not necessarily reflect the views of the Federal Reser"
+    },
+    {
+      "slug": "677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in",
+      "title": "Parametric Portfolio Policies: Exploiting Characteristics in the Cross Section of Equity Returns",
+      "category": "HDBSCAN Cluster: nber, working, stock, research",
+      "key": "FOLDER00412_cadfe3f8a41b",
+      "sourceIndex": 131,
+      "textBytes": 5212,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES PARAMETRIC PORTFOLIO POLICIES: EXPLOITING CHARACTERISTICS IN THE CROSS-SECTION OF EQUITY RETURNS Michael W. Brandt Pedro Santa-Clara Rossen Valkanov Working Paper 10996 http://www.nber.org/papers/w10996 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 December 2004 We thank Michael Brennan, Kent Daniel, Rob Engle, Ravi Jagannathan, Larry Harris, Ken Kroner, Bruce Lehmann, Francis Longstaff, Anthony Lynch, Richard Roll, Avanidhar Subrahmanyam, Alan Timmerman, Halbert White and seminar participants at CUNY Baruch, NYU, UCSD, Rochester, USC, the Chicago Quantitative Alliance, the Innovations in Financial Econometrics Conference in Honor of the 2003 Nobel at NYU, the Los Angeles Quantitative Investment Association, Mellon Capital, Nomura, the Society of Quantitative Analysts, and Wells Capital Management for their comments and sugge"
+    },
+    {
+      "slug": "678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R",
+      "title": "Aggregate and Firm-Level Stock Returns During Pandemics, in Real Time",
+      "category": "HDBSCAN Cluster: nber, working, research, papers",
+      "key": "FOLDER00417_ff4e8c46b4a7",
+      "sourceIndex": 132,
+      "textBytes": 83943,
+      "figuresExtracted": 5,
+      "excerpt": "NBER WORKING PAPER SERIES AGGREGATE AND FIRM-LEVEL STOCK RETURNS DURING PANDEMICS, IN REAL TIME Laura Alfaro Anusha Chari Andrew N. Greenland Peter K. Schott Working Paper 26950 http://www.nber.org/papers/w26950 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2020 This paper is preliminary and incomplete. We thank Nick Barberis, Lorenzo Caliendo, Patrick Conway, Teresa Fort, Mihai Ion, Ed Kaplan, John Lopresti, and seminar participants from Duke and UNC TEAM working group as well as the CEPR Covid-Economics virtual seminar series for comments and suggestions. We thank Alex Schott and Mengru Wang for excellent research assistance. The views expressed herein are those of the authors and do not necessarily reflect the views of the National Bureau of Economic Research. NBER working papers are circulated for discussion and comment purposes. They have n"
+    },
+    {
+      "slug": "679_Global_Local_and_Contagious_Investor_Sentiment",
+      "title": "Global, Local, and Contagious Investor Sentiment",
+      "category": "HDBSCAN Cluster: sentiment, returns, investor, stock",
+      "key": "FOLDER00418_aac655d31250",
+      "sourceIndex": 133,
+      "textBytes": 63616,
+      "figuresExtracted": 0,
+      "excerpt": "# Global, Local, and Contagious Investor Sentiment ∗ Malcolm Baker Harvard Business School and NBER mbaker@hbs.edu Jeﬀrey Wurgler NYU Stern School of Business and NBER jwurgler@stern.nyu.edu Yu Yuan University of Iowa Tippie College of Business yu-yuan@uiowa.edu March 18, 2009 Abstract We construct indexes of investor sentiment for six major stock markets and decompose them into one global and six local indexes. Relative market sentiment is correlated with the relative prices of dual-listed companies, validating the indexes. Both global and local sentiment are contrarian predictors of the time series of major markets’ returns. They are also contrarian predictors of the time series of cross-sectional returns within major markets: When sentiment from either global or local sources is high, future returns are low on various categories of diﬃcult to arbitrage and diﬃcult to value stocks. Sen"
+    },
+    {
+      "slug": "680_Caught_on_tape_Institutional_trading_stock_returns_and_earni",
+      "title": "Caught on tape: Institutional trading, stock returns, and earnings announcements",
+      "category": "HDBSCAN Cluster: harvard, stock, returns, https",
+      "key": "FOLDER00435_afcd0d355311",
+      "sourceIndex": 134,
+      "textBytes": 311328,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] [Figure 2] # Caught on Tape: Institutional Trading, Stock Returns, and Earnings Announcements ### Citation Campbell, John Y., Tarun Ramadorai, and Allie Schwartz. Forthcoming. Caught on tape: Institutional trading, stock returns, and earnings announcements. Journal of Financial Economics. ### Published version https://doi.org/10.1016/j.jfineco.2008.03.006 ### Link http://nrs.harvard.edu/urn-3:HUL.InstRepos:2609649 ### Terms of use This article was downloaded from Harvard University’s DASH repository, and is made available under the terms and conditions applicable to Other Posted Material (LAA), as set forth at https://harvardwiki.atlassian.net/wiki/external/NGY5NDE4ZjgzNTc5NDQzMGIzZWZhMGFlOWI2M2EwYTg ### Accessibility https://accessibility.huit.harvard.edu/digital-accessibility-policy ### Share Your Story The Harvard community has made this article openly available. Please sha"
+    },
+    {
+      "slug": "681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark",
+      "title": "Sentiment analysis of Twitter data for predicting stock market movements",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00436_1fc8261ddf54",
+      "sourceIndex": 135,
+      "textBytes": 24597,
+      "figuresExtracted": 1,
+      "excerpt": "International conference on Signal Processing, Communication, Power and Embedded System (SCOPES)-2016 # Sentiment Analysis of Twitter Data for Predicting Stock Market Movements ## arXiv:1610.09225v1[cs.IR]28Oct2016 Venkata Sasank Pagolu School of Electrical Sciences Computer Science and Engineering Indian Institute of Technology, Bhubaneswar, India 751013 Email: vp12@iitbbs.ac.in Babita Majhi Department of Computer Science and IT G.G Vishwavidyalaya, Central University Bilaspur, India 495009 Email: babita.majhi@gmail.com Kamal Nayan Reddy Challa School of Electrical Sciences Computer Science and Engineering Indian Institute of Technology, Bhubaneswar, India 751013 Email: kc11@iitbbs.ac.in Ganapati Panda School of Electrical Sciences Indian Institute of Technology Bhubaneswar, India 751013 Email: gpanda@iitbbs.ac.in Abstract—Predicting stock market movements is a well-known problem of int"
+    },
+    {
+      "slug": "682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock",
+      "title": "Corporate Disclosure Policy and the Informativeness of Stock Prices",
+      "category": "HDBSCAN Cluster: corporate, disclosure, hot, markets",
+      "key": "FOLDER00442_2f51538de2e0",
+      "sourceIndex": 136,
+      "textBytes": 51333,
+      "figuresExtracted": 0,
+      "excerpt": "# Corporate Disclosure Policy and the Informativeness of Stock Prices David Gelb Seton Hall University and Paul Zarowin New York University June, 2000 corresponding author: Paul Zarowin, New York University, Stern School of Business, 422 Tisch Hall, 40 West 4th Street, New York, NY 10012, Ph: 212-998-0015, Fax: 212-995-4004 email:pzarowin@stern.nyu.edu This paper can be downloaded from the Social Science Research Network Electronic Paper Collection: http://papers.ssrn.com/paper.taf?abstract_id=235009 Corporate Disclosure Policy and the Informativeness of Stock Prices Abstract We examine the association between voluntary corporate disclosure and the informativeness of stock prices. We measure corporate disclosure using the AIMR-FAF annual corporate disclosure ratings. We define price informativeness by the association between current stock returns and future earnings changes: more informa"
+    },
+    {
+      "slug": "683_Hedge_Funds_Risk_and_Return",
+      "title": "Hedge Funds: Risk and Return",
+      "category": "HDBSCAN Cluster: return, research, hedge, funds",
+      "key": "FOLDER00443_e7779e642b73",
+      "sourceIndex": 137,
+      "textBytes": 68632,
+      "figuresExtracted": 0,
+      "excerpt": "Hedge Funds: Risk and Return by Burton G. Malkiel, Princeton University Atanu Saha, Analysis Group CEPS Working Paper No. 104 October 2004 The authors are enormously indebted to Chia Hsun Chang, Derek Jun, Jonathan Blumenstein, and Alison Jonas for invaluable research assistance. We also want to acknowledge the help of Emil Czechowski, Kevin Laughlin, Frank Vannerson, and Basak Yeltekin. This work was supported by Princeton’s Center for Economic Policy Research. Please note: the content of this paper is under review. Some content is still being refined. This paper is intended to be used for discussion purposes only. Hedge Funds: Risk and Return Burton G. Malkiel Atanu Saha Abstract Constructing a data base that is relatively free of bias, this paper provides measures of the returns of hedge funds as well as the distinctly non-normal characteristics of the data. We provide risk-adjusted m"
+    },
+    {
+      "slug": "684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock",
+      "title": "Growth or Glamour? Fundamentals and Systematic Risk in Stock Returns",
+      "category": "HDBSCAN Cluster: nber, research, working, stock",
+      "key": "FOLDER00448_e7e59cb964f1",
+      "sourceIndex": 138,
+      "textBytes": 4793,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES GROWTH OR GLAMOUR? FUNDAMENTALS AND SYSTEMATIC RISK IN STOCK RETURNS John Y. Campbell Christopher Polk Tuomo Vuolteenaho Working Paper 11389 http://www.nber.org/papers/w11389 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 June 2005 This material is based upon work supported by the National Science Foundation under Grant No. 0214061 to Campbell. The views expressed herein are those of the author(s) and do not necessarily reflect the views of the National Bureau of Economic Research. ©2005 by John Y. Campbell, Christopher Polk, and Tuomo Vuolteenaho. All rights reserved. Short sections of text, not to exceed two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is given to the source. Growth or Glamour? Fundamentals and Systematic Risk in Stock Returns John Y. Campbell, Christop"
+    },
+    {
+      "slug": "685_VolatilityManaged_Portfolios",
+      "title": "Volatility‐Managed Portfolios",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00453_80c3f89d547b",
+      "sourceIndex": 139,
+      "textBytes": 114047,
+      "figuresExtracted": 0,
+      "excerpt": "NBER WORKING PAPER SERIES VOLATILITY MANAGED PORTFOLIOS Alan Moreira Tyler Muir Working Paper 22208 http://www.nber.org/papers/w22208 NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Massachusetts Avenue Cambridge, MA 02138 April 2016 We thank Matthew Baron, Jonathan Berk, Olivier Boguth, John Campbell, John Cochrane, Kent Daniel, Peter DeMarzo, Wayne Ferson, Marcelo Fernandes, Stefano Giglio, William Goetzmann, Mark Grinblatt, Ben Hebert, Steve Heston, Jon Ingersoll, Ravi Jagannathan, Bryan Kelly, Ralph Koijen, Serhiy Kosak, Hanno Lustig, Justin Murfin, Stefan Nagel, David Ng, Lubos Pastor, Myron Scholes, Ivan Shaliastovich, Ken Singleton, Tuomo Vuoltenahoo, Jonathan Wallen, Lu Zhang, and participants at Yale SOM, UCLA Anderson, Stanford GSB, Michigan Ross, Chicago Booth, Ohio State, Baruch College, Cornell, the NYU Five Star conference, the Colorado Winter Finance Conference, the Jackson Hole"
     }
   ]
 }

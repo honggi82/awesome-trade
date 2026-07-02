@@ -2,31 +2,71 @@
   "categories": [
     {
       "name": "HDBSCAN Bridge and Noise Papers",
-      "summary": "Codex-native cluster containing 13 processed papers.",
-      "count": 13
+      "summary": "Codex-native cluster containing 47 processed papers.",
+      "count": 47
     },
     {
-      "name": "HDBSCAN Cluster: university, nber, working, asset",
+      "name": "HDBSCAN Cluster: nber, research, working, stock",
+      "summary": "Codex-native cluster containing 10 processed papers.",
+      "count": 10
+    },
+    {
+      "name": "HDBSCAN Cluster: italy, via, bologna, markets",
+      "summary": "Codex-native cluster containing 5 processed papers.",
+      "count": 5
+    },
+    {
+      "name": "HDBSCAN Cluster: learning, deep, stock, prediction",
+      "summary": "Codex-native cluster containing 5 processed papers.",
+      "count": 5
+    },
+    {
+      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
       "summary": "Codex-native cluster containing 4 processed papers.",
       "count": 4
     },
     {
-      "name": "HDBSCAN Cluster: harvard, https, figure, edu",
-      "summary": "Codex-native cluster containing 4 processed papers.",
-      "count": 4
-    },
-    {
-      "name": "HDBSCAN Cluster: research, nber, working, national",
+      "name": "HDBSCAN Cluster: figure, stock, returns, risks",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: figure, asset, pricing, investor",
+      "name": "HDBSCAN Cluster: usa, economics, university, return",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: stock, equity, returns, market",
+      "name": "HDBSCAN Cluster: university, nber, working, research",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: returns, stock, investment, rms",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: covid-19, figure, available, elsevier",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: stock, returns, variables, macroeconomic",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: working, cfr, die, research",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: costs, market, cost, trading",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: nber, working, stock, research",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
@@ -36,22 +76,102 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: usa, liquidity, return, economics",
+      "name": "HDBSCAN Cluster: university, nber, asset, pricing",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: die, working, economics, dokumente",
+      "name": "HDBSCAN Cluster: financial, van, working, university",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: return, trend, deviation, excess",
+      "name": "HDBSCAN Cluster: university, edu, asset, return",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: series, gan, covid-19, tiempo",
+      "name": "HDBSCAN Cluster: harvard, article, figure, http",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: harvard, stock, returns, https",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: harvard, figure, https, beta",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: weak, stock, returns, market",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: nber, working, not, papers",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: ecb, working, die, european",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: return, research, hedge, funds",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: capital, stock, investment, market",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: university, mutual, nber, working",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: discussion, international, finance, papers",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: figure, measuring, reaction, monetary",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: sentiment, returns, investor, stock",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: nber, working, research, papers",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: growth, how, environment, financing",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: corporate, disclosure, hot, markets",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: des, recherche, tudes, document",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: stock, uncertainty, policy, market",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     }

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-01T20:12:34.885212+00:00",
+  "generated": "2026-07-02T08:05:55.897750+00:00",
   "mode": "extract-only",
   "paperCurationDir": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect",
   "awesomeRepo": "E:\\조선대\\연구\\awesome-trade",
   "extractReport": "data/paper_curation/extract_only_report.json",
   "docsDir": "docs/paper_curation/extract_only",
   "paperDir": "paper/extract_only",
-  "recordCount": 40,
+  "recordCount": 140,
   "syncedPaperSlugs": [
     "006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series",
     "028_Twitter_mood_predicts_the_stock_market",
@@ -47,13 +47,113 @@
     "365_Death_and_contagious_infectious_diseases_Impact_of_the_COVID",
     "366_On_the_Industry_Concentration_of_Actively_Managed_Equity_Mut",
     "367_The_Equity_Share_in_New_Issues_and_Aggregate_Stock_Returns",
-    "368_Breadth_of_Ownership_and_Stock_Returns"
+    "368_Breadth_of_Ownership_and_Stock_Returns",
+    "586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E",
+    "587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f",
+    "588_What_Drives_Firm-Level_Stock_Returns",
+    "589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns",
+    "590_Stock_Price_Prediction_Using_the_ARIMA_Model",
+    "591_A_deep_learning_framework_for_financial_time_series_using_st",
+    "592_Expectations_of_Returns_and_Expected_Returns",
+    "593_Winter_Blues_A_SAD_Stock_Market_Cycle",
+    "594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices",
+    "595_The_Portfolio_Flows_of_International_Investors",
+    "596_Financial_Markets_and_Firm_Dynamics",
+    "597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination",
+    "598_Efficient_Tests_of_Stock_Return_Predictability",
+    "599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump",
+    "600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic",
+    "601_Fractional_calculus_and_continuous-time_finance",
+    "602_Volatility_is_rough",
+    "603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a",
+    "604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock",
+    "605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke",
+    "606_Investor_sentiment_and_stock_returns_Some_international_evid",
+    "607_The_Real_Effects_of_Financial_Markets",
+    "608_Rational_contagion_and_the_globalization_of_securities_marke",
+    "609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non",
+    "610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe",
+    "611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of",
+    "612_Ex_Ante_Skewness_and_Expected_Stock_Returns",
+    "613_Political_Relationships_Global_Financing_and_Corporate_Trans",
+    "614_Presidential_Address_The_Cost_of_Active_Investing",
+    "615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o",
+    "616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices",
+    "617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility",
+    "618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M",
+    "619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering",
+    "620_Climate_risks_and_market_efficiency",
+    "621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark",
+    "622_How_Important_Are_Financing_Constraints_The_Role_of_Finance",
+    "623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St",
+    "624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns",
+    "625_Funding_growth_in_bank-based_and_market-based_financial_syst",
+    "626_Global_Pricing_of_Carbon-Transition_Risk",
+    "627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T",
+    "628_How_do_venture_capitalists_make_decisions",
+    "629_Applications_of_deep_learning_in_stock_market_prediction_rec",
+    "630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing",
+    "631_Boardroom_Centrality_and_Firm_Performance",
+    "632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin",
+    "633_Multivariate_realised_kernels_consistent_positive_semi-defin",
+    "634_Spurious_Regressions_in_Financial_Economics",
+    "635_A_flow-based_explanation_for_return_predictability",
+    "636_Stock_Market_Openings_Experience_of_Emerging_Economies",
+    "637_The_Emergence_of_Organizations_and_Markets",
+    "638_The_Stock_Market_and_Capital_Accumulation",
+    "639_Labor_Income_And_Predictable_Stock_Returns",
+    "640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor",
+    "641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind",
+    "642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol",
+    "643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For",
+    "644_Testing_Asymmetric-Information_Asset_Pricing_Models",
+    "645_Earnings_Quality_and_Stock_Returns",
+    "646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas",
+    "647_High-frequency_trading_in_a_limit_order_book",
+    "648_Alternative_models_for_stock_price_dynamics",
+    "649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from",
+    "650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets",
+    "651_Correlations_and_volatility_spillovers_across_commodity_and",
+    "652_Waiting-times_and_returns_in_high-frequency_financial_data_a",
+    "653_Temporal_Relational_Ranking_for_Stock_Prediction",
+    "654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil",
+    "655_Technological_Revolutions_and_Stock_Prices",
+    "656_Comparative_Value_Relevance_Among_German_US_And_Internationa",
+    "657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti",
+    "658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per",
+    "659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand",
+    "660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b",
+    "661_Oil_shocks_policy_uncertainty_and_stock_market_return",
+    "662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor",
+    "663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera",
+    "664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin",
+    "665_Unstable_Banking",
+    "666_The_predictive_power_of_zero_intelligence_in_financial_marke",
+    "667_Optimal_Portfolio_Allocation_under_Higher_Moments",
+    "668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po",
+    "669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V",
+    "670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices",
+    "671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country",
+    "672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for",
+    "673_Deep_hedging",
+    "674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch",
+    "675_Return_and_volatility_transmission_between_world_oil_prices",
+    "676_International_Asset_Allocation_Under_Regime_Switching_Skew_a",
+    "677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in",
+    "678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R",
+    "679_Global_Local_and_Contagious_Investor_Sentiment",
+    "680_Caught_on_tape_Institutional_trading_stock_returns_and_earni",
+    "681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark",
+    "682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock",
+    "683_Hedge_Funds_Risk_and_Return",
+    "684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock",
+    "685_VolatilityManaged_Portfolios"
   ],
   "copied": [
     {
       "source": "E:\\조선대\\연구\\paper-curation\\paper\\awesome-trade\\_folder_source_extract_report.json",
       "target": "E:\\조선대\\연구\\awesome-trade\\data\\paper_curation\\extract_only_report.json",
-      "bytes": 24682
+      "bytes": 84410
     },
     {
       "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\006_Illiquidity_and_Stock_Returns_Cross-Section_and_Time-Series\\text.md",
@@ -714,6 +814,1906 @@
       "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\368_Breadth_of_Ownership_and_Stock_Returns\\text.md",
       "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\368_Breadth_of_Ownership_and_Stock_Returns\\text.md",
       "bytes": 3004
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\text.md",
+      "bytes": 92592
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\figures\\fig1.png",
+      "bytes": 152002
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\text.md",
+      "bytes": 92592
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\586_Real-Time_Price_Discovery_in_Global_Stock_Bond_and_Foreign_E\\figures\\fig1.png",
+      "bytes": 152002
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f\\text.md",
+      "bytes": 52197
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\587_Corporate_Social_Performance_and_Stock_Returns_UK_Evidence_f\\text.md",
+      "bytes": 52197
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\588_What_Drives_Firm-Level_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\588_What_Drives_Firm-Level_Stock_Returns\\text.md",
+      "bytes": 81669
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\588_What_Drives_Firm-Level_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\588_What_Drives_Firm-Level_Stock_Returns\\text.md",
+      "bytes": 81669
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns\\text.md",
+      "bytes": 3252
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\589_Mental_Accounting_Loss_Aversion_and_Individual_Stock_Returns\\text.md",
+      "bytes": 3252
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\text.md",
+      "bytes": 19510
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig1.png",
+      "bytes": 79437
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig2.png",
+      "bytes": 345460
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig3.png",
+      "bytes": 111853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig4.png",
+      "bytes": 399672
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig5.png",
+      "bytes": 195748
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\text.md",
+      "bytes": 19510
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig1.png",
+      "bytes": 79437
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig2.png",
+      "bytes": 345460
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig3.png",
+      "bytes": 111853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig4.png",
+      "bytes": 399672
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\590_Stock_Price_Prediction_Using_the_ARIMA_Model\\figures\\fig5.png",
+      "bytes": 195748
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\text.md",
+      "bytes": 74201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig1.png",
+      "bytes": 252435
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig2.png",
+      "bytes": 193577
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig3.png",
+      "bytes": 250355
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig4.png",
+      "bytes": 107566
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig5.png",
+      "bytes": 73756
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\text.md",
+      "bytes": 74201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig1.png",
+      "bytes": 252435
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig2.png",
+      "bytes": 193577
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig3.png",
+      "bytes": 250355
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig4.png",
+      "bytes": 107566
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\591_A_deep_learning_framework_for_financial_time_series_using_st\\figures\\fig5.png",
+      "bytes": 73756
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\592_Expectations_of_Returns_and_Expected_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\592_Expectations_of_Returns_and_Expected_Returns\\text.md",
+      "bytes": 96390
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\592_Expectations_of_Returns_and_Expected_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\592_Expectations_of_Returns_and_Expected_Returns\\text.md",
+      "bytes": 96390
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\593_Winter_Blues_A_SAD_Stock_Market_Cycle\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\593_Winter_Blues_A_SAD_Stock_Market_Cycle\\text.md",
+      "bytes": 5772
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\593_Winter_Blues_A_SAD_Stock_Market_Cycle\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\593_Winter_Blues_A_SAD_Stock_Market_Cycle\\text.md",
+      "bytes": 5772
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices\\text.md",
+      "bytes": 107292
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\594_Dotcom_Mania_The_Rise_and_Fall_of_Internet_Stock_Prices\\text.md",
+      "bytes": 107292
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\595_The_Portfolio_Flows_of_International_Investors\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\595_The_Portfolio_Flows_of_International_Investors\\text.md",
+      "bytes": 561
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\595_The_Portfolio_Flows_of_International_Investors\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\595_The_Portfolio_Flows_of_International_Investors\\text.md",
+      "bytes": 561
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\596_Financial_Markets_and_Firm_Dynamics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\596_Financial_Markets_and_Firm_Dynamics\\text.md",
+      "bytes": 291
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\596_Financial_Markets_and_Firm_Dynamics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\596_Financial_Markets_and_Firm_Dynamics\\text.md",
+      "bytes": 291
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination\\text.md",
+      "bytes": 110345
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\597_Does_Weak_Governance_Cause_Weak_Stock_Returns_An_Examination\\text.md",
+      "bytes": 110345
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\598_Efficient_Tests_of_Stock_Return_Predictability\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\598_Efficient_Tests_of_Stock_Return_Predictability\\text.md",
+      "bytes": 105018
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\598_Efficient_Tests_of_Stock_Return_Predictability\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\598_Efficient_Tests_of_Stock_Return_Predictability\\text.md",
+      "bytes": 105018
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\text.md",
+      "bytes": 74837
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\figures\\fig1.png",
+      "bytes": 67138
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\text.md",
+      "bytes": 74837
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\599_Jumps_in_Financial_Markets_A_New_Nonparametric_Test_and_Jump\\figures\\fig1.png",
+      "bytes": 67138
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\text.md",
+      "bytes": 51797
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig1.png",
+      "bytes": 335552
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig2.png",
+      "bytes": 336041
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig3.png",
+      "bytes": 205373
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig5.png",
+      "bytes": 211064
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig6.png",
+      "bytes": 253542
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\text.md",
+      "bytes": 51797
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig1.png",
+      "bytes": 335552
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig2.png",
+      "bytes": 336041
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig3.png",
+      "bytes": 205373
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig5.png",
+      "bytes": 211064
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\600_Economic_uncertainty_before_and_during_the_COVID-19_pandemic\\figures\\fig6.png",
+      "bytes": 253542
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\601_Fractional_calculus_and_continuous-time_finance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\601_Fractional_calculus_and_continuous-time_finance\\text.md",
+      "bytes": 22663
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\601_Fractional_calculus_and_continuous-time_finance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\601_Fractional_calculus_and_continuous-time_finance\\text.md",
+      "bytes": 22663
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\602_Volatility_is_rough\\text.md",
+      "bytes": 69177
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig1.png",
+      "bytes": 486092
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig2.png",
+      "bytes": 106413
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig3.png",
+      "bytes": 215959
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig4.png",
+      "bytes": 83855
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\602_Volatility_is_rough\\text.md",
+      "bytes": 69177
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig1.png",
+      "bytes": 486092
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig2.png",
+      "bytes": 106413
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig3.png",
+      "bytes": 215959
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\602_Volatility_is_rough\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\602_Volatility_is_rough\\figures\\fig4.png",
+      "bytes": 83855
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a\\text.md",
+      "bytes": 51107
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\603_Can_Mutual_Fund_Stars_Really_Pick_Stocks_New_Evidence_from_a\\text.md",
+      "bytes": 51107
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock\\text.md",
+      "bytes": 107996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\604_Dumb_Money_Mutual_Fund_Flows_and_the_Cross-Section_of_Stock\\text.md",
+      "bytes": 107996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke\\text.md",
+      "bytes": 925
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\605_Measuring_The_Reaction_of_Monetary_Policy_to_the_Stock_Marke\\text.md",
+      "bytes": 925
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\606_Investor_sentiment_and_stock_returns_Some_international_evid\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\606_Investor_sentiment_and_stock_returns_Some_international_evid\\text.md",
+      "bytes": 74094
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\606_Investor_sentiment_and_stock_returns_Some_international_evid\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\606_Investor_sentiment_and_stock_returns_Some_international_evid\\text.md",
+      "bytes": 74094
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\607_The_Real_Effects_of_Financial_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\607_The_Real_Effects_of_Financial_Markets\\text.md",
+      "bytes": 79879
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\607_The_Real_Effects_of_Financial_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\607_The_Real_Effects_of_Financial_Markets\\text.md",
+      "bytes": 79879
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\608_Rational_contagion_and_the_globalization_of_securities_marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\608_Rational_contagion_and_the_globalization_of_securities_marke\\text.md",
+      "bytes": 89184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\608_Rational_contagion_and_the_globalization_of_securities_marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\608_Rational_contagion_and_the_globalization_of_securities_marke\\text.md",
+      "bytes": 89184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non\\text.md",
+      "bytes": 9977
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\609_Optimal_Portfolio_Choice_for_Long-Horizon_Investors_with_Non\\text.md",
+      "bytes": 9977
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe\\text.md",
+      "bytes": 50944
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\610_The_Effect_of_Socially_Responsible_Investing_on_Portfolio_Pe\\text.md",
+      "bytes": 50944
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of\\text.md",
+      "bytes": 831
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\611_Trading_Volume_Definitions_Data_Analysis_and_Implications_of\\text.md",
+      "bytes": 831
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\612_Ex_Ante_Skewness_and_Expected_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\612_Ex_Ante_Skewness_and_Expected_Stock_Returns\\text.md",
+      "bytes": 182890
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\612_Ex_Ante_Skewness_and_Expected_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\612_Ex_Ante_Skewness_and_Expected_Stock_Returns\\text.md",
+      "bytes": 182890
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\613_Political_Relationships_Global_Financing_and_Corporate_Trans\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\613_Political_Relationships_Global_Financing_and_Corporate_Trans\\text.md",
+      "bytes": 71448
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\613_Political_Relationships_Global_Financing_and_Corporate_Trans\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\613_Political_Relationships_Global_Financing_and_Corporate_Trans\\text.md",
+      "bytes": 71448
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\text.md",
+      "bytes": 107815
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig1.png",
+      "bytes": 94758
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig2.png",
+      "bytes": 448171
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig3.png",
+      "bytes": 77943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\text.md",
+      "bytes": 107815
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig1.png",
+      "bytes": 94758
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig2.png",
+      "bytes": 448171
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\614_Presidential_Address_The_Cost_of_Active_Investing\\figures\\fig3.png",
+      "bytes": 77943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o\\text.md",
+      "bytes": 77571
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\615_Information_costs_and_home_bias_an_analysis_of_US_holdings_o\\text.md",
+      "bytes": 77571
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices\\text.md",
+      "bytes": 40172
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\616_Do_Structural_Oil-Market_Shocks_Affect_Stock_Prices\\text.md",
+      "bytes": 40172
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility\\text.md",
+      "bytes": 77411
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\617_The_VIX_the_Variance_Premium_and_Stock_Market_Volatility\\text.md",
+      "bytes": 77411
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M\\text.md",
+      "bytes": 104883
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\618_Portfolio_Selection_with_Parameter_and_Model_Uncertainty_A_M\\text.md",
+      "bytes": 104883
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\text.md",
+      "bytes": 94302
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\figures\\fig1.png",
+      "bytes": 183831
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\text.md",
+      "bytes": 94302
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\619_The_Stock_Market_and_Corporate_Investment_A_Test_of_Catering\\figures\\fig1.png",
+      "bytes": 183831
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\620_Climate_risks_and_market_efficiency\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\620_Climate_risks_and_market_efficiency\\text.md",
+      "bytes": 141852
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\620_Climate_risks_and_market_efficiency\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\620_Climate_risks_and_market_efficiency\\text.md",
+      "bytes": 141852
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark\\text.md",
+      "bytes": 86195
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\621_The_Flash_Crash_High-Frequency_Trading_in_an_Electronic_Mark\\text.md",
+      "bytes": 86195
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\text.md",
+      "bytes": 88674
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\figures\\fig1.png",
+      "bytes": 129274
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\text.md",
+      "bytes": 88674
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\622_How_Important_Are_Financing_Constraints_The_Role_of_Finance\\figures\\fig1.png",
+      "bytes": 129274
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St\\text.md",
+      "bytes": 120381
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\623_Can_Time-Varying_Risk_of_Rare_Disasters_Explain_Aggregate_St\\text.md",
+      "bytes": 120381
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns\\text.md",
+      "bytes": 88728
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\624_Firm_Size_and_Cyclical_Variations_in_Stock_Returns\\text.md",
+      "bytes": 88728
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\625_Funding_growth_in_bank-based_and_market-based_financial_syst\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\625_Funding_growth_in_bank-based_and_market-based_financial_syst\\text.md",
+      "bytes": 69926
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\625_Funding_growth_in_bank-based_and_market-based_financial_syst\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\625_Funding_growth_in_bank-based_and_market-based_financial_syst\\text.md",
+      "bytes": 69926
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\626_Global_Pricing_of_Carbon-Transition_Risk\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\626_Global_Pricing_of_Carbon-Transition_Risk\\text.md",
+      "bytes": 162095
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\626_Global_Pricing_of_Carbon-Transition_Risk\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\626_Global_Pricing_of_Carbon-Transition_Risk\\text.md",
+      "bytes": 162095
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T\\text.md",
+      "bytes": 74306
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\627_Financial_Systems_and_the_Role_of_Banks_in_Monetary_Policy_T\\text.md",
+      "bytes": 74306
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\628_How_do_venture_capitalists_make_decisions\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\628_How_do_venture_capitalists_make_decisions\\text.md",
+      "bytes": 154017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\628_How_do_venture_capitalists_make_decisions\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\628_How_do_venture_capitalists_make_decisions\\text.md",
+      "bytes": 154017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\text.md",
+      "bytes": 147460
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig1.png",
+      "bytes": 54432
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig2.png",
+      "bytes": 53108
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig3.png",
+      "bytes": 59759
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig4.png",
+      "bytes": 50245
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig5.png",
+      "bytes": 77972
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\text.md",
+      "bytes": 147460
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig1.png",
+      "bytes": 54432
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig2.png",
+      "bytes": 53108
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig3.png",
+      "bytes": 59759
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig4.png",
+      "bytes": 50245
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\629_Applications_of_deep_learning_in_stock_market_prediction_rec\\figures\\fig5.png",
+      "bytes": 77972
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing\\text.md",
+      "bytes": 83891
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\630_Hot_Markets_Investor_Sentiment_and_IPO_Pricing\\text.md",
+      "bytes": 83891
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\631_Boardroom_Centrality_and_Firm_Performance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\631_Boardroom_Centrality_and_Firm_Performance\\text.md",
+      "bytes": 139963
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\631_Boardroom_Centrality_and_Firm_Performance\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\631_Boardroom_Centrality_and_Firm_Performance\\text.md",
+      "bytes": 139963
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\text.md",
+      "bytes": 90166
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig2.png",
+      "bytes": 89160
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig3.png",
+      "bytes": 100146
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\text.md",
+      "bytes": 90166
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig2.png",
+      "bytes": 89160
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\632_Forecasting_Daily_Variability_of_the_SP_100_Stock_Index_Usin\\figures\\fig3.png",
+      "bytes": 100146
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\text.md",
+      "bytes": 109226
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig2.png",
+      "bytes": 53576
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig3.png",
+      "bytes": 261884
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\text.md",
+      "bytes": 109226
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig2.png",
+      "bytes": 53576
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\633_Multivariate_realised_kernels_consistent_positive_semi-defin\\figures\\fig3.png",
+      "bytes": 261884
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\634_Spurious_Regressions_in_Financial_Economics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\634_Spurious_Regressions_in_Financial_Economics\\text.md",
+      "bytes": 63127
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\634_Spurious_Regressions_in_Financial_Economics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\634_Spurious_Regressions_in_Financial_Economics\\text.md",
+      "bytes": 63127
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\635_A_flow-based_explanation_for_return_predictability\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\635_A_flow-based_explanation_for_return_predictability\\text.md",
+      "bytes": 139890
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\635_A_flow-based_explanation_for_return_predictability\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\635_A_flow-based_explanation_for_return_predictability\\text.md",
+      "bytes": 139890
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\text.md",
+      "bytes": 103859
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig1.png",
+      "bytes": 273095
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig2.png",
+      "bytes": 203341
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig3.png",
+      "bytes": 310705
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig4.png",
+      "bytes": 232570
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig5.png",
+      "bytes": 228997
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\text.md",
+      "bytes": 103859
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig1.png",
+      "bytes": 273095
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig2.png",
+      "bytes": 203341
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig3.png",
+      "bytes": 310705
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig4.png",
+      "bytes": 232570
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\636_Stock_Market_Openings_Experience_of_Emerging_Economies\\figures\\fig5.png",
+      "bytes": 228997
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\637_The_Emergence_of_Organizations_and_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\637_The_Emergence_of_Organizations_and_Markets\\text.md",
+      "bytes": 24142
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\637_The_Emergence_of_Organizations_and_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\637_The_Emergence_of_Organizations_and_Markets\\text.md",
+      "bytes": 24142
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\638_The_Stock_Market_and_Capital_Accumulation\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\638_The_Stock_Market_and_Capital_Accumulation\\text.md",
+      "bytes": 47465
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\638_The_Stock_Market_and_Capital_Accumulation\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\638_The_Stock_Market_and_Capital_Accumulation\\text.md",
+      "bytes": 47465
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\639_Labor_Income_And_Predictable_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\639_Labor_Income_And_Predictable_Stock_Returns\\text.md",
+      "bytes": 105443
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\639_Labor_Income_And_Predictable_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\639_Labor_Income_And_Predictable_Stock_Returns\\text.md",
+      "bytes": 105443
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor\\text.md",
+      "bytes": 116386
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\640_Fight_or_Flight_Portfolio_Rebalancing_by_Individual_Investor\\text.md",
+      "bytes": 116386
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind\\text.md",
+      "bytes": 100642
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\641_News_Arrival_Jump_Dynamics_and_Volatility_Components_for_Ind\\text.md",
+      "bytes": 100642
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol\\text.md",
+      "bytes": 3423
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\642_Dynamic_Consumption_and_Portfolio_Choice_with_Stochastic_Vol\\text.md",
+      "bytes": 3423
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For\\text.md",
+      "bytes": 128266
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\643_Reconciling_the_Return_Predictability_Evidence_In-Sample_For\\text.md",
+      "bytes": 128266
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\644_Testing_Asymmetric-Information_Asset_Pricing_Models\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\644_Testing_Asymmetric-Information_Asset_Pricing_Models\\text.md",
+      "bytes": 109150
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\644_Testing_Asymmetric-Information_Asset_Pricing_Models\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\644_Testing_Asymmetric-Information_Asset_Pricing_Models\\text.md",
+      "bytes": 109150
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\645_Earnings_Quality_and_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\645_Earnings_Quality_and_Stock_Returns\\text.md",
+      "bytes": 84588
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\645_Earnings_Quality_and_Stock_Returns\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\645_Earnings_Quality_and_Stock_Returns\\text.md",
+      "bytes": 84588
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas\\text.md",
+      "bytes": 161745
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\646_Intermediary_Asset_Pricing_New_Evidence_from_Many_Asset_Clas\\text.md",
+      "bytes": 161745
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\text.md",
+      "bytes": 30840
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig1.png",
+      "bytes": 128156
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig2.png",
+      "bytes": 24216
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig3.png",
+      "bytes": 39987
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\text.md",
+      "bytes": 30840
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig1.png",
+      "bytes": 128156
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig2.png",
+      "bytes": 24216
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\647_High-frequency_trading_in_a_limit_order_book\\figures\\fig3.png",
+      "bytes": 39987
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\text.md",
+      "bytes": 79265
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig1.png",
+      "bytes": 49231
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig2.png",
+      "bytes": 137527
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig3.png",
+      "bytes": 127206
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig4.png",
+      "bytes": 114347
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig5.png",
+      "bytes": 100571
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\text.md",
+      "bytes": 79265
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig1.png",
+      "bytes": 49231
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig2.png",
+      "bytes": 137527
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig3.png",
+      "bytes": 127206
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig4.png",
+      "bytes": 114347
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\648_Alternative_models_for_stock_price_dynamics\\figures\\fig5.png",
+      "bytes": 100571
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\text.md",
+      "bytes": 123695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig1.png",
+      "bytes": 79815
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig2.png",
+      "bytes": 70588
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig3.png",
+      "bytes": 78425
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig4.png",
+      "bytes": 230499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\text.md",
+      "bytes": 123695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig1.png",
+      "bytes": 79815
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig2.png",
+      "bytes": 70588
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig3.png",
+      "bytes": 78425
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\649_Credit_Market_Shocks_and_Economic_Fluctuations_Evidence_from\\figures\\fig4.png",
+      "bytes": 230499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets\\text.md",
+      "bytes": 101008
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\650_The_Comovement_of_Credit_Default_Swap_Bond_and_Stock_Markets\\text.md",
+      "bytes": 101008
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\text.md",
+      "bytes": 50184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig1.png",
+      "bytes": 150672
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig2.png",
+      "bytes": 178201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\text.md",
+      "bytes": 50184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig1.png",
+      "bytes": 150672
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\651_Correlations_and_volatility_spillovers_across_commodity_and\\figures\\fig2.png",
+      "bytes": 178201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\text.md",
+      "bytes": 15886
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig1.png",
+      "bytes": 48847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig3.png",
+      "bytes": 78466
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig4.png",
+      "bytes": 60804
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\text.md",
+      "bytes": 15886
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig1.png",
+      "bytes": 48847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig3.png",
+      "bytes": 78466
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\652_Waiting-times_and_returns_in_high-frequency_financial_data_a\\figures\\fig4.png",
+      "bytes": 60804
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\text.md",
+      "bytes": 93226
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig1.png",
+      "bytes": 177498
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig2.png",
+      "bytes": 112256
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig3.png",
+      "bytes": 162115
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig5.png",
+      "bytes": 111851
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig6.png",
+      "bytes": 146087
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\text.md",
+      "bytes": 93226
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig1.png",
+      "bytes": 177498
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig2.png",
+      "bytes": 112256
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig3.png",
+      "bytes": 162115
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig5.png",
+      "bytes": 111851
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\653_Temporal_Relational_Ranking_for_Stock_Prediction\\figures\\fig6.png",
+      "bytes": 146087
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\text.md",
+      "bytes": 26756
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\figures\\fig1.png",
+      "bytes": 176427
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\text.md",
+      "bytes": 26756
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\654_Dynamic_Co-Movements_of_Stock_Market_Returns_Implied_Volatil\\figures\\fig1.png",
+      "bytes": 176427
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\655_Technological_Revolutions_and_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\655_Technological_Revolutions_and_Stock_Prices\\text.md",
+      "bytes": 124695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\655_Technological_Revolutions_and_Stock_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\655_Technological_Revolutions_and_Stock_Prices\\text.md",
+      "bytes": 124695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\656_Comparative_Value_Relevance_Among_German_US_And_Internationa\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\656_Comparative_Value_Relevance_Among_German_US_And_Internationa\\text.md",
+      "bytes": 1823
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\656_Comparative_Value_Relevance_Among_German_US_And_Internationa\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\656_Comparative_Value_Relevance_Among_German_US_And_Internationa\\text.md",
+      "bytes": 1823
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\text.md",
+      "bytes": 86194
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig1.png",
+      "bytes": 30230
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig2.png",
+      "bytes": 80167
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig3.png",
+      "bytes": 154134
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig4.png",
+      "bytes": 76314
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\text.md",
+      "bytes": 86194
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig1.png",
+      "bytes": 30230
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig2.png",
+      "bytes": 80167
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig3.png",
+      "bytes": 154134
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\657_Trading_Costs_and_Returns_for_US_Equities_Estimating_Effecti\\figures\\fig4.png",
+      "bytes": 76314
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per\\text.md",
+      "bytes": 42104
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\658_The_impact_of_the_SARS_outbreak_on_Taiwanese_hotel_stock_per\\text.md",
+      "bytes": 42104
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\text.md",
+      "bytes": 290847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig1.png",
+      "bytes": 46046
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig2.png",
+      "bytes": 55526
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\text.md",
+      "bytes": 290847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig1.png",
+      "bytes": 46046
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\659_How_Markets_Slowly_Digest_Changes_in_Supply_and_Demand\\figures\\fig2.png",
+      "bytes": 55526
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b\\text.md",
+      "bytes": 68137
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\660_Hedging_emerging_market_stock_prices_with_oil_gold_VIX_and_b\\text.md",
+      "bytes": 68137
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\text.md",
+      "bytes": 45369
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\figures\\fig1.png",
+      "bytes": 291657
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\text.md",
+      "bytes": 45369
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\661_Oil_shocks_policy_uncertainty_and_stock_market_return\\figures\\fig1.png",
+      "bytes": 291657
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\text.md",
+      "bytes": 78103
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\figures\\fig1.png",
+      "bytes": 94006
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\text.md",
+      "bytes": 78103
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\662_Forecasting_Stock_Market_Returns_The_Sum_of_the_Parts_is_Mor\\figures\\fig1.png",
+      "bytes": 94006
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera\\text.md",
+      "bytes": 1274
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\663_Asset_Pricing_with_Idiosyncratic_Risk_and_Overlapping_Genera\\text.md",
+      "bytes": 1274
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin\\text.md",
+      "bytes": 72021
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\664_Stock_Repurchases_in_Canada_Performance_and_Strategic_Tradin\\text.md",
+      "bytes": 72021
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\665_Unstable_Banking\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\665_Unstable_Banking\\text.md",
+      "bytes": 77254
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\665_Unstable_Banking\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\665_Unstable_Banking\\text.md",
+      "bytes": 77254
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\text.md",
+      "bytes": 37177
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig1.png",
+      "bytes": 100843
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig2.png",
+      "bytes": 136088
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig3.png",
+      "bytes": 155931
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig4.png",
+      "bytes": 507559
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\text.md",
+      "bytes": 37177
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig1.png",
+      "bytes": 100843
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig2.png",
+      "bytes": 136088
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig3.png",
+      "bytes": 155931
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\666_The_predictive_power_of_zero_intelligence_in_financial_marke\\figures\\fig4.png",
+      "bytes": 507559
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\667_Optimal_Portfolio_Allocation_under_Higher_Moments\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\667_Optimal_Portfolio_Allocation_under_Higher_Moments\\text.md",
+      "bytes": 26539
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\667_Optimal_Portfolio_Allocation_under_Higher_Moments\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\667_Optimal_Portfolio_Allocation_under_Higher_Moments\\text.md",
+      "bytes": 26539
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\text.md",
+      "bytes": 82128
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig3.png",
+      "bytes": 17258
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig4.png",
+      "bytes": 76138
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig5.png",
+      "bytes": 144873
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig6.png",
+      "bytes": 143927
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig7.png",
+      "bytes": 153506
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\text.md",
+      "bytes": 82128
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig3.png",
+      "bytes": 17258
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig4.png",
+      "bytes": 76138
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig5.png",
+      "bytes": 144873
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig6.png",
+      "bytes": 143927
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\668_A_Deep_Reinforcement_Learning_Framework_for_the_Financial_Po\\figures\\fig7.png",
+      "bytes": 153506
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V\\text.md",
+      "bytes": 107240
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\669_Deja_Vol_Predictive_Regressions_for_Aggregate_Stock_Market_V\\text.md",
+      "bytes": 107240
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\text.md",
+      "bytes": 40765
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig1.png",
+      "bytes": 18930
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig2.png",
+      "bytes": 39795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig4.png",
+      "bytes": 106481
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\text.md",
+      "bytes": 40765
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig1.png",
+      "bytes": 18930
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig2.png",
+      "bytes": 39795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\670_Stock_Movement_Prediction_from_Tweets_and_Historical_Prices\\figures\\fig4.png",
+      "bytes": 106481
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country\\text.md",
+      "bytes": 121375
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\671_The_Determinants_of_Mutual_Fund_Performance_A_Cross-Country\\text.md",
+      "bytes": 121375
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for\\text.md",
+      "bytes": 96657
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\672_The_Risk_of_Being_a_Fallen_Angel_and_the_Corporate_Dash_for\\text.md",
+      "bytes": 96657
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\673_Deep_hedging\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\673_Deep_hedging\\text.md",
+      "bytes": 81906
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\673_Deep_hedging\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\673_Deep_hedging\\text.md",
+      "bytes": 81906
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch\\text.md",
+      "bytes": 4325
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\674_Rise_of_the_Machines_Algorithmic_Trading_in_the_Foreign_Exch\\text.md",
+      "bytes": 4325
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\text.md",
+      "bytes": 43606
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\figures\\fig1.png",
+      "bytes": 55373
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\text.md",
+      "bytes": 43606
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\675_Return_and_volatility_transmission_between_world_oil_prices\\figures\\fig1.png",
+      "bytes": 55373
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\676_International_Asset_Allocation_Under_Regime_Switching_Skew_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\676_International_Asset_Allocation_Under_Regime_Switching_Skew_a\\text.md",
+      "bytes": 134384
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\676_International_Asset_Allocation_Under_Regime_Switching_Skew_a\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\676_International_Asset_Allocation_Under_Regime_Switching_Skew_a\\text.md",
+      "bytes": 134384
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in\\text.md",
+      "bytes": 5212
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\677_Parametric_Portfolio_Policies_Exploiting_Characteristics_in\\text.md",
+      "bytes": 5212
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\text.md",
+      "bytes": 83943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig1.png",
+      "bytes": 146591
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig3.png",
+      "bytes": 281105
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig5.png",
+      "bytes": 254961
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig6.png",
+      "bytes": 323862
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig7.png",
+      "bytes": 300493
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\text.md",
+      "bytes": 83943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig1.png",
+      "bytes": 146591
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig3.png",
+      "bytes": 281105
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig5.png",
+      "bytes": 254961
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig6.png",
+      "bytes": 323862
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\678_Aggregate_and_Firm-Level_Stock_Returns_During_Pandemics_in_R\\figures\\fig7.png",
+      "bytes": 300493
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\679_Global_Local_and_Contagious_Investor_Sentiment\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\679_Global_Local_and_Contagious_Investor_Sentiment\\text.md",
+      "bytes": 63616
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\679_Global_Local_and_Contagious_Investor_Sentiment\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\679_Global_Local_and_Contagious_Investor_Sentiment\\text.md",
+      "bytes": 63616
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\680_Caught_on_tape_Institutional_trading_stock_returns_and_earni\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\680_Caught_on_tape_Institutional_trading_stock_returns_and_earni\\text.md",
+      "bytes": 311328
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\680_Caught_on_tape_Institutional_trading_stock_returns_and_earni\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\680_Caught_on_tape_Institutional_trading_stock_returns_and_earni\\text.md",
+      "bytes": 311328
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\text.md",
+      "bytes": 24597
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\figures\\fig1.png",
+      "bytes": 106918
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\text.md",
+      "bytes": 24597
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\681_Sentiment_analysis_of_Twitter_data_for_predicting_stock_mark\\figures\\fig1.png",
+      "bytes": 106918
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock\\text.md",
+      "bytes": 51333
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\682_Corporate_Disclosure_Policy_and_the_Informativeness_of_Stock\\text.md",
+      "bytes": 51333
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\683_Hedge_Funds_Risk_and_Return\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\683_Hedge_Funds_Risk_and_Return\\text.md",
+      "bytes": 68632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\683_Hedge_Funds_Risk_and_Return\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\683_Hedge_Funds_Risk_and_Return\\text.md",
+      "bytes": 68632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock\\text.md",
+      "bytes": 4793
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\684_Growth_or_Glamour_Fundamentals_and_Systematic_Risk_in_Stock\\text.md",
+      "bytes": 4793
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\685_VolatilityManaged_Portfolios\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\docs\\paper_curation\\extract_only\\papers\\685_VolatilityManaged_Portfolios\\text.md",
+      "bytes": 114047
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\685_VolatilityManaged_Portfolios\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-trade\\paper\\extract_only\\papers\\685_VolatilityManaged_Portfolios\\text.md",
+      "bytes": 114047
     }
   ],
   "missing": [],
